@@ -256,3 +256,167 @@ Dentro de nuestro segmento objetivo, hemos identificado dos grupos de usuarios d
 - Oportunidades para recibir reservas y aumentar sus ingresos.
 - Mecanismos para asegurar el pago oportuno por sus servicios.
 - Exposición a una base de clientes más amplia y oportunidades de crecimiento.
+
+---
+## 2.3 Needfinding
+
+### 2.3.1 User Persona
+
+###### _User Persona Manuel Segura, usuario Cliente_
+
+![[1.png]]
+
+###### _User Persona Manuel Segura, usuario Cliente_
+
+![[2.png]]
+### 2.3.2 User Task Matrix
+###### _User Task Matrix del usuario cliente_
+
+|                           **Tareas**                            | **Frecuencia** | **Importancia** |
+| :-------------------------------------------------------------: | :------------: | :-------------: |
+|  Contactar con un transportista para hacer uso de transporte.   |    Siempre     |      Alta       |
+|           Saber cuál será el precio por el transporte           |    Siempre     |      Alta       |
+|   Conocer los tipos de transporte que ofrece el transportista   |    Siempre     |      Alta       |
+|                Hacer un seguimiento del producto                |  Casi Siempre  |      Alta       |
+|  Mostrar los transportistas para brindarle opciones al usuario  |  Casi Siempre  |      Media      |
+|               Calificar el servicio con estrellas               | Algunas veces  |      Media      |
+| Recomendar el servicio proporcionado por medio de un comentario |   Casi nunca   |      Baja       |
+###### _User Task Matrix del usuario transportista_
+
+|                         Tareas                         | Frecuencia | Importancia |
+| :----------------------------------------------------: | :--------: | :---------: |
+|                Contactar con el cliente                |  A menudo  |    Alta     |
+|  Acordar cuál será el producto por llevar y el tamaño  |  A menudo  |    Alta     |
+|            Acordar el precio con el cliente            |  Siempre   |    Alta     |
+|       Establecer el día de llegada del producto        |  Siempre   |    Alta     |
+|          Pactar cuál será el lugar de destino          |  Siempre   |    Alta     |
+|                Transportar el producto                 |  Siempre   |    Alta     |
+| Evidenciar que el producto ha sido entregado con éxito |  A menudo  |    Media    |
+|                 Cobrar por el servicio                 |  Siempre   |    Alta     |
+|          Atender las solicitudes del cliente           |  Siempre   |    Alta     |
+### 2.3.3 Empathy Mapping
+
+###### _Empathy Mapping del usuario cliente_
+
+![[3.png]]
+
+###### _Empathy Mapping del usuario transportista_
+
+![[4.png]]
+### 2.3.4. As-is Scenario Mapping. 
+
+###### _As-is Scenario Mapping del usuario cliente_
+
+![[5.png]]
+###### _As-is Scenario Mapping del usuario transportista_
+
+![[6.png]]
+## 2.4. Ubiquitous Language.
+
+·         **Carrier (Transportista)**
+
+Individuo o empresa que proporciona servicios de transporte.
+
+·         **Client (Cliente)** 
+
+Individuo o empresa que requiere servicios de transporte.
+
+·         **Service type (Tipo de servicio)**
+
+Clasificación de los servicios de transporte ofrecidos, como carga, mudanza, movilidad, etc.
+
+·         **Carrier profile (Perfil de transportista)**
+
+Información detallada proporcionada por los transportistas al registrarse, incluyendo datos personales, documentación, tipo de vehículo y servicios ofrecidos.
+
+·         **Client profile (Perfil de cliente)** 
+
+Información proporcionada por los clientes al registrarse, incluyendo detalles personales e información de viajes anteriores.
+
+·         **Trip form (Formulario de viaje)** 
+
+Formulario completado por el cliente con los detalles del viaje, incluyendo origen, destino, fecha, hora, tipo de carga, etc.
+
+·         **Payment (Pago del servicio)**
+
+Proceso mediante el cual el cliente realiza el pago por el servicio de transporte a través de la plataforma FastPorte, utilizando un servicio de pago integrado.
+
+·         **Reviews (Reseñas)**
+
+Comentarios y calificaciones dejados por clientes anteriores sobre su experiencia con un transportista específico, ayudando a otros clientes a tomar decisiones informadas.
+
+·         **Service area (Zona de servicio)**
+
+Área geográfica donde un transportista está disponible para proporcionar servicios, especificada en su perfil.
+
+·         **Service contract (Contrato - Acuerdo de servicio)**
+
+Acuerdo entre el cliente y el transportista cuando se confirma un viaje, estableciendo las condiciones y términos de la prestación del servicio.
+
+·         **Vehicle (Vehículo)**
+
+Modo de transporte utilizado por los transportistas para proporcionar servicios.
+
+·         **License and permits (Licencia y permisos)**
+
+Documentación legal requerida para que los transportistas operen sus vehículos y proporcionen servicios de transporte.
+
+·         **Rates (Tarifas)**
+
+Precios cobrados por los transportistas por sus servicios de transporte.
+
+·         **Trip confirmation (Confirmación de viaje)**
+
+Confirmación de una reserva de viaje realizada por el cliente con un transportista.
+
+·         **Service status (Estado del servicio)**
+
+Estado actual del servicio de transporte, indicando si está pendiente, en progreso o completado.
+
+·         **Transportation request (Solicitud de transporte)**
+
+Solicitud realizada por el cliente para servicios de transporte.
+
+·         **Service history provided (Historial de servicios brindados)**
+
+Registro de servicios proporcionados por el transportista.
+
+·         **Service history contracted (Historial de servicios contratados)**
+
+Registro de servicios contratados por el cliente.
+
+·         **Customer rating (Calificación del cliente)**
+
+Calificación proporcionada por los transportistas para los clientes basada en su comportamiento e interacción durante el viaje.
+
+·         **Carrier rating (Calificación del transportista)**
+
+Calificación proporcionada por los clientes para los transportistas basada en su desempeño y calidad del servicio.
+
+·         **Trip cancellation (Cancelación de viaje)**
+
+Cancelación de un viaje reservado por el cliente con un transportista.
+
+·         **Invoicing (Facturación)**
+
+Emisión de facturas por los servicios de transporte proporcionados.
+
+·         **Trip alerts (Alertas de viaje)**
+
+Notificaciones sobre detalles o actualizaciones de viaje enviadas a clientes o transportistas.
+
+·         **Shipment tracking (Rastreo de envíos)**
+
+Seguimiento de la ubicación y estado de las mercancías transportadas durante el tránsito.
+
+·         **Service tracking (Seguimiento del servicio)**
+
+Seguimiento del progreso y estado de un servicio de transporte.
+
+·         **Customer service (Servicio de atención al cliente)**
+
+Soporte y asistencia proporcionada a los clientes con respecto a los servicios de transporte.
+
+·         **Availability calendar (Calendario de disponibilidad)**
+
+Calendario que muestra la disponibilidad de los transportistas para proporcionar servicios de transporte.
