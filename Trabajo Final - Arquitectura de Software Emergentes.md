@@ -34,8 +34,8 @@ Abril, 2024
 
 | Criterio específico                                                                                                                                                                    | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                  | Conclusiones |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
-| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.     | **Eduardo Sebastián Lévano Cavero**<br>*TB1* <br>- Durante el video de exposición se transmitió de manera adecuada la problemática hallada en el sector de transporte de mercadería y como se solucionaría por medio de la implementación de una página web para comunicar a transportistas con personas que requieran de sus servicios. Asimismo, se detallo como esta diseñada la propuesta y su sustentación.<br> | TB1          |
-| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.. | **Eduardo Sebastián Lévano Cavero**<br>*TB1* <br>- Se documento con éxito y de manera adecuada la introducción al proyecto, describiendo la problemática con antecedentes, ilustrando las posibles soluciones y como se busca solucionarlo de una manera más eficiente por medio del desarrollo de la presenta investigación.<br>                                                                                    | TB1          |
+| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.     | **Eduardo Sebastián Lévano Cavero**<br>*TB1* <br>- Durante el video de exposición se transmitió de manera adecuada la problemática hallada en el sector de transporte de mercadería y como se solucionaría por medio de la implementación de una página web para comunicar a transportistas con personas que requieran de sus servicios. Asimismo, se detallo como esta diseñada la propuesta y su sustentación.<br><br> **Anthony Botello** <br>*TB1* <br>- En el vídeo de exposición se indicaron a los competidores, así como también se explicó la matriz DAFO de nuestra organización. Finalmente, se expusieron resultados acerca de las entrevistas realizadas.| TB1          |
+| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.. | **Eduardo Sebastián Lévano Cavero**<br>*TB1* <br>- Se documento con éxito y de manera adecuada la introducción al proyecto, describiendo la problemática con antecedentes, ilustrando las posibles soluciones y como se busca solucionarlo de una manera más eficiente por medio del desarrollo de la presenta investigación.<br><br> **Anthony Botello** <br>*TB1* <br>- Se redactaron y documentó información y análisis de nuestros competidores y de la misma forma se evidenciaron las entrevistas realizadas y el análisis de ellas. Por otro lado, se definieron los Primary User Stories y los Quality Attribute Scenarios.                                                                                    | TB1          |
 
 ---
 
@@ -258,6 +258,97 @@ Dentro de nuestro segmento objetivo, hemos identificado dos grupos de usuarios d
 - Exposición a una base de clientes más amplia y oportunidades de crecimiento.
 
 ---
+
+# Capítulo II: Requirements Elicitation & Analysis
+## 2.1. Competidores
+### 2.1.1. Análisis Competitivo
+
+![Analisis Competitivo - Tabla](img/Cap2/2.1.%20Competidores/AnalisisCompetitivo.png)
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+
+![Analisis Competitivo - Tabla](img/Cap2/2.1.%20Competidores/Estrategias%20y%20tácticas%20frente%20a%20competidores.png)
+
+
+## 2.2. Entrevistas
+### 2.2.1. Diseño de entrevistas
+**Preguntas al segmento cliente:**
+-	¿Cuál es tu nombre, qué edad tienes y a qué te dedicas?
+-	¿Qué opinas de los servicios de transporte de mercadería en el Perú?
+-	¿Alguna vez contactaste con un servicio de traslado de productos? ¿Por qué medio obtuviste el contacto?
+    - SÍ ¿Tuviste algún problema con el servicio de traslado de productos que contactaste? ¿Qué pasó? ¿Cómo hizo para solucionarlo?
+    - NO ¿Por qué razón?
+-	 ¿Qué tan complicado se te hace encontrar un servicio de traslado de productos?
+-	 ¿Qué tan a menudo necesitas un servicio de traslado de productos?
+-	¿A quién recurres cuando necesitas el servicio de traslado de tus productos?
+-	¿Qué tan importante consideras el estar pendiente de la ubicación de tu producto en tiempo real?
+-	¿Considera importante conocer el modelo y el año del vehículo que va a trasladar su producto?
+-	¿Qué opina acerca de una aplicación que te facilite encontrar un servicio de traslado de productos?
+    - El entrevistador explica acerca de la aplicación
+-	¿Estaría dispuesto a probarla? ¿Por qué?
+-	¿Qué cree que podría mejorar o añadir a nuestra propuesta?
+
+**Preguntas al segmento transportista:**
+-	¿Cuál es tu nombre, qué edad tienes y a qué te dedicas?
+-	¿Cuánto tiempo lleva trabajando en este empleo o de esta forma?
+-	¿Qué opinas de los servicios de transporte de mercadería en el Perú? 
+-	¿Qué tan frecuente recibe pedidos para transportar productos? aproximadamente 3-4 veces a la semana
+-	¿Hacer servicios de transporte es tu única forma de ingresos o de qué otra forma te ganas el dinero? actualmente si
+-	¿Cuánto es lo que gana normalmente en un día de trabajo? entre 100 y 150 depende de los envíos, pero hay varios días que no hay pedidos que movilizar
+-	¿De qué manera haces conocer a las demás personas de tus servicios? mayormente me contactan personas que algún contacto les recomendó, también me encuentro en páginas en Facebook
+-	¿Tuvo algún inconveniente con sus clientes? ¿Qué pasó? ¿Cómo solucionaron el problema? algunas veces existe el tráfico y algunos clientes no son tan pacientes como otros. pero siempre intento resolver conversando las cosas. 
+-	¿Qué opinas de poder contar con una aplicación que te permita encontrar clientes que necesiten de tus servicios como transportista? muy buena ya que es un método en el cual recibiría más clientes. por ejemplo, el servicio de pedido de taxis online cambio totalmente ese rubro y lo convirtió más fácil y seguro para el taxista y el cliente.
+    - El entrevistador explica acerca de la aplicación
+-	¿Estaría dispuesto a probar nuestra aplicación? ¿Por qué?
+-	¿Qué cree que podría mejorar o añadir a nuestra propuesta?
+
+
+### 2.2.2. Registro de entrevistas
+#### Entrevista N° 1
+| ![Entevista 1 - Evidencia](img/Cap2/2.2.%20Entrevistas/Entrevista1.jpg) |
+|--------|
+| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Carlos Alipio Sánchez Salazar <br>	Edad: 19 <br>	Distrito: Carabayllo <br>	Segmento: Transportista|
+| <u>**Resumen**</u> <br> El entrevistado es Carlos Sánchez y es estudiante universitario el cual trabaja como ayudante de transportista en sus vacaciones de verano. Él opina que el trabajo que realiza no es estable, debido a que, si bien puede tener algunos clientes frecuentes para transportar mercadería, la mayoría de las solicitudes de sus servicios son ocasionales. En el caso de su empleador, él genera ingresos aparte mediante el servicio de taxis. Por otro lado, indica que la cantidad que gana puede variar dependiendo del tramo de la entrega y de la cantidad de mercadería que transporta. Él comenta que promociona sus servicios mediante las redes sociales o en algunos casos cara a cara, al comentarle a otras personas de que trabaja o compartiendo el número telefónico de su empleador para que los contacten. Asimismo, manifiesta que se pueden presentar inconvenientes al momento de la entrega, ya que a veces algunos productos pueden llegar defectuosos o dañados, en caso eso suceda se llega a un acuerdo con la persona que solicitó los servicios. <br> Carlos opina que sí le serviría y estaría dispuesto a usar una aplicación o que le permita contactar con personas que solicitan servicios de transporte, ya que así no tendría obtendría más trabajo sin tener que preocuparse si habrá personas que soliciten sus servicios. Además, así podría obtener más ganancias. En adición a lo anterior, él comenta que valoraría que la aplicación cuente con unas funcionalidades con respecto a la localización, ya que sería tranquilizador para los clientes que ellos pudieran conocer la ubicación en tiempo real del transportista. Asimismo, los transportistas podrían usar estas funcionalidades para conocer la ubicación exacta de donde debe realizar la entrega. Por último, señaló que desea que la propuesta presente una interfaz amigable y sencilla de usar.
+| Link: https://web.microsoftstream.com/video/072fdc39-6a80-4a30-b6e4-cd9db90cef07 <br> Minuto: 14:27 – 22:27 |
+
+#### Entrevista N° 2
+| ![Entevista 2 - Evidencia](img/Cap2/2.2.%20Entrevistas/Entrevista2.png) |
+|--------|
+| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Edgard Miranda Lloclla <br>	Distrito: Sullana, Piura <br>	Segmento: Transportista|
+| <u>**Resumen**</u> <br> Edgard en una persona que reside en la región Piura y que trabajo en el rubro de transportes. Nos especifica que alrededor de 15 años trabajando como conductor de transporte de mercadería para una empresa en su región y además tiene actividades complementarias como trabajador en el campo. Nos comenta que tiene su vehículo particular y con el cual también realiza servicio de transporte de mercadería, pero en zonas cercanas a comparación de los viajes que realiza para la empresa. También, relata que alguna vez ha tenido inconvenientes con clientes, pero los ha solucionado cuando regresaba en el siguiente viaje debido a que fueron problemas porque la mercadería no llegó completa. Con respecto a la propuesta, le parece que es una buena idea y que sería algo positivo ya que aumentaría sus clientes y que en lo posible haría que sus clientes queden satisfechos al prestar sus servicios como transportista. 
+| Link: https://web.microsoftstream.com/video/072fdc39-6a80-4a30-b6e4-cd9db90cef07 <br> Minuto:  22:27 – 28:27 |
+
+#### Entrevista N° 3
+| ![Entevista 3 - Evidencia](img/Cap2/2.2.%20Entrevistas/Entrevista3.png) |
+|--------|
+| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Diego Seminario Centeno <br> Edad: 24 años<br>	Distrito: Cercado de Lima <br>	Segmento: Transportista|
+| <u>**Resumen**</u> <br> Diego es un adulto de 24 años que actualmente su fuente de ingreso es ser transportista de camión de carga. Indica que al llevar año y medio en este rubro y ser independiente, había varios días que no tiene clientes. Su ganancia aproximada por día es de 100-150 soles dependiendo de la carga y distancia. Su actual método de difusión es grupos de Facebook y contactos de clientes. Después de darle un resumen de nuestra aplicación, se vio interesado en esta ya que le aumentaría clientes y facilitaría conseguir dinero. Finalmente, agrego que le gustaría que nuestro sistema recompense a la buena calificación de los clientes, ya que en este rubro muchos transportistas suelen ser irrespetuosos, y el al no ser así le gustaría poder ser agendado con más clientes para que estos se lleven un mejor servicio.  
+| Link: https://web.microsoftstream.com/video/072fdc39-6a80-4a30-b6e4-cd9db90cef07 <br> Minuto: 28:27 – 32:52 |
+
+#### Entrevista N° 4
+| ![Entevista 4 - Evidencia](img/Cap2/2.2.%20Entrevistas/Entrevista4.png) |
+|--------|
+| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Teodoro Geiner Liberato Villanueva <br> Edad: 52 años<br>	Distrito: Huacho <br>	Segmento: Cliente|
+| <u>**Resumen**</u> <br> El entrevistado es Teodoro Liberato y es un comerciante de productos por temporada el cual se dedica a vender productos que están más fuertes en el mercado (limones, manzanas, peras, etc.). Este trabajo lo realiza en el mercado de Huacho. Con respecto al transporte le parece el enemigo número uno para cumplir su labor porque es inestable el petróleo y el flete es caro, debido a eso consigue varios precios para sus productos. Con respecto al contacto de los transportistas, lo realiza regularmente. En caso de los limones los trae desde suyana con unos trailers que son contratados por una empresa externa. Estos mismos pueden  
+| Link: https://web.microsoftstream.com/video/072fdc39-6a80-4a30-b6e4-cd9db90cef07  <br> Minuto: 07:48 – 14:27 |
+
+#### Entrevista N° 5
+| ![Entevista 5 - Evidencia](img/Cap2/2.2.%20Entrevistas/Entrevista5.png) |
+|--------|
+| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Alexandro Daniel Villarruel Mandujano <br> Edad: 24 años<br>	Distrito: Villa El Salvador <br>	Segmento: Cliente|
+| <u>**Resumen**</u> <br> Alexandro tiene 24 años y se dedica a la comercialización de ropa o productos textiles, piensa actualmente los servicios de transporte en el Perú no son del todo factible debido a la falta de confianza que se brinda, ya que muchas veces se sufre de pérdidas de productos o que llegan en mal estado. Alexandro nos menciona que usualmente consigue los contactos para el servicio de traslado de sus productos mediante páginas que ofrecen estos servicios. Nos cuenta que él se considera una persona precavida por lo que nunca ha tenido ningún inconveniente en contratar estos servicios. Por otra parte, nos dice que a veces se le hace muy complicado encontrar los servicios por el hecho de que las opciones son pocas o los contactos con los que cuenta no están disponibles. Además, el necesita estos servicios muy seguido ya que es parte de su trabajo. Considera muy importante saber la ubicación y el estado de su producto para considerar el tiempo y saber gestionar su trabajo. También, menciona que es muy importante saber el modelo y el año de los vehículos que trasladan su mercancía ya que le gusta ser precavido como ya antes mencionado. Por último, nos menciona que una aplicación que brinde estos servicios le parecería una buena idea por el hecho de que le sería muy útil tener una opción más a tener en cuenta al momento de realizar su trabajo.
+| Link: https://web.microsoftstream.com/video/072fdc39-6a80-4a30-b6e4-cd9db90cef07  <br> Minuto: 00:00 – 03:57 |
+
+#### Entrevista N° 6
+| ![Entevista 6 - Evidencia](img/Cap2/2.2.%20Entrevistas/Entrevista6.png) |
+|--------|
+| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Ítalo Paolo Sabino Ramírez <br> Edad: 23 años<br>	Distrito: Callao <br>	Segmento: Cliente|
+| <u>**Resumen**</u> <br> Ítalo tiene 23 años y se dedica a la comercialización de productos escolares, piensa que la tendencia actual de los servicios de transporte en el Perú va por un camino distinto en comparación a las tendencias internacionales. Ítalo nos menciona que solicita medios de traslado todo el tiempo y generalmente consigue estos servicios por internet. En una oportunidad, tuvo un problema para entregar un pedido en provincia, no sabía dónde estaba ubicado el medio de transporte que contrato para movilizar su mercadería. El cliente le solicitaba el tiempo estimado de entrega, para solucionar esto solo dio un tiempo estimado. Por otra parte, no se le hace tan complicado conseguir medios de transporte porque él ya cuenta con proveedores. Además, nos dice en la entrevista que necesita diariamente el servicio de traslado de producto. Considera sumamente importante saber el la ubicación y el estado de su producto para poder tener control sobre su mercancía. También, menciona que es muy importante saber el modelo y el año de los vehículos que transportan su mercancía ya que así puede darle la información al cliente del vehículo con el que se encontrara, además de poder saber si su mercancía estaría segura. Le parece que la idea de una aplicación de servicio de transporte es muy interesante y alentadora para poder mejorar en su servicio como comerciante. Por último, nos confirmó que estaría dispuesto a probar esta aplicación ya que las tendencias actuales en el mercado están orientadas hacia la tecnología y el uso de herramientas, como aplicaciones, para poder facilitar la obtención de la mayor cantidad de data posible.
+| Link: https://web.microsoftstream.com/video/072fdc39-6a80-4a30-b6e4-cd9db90cef07  <br> Minuto: 03:57 – 07:48  |
+
+### 2.2.3. Análisis de entrevistas
+![Analisis de entrevistas - Tabla](img/Cap2/2.2.%20Entrevistas/Análisis%20de%20entrevistas.png)
+
 ## 2.3 Needfinding
 
 ### 2.3.1 User Persona
@@ -518,3 +609,39 @@ Link para una visualización más detallada: [https://drive.google.com/file/d/1Z
 | **HU-015**        | Guardar los datos de la tarjeta             | Como cliente <br><br>Quiero guardar los datos de mi tarjeta<br><br>Para usarla de manera más rápida en mis siguientes pagos                                                                 |            **2**             |
 | **HU-010**        | Cerrar sesión en la aplicación              | Como usuario transportista<br><br>Quiero salir de la aplicación<br><br>Para iniciar sesión en otra cuenta como cliente                                                                      |            **1**             |
 | **HU-014**        | Acceder a las preguntas frecuentes          | Como usuario<br><br>Quiero acceder a un banco de preguntas frecuentes sobre la aplicación<br><br>Para despejar dudas que tenga sobre algunos procesos                                       |            **1**             |
+
+---
+
+### 4.1.2. Attribute-Driven Design Inputs
+#### 4.1.2.1. Primary Functionality (Primary User Stories)
+|Epic /<br>User story ID|Título|Descripción|Criterios de Aceptación|Relacionado con (EpicID)|
+| :- | :- | :- | :- | :- |
+|HU-006|Buscar un vehículo|Como cliente, quiero buscar el tipo de vehículo adecuado, para así contratarlo.|<p>**Escenario N°1: El cliente busca el vehículo adecuado para contratarlo** </p><p>  </p><p>**Dado que** el cliente quiere buscar un vehículo adecuado para el servicio que requiere</p><p>**Y** se ubica en la sección “Buscar”. </p><p>**Y** se selecciona el tipo de vehículo que desea contratar</p><p>**Y** la cantidad/peso que va a transportar</p><p>**Cuando** presiona en “Enviar”</p><p>**Entonces** se le mostrarán los resultados de los vehículos acorde a su búsqueda</p>|EP03|
+|HU-008|Contratar el servicio|Como cliente, quiero contratar el servicio, para acceder a los servicios del transportista.|<p>**Escenario N°1: El cliente desea contratar el servicio** </p><p>  </p><p>**Dado que** el cliente desea contratar el servicio para obtener los servicios del transportista </p><p>**Y** se encuentra en el perfil del transportista </p><p>**Cuando** presiona el botón “Contratar” en la parte inferior del perfil</p><p>**Entonces** aparece un formulario para realizar el contrato**  </p><p>**Y** si lo completa pasará a realizar el pago</p>|EP04|
+|HU-009|Realizar el pago |Como cliente, quiero realizar el pago del servicio, para no tener deudas pendientes.|<p>**Escenario N°1: El cliente realiza el pago de forma correcta**</p><p></p><p>**Dado que** el cliente ha iniciado sesión en la aplicación móvil<br>**Y** le llega una notificación de aceptación de su oferta de trabajo</p><p>**Cuando** presione “Ver más detalles”, le aparecerá la pantalla de pago </p><p>**Y** complete de forma correcta los datos de su tarjeta</p><p>**Y** presione “Pagar”</p><p>**Entonces** le aparecerá un cuadro de confirmación</p>|EP07|
+|HU-011|Realizar el seguimiento por GPS |Como cliente, quiero seguir el transcurso del transportista, para sentirme seguro con el servicio.|<p>**Escenario N°1: El cliente revisa el transcurso de su viaje**</p><p>  </p><p>**Dado que** el cliente desea observar la ubicación actual del transportista</p><p>**Cuando** se ubique en el servicio que se está realizando </p><p>**Entonces** podrá observar la ubicación actual del transportista**  </p>|EP05|
+|HU-016|Ver el estado del contrato propuesto |Como cliente, quiero saber el estado de mi oferta de trabajo, para saber si fue aceptada o rechazada.|<p>**Escenario N°1: El cliente recibe una notificación de aceptación** </p><p>  </p><p>**Dado que** el cliente ha iniciado sesión en la aplicación  </p><p>**Cuando** un transportista acepte su oferta de trabajo </p><p>**Entonces** se le mostrará en la pestaña de notificaciones un mensaje que diga que el transportista ha aceptado su oferta de trabajo </p><p></p><p>**Escenario N°2: El cliente recibe una notificación de rechazo** </p><p>  </p><p>**Dado que** el cliente ha iniciado sesión en la aplicación  </p><p>**Cuando** un transportista rechace la oferta de trabajo </p><p>**Entonces** se le mostrará en la pestaña de notificaciones un mensaje que diga que el transportista ha rechazado su oferta de trabajo </p>|EP08|
+|HU-017|Notificar el trabajo|Como transportista, quiero que me notifiquen cuando un cliente requiera de mis servicios, para no perderme de algún contrato.|<p>**Escenario N°1: El transportista es notificado de un contrato nuevo** </p><p>  </p><p>**Dado que** el transportista ha iniciado sesión en la aplicación móvil</p><p>**Cuando** algún cliente le proponga un contrato  <br>**Entonces** le aparecerá una nueva notificación</p>|EP08|
+|HU-022|Comentar el servicio brindado|Como cliente, quiero dejar un comentario acerca de mi experiencia con el conductor luego de terminar el servicio, para ayudar a los demás usuarios en su elección de conductor.|<p>**Escenario N°1:  El cliente deja un comentario exitosamente**</p><p></p><p>**Dado que** el cliente está autenticado en la aplicación</p><p>**Cuando** finalice un servicio</p><p>**Entonces** debe tener la opción de "Dejar un comentario" sobre el conductor.</p><p>**Dado que** el cliente seleccionó la opción "Dejar un comentario"</p><p>**Cuando** calificó al conductor con una calificación de 1 a 5 estrellas y escribió un comentario</p><p>**Entonces** su reseña debe ser registrada y visible públicamente para otros usuarios.</p><p></p><p>**Escenario N°2: El cliente tiene problemas al dejar un comentario**</p><p></p><p>**Dado que** el cliente está autenticado en la aplicación</p><p>C**uando** finalice un servicio, si la aplicación no permite dejar comentarios</p><p>E**ntonces** debe recibir un mensaje de error indicando que no se pueden dejar comentarios en este momento.</p><p>**Dado que** el cliente seleccionó la opción "Dejar un comentario"</p><p>**Si** no califica al conductor o no escribe un comentario</p><p>**Entonces** debe recibir un mensaje de error preguntándole si está seguro de omitir su reseña.</p>|EP06|
+
+#### 4.1.2.2. Quality attribute Scenarios
+Los escenarios de atributos de calidad son una parte fundamental del diseño de la arquitectura de software, ya que ayudan a definir cómo el sistema debe comportarse en situaciones específicas para cumplir con los requisitos de calidad esperados. En esta sección, se presenta la especificación inicial de los escenarios de atributos de calidad que tienen un impacto significativo en la arquitectura de la solución propuesta para FastPorte. Estos escenarios se han identificado con el objetivo de orientar el proceso de diseño hacia la creación de una plataforma que cumpla con las expectativas y necesidades de nuestros usuarios. 
+
+Durante la fase de análisis, se han identificado varios atributos de calidad clave que son críticos para el éxito de FastPorte. Estos atributos incluyen usabilidad, fiabilidad, seguridad, portabilidad y mantenibilidad. Cada uno de estos atributos se refleja en una serie de escenarios que representan situaciones específicas en las cuales se evaluará el desempeño de la plataforma. 
+
+Hemos identificado la facilidad de uso en acciones como la navegación y la modificación de datos personales, así como la respuesta rápida a las solicitudes de servicio y estrategias de tolerancia a fallos. Además, se prioriza la seguridad de los datos del usuario y la accesibilidad desde diversos dispositivos. Se enfatiza la necesidad de implementar cambios eficientemente para garantizar la continuidad del servicio.
+
+A continuación, se presenta una tabla que detalla cada uno de los escenarios identificados, incluyendo el atributo de calidad correspondiente, la fuente del estímulo, la condición considerada, el componente afectado, el entorno, la respuesta esperada y la medida asociada.
+
+|Atributo|Fuente|Estímulo|Artefacto|Entorno|Respuesta|Medida|
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+|Usabilidad|Cliente|Accede por primera vez a la aplicación|Interfaces de la aplicación|<p>- Cliente nuevo </p><p>- Aplicación cargada y funcional</p>|Las interfaces son intuitivas, permitiendo al cliente aprender a utilizar la aplicación en menos de 5 minutos|Tiempo necesario para que el cliente aprenda a usar la aplicación, ≤ 5 minutos|
+|Usabilidad|Cliente|Intenta modificar su información personal en la aplicación|Interfaz de comunicación amigable|- Nuevos datos personales|La plataforma muestra una interfaz de comunicación amigable para realizar la modificación de datos personales|Tiempo necesario para completar la modificación de datos personales|
+|Usabilidad|Cliente|Tiene la opción de dejar un comentario y calificar al conductor|Formulario de calificación y comentarios|- Servicio de transporte finalizado|El proceso para dejar un comentario y calificar al conductor es sencillo e intuitivo|Tiempo necesario para completar el proceso de calificación|
+|Fiabilidad|Cliente|Solicita un servicio de transporte a través de la aplicación|Sistema de solicitud de servicio|- Cliente tiene una señal estable|La aplicación responde en un máximo de 5 segundos|Tiempo de respuesta de la aplicación (segundos)|
+|Fiabilidad|Sistema / Red|Prevenir fallas e implementar estrategias de tolerancia a fallos|Sistema|- El sistema cuenta con una conexión de red inestable|El sistema implementa estrategias de tolerancia a fallos, como el reintentar automáticamente en caso de errores de red|Eficacia de las estrategias de tolerancia a fallos (porcentaje de éxito)|
+|Seguridad|Cliente|Inicia sesión en su cuenta para solicitar un servicio de transporte|Módulo de inicio de sesión|- El cliente cuenta con sus credenciales de inicio de sesión|Si el inicio de sesión es exitoso, el cliente podrá realizar sus actividades con normalidad en la plataforma|Éxito del inicio de sesión (valor booleano: sí/no)|
+|Seguridad|Sistema|Almacena y utiliza los datos de tarjeta de crédito de los clientes de manera segura|Base de datos de tarjetas de crédito|- Sistema Base de datos segura|Los datos de tarjeta de crédito se almacenan de forma segura y se utilizan para procesar los pagos de manera segura|Seguridad en el almacenamiento y uso de datos de tarjeta de crédito (valor booleano: sí/no)|
+|Portabilidad|Cliente|Accede a la aplicación desde cualquier navegador web|Navegadores web|- Cliente accede desde otro navegadores web|La aplicación es accesible desde cualquier navegador web sin problemas|Tiempo necesario para cargar la aplicación desde diferentes navegadores (en segundos)|
+|Mantenibilidad|Desarrollador|Agrega una nueva función en la aplicación|Código fuente de la aplicación|- El desarrollador se encuentra en el entorno de desarrollo|Los cambios se reflejan en la plataforma sin necesidad de un despliegue adicional|Tiempo necesario para reflejar cambios en la plataforma (en horas)|
+
