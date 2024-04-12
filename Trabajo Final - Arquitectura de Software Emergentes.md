@@ -70,6 +70,14 @@ Abril, 2024
 	- [4.2.3 Domain Message Flows Modeling](#423-domain-message-flows-modeling)
 	- [4.2.4 Bounded Context Canvases](#424-bounded-context-canvases)
 	- [4.2.5 Context Mapping](#424-bounded-context-canvases)
+  - [4.3. Software Architecture](#43-software-architecture)
+	- [4.3.1. Software Architecture System Landscape Diagram](#431-software-architecture-system-landscape-diagram)
+	- [4.3.2. Software Architecture Context Level Diagrams](#432-software-architecture-context-level-diagrams)
+	- [4.3.3 Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
+	- [4.3.4 Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
+- [Conclusiones](#conclusiones)
+- [Recomendaciones](#recomendaciones)
+
 
 
 
@@ -769,4 +777,66 @@ Después de obtener cuáles serían nuestros Bounded Contexts, se realizó la el
 
 ![driver](img/Capitulo_4/Context_Mapping/Imagen1.png)
 [https://github.com/ddd-crew/context-mapping](https://github.com/ddd-crew/context-mapping)
+
+
+## 4.3. Software Architecture.
+
+### 4.3.1. Software Architecture System Landscape Diagram.
+
+El diagrama de System Landscape que presentamos muestra el diseño central de nuestro sistema de transporte de paquetes, con el "FastPorte Platform" en su corazón. Este núcleo sirve como la central de gestión de paquetes, conectando a los "Clientes" con el "Carrier" adecuado para su transporte. La plataforma proporciona una interfaz clara y eficaz por medio de la cual los clientes pueden estimar la cantidad de paquetes a enviar y seleccionar el vehículo idóneo para su entrega. Este enfoque no solo optimiza la eficiencia del proceso, sino que también eleva la satisfacción de todos los actores involucrados, garantizando una experiencia de transporte fluida y sin contratiempos.
+![driver](img/Capitulo_4/Software_Architecture_System_Landscape_Diagram/Imagen1.png)
+
+### 4.3.2. Software Architecture Context Level Diagrams.
+
+###### ***Diagrama de Contexto de FastPorte***
+
+![driver](img/Capitulo_4/Software_Architecture_Context_Level_Diagrams/Imagen1.png)
+
+| Elemento       | Responsabilidad                                                                |
+| -------------- | ------------------------------------------------------------------------------ |
+| Client         | Usuario de FastPorte el cual busca contratar servicios de transportista        |
+| Carrier        | Usuario de FastPorte el cual busca promocionar sus servicios de transporte     |
+| Admin          | Usuario administrador que tiene acceso a todas las funciones de FastPorte      |
+| FastPorte      | El sistema que se desarrollará para FastPorte                                  |
+| GoogleMaps     | API de GoogleMaps para poder utilizar los servicios de geolocalización         |
+| RENIEC System  | Sistema externo para verificar los datos personales de los usuarios            |
+| E-mail System  | Sistema de correo electrónico externo para validar servicios                   |
+| Payment System | Sistema de pago externo para poder realizar pagos en la aplicación web / móvil |
+
+### 4.3.3. Software Architecture Container Level Diagrams.
+###### *Diagrama de Contenedores de FastPort*
+
+![driver](img/Capitulo_4/Software_Architecture_Container_Level_Diagrams/Imagen1.png)
+
+### 4.3.4. Software Architecture Deployment Diagrams.
+
+Para el desarrollo de aplicaciones en este proyecto, se optó por utilizar Azure debido a las necesidades específicas del proyecto. Se eligieron instancias que mejor se adaptaban a los requisitos de rendimiento y escalabilidad, proporcionando así un entorno óptimo para el desarrollo y despliegue de aplicaciones.
+
+Una de las ventajas más significativas de usar Azure fue la rapidez en las peticiones, lo que resultó en un rendimiento mejorado de las aplicaciones. Esta característica fue crucial para satisfacer las demandas de alta disponibilidad y respuesta rápida del proyecto.
+
+**Creación de Imágenes Docker**
+Las imágenes Docker para los servicios y componentes del proyecto se crearon utilizando IntelliJ IDEA, Maven y Docker Compose. Este enfoque aseguró una integración y gestión fluidas del entorno de desarrollo, facilitando la creación y mantenimiento de las imágenes Docker.
+
+**Gestión de Contenedores Docker**
+Inicialmente, todas las pruebas se realizaron localmente para garantizar que los contenedores funcionaran según lo esperado. Tras corregir los errores identificados, los contenedores se subieron a Azure. Este proceso garantizó que los contenedores fueran robustos y estables antes de su implementación en el entorno de producción.
+###### *Cloud Architecture Deployment Diagram*
+
+![driver](img/Capitulo_4/Software_Architecture_Deployment_Diagrams/Imagen1.png)
+
+
+# Conclusiones
+
+- El desarrollo del Lean UX Process ayudó a comprender mejor y aplicar efectivamente las herramientas en nuestra propuesta enfocada al servicio de transportistas hacia clientes. De la misma forma, contribuyó a definir de manera más clara nuestro público objetivo o llámese segmento hacia el cual va enfocada nuestra aplicación.
+- Después de culminar la primera parte de nuestro proyecto e identificar los principales problemas que tienen nuestros segmentos, concluimos que sería de mucha ayuda el desarrollo de FastPorte con el fin de mejorar la experiencia de los transportistas al momento de ofrecer sus servicios, al igual que a los clientes sería una herramienta eficiente en su trabajo.
+- El desarrollo de entrevistas nos ayudó a esclarecer la visión del proyecto, en cuanto a la perspectiva del usuario y por lo tanto fue importante para mejorar los aspectos de las funcionalidades de la aplicación.
+- La transición a microservicios y la contenerización con Docker ha mejorado significativamente la modularidad del sistema. Cada microservicio puede desarrollarse, probarse e implementarse de manera independiente, lo que facilita la escalabilidad y el mantenimiento a largo plazo. Esta arquitectura modular también permite la adopción de tecnologías específicas para cada servicio.
+- La contenerización y el uso de orquestadores como Kubernetes han proporcionado un entorno de despliegue más consistente y predecible. Ahora podemos implementar actualizaciones y mejoras de manera más rápida y eficiente, reduciendo el tiempo de inactividad y mejorando la experiencia del usuario. La capacidad de realizar implementaciones continuas se ha vuelto más factible.
+- Aunque la arquitectura de microservicios ofrece ventajas claras, también presenta desafíos en la gestión de la complejidad. La coordinación entre microservicios, la configuración adecuada de las relaciones entre ellos y la gestión de versiones son aspectos críticos que requieren atención constante. Además, es esencial tener un equipo bien capacitado y una documentación completa para abordar estos desafíos de manera efectiva.
+
+# Recomendaciones
+
+- Se recomienda realizar los diagramas C4 con el lenguaje de programación C# y usando el módulo de Structurizr.Client en Nuget. Esto con el fin de poder gestionar las versiones de la arquitectura realizada. Asimismo, para poder realizar una mejor documentación de cada uno de los servicios implementados.
+- Asegurarse de tener una documentación clara y accesible para cada microservicio. Esto facilitará la comprensión y colaboración del equipo, así como la integración de nuevos miembros. Utiliza un formato fácil de seguir, destacando los puntos clave sobre la funcionalidad, API y dependencias.
+- Implementar pruebas rigurosas para cada microservicio antes y después de la contenerización. Las pruebas unitarias, de integración y funcionales son fundamentales. Garantizar la estabilidad y la funcionalidad adecuada en un entorno contenerizado minimizará problemas en el despliegue y mejorará la confianza en el sistema.
+- Implementar un sólido plan de respaldo y recuperación para los datos de los microservicios. Utilizar soluciones automatizadas para realizar copias de seguridad periódicas y verificar regularmente la capacidad de restauración. Y así lograr un enfoque proactivo hacia la gestión de datos garantizará la integridad y disponibilidad del sistema en caso de fallos inesperados.
 
