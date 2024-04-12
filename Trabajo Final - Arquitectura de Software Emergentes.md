@@ -256,3 +256,95 @@ Dentro de nuestro segmento objetivo, hemos identificado dos grupos de usuarios d
 - Oportunidades para recibir reservas y aumentar sus ingresos.
 - Mecanismos para asegurar el pago oportuno por sus servicios.
 - Exposición a una base de clientes más amplia y oportunidades de crecimiento.
+
+---
+
+# Capítulo II: Requirements Elicitation & Analysis
+## 2.1. Competidores
+### 2.1.1. Análisis Competitivo
+
+![Analisis Competitivo - Tabla](img/Cap2/2.1.%20Competidores/AnalisisCompetitivo.png)
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+
+![Analisis Competitivo - Tabla](img/Cap2/2.1.%20Competidores/Estrategias%20y%20tácticas%20frente%20a%20competidores.png)
+
+
+## 2.2. Entrevistas
+### 2.2.1. Diseño de entrevistas
+**Preguntas al segmento cliente:**
+-	¿Cuál es tu nombre, qué edad tienes y a qué te dedicas?
+-	¿Qué opinas de los servicios de transporte de mercadería en el Perú?
+-	¿Alguna vez contactaste con un servicio de traslado de productos? ¿Por qué medio obtuviste el contacto?
+    - SÍ ¿Tuviste algún problema con el servicio de traslado de productos que contactaste? ¿Qué pasó? ¿Cómo hizo para solucionarlo?
+    - NO ¿Por qué razón?
+-	 ¿Qué tan complicado se te hace encontrar un servicio de traslado de productos?
+-	 ¿Qué tan a menudo necesitas un servicio de traslado de productos?
+-	¿A quién recurres cuando necesitas el servicio de traslado de tus productos?
+-	¿Qué tan importante consideras el estar pendiente de la ubicación de tu producto en tiempo real?
+-	¿Considera importante conocer el modelo y el año del vehículo que va a trasladar su producto?
+-	¿Qué opina acerca de una aplicación que te facilite encontrar un servicio de traslado de productos?
+    - El entrevistador explica acerca de la aplicación
+-	¿Estaría dispuesto a probarla? ¿Por qué?
+-	¿Qué cree que podría mejorar o añadir a nuestra propuesta?
+
+**Preguntas al segmento transportista:**
+-	¿Cuál es tu nombre, qué edad tienes y a qué te dedicas?
+-	¿Cuánto tiempo lleva trabajando en este empleo o de esta forma?
+-	¿Qué opinas de los servicios de transporte de mercadería en el Perú? 
+-	¿Qué tan frecuente recibe pedidos para transportar productos? aproximadamente 3-4 veces a la semana
+-	¿Hacer servicios de transporte es tu única forma de ingresos o de qué otra forma te ganas el dinero? actualmente si
+-	¿Cuánto es lo que gana normalmente en un día de trabajo? entre 100 y 150 depende de los envíos, pero hay varios días que no hay pedidos que movilizar
+-	¿De qué manera haces conocer a las demás personas de tus servicios? mayormente me contactan personas que algún contacto les recomendó, también me encuentro en páginas en Facebook
+-	¿Tuvo algún inconveniente con sus clientes? ¿Qué pasó? ¿Cómo solucionaron el problema? algunas veces existe el tráfico y algunos clientes no son tan pacientes como otros. pero siempre intento resolver conversando las cosas. 
+-	¿Qué opinas de poder contar con una aplicación que te permita encontrar clientes que necesiten de tus servicios como transportista? muy buena ya que es un método en el cual recibiría más clientes. por ejemplo, el servicio de pedido de taxis online cambio totalmente ese rubro y lo convirtió más fácil y seguro para el taxista y el cliente.
+    - El entrevistador explica acerca de la aplicación
+-	¿Estaría dispuesto a probar nuestra aplicación? ¿Por qué?
+-	¿Qué cree que podría mejorar o añadir a nuestra propuesta?
+
+
+### 2.2.2. Registro de entrevistas
+#### Entrevista N° 1
+| ![Entevista 1 - Evidencia](img/Cap2/2.2.%20Entrevistas/Entrevista1.jpg) |
+|--------|
+| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Carlos Alipio Sánchez Salazar <br>	Edad: 19 <br>	Distrito: Carabayllo <br>	Segmento: Transportista|
+| <u>**Resumen**</u> <br> El entrevistado es Carlos Sánchez y es estudiante universitario el cual trabaja como ayudante de transportista en sus vacaciones de verano. Él opina que el trabajo que realiza no es estable, debido a que, si bien puede tener algunos clientes frecuentes para transportar mercadería, la mayoría de las solicitudes de sus servicios son ocasionales. En el caso de su empleador, él genera ingresos aparte mediante el servicio de taxis. Por otro lado, indica que la cantidad que gana puede variar dependiendo del tramo de la entrega y de la cantidad de mercadería que transporta. Él comenta que promociona sus servicios mediante las redes sociales o en algunos casos cara a cara, al comentarle a otras personas de que trabaja o compartiendo el número telefónico de su empleador para que los contacten. Asimismo, manifiesta que se pueden presentar inconvenientes al momento de la entrega, ya que a veces algunos productos pueden llegar defectuosos o dañados, en caso eso suceda se llega a un acuerdo con la persona que solicitó los servicios. <br> Carlos opina que sí le serviría y estaría dispuesto a usar una aplicación o que le permita contactar con personas que solicitan servicios de transporte, ya que así no tendría obtendría más trabajo sin tener que preocuparse si habrá personas que soliciten sus servicios. Además, así podría obtener más ganancias. En adición a lo anterior, él comenta que valoraría que la aplicación cuente con unas funcionalidades con respecto a la localización, ya que sería tranquilizador para los clientes que ellos pudieran conocer la ubicación en tiempo real del transportista. Asimismo, los transportistas podrían usar estas funcionalidades para conocer la ubicación exacta de donde debe realizar la entrega. Por último, señaló que desea que la propuesta presente una interfaz amigable y sencilla de usar.
+| Link: https://web.microsoftstream.com/video/072fdc39-6a80-4a30-b6e4-cd9db90cef07 <br> Minuto: 14:27 – 22:27 |
+
+#### Entrevista N° 2
+| ![Entevista 2 - Evidencia](img/Cap2/2.2.%20Entrevistas/Entrevista2.png) |
+|--------|
+| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Edgard Miranda Lloclla <br>	Distrito: Sullana, Piura <br>	Segmento: Transportista|
+| <u>**Resumen**</u> <br> Edgard en una persona que reside en la región Piura y que trabajo en el rubro de transportes. Nos especifica que alrededor de 15 años trabajando como conductor de transporte de mercadería para una empresa en su región y además tiene actividades complementarias como trabajador en el campo. Nos comenta que tiene su vehículo particular y con el cual también realiza servicio de transporte de mercadería, pero en zonas cercanas a comparación de los viajes que realiza para la empresa. También, relata que alguna vez ha tenido inconvenientes con clientes, pero los ha solucionado cuando regresaba en el siguiente viaje debido a que fueron problemas porque la mercadería no llegó completa. Con respecto a la propuesta, le parece que es una buena idea y que sería algo positivo ya que aumentaría sus clientes y que en lo posible haría que sus clientes queden satisfechos al prestar sus servicios como transportista. 
+| Link: https://web.microsoftstream.com/video/072fdc39-6a80-4a30-b6e4-cd9db90cef07 <br> Minuto:  22:27 – 28:27 |
+
+#### Entrevista N° 3
+| ![Entevista 3 - Evidencia](img/Cap2/2.2.%20Entrevistas/Entrevista3.png) |
+|--------|
+| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Diego Seminario Centeno <br> Edad: 24 años<br>	Distrito: Cercado de Lima <br>	Segmento: Transportista|
+| <u>**Resumen**</u> <br> Diego es un adulto de 24 años que actualmente su fuente de ingreso es ser transportista de camión de carga. Indica que al llevar año y medio en este rubro y ser independiente, había varios días que no tiene clientes. Su ganancia aproximada por día es de 100-150 soles dependiendo de la carga y distancia. Su actual método de difusión es grupos de Facebook y contactos de clientes. Después de darle un resumen de nuestra aplicación, se vio interesado en esta ya que le aumentaría clientes y facilitaría conseguir dinero. Finalmente, agrego que le gustaría que nuestro sistema recompense a la buena calificación de los clientes, ya que en este rubro muchos transportistas suelen ser irrespetuosos, y el al no ser así le gustaría poder ser agendado con más clientes para que estos se lleven un mejor servicio.  
+| Link: https://web.microsoftstream.com/video/072fdc39-6a80-4a30-b6e4-cd9db90cef07 <br> Minuto: 28:27 – 32:52 |
+
+#### Entrevista N° 4
+| ![Entevista 4 - Evidencia](img/Cap2/2.2.%20Entrevistas/Entrevista4.png) |
+|--------|
+| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Teodoro Geiner Liberato Villanueva <br> Edad: 52 años<br>	Distrito: Huacho <br>	Segmento: Cliente|
+| <u>**Resumen**</u> <br> El entrevistado es Teodoro Liberato y es un comerciante de productos por temporada el cual se dedica a vender productos que están más fuertes en el mercado (limones, manzanas, peras, etc.). Este trabajo lo realiza en el mercado de Huacho. Con respecto al transporte le parece el enemigo número uno para cumplir su labor porque es inestable el petróleo y el flete es caro, debido a eso consigue varios precios para sus productos. Con respecto al contacto de los transportistas, lo realiza regularmente. En caso de los limones los trae desde suyana con unos trailers que son contratados por una empresa externa. Estos mismos pueden  
+| Link: https://web.microsoftstream.com/video/072fdc39-6a80-4a30-b6e4-cd9db90cef07  <br> Minuto: 07:48 – 14:27 |
+
+#### Entrevista N° 5
+| ![Entevista 5 - Evidencia](img/Cap2/2.2.%20Entrevistas/Entrevista5.png) |
+|--------|
+| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Alexandro Daniel Villarruel Mandujano <br> Edad: 24 años<br>	Distrito: Villa El Salvador <br>	Segmento: Cliente|
+| <u>**Resumen**</u> <br> Alexandro tiene 24 años y se dedica a la comercialización de ropa o productos textiles, piensa actualmente los servicios de transporte en el Perú no son del todo factible debido a la falta de confianza que se brinda, ya que muchas veces se sufre de pérdidas de productos o que llegan en mal estado. Alexandro nos menciona que usualmente consigue los contactos para el servicio de traslado de sus productos mediante páginas que ofrecen estos servicios. Nos cuenta que él se considera una persona precavida por lo que nunca ha tenido ningún inconveniente en contratar estos servicios. Por otra parte, nos dice que a veces se le hace muy complicado encontrar los servicios por el hecho de que las opciones son pocas o los contactos con los que cuenta no están disponibles. Además, el necesita estos servicios muy seguido ya que es parte de su trabajo. Considera muy importante saber la ubicación y el estado de su producto para considerar el tiempo y saber gestionar su trabajo. También, menciona que es muy importante saber el modelo y el año de los vehículos que trasladan su mercancía ya que le gusta ser precavido como ya antes mencionado. Por último, nos menciona que una aplicación que brinde estos servicios le parecería una buena idea por el hecho de que le sería muy útil tener una opción más a tener en cuenta al momento de realizar su trabajo.
+| Link: https://web.microsoftstream.com/video/072fdc39-6a80-4a30-b6e4-cd9db90cef07  <br> Minuto: 00:00 – 03:57 |
+
+#### Entrevista N° 6
+| ![Entevista 6 - Evidencia](img/Cap2/2.2.%20Entrevistas/Entrevista6.png) |
+|--------|
+| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Ítalo Paolo Sabino Ramírez <br> Edad: 23 años<br>	Distrito: Callao <br>	Segmento: Cliente|
+| <u>**Resumen**</u> <br> Ítalo tiene 23 años y se dedica a la comercialización de productos escolares, piensa que la tendencia actual de los servicios de transporte en el Perú va por un camino distinto en comparación a las tendencias internacionales. Ítalo nos menciona que solicita medios de traslado todo el tiempo y generalmente consigue estos servicios por internet. En una oportunidad, tuvo un problema para entregar un pedido en provincia, no sabía dónde estaba ubicado el medio de transporte que contrato para movilizar su mercadería. El cliente le solicitaba el tiempo estimado de entrega, para solucionar esto solo dio un tiempo estimado. Por otra parte, no se le hace tan complicado conseguir medios de transporte porque él ya cuenta con proveedores. Además, nos dice en la entrevista que necesita diariamente el servicio de traslado de producto. Considera sumamente importante saber el la ubicación y el estado de su producto para poder tener control sobre su mercancía. También, menciona que es muy importante saber el modelo y el año de los vehículos que transportan su mercancía ya que así puede darle la información al cliente del vehículo con el que se encontrara, además de poder saber si su mercancía estaría segura. Le parece que la idea de una aplicación de servicio de transporte es muy interesante y alentadora para poder mejorar en su servicio como comerciante. Por último, nos confirmó que estaría dispuesto a probar esta aplicación ya que las tendencias actuales en el mercado están orientadas hacia la tecnología y el uso de herramientas, como aplicaciones, para poder facilitar la obtención de la mayor cantidad de data posible.
+| Link: https://web.microsoftstream.com/video/072fdc39-6a80-4a30-b6e4-cd9db90cef07  <br> Minuto: 03:57 – 07:48  |
+
+### 2.2.3. Análisis de entrevistas
+![Analisis de entrevistas - Tabla](img/Cap2/2.2.%20Entrevistas/Análisis%20de%20entrevistas.png)
