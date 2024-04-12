@@ -63,7 +63,7 @@ Abril, 2024
   - [3.2. User Stories](#32-user-stories)
   - [3.3. Impact Mapping](#33-impact-mapping)
   - [3.4. Product Backlog](#34-product-backlog)
-- [Capítulo IV: Strategic-Level Software Design](#capitulo-iv-strategic-level-software-design)
+- [Capítulo IV: Strategic-Level Software Design](#capítulo-iv-strategic-level-software-design)
   - [4.2. Strategic-Level Domain-Driven Design](#42-strategic-level-domain-driven-design)
 	- [4.2.1. EventStorming](#421-eventstorming)
 	- [4.2.2. Candidate Context Discovery](#422-candidate-context-discovery)
