@@ -384,11 +384,9 @@ Dentro de nuestro segmento objetivo, hemos identificado dos grupos de usuarios d
 | Link: https://web.microsoftstream.com/video/072fdc39-6a80-4a30-b6e4-cd9db90cef07 <br> Minuto: 28:27 – 32:52 |
 
 #### Entrevista N° 4
-| ![Entevista 4 - Evidencia](img/Cap2/2.2.%20Entrevistas/Entrevista4.png) |
-|--------|
-| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Teodoro Geiner Liberato Villanueva <br> Edad: 52 años<br>	Distrito: Huacho <br>	Segmento: Cliente|
-| <u>**Resumen**</u> <br> El entrevistado es Teodoro Liberato y es un comerciante de productos por temporada el cual se dedica a vender productos que están más fuertes en el mercado (limones, manzanas, peras, etc.). Este trabajo lo realiza en el mercado de Huacho. Con respecto al transporte le parece el enemigo número uno para cumplir su labor porque es inestable el petróleo y el flete es caro, debido a eso consigue varios precios para sus productos. Con respecto al contacto de los transportistas, lo realiza regularmente. En caso de los limones los trae desde suyana con unos trailers que son contratados por una empresa externa. Estos mismos pueden  
-| Link: https://web.microsoftstream.com/video/072fdc39-6a80-4a30-b6e4-cd9db90cef07  <br> Minuto: 07:48 – 14:27 |
+| ![Entevista 4 - Evidencia](img/Cap2/2.2.%20Entrevistas/Entrevista4.png)                                                                                      |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Teodoro Geiner Liberato Villanueva <br> Edad: 52 años<br>	Distrito: Huacho <br>	Segmento: Cliente |
 
 #### Entrevista N° 5
 | ![Entevista 5 - Evidencia](img/Cap2/2.2.%20Entrevistas/Entrevista5.png) |
@@ -398,11 +396,9 @@ Dentro de nuestro segmento objetivo, hemos identificado dos grupos de usuarios d
 | Link: https://web.microsoftstream.com/video/072fdc39-6a80-4a30-b6e4-cd9db90cef07  <br> Minuto: 00:00 – 03:57 |
 
 #### Entrevista N° 6
-| ![Entevista 6 - Evidencia](img/Cap2/2.2.%20Entrevistas/Entrevista6.png) |
-|--------|
-| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Ítalo Paolo Sabino Ramírez <br> Edad: 23 años<br>	Distrito: Callao <br>	Segmento: Cliente|
-| <u>**Resumen**</u> <br> Ítalo tiene 23 años y se dedica a la comercialización de productos escolares, piensa que la tendencia actual de los servicios de transporte en el Perú va por un camino distinto en comparación a las tendencias internacionales. Ítalo nos menciona que solicita medios de traslado todo el tiempo y generalmente consigue estos servicios por internet. En una oportunidad, tuvo un problema para entregar un pedido en provincia, no sabía dónde estaba ubicado el medio de transporte que contrato para movilizar su mercadería. El cliente le solicitaba el tiempo estimado de entrega, para solucionar esto solo dio un tiempo estimado. Por otra parte, no se le hace tan complicado conseguir medios de transporte porque él ya cuenta con proveedores. Además, nos dice en la entrevista que necesita diariamente el servicio de traslado de producto. Considera sumamente importante saber el la ubicación y el estado de su producto para poder tener control sobre su mercancía. También, menciona que es muy importante saber el modelo y el año de los vehículos que transportan su mercancía ya que así puede darle la información al cliente del vehículo con el que se encontrara, además de poder saber si su mercancía estaría segura. Le parece que la idea de una aplicación de servicio de transporte es muy interesante y alentadora para poder mejorar en su servicio como comerciante. Por último, nos confirmó que estaría dispuesto a probar esta aplicación ya que las tendencias actuales en el mercado están orientadas hacia la tecnología y el uso de herramientas, como aplicaciones, para poder facilitar la obtención de la mayor cantidad de data posible.
-| Link: https://web.microsoftstream.com/video/072fdc39-6a80-4a30-b6e4-cd9db90cef07  <br> Minuto: 03:57 – 07:48  |
+| ![Entevista 6 - Evidencia](img/Cap2/2.2.%20Entrevistas/Entrevista6.png)                                                                              |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Ítalo Paolo Sabino Ramírez <br> Edad: 23 años<br>	Distrito: Callao <br>	Segmento: Cliente |
 
 ### 2.2.3. Análisis de entrevistas
 ![Analisis de entrevistas - Tabla](img/Cap2/2.2.%20Entrevistas/Análisis%20de%20entrevistas.png)
@@ -413,11 +409,11 @@ Dentro de nuestro segmento objetivo, hemos identificado dos grupos de usuarios d
 
 ###### _User Persona Manuel Segura, usuario Cliente_
 
-![Cliente](img/Capitulo_2/Needfinding/1.png)
+![User Persona Cliente](img/Capitulo_2/Needfinding/1.png)
 
 ###### _User Persona Manuel Segura, usuario Transportista_
 
-![driver](img/Capitulo_2/Needfinding/2.png)
+![User Persona Transportista](img/Capitulo_2/Needfinding/2.png)
 ### 2.3.2 User Task Matrix
 ###### _User Task Matrix del usuario cliente_
 
@@ -447,19 +443,19 @@ Dentro de nuestro segmento objetivo, hemos identificado dos grupos de usuarios d
 
 ###### *Empathy Mapping del usuario cliente*
 
-![driver](img/Capitulo_2/Needfinding/3.png)
+![Empathy Mapping Cliente](img/Capitulo_2/Needfinding/3.png)
 
 ###### *Empathy Mapping del usuario transportista*
 
-![driver](img/Capitulo_2/Needfinding/4.png)
+![Empathy Mapping Transportista](img/Capitulo_2/Needfinding/4.png)
 ### 2.3.4. As-is Scenario Mapping. 
 
 ###### *As-is Scenario Mapping del usuario cliente*
 
-![driver](img/Capitulo_2/Needfinding/5.png)
+![As-is Scenario Mapping Cliente](img/Capitulo_2/Needfinding/5.png)
 ###### *As-is Scenario Mapping del usuario transportista*
 
-![driver](img/Capitulo_2/Needfinding/6.png)
+![As-is Scenario Mapping Transportista](img/Capitulo_2/Needfinding/6.png)
 ## 2.4. Ubiquitous Language.
 
 - **Carrier (Transportista)**
@@ -577,38 +573,38 @@ Calendario que muestra la disponibilidad de los transportistas para proporcionar
 
 ###### _To-Be Scenario Mapping del usuario cliente_
 
-![driver](img/Capitulo_2/Needfinding/7.png)
+![To Be Scenario Mapping Cliente](img/Capitulo_2/Needfinding/7.png)
 ###### _To-Be Scenario Mapping del usuario transportista_
 
-![driver](img/Capitulo_2/Needfinding/8.jpg)
+![To Be Scenario Mapping Transportista](img/Capitulo_2/Needfinding/8.jpg)
 
 ## 3.2. User Stories. 
 
 ##### _Desarrollo de los User Stories_
-![driver](img/Capitulo_3/User_Stories/1.png)
-![driver](img/Capitulo_3/User_Stories/2.png)
-![driver](img/Capitulo_3/User_Stories/3.png)
-![driver](img/Capitulo_3/User_Stories/4.png)
-![driver](img/Capitulo_3/User_Stories/5.png)
-![driver](img/Capitulo_3/User_Stories/6.png)
-![driver](img/Capitulo_3/User_Stories/7.png)
-![driver](img/Capitulo_3/User_Stories/8.png)
-![driver](img/Capitulo_3/User_Stories/9.png)
-![driver](img/Capitulo_3/User_Stories/10.png)
-![driver](img/Capitulo_3/User_Stories/11.png)
-![driver](img/Capitulo_3/User_Stories/12.png)
-![driver](img/Capitulo_3/User_Stories/13.png)
-![driver](img/Capitulo_3/User_Stories/14.png)
-![driver](img/Capitulo_3/User_Stories/15.png)
-![driver](img/Capitulo_3/User_Stories/16.png)
-![driver](img/Capitulo_3/User_Stories/17.png)
-![driver](img/Capitulo_3/User_Stories/18.png)
-![driver](img/Capitulo_3/User_Stories/19.png)
-![driver](img/Capitulo_3/User_Stories/20.png)
-![driver](img/Capitulo_3/User_Stories/21.png)
-![driver](img/Capitulo_3/User_Stories/22.png)
-![driver](img/Capitulo_3/User_Stories/23.png)
-![driver](img/Capitulo_3/User_Stories/24.png)
+![HU-001](img/Capitulo_3/User_Stories/1.png)
+![HU-002](img/Capitulo_3/User_Stories/2.png)
+![HU-003](img/Capitulo_3/User_Stories/3.png)
+![HU-004](img/Capitulo_3/User_Stories/4.png)
+![HU-005](img/Capitulo_3/User_Stories/5.png)
+![HU-006](img/Capitulo_3/User_Stories/6.png)
+![HU-007](img/Capitulo_3/User_Stories/7.png)
+![HU-008](img/Capitulo_3/User_Stories/8.png)
+![HU-009](img/Capitulo_3/User_Stories/9.png)
+![HU-010](img/Capitulo_3/User_Stories/10.png)
+![HU-011](img/Capitulo_3/User_Stories/11.png)
+![HU-012](img/Capitulo_3/User_Stories/12.png)
+![HU-013](img/Capitulo_3/User_Stories/13.png)
+![HU-014](img/Capitulo_3/User_Stories/14.png)
+![HU-015](img/Capitulo_3/User_Stories/15.png)
+![HU-016](img/Capitulo_3/User_Stories/16.png)
+![HU-017](img/Capitulo_3/User_Stories/17.png)
+![HU-018](img/Capitulo_3/User_Stories/18.png)
+![HU-019](img/Capitulo_3/User_Stories/19.png)
+![HU-020](img/Capitulo_3/User_Stories/20.png)
+![HU-021](img/Capitulo_3/User_Stories/21.png)
+![HU-022](img/Capitulo_3/User_Stories/22.png)
+![HU-023](img/Capitulo_3/User_Stories/23.png)
+![HU-024](img/Capitulo_3/User_Stories/24.png)
 
 
 
@@ -636,7 +632,7 @@ Link para una visualización más detallada: [https://drive.google.com/file/d/1Z
 
 ###### _Impact Mapping de los usuarios cliente y transportista_
 
-![driver](img/Capitulo_2/Needfinding/9.jpg)
+![Impact Mapping](img/Capitulo_2/Needfinding/9.jpg)
 ## 3.4. Product Backlog.
 
 ##### _Desarrollo del Product Backlog_
@@ -706,17 +702,17 @@ Hemos identificado la facilidad de uso en acciones como la navegación y la modi
 
 A continuación, se presenta una tabla que detalla cada uno de los escenarios identificados, incluyendo el atributo de calidad correspondiente, la fuente del estímulo, la condición considerada, el componente afectado, el entorno, la respuesta esperada y la medida asociada.
 
-|Atributo|Fuente|Estímulo|Artefacto|Entorno|Respuesta|Medida|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-|Usabilidad|Cliente|Accede por primera vez a la aplicación|Interfaces de la aplicación|<p>- Cliente nuevo </p><p>- Aplicación cargada y funcional</p>|Las interfaces son intuitivas, permitiendo al cliente aprender a utilizar la aplicación en menos de 5 minutos|Tiempo necesario para que el cliente aprenda a usar la aplicación, ≤ 5 minutos|
-|Usabilidad|Cliente|Intenta modificar su información personal en la aplicación|Interfaz de comunicación amigable|- Nuevos datos personales|La plataforma muestra una interfaz de comunicación amigable para realizar la modificación de datos personales|Tiempo necesario para completar la modificación de datos personales|
-|Usabilidad|Cliente|Tiene la opción de dejar un comentario y calificar al conductor|Formulario de calificación y comentarios|- Servicio de transporte finalizado|El proceso para dejar un comentario y calificar al conductor es sencillo e intuitivo|Tiempo necesario para completar el proceso de calificación|
-|Fiabilidad|Cliente|Solicita un servicio de transporte a través de la aplicación|Sistema de solicitud de servicio|- Cliente tiene una señal estable|La aplicación responde en un máximo de 5 segundos|Tiempo de respuesta de la aplicación (segundos)|
-|Fiabilidad|Sistema / Red|Prevenir fallas e implementar estrategias de tolerancia a fallos|Sistema|- El sistema cuenta con una conexión de red inestable|El sistema implementa estrategias de tolerancia a fallos, como el reintentar automáticamente en caso de errores de red|Eficacia de las estrategias de tolerancia a fallos (porcentaje de éxito)|
-|Seguridad|Cliente|Inicia sesión en su cuenta para solicitar un servicio de transporte|Módulo de inicio de sesión|- El cliente cuenta con sus credenciales de inicio de sesión|Si el inicio de sesión es exitoso, el cliente podrá realizar sus actividades con normalidad en la plataforma|Éxito del inicio de sesión (valor booleano: sí/no)|
-|Seguridad|Sistema|Almacena y utiliza los datos de tarjeta de crédito de los clientes de manera segura|Base de datos de tarjetas de crédito|- Sistema Base de datos segura|Los datos de tarjeta de crédito se almacenan de forma segura y se utilizan para procesar los pagos de manera segura|Seguridad en el almacenamiento y uso de datos de tarjeta de crédito (valor booleano: sí/no)|
-|Portabilidad|Cliente|Accede a la aplicación desde cualquier navegador web|Navegadores web|- Cliente accede desde otro navegadores web|La aplicación es accesible desde cualquier navegador web sin problemas|Tiempo necesario para cargar la aplicación desde diferentes navegadores (en segundos)|
-|Mantenibilidad|Desarrollador|Agrega una nueva función en la aplicación|Código fuente de la aplicación|- El desarrollador se encuentra en el entorno de desarrollo|Los cambios se reflejan en la plataforma sin necesidad de un despliegue adicional|Tiempo necesario para reflejar cambios en la plataforma (en horas)|
+|    Atributo    |    Fuente     |                                      Estímulo                                       |                Artefacto                 |                            Entorno                             |                                                       Respuesta                                                        |                                           Medida                                            |
+| :------------: | :-----------: | :---------------------------------------------------------------------------------: | :--------------------------------------: | :------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------: |
+|   Usabilidad   |    Cliente    |                       Accede por primera vez a la aplicación                        |       Interfaces de la aplicación        | <p>- Cliente nuevo </p><p>- Aplicación cargada y funcional</p> |     Las interfaces son intuitivas, permitiendo al cliente aprender a utilizar la aplicación en menos de 5 minutos      |       Tiempo necesario para que el cliente aprenda a usar la aplicación, ≤ 5 minutos        |
+|   Usabilidad   |    Cliente    |             Intenta modificar su información personal en la aplicación              |    Interfaz de comunicación amigable     |                   - Nuevos datos personales                    |     La plataforma muestra una interfaz de comunicación amigable para realizar la modificación de datos personales      |             Tiempo necesario para completar la modificación de datos personales             |
+|   Usabilidad   |    Cliente    |           Tiene la opción de dejar un comentario y calificar al conductor           | Formulario de calificación y comentarios |              - Servicio de transporte finalizado               |                  El proceso para dejar un comentario y calificar al conductor es sencillo e intuitivo                  |                 Tiempo necesario para completar el proceso de calificación                  |
+|   Fiabilidad   |    Cliente    |            Solicita un servicio de transporte a través de la aplicación             |     Sistema de solicitud de servicio     |               - Cliente tiene una señal estable                |                                   La aplicación responde en un máximo de 5 segundos                                    |                       Tiempo de respuesta de la aplicación (segundos)                       |
+|   Fiabilidad   | Sistema / Red |          Prevenir fallas e implementar estrategias de tolerancia a fallos           |                 Sistema                  |     - El sistema cuenta con una conexión de red inestable      | El sistema implementa estrategias de tolerancia a fallos, como el reintentar automáticamente en caso de errores de red |          Eficacia de las estrategias de tolerancia a fallos (porcentaje de éxito)           |
+|   Seguridad    |    Cliente    |         Inicia sesión en su cuenta para solicitar un servicio de transporte         |        Módulo de inicio de sesión        |  - El cliente cuenta con sus credenciales de inicio de sesión  |      Si el inicio de sesión es exitoso, el cliente podrá realizar sus actividades con normalidad en la plataforma      |                     Éxito del inicio de sesión (valor booleano: sí/no)                      |
+|   Seguridad    |    Sistema    | Almacena y utiliza los datos de tarjeta de crédito de los clientes de manera segura |   Base de datos de tarjetas de crédito   |                 - Sistema Base de datos segura                 |  Los datos de tarjeta de crédito se almacenan de forma segura y se utilizan para procesar los pagos de manera segura   | Seguridad en el almacenamiento y uso de datos de tarjeta de crédito (valor booleano: sí/no) |
+|  Portabilidad  |    Cliente    |                Accede a la aplicación desde cualquier navegador web                 |             Navegadores web              |          - Cliente accede desde otro navegadores web           |                         La aplicación es accesible desde cualquier navegador web sin problemas                         |    Tiempo necesario para cargar la aplicación desde diferentes navegadores (en segundos)    |
+| Mantenibilidad | Desarrollador |                      Agrega una nueva función en la aplicación                      |      Código fuente de la aplicación      |  - El desarrollador se encuentra en el entorno de desarrollo   |                   Los cambios se reflejan en la plataforma sin necesidad de un despliegue adicional                    |             Tiempo necesario para reflejar cambios en la plataforma (en horas)              |
 
 
 #### 4\.1.2.3. Constraints
@@ -805,12 +801,6 @@ Para crear decisiones de diseño arquitectónico basados en los drivers arquitec
 <tr><td colspan="2" valign="top">Questions</td><td colspan="1" valign="top">¿Cómo se estructurará el código para facilitar su comprensión y modificación?</td></tr>
 <tr><td colspan="2" valign="top">Issues</td><td colspan="1" valign="top">Asegurar que el sistema escale de manera efectiva sin comprometer el rendimiento bajo cargas de trabajo elevadas.</td></tr>
 </table>
-
-
-|www.FastPorte.com|
-| :-: |
-
-
 ## 4.2. Strategic-Level Domain-Driven Design.
 
 ### 4.2.1. EventStorming
@@ -818,19 +808,19 @@ Para crear decisiones de diseño arquitectónico basados en los drivers arquitec
 ###### *Step 1: Unstructured Exploration*
 ![driver](img/Capitulo_4/Event_Storming/Imagen1.png)
 ###### *Step 2: Timelines, Step 3: Pain Points, Step 4: Pivotal Points*
-![driver](img/Capitulo_4/Event_Storming/Imagen2.png)
-![driver](img/Capitulo_4/Event_Storming/Imagen3.png)
-![driver](img/Capitulo_4/Event_Storming/Imagen4.png)
+![Step 2 Part 1](img/Capitulo_4/Event_Storming/Imagen2.png)
+![Step 2 Part 2](img/Capitulo_4/Event_Storming/Imagen3.png)
+![Step 2 Part 3](img/Capitulo_4/Event_Storming/Imagen4.png)
 
 ###### *Step 5: Commands, Step 6: Policies, Step 7: Read models, Step 8: External Systems*
 
-![driver](img/Capitulo_4/Event_Storming/Imagen5.png)
-![driver](img/Capitulo_4/Event_Storming/Imagen6.png)
-![driver](img/Capitulo_4/Event_Storming/Imagen7.png)
+![Step 5, 6, 7, 8,  Part 1](img/Capitulo_4/Event_Storming/Imagen5.png)
+![Step 5, 6, 7, 8,  Part 2](img/Capitulo_4/Event_Storming/Imagen6.png)
+![Step 5, 6, 7, 8,  Part 3](img/Capitulo_4/Event_Storming/Imagen7.png)
 
 ###### *Step 9: Aggregates, Step 10: Bounded Contexts*
 
-![driver](img/Capitulo_4/Event_Storming/Imagen8.png)
+![Step 9,  10](img/Capitulo_4/Event_Storming/Imagen8.png)
 Enlace de Figma para una mejor visualización: [https://www.figma.com/file/RqNZH8CXgzb4YsO1sjOR7v/Event-Storming---FastPorte?type=whiteboard&node-id=0%3A1&t=PA6eDILnRHf7lfWC-1](https://www.figma.com/file/RqNZH8CXgzb4YsO1sjOR7v/Event-Storming---FastPorte?type=whiteboard&node-id=0%3A1&t=PA6eDILnRHf7lfWC-1)
 
 ### 4.2.2. Candidate Context Discovery
@@ -840,68 +830,69 @@ Utilizando la metodología de eventstorming y adoptando el enfoque de "start-wit
 **Búsqueda de Vehículos**
 Este bounded context se centra en la búsqueda de vehículos, integrando eventos como la inspección de perfiles de transportistas, la reconsideración de opciones por parte de los usuarios, y el regreso a la sección principal. Utiliza comandos para elegir vehículos, aplicar filtros, y aprovechar una API de inteligencia artificial, junto con políticas para manejar usuarios fuera de cobertura y ofrecer recomendaciones personalizadas. Su objetivo es optimizar la selección de transporte, haciéndola eficiente y adaptada a las necesidades del usuario.
 
-![driver](img/Capitulo_4/Candidate_Context_Discovery/Imagen1.png)
+![Búsqueda de vehículos Bounded Context](img/Capitulo_4/Candidate_Context_Discovery/Imagen1.png)
 **Servicios**
 Este Bounded Context aborda servicios de transporte, enfocándose en eventos clave como el retorno de usuarios a la página principal, accesos al soporte, aceptaciones de ofertas por transportistas, seguimientos GPS, y servicios concluidos. Los comandos gestionan ofertas y el estado de registro de vehículos, mientras que la política de GPS activado mejora la transparencia y la experiencia de seguimiento. Su propósito es optimizar las interacciones entre clientes y transportistas, asegurando una comunicación efectiva y una mayor satisfacción en el servicio.
 
-![driver](img/Capitulo_4/Candidate_Context_Discovery/Imagen2.png)
+![Servicios Bounded Context](img/Capitulo_4/Candidate_Context_Discovery/Imagen2.png)
 
 **Cliente**
 Este Bounded Context se centra en la experiencia del cliente dentro de una aplicación de servicios de transporte, abarcando eventos desde el registro en la aplicación hasta la realización de ofertas por servicios. Los eventos clave incluyen la búsqueda de transportistas que se ajusten a las necesidades específicas del cliente, la visualización de perfiles de transportistas y sus vehículos, y la elección de una opción de transporte. Los comandos disponibles permiten el registro de usuarios y la selección de vehículos, mientras que las políticas garantizan que los usuarios operen dentro de la cobertura y con datos ingresados correctamente. Este contexto busca facilitar la conexión entre clientes y transportistas, asegurando un proceso de selección eficiente y satisfactorio.
 
-![driver](img/Capitulo_4/Candidate_Context_Discovery/Imagen3.png)
+![Cliente Bounded Context](img/Capitulo_4/Candidate_Context_Discovery/Imagen3.png)
 
 **Transportista**
 Este Bounded Context se centra en los transportistas, desde su registro en la aplicación hasta el registro de nuevos vehículos, incluyendo el acceso a sus perfiles y el llenado de información vehicular. Los comandos principales son para registrar tanto al usuario como al vehículo, con políticas que aseguran la correcta o incorrecta entrada de datos. Este contexto apunta a facilitar la gestión de transportistas y sus vehículos, promoviendo la precisión en el registro de información.
 
-![driver](img/Capitulo_4/Candidate_Context_Discovery/Imagen4.png)
+![Transportista Bounded Context](img/Capitulo_4/Candidate_Context_Discovery/Imagen4.png)
 
 ### 4.2.3. Domain Message Flows Modeling
 
 **Escenario 1: Cliente Solicita Servicio de Transporte**
 En este escenario, un cliente utiliza una aplicación de servicios de transporte para solicitar un servicio de transporte de sus paquetes desde un lugar de recogida hasta un destino. El cliente inicia sesión en la aplicación. Luego, toma una foto de los paquetes para adjuntarla a la solicitud de transporte. La aplicación envía la solicitud junto con la foto al sistema de búsqueda de vehículos, que utiliza una API de inteligencia artificial para encontrar el transporte adecuado. Una vez encontrado, el sistema notifica al cliente sobre la asignación del transporte, proporcionando detalles adicionales
 
-![driver](img/Capitulo_4/Domain_Message_Flows_Modeling/Imagen1.png)
+![Escenario 1](img/Capitulo_4/Domain_Message_Flows_Modeling/Imagen1.png)
 
 **Escenario 2: Transportista Realiza el Servicio de Transporte**
-	En este escenario, un transportista utiliza una aplicación de servicios de transporte para llevar a cabo un servicio de transporte de paquetes. El transportista inicia sesión en la aplicación, revisa las solicitudes de transporte disponibles y acepta una de ellas. Luego, se dirige al lugar de recogida donde recoge los paquetes del cliente. Una vez recogidos, inicia el servicio de transporte y se dirige al destino. Durante el viaje, el sistema realiza un seguimiento GPS del transporte. Una vez que llega al destino y entrega los paquetes, se registra la finalización del servicio y se notifica al cliente sobre la entrega exitosa.
+En este escenario, un transportista utiliza una aplicación de servicios de transporte para llevar a cabo un servicio de transporte de paquetes. El transportista inicia sesión en la aplicación, revisa las solicitudes de transporte disponibles y acepta una de ellas. Luego, se dirige al lugar de recogida donde recoge los paquetes del cliente. Una vez recogidos, inicia el servicio de transporte y se dirige al destino. Durante el viaje, el sistema realiza un seguimiento GPS del transporte. Una vez que llega al destino y entrega los paquetes, se registra la finalización del servicio y se notifica al cliente sobre la entrega exitosa.
 
-![driver](img/Capitulo_4/Domain_Message_Flows_Modeling/Imagen2.png)
+![Escenario 2](img/Capitulo_4/Domain_Message_Flows_Modeling/Imagen2.png)
 
 ### 4.2.4. Bounded Context Canvases
 
 **Búsqueda de Vehículos**
 Este bounded context se centra en el problema del dominio y es la búsqueda de vehículos, con el objetivo de optimizar la selección de opciones de transporte para los usuarios. En cuando a los subdominios se encuentra la inspección de los perfiles de transportistas y reconsideración de opciones, selección y filtrado de vehículos.
 
-![driver](img/Capitulo_4/Bounded_Context_Canvases/Imagen1.png)
+![Búsqueda de vehículos Canvas](img/Capitulo_4/Bounded_Context_Canvases/Imagen1.png)
 
 **Servicios**
 El Bounded Context Canvas para servicios de transporte es una herramienta estratégica diseñada para definir y delinear las características clave de este dominio específico dentro de un sistema de software. Proporciona una visión integral de cómo este contexto interactúa con los usuarios, gestiona datos y se comunica con otros contextos o sistemas.
 
-![driver](img/Capitulo_4/Bounded_Context_Canvases/Imagen2.png)
+![Servicios Canvas](img/Capitulo_4/Bounded_Context_Canvases/Imagen2.png)
 
 **Transportista**
 Este Bounded Context se centra en la gestión integral de los transportistas y sus vehículos, desde el registro inicial en la aplicación hasta la actualización continua de su información vehicular y personal. Este contexto define cómo los transportistas interactúan con la plataforma, estableciendo procesos y políticas claras para el registro de usuarios y vehículos, la validación de datos, y la comunicación entre la plataforma y los transportistas.
 
-![driver](img/Capitulo_4/Bounded_Context_Canvases/Imagen3.png)
+![Transportista Canvas](img/Capitulo_4/Bounded_Context_Canvases/Imagen3.png)
 
 ### 4.2.5. Context Mapping
 
 Después de obtener cuáles serían nuestros Bounded Contexts, se realizó la elaboración de las relaciones estructurales entre estos. Para ello, se tomó en cuenta posibles diseños candidatos para el Context Mapping, el cual se desarrolló considerando los patrones de relaciones entre Bounden Contexts establecidos en Domain-Driven Desgin. Se utilizó la herramienta online DomoRoboto para elaborar el Context Mapping de la siguiente imagen:
 
-![driver](img/Capitulo_4/Context_Mapping/Imagen1.png)
+![Context Mapping](img/Capitulo_4/Context_Mapping/Imagen1.png)
 ## 4.3. Software Architecture.
 
 ### 4.3.1. Software Architecture System Landscape Diagram.
 
 El diagrama de System Landscape que presentamos muestra el diseño central de nuestro sistema de transporte de paquetes, con el "FastPorte Platform" en su corazón. Este núcleo sirve como la central de gestión de paquetes, conectando a los "Clientes" con el "Carrier" adecuado para su transporte. La plataforma proporciona una interfaz clara y eficaz por medio de la cual los clientes pueden estimar la cantidad de paquetes a enviar y seleccionar el vehículo idóneo para su entrega. Este enfoque no solo optimiza la eficiencia del proceso, sino que también eleva la satisfacción de todos los actores involucrados, garantizando una experiencia de transporte fluida y sin contratiempos.
-![driver](img/Capitulo_4/Software_Architecture_System_Landscape_Diagram/Imagen1.png)
+
+![Landscape Diagram](img/Capitulo_4/Software_Architecture_System_Landscape_Diagram/Imagen1.png)
 
 ### 4.3.2. Software Architecture Context Level Diagrams.
 
 ###### ***Diagrama de Contexto de FastPorte***
 
-![driver](img/Capitulo_4/Software_Architecture_Context_Level_Diagrams/Imagen1.png)
+![Diagrama de Contexto](img/Capitulo_4/Software_Architecture_Context_Level_Diagrams/Imagen1.png)
 
 | Elemento       | Responsabilidad                                                                |
 | -------------- | ------------------------------------------------------------------------------ |
@@ -917,7 +908,7 @@ El diagrama de System Landscape que presentamos muestra el diseño central de nu
 ### 4.3.3. Software Architecture Container Level Diagrams.
 ###### *Diagrama de Contenedores de FastPort*
 
-![driver](img/Capitulo_4/Software_Architecture_Container_Level_Diagrams/Imagen1.png)
+![Diagrama de Contenedores](img/Capitulo_4/Software_Architecture_Container_Level_Diagrams/Imagen1.png)
 
 ### 4.3.4. Software Architecture Deployment Diagrams.
 
@@ -932,7 +923,7 @@ Las imágenes Docker para los servicios y componentes del proyecto se crearon ut
 Inicialmente, todas las pruebas se realizaron localmente para garantizar que los contenedores funcionaran según lo esperado. Tras corregir los errores identificados, los contenedores se subieron a Azure. Este proceso garantizó que los contenedores fueran robustos y estables antes de su implementación en el entorno de producción.
 ###### *Cloud Architecture Deployment Diagram*
 
-![driver](img/Capitulo_4/Software_Architecture_Deployment_Diagrams/Imagen1.png)
+![Cloud Architecture Deployment Diagram](img/Capitulo_4/Software_Architecture_Deployment_Diagrams/Imagen1.png)
 
 --- 
 # Conclusiones
