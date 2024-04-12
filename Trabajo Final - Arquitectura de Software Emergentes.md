@@ -349,6 +349,267 @@ Dentro de nuestro segmento objetivo, hemos identificado dos grupos de usuarios d
 ### 2.2.3. Análisis de entrevistas
 ![Analisis de entrevistas - Tabla](img/Cap2/2.2.%20Entrevistas/Análisis%20de%20entrevistas.png)
 
+## 2.3 Needfinding
+
+### 2.3.1 User Persona
+
+###### _User Persona Manuel Segura, usuario Cliente_
+
+![Cliente](img/Capitulo_2/Needfinding/1.png)
+
+###### _User Persona Manuel Segura, usuario Transportista_
+
+![driver](img/Capitulo_2/Needfinding/2.png)
+### 2.3.2 User Task Matrix
+###### _User Task Matrix del usuario cliente_
+
+|                           **Tareas**                            | **Frecuencia** | **Importancia** |
+| :-------------------------------------------------------------: | :------------: | :-------------: |
+|  Contactar con un transportista para hacer uso de transporte.   |    Siempre     |      Alta       |
+|           Saber cuál será el precio por el transporte           |    Siempre     |      Alta       |
+|   Conocer los tipos de transporte que ofrece el transportista   |    Siempre     |      Alta       |
+|                Hacer un seguimiento del producto                |  Casi Siempre  |      Alta       |
+|  Mostrar los transportistas para brindarle opciones al usuario  |  Casi Siempre  |      Media      |
+|               Calificar el servicio con estrellas               | Algunas veces  |      Media      |
+| Recomendar el servicio proporcionado por medio de un comentario |   Casi nunca   |      Baja       |
+###### _User Task Matrix del usuario transportista_
+
+|                         Tareas                         | Frecuencia | Importancia |
+| :----------------------------------------------------: | :--------: | :---------: |
+|                Contactar con el cliente                |  A menudo  |    Alta     |
+|  Acordar cuál será el producto por llevar y el tamaño  |  A menudo  |    Alta     |
+|            Acordar el precio con el cliente            |  Siempre   |    Alta     |
+|       Establecer el día de llegada del producto        |  Siempre   |    Alta     |
+|          Pactar cuál será el lugar de destino          |  Siempre   |    Alta     |
+|                Transportar el producto                 |  Siempre   |    Alta     |
+| Evidenciar que el producto ha sido entregado con éxito |  A menudo  |    Media    |
+|                 Cobrar por el servicio                 |  Siempre   |    Alta     |
+|          Atender las solicitudes del cliente           |  Siempre   |    Alta     |
+### 2.3.3 Empathy Mapping
+
+###### _Empathy Mapping del usuario cliente_
+
+![driver](img/Capitulo_2/Needfinding/3.png)
+
+###### _Empathy Mapping del usuario transportista_
+
+![driver](img/Capitulo_2/Needfinding/4.png)
+### 2.3.4. As-is Scenario Mapping. 
+
+###### _As-is Scenario Mapping del usuario cliente_
+
+![driver](img/Capitulo_2/Needfinding/5.png)
+###### _As-is Scenario Mapping del usuario transportista_
+
+![driver](img/Capitulo_2/Needfinding/6.png)
+## 2.4. Ubiquitous Language.
+
+·         **Carrier (Transportista)**
+
+Individuo o empresa que proporciona servicios de transporte.
+
+·         **Client (Cliente)** 
+
+Individuo o empresa que requiere servicios de transporte.
+
+·         **Service type (Tipo de servicio)**
+
+Clasificación de los servicios de transporte ofrecidos, como carga, mudanza, movilidad, etc.
+
+·         **Carrier profile (Perfil de transportista)**
+
+Información detallada proporcionada por los transportistas al registrarse, incluyendo datos personales, documentación, tipo de vehículo y servicios ofrecidos.
+
+·         **Client profile (Perfil de cliente)** 
+
+Información proporcionada por los clientes al registrarse, incluyendo detalles personales e información de viajes anteriores.
+
+·         **Trip form (Formulario de viaje)** 
+
+Formulario completado por el cliente con los detalles del viaje, incluyendo origen, destino, fecha, hora, tipo de carga, etc.
+
+·         **Payment (Pago del servicio)**
+
+Proceso mediante el cual el cliente realiza el pago por el servicio de transporte a través de la plataforma FastPorte, utilizando un servicio de pago integrado.
+
+·         **Reviews (Reseñas)**
+
+Comentarios y calificaciones dejados por clientes anteriores sobre su experiencia con un transportista específico, ayudando a otros clientes a tomar decisiones informadas.
+
+·         **Service area (Zona de servicio)**
+
+Área geográfica donde un transportista está disponible para proporcionar servicios, especificada en su perfil.
+
+·         **Service contract (Contrato - Acuerdo de servicio)**
+
+Acuerdo entre el cliente y el transportista cuando se confirma un viaje, estableciendo las condiciones y términos de la prestación del servicio.
+
+·         **Vehicle (Vehículo)**
+
+Modo de transporte utilizado por los transportistas para proporcionar servicios.
+
+·         **License and permits (Licencia y permisos)**
+
+Documentación legal requerida para que los transportistas operen sus vehículos y proporcionen servicios de transporte.
+
+·         **Rates (Tarifas)**
+
+Precios cobrados por los transportistas por sus servicios de transporte.
+
+·         **Trip confirmation (Confirmación de viaje)**
+
+Confirmación de una reserva de viaje realizada por el cliente con un transportista.
+
+·         **Service status (Estado del servicio)**
+
+Estado actual del servicio de transporte, indicando si está pendiente, en progreso o completado.
+
+·         **Transportation request (Solicitud de transporte)**
+
+Solicitud realizada por el cliente para servicios de transporte.
+
+·         **Service history provided (Historial de servicios brindados)**
+
+Registro de servicios proporcionados por el transportista.
+
+·         **Service history contracted (Historial de servicios contratados)**
+
+Registro de servicios contratados por el cliente.
+
+·         **Customer rating (Calificación del cliente)**
+
+Calificación proporcionada por los transportistas para los clientes basada en su comportamiento e interacción durante el viaje.
+
+·         **Carrier rating (Calificación del transportista)**
+
+Calificación proporcionada por los clientes para los transportistas basada en su desempeño y calidad del servicio.
+
+·         **Trip cancellation (Cancelación de viaje)**
+
+Cancelación de un viaje reservado por el cliente con un transportista.
+
+·         **Invoicing (Facturación)**
+
+Emisión de facturas por los servicios de transporte proporcionados.
+
+·         **Trip alerts (Alertas de viaje)**
+
+Notificaciones sobre detalles o actualizaciones de viaje enviadas a clientes o transportistas.
+
+·         **Shipment tracking (Rastreo de envíos)**
+
+Seguimiento de la ubicación y estado de las mercancías transportadas durante el tránsito.
+
+·         **Service tracking (Seguimiento del servicio)**
+
+Seguimiento del progreso y estado de un servicio de transporte.
+
+·         **Customer service (Servicio de atención al cliente)**
+
+Soporte y asistencia proporcionada a los clientes con respecto a los servicios de transporte.
+
+·         **Availability calendar (Calendario de disponibilidad)**
+
+Calendario que muestra la disponibilidad de los transportistas para proporcionar servicios de transporte.
+
+---
+
+# Capítulo III: Requirements Specification 
+## 3.1. To-Be Scenario Mapping. 
+
+###### _To-Be Scenario Mapping del usuario cliente_
+
+![driver](img/Capitulo_2/Needfinding/7.png)
+###### _To-Be Scenario Mapping del usuario transportista_
+
+![driver](img/Capitulo_2/Needfinding/8.jpg)
+
+## 3.2. User Stories. 
+
+##### _Desarrollo de los User Stories_
+![driver](img/Capitulo_3/User_Stories/1.png)
+![driver](img/Capitulo_3/User_Stories/2.png)
+![driver](img/Capitulo_3/User_Stories/3.png)
+![driver](img/Capitulo_3/User_Stories/4.png)
+![driver](img/Capitulo_3/User_Stories/5.png)
+![driver](img/Capitulo_3/User_Stories/6.png)
+![driver](img/Capitulo_3/User_Stories/7.png)
+![driver](img/Capitulo_3/User_Stories/8.png)
+![driver](img/Capitulo_3/User_Stories/9.png)
+![driver](img/Capitulo_3/User_Stories/10.png)
+![driver](img/Capitulo_3/User_Stories/11.png)
+![driver](img/Capitulo_3/User_Stories/12.png)
+![driver](img/Capitulo_3/User_Stories/13.png)
+![driver](img/Capitulo_3/User_Stories/14.png)
+![driver](img/Capitulo_3/User_Stories/15.png)
+![driver](img/Capitulo_3/User_Stories/16.png)
+![driver](img/Capitulo_3/User_Stories/17.png)
+![driver](img/Capitulo_3/User_Stories/18.png)
+![driver](img/Capitulo_3/User_Stories/19.png)
+![driver](img/Capitulo_3/User_Stories/20.png)
+![driver](img/Capitulo_3/User_Stories/21.png)
+![driver](img/Capitulo_3/User_Stories/22.png)
+![driver](img/Capitulo_3/User_Stories/23.png)
+![driver](img/Capitulo_3/User_Stories/24.png)
+
+
+
+### EPICS
+Las Epics que identificamos son las siguientes:
+
+###### _Desarrollo de las Epics_
+
+| Código | Título                            | Epic                                                                                                     |
+| ------ | --------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| EP01   | Registro de información           | Como usuario deseo registrarme dentro de la aplicación para comenzar a usarla.                           |
+| EP02   | Registro de información adicional | Como usuario deseo poder almacenar información adicional para recibir/brindar un servicio personalizado. |
+| EP03   | Búsqueda de servicios disponibles | Como cliente deseo tener un resultado de búsqueda preciso de los servicios y vehículos disponibles.      |
+| EP04   | Contrato del servicio             | Como usuario quiero rellenar la información necesaria para solicitar un servicio.                        |
+| EP05   | Seguimiento del servicio          | Como cliente quiero conocer la ubicación del transporte.                                                 |
+| EP06   | Informes sobre el servicio        | Como cliente deseo hacer un reporte del servicio dentro de la aplicación.                                |
+| EP07   | Forma de pago                     | Como usuario quiero tener una forma de pago dentro de la aplicación.                                     |
+| EP08   | Notificación de contratos         | Como usuario quiero notificaciones que me den información de los contratos.                              |
+| EP09   | Visualización de perfiles         | Como usuario quiero ver la información que hay en el perfil de un cliente o transportista.               |
+| EP10   | Información de contratos          | Como usuario quiero tener la información de mis contratos.                                               |
+
+## 3.3. Impact Mapping. 
+
+Link para una visualización más detallada: [https://drive.google.com/file/d/1Z_48YO0enDocx_Bz8IzVSlgUXCc-bnF5/view?usp=sharing](https://drive.google.com/file/d/1Z_48YO0enDocx_Bz8IzVSlgUXCc-bnF5/view?usp=sharing)
+
+###### _Impact Mapping de los usuarios cliente y transportista_
+
+![driver](img/Capitulo_2/Needfinding/9.jpg)
+## 3.4. Product Backlog.
+
+##### _Desarrollo del Product Backlog_
+
+| **User Story ID** | **Título**                                  | **Descripción**                                                                                                                                                                             | **Story Points (8/5/3/2/1)** |
+| ----------------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------: |
+| **HU-011**        | Realizar el seguimiento por GPS             | Como cliente <br><br>Quiero seguir el transcurso del transportista     <br><br>Para sentirme seguro con el servicio                                                                         |            **8**             |
+| **HU-007**        | Visualizar la información del transportista | Como cliente <br><br>Quiero observar el perfil del transportista<br><br>Para contratarlo                                                                                                    |            **5**             |
+| **HU-008**        | Contratar el servicio                       | Como cliente <br><br>Quiero contratar el servicio<br><br>Para acceder a los servicios del transportista                                                                                     |            **5**             |
+| **HU-009**        | Realizar el pago                            | Como cliente <br><br>Quiero realizar el pago del servicio<br><br>Para no tener deudas pendientes                                                                                            |            **5**             |
+| **HU-017**        | Notificar del trabajo                       | Como transportista                      <br><br>Quiero que me notifiquen cuando un cliente requiere de mis servicios <br><br>Para no perderme de algún contrato                             |            **5**             |
+| **HU-018**        | Informar del contrato propuesto             | Como transportista<br><br>Quiero leer la información del servicio propuesto   <br><br>Para decidir si aceptar el trabajo                                                                    |            **5**             |
+| **HU-006**        | Buscar un vehículo                          | Como cliente <br><br>Quiero buscar el tipo de vehículo adecuado<br><br>Para así contratarlo                                                                                                 |            **5**             |
+| **HU-022**        | Comentar el servicio brindado               | Como cliente<br><br>Quiero dejar un comentario acerca de mi experiencia con el conductor luego de terminar el servicio<br><br>Para ayudar a los demás usuarios en su elección de conductor. |            **5**             |
+| **HU-001**        | Registrar al transportista                  | Como transportista<br><br>Quiero registrarme dentro de la aplicación<br><br>Para navegar dentro de ella                                                                                     |            **3**             |
+| **HU-002**        | Registrar al cliente                        | Como cliente<br><br>Quiero registrarme dentro de la aplicación<br><br>Para navegar dentro de ella                                                                                           |            **3**             |
+| **HU-023**        | Iniciar sesión como cliente                 | Como cliente<br><br>Quiero iniciar sesión en la aplicación<br><br>Para acceder a los servicios de transporte y gestionar mi perfil de usuario de manera segura y conveniente.               |            **3**             |
+| **HU-024**        | Iniciar sesión como transportista           | Como cliente<br><br>Quiero iniciar sesión en la aplicación<br><br>Para acceder a los servicios de transporte y gestionar mi perfil de usuario de manera segura y conveniente.               |            **3**             |
+| **HU-020**        | Ver la información del usuario              | Como usuario  <br><br>Quiero visualizar mi perfil y los datos que ingrese en el registro.<br><br>Para corroborar que los datos son correctos                                                |            **3**             |
+| **HU-005**        | Editar mi perfil de usuario                 | Como usuario de la aplicación<br><br>Quiero poder editar los datos de mi perfil<br><br>Para mantener mis datos actualizados                                                                 |            **3**             |
+| **HU-012**        | Ver el historial de contratos               | Como usuario<br><br>Quiero revisar el historial de contratos <br><br>Para tener un registro                                                                                                 |            **3**             |
+| **HU0-013**       | Revisar el servicio                         | Como cliente  <br><br>Quiero decidir revisar el servicio brindado<br><br>Para sentirme más seguro                                                                                           |            **3**             |
+| **HU-016**        | Ver el estado del contrato propuesto        | Como cliente <br><br>Quiero saber el estado de mi oferta de trabajo <br><br>Para saber si fue aceptada o rechazada                                                                          |            **3**             |
+| **HU-019**        | Reportar una incidencia                     | Como cliente <br><br>Quiero reportar alguna incidencia que haya sucedido <br><br>Para mejorar el servicio dentro de la aplicación                                                           |            **3**             |
+| **HU-021**        | Ver el contrato finalizado                  | Como transportista<br><br>Quiero rellenar mi información de pago<br><br>Para recibir el pago correspondiente por el servicio brindado.                                                      |            **3**             |
+| **HU-003**        | Registrar un transporte                     | Como transportista <br><br>Quiero almacenar la información de mi transporte y el servicio que ofrezco <br><br>Para que el cliente tenga una noción del servicio que brindo                  |            **2**             |
+| **HU-004**        | Registrar su experiencia                    | Como transportista<br><br>Quiero registrar mi experiencia de trabajo <br><br>Para generar confianza al cliente                                                                              |            **2**             |
+| **HU-015**        | Guardar los datos de la tarjeta             | Como cliente <br><br>Quiero guardar los datos de mi tarjeta<br><br>Para usarla de manera más rápida en mis siguientes pagos                                                                 |            **2**             |
+| **HU-010**        | Cerrar sesión en la aplicación              | Como usuario transportista<br><br>Quiero salir de la aplicación<br><br>Para iniciar sesión en otra cuenta como cliente                                                                      |            **1**             |
+| **HU-014**        | Acceder a las preguntas frecuentes          | Como usuario<br><br>Quiero acceder a un banco de preguntas frecuentes sobre la aplicación<br><br>Para despejar dudas que tenga sobre algunos procesos                                       |            **1**             |
+
 ---
 
 ### 4.1.2. Attribute-Driven Design Inputs
@@ -383,3 +644,4 @@ A continuación, se presenta una tabla que detalla cada uno de los escenarios id
 |Seguridad|Sistema|Almacena y utiliza los datos de tarjeta de crédito de los clientes de manera segura|Base de datos de tarjetas de crédito|- Sistema Base de datos segura|Los datos de tarjeta de crédito se almacenan de forma segura y se utilizan para procesar los pagos de manera segura|Seguridad en el almacenamiento y uso de datos de tarjeta de crédito (valor booleano: sí/no)|
 |Portabilidad|Cliente|Accede a la aplicación desde cualquier navegador web|Navegadores web|- Cliente accede desde otro navegadores web|La aplicación es accesible desde cualquier navegador web sin problemas|Tiempo necesario para cargar la aplicación desde diferentes navegadores (en segundos)|
 |Mantenibilidad|Desarrollador|Agrega una nueva función en la aplicación|Código fuente de la aplicación|- El desarrollador se encuentra en el entorno de desarrollo|Los cambios se reflejan en la plataforma sin necesidad de un despliegue adicional|Tiempo necesario para reflejar cambios en la plataforma (en horas)|
+
