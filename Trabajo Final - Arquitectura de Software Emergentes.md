@@ -721,6 +721,100 @@ A continuación, se presenta una tabla que detalla cada uno de los escenarios id
 |Portabilidad|Cliente|Accede a la aplicación desde cualquier navegador web|Navegadores web|- Cliente accede desde otro navegadores web|La aplicación es accesible desde cualquier navegador web sin problemas|Tiempo necesario para cargar la aplicación desde diferentes navegadores (en segundos)|
 |Mantenibilidad|Desarrollador|Agrega una nueva función en la aplicación|Código fuente de la aplicación|- El desarrollador se encuentra en el entorno de desarrollo|Los cambios se reflejan en la plataforma sin necesidad de un despliegue adicional|Tiempo necesario para reflejar cambios en la plataforma (en horas)|
 
+
+#### 4\.1.2.3. Constraints
+En la búsqueda por diseñar una arquitectura de software sólida y efectiva que integre los principios de microservicios y Domain-Driven Design (DDD) para nuestra propuesta, es fundamental considerar las restricciones arquitectónicas que guiarán nuestro proceso. Estas restricciones, derivadas de factores técnicos, regulatorios y empresariales, desempeñarán un papel clave en la toma de decisiones, asegurando que nuestra solución aborde de manera efectiva las necesidades y se ajuste a las limitaciones que puedan afectar su implementación.
+
+**Tabla 12**
+
+*Desarrollo de los Constraints*
+
+|Technical Story ID|Título|Descripción|Criterios de Aceptación|Relacionado con (Epic ID)|
+| :- | :- | :- | :- | :- |
+|CON-01|Principios de Domain-Driven Design (DDD)|La arquitectura de la aplicación debe seguir los principios de Domain-Driven Design (DDD) para modelar el dominio de manera efectiva.|<p>Escenario: Cuando se realizan cambios en el modelo de dominio.</p><p>- **Dado que** la aplicación sigue los principios de Domain-Driven Design,</p><p>- **Cuando** los equipos de desarrollo actualizan el modelo de dominio,</p><p>- **Entonces** los cambios se reflejan de manera precisa en la arquitectura de la aplicación.</p><p></p>|EP01|
+|CON-02|Escalabilidad Horizontal Eficiente|La escalabilidad horizontal debe ser una consideración clave en la arquitectura, permitiendo la expansión de recursos de manera eficiente.|<p>Escenario: Durante periodos de alta demanda de usuarios.</p><p>- **Dado que** la aplicación debe escalar horizontalmente de manera eficiente,</p><p>- **Cuando** el número de usuarios concurrentes aumenta significativamente,</p><p>- **Entonces** la aplicación es capaz de distribuir la carga de manera eficiente y mantener un rendimiento óptimo.</p><p></p>|EP03|
+|CON-03|Redundancia y Recuperación ante Desastres|La aplicación debe ser diseñada con redundancia y recuperación ante desastres para garantizar la disponibilidad continua del servicio.|<p>Escenario: En caso de fallo de un servidor principal.</p><p>- **Dado que** la aplicación se ha diseñado con redundancia y recuperación ante desastres,</p><p>- **Cuando** un servidor principal falla,</p><p>- **Entonces** la aplicación se conmuta automáticamente al servidor secundario sin pérdida de datos o interrupción del servicio.</p><p></p>|EP04|
+|CON-04|Uso de Servicios en la Nube y Contenedores|Se debe utilizar un proveedor de servicios en la nube y aprovechar servicios de contenedores como Kubernetes.|<p>Escenario: Durante el despliegue y escalado de la aplicación.</p><p>- **Dado que** se utilizan servicios en la nube y contenedores para desplegar la aplicación,</p><p>- **Cuando** se despliegan nuevas instancias de la aplicación o se escalan los recursos,</p><p>- **Entonces** la orquestación de contenedores asegura una distribución eficiente de la carga y una respuesta rápida a la demanda.</p><p></p>|EP02|
+|CON-05|Adaptabilidad y Agilidad en las Mejoras|La plataforma debe ser altamente adaptable para incorporar nuevas características y mejoras de manera ágil y eficiente.|<p>Escenario: Al introducir una nueva funcionalidad.</p><p>- **Dado que** se prioriza la adaptabilidad y agilidad en el desarrollo,</p><p>- **Cuando** se introduce una nueva funcionalidad o se realiza una mejora,</p><p>- **Entonces** los usuarios pueden acceder a la nueva funcionalidad sin interrupciones en el servicio y sin necesidad de una actualización manual.</p><p></p>|EP06|
+|CON-06|Independencia y Desacoplamiento de Microservicios|Los microservicios deben ser independientes y desacoplados, lo que permite a los equipos de desarrollo trabajar de manera autónoma en cada uno.|<p>Escenario: Cuando se actualiza un microservicio específico.</p><p>- **Dado que** los microservicios están diseñados para ser independientes y desacoplados,</p><p>- **Cuando** se actualiza un microservicio específico,</p><p>- **Entonces** los cambios en ese microservicio no afectan el funcionamiento de otros microservicios y la aplicación continúa funcionando sin problemas.</p><p></p>|EP09|
+|CON-07|Gestión de Versiones y Control de Cambios|Debe implementarse un sistema de gestión de versiones y control de cambios para mantener la integridad del código y la colaboración efectiva.|<p>Escenario: Durante la implementación de una nueva funcionalidad.</p><p>- **Dado que** se implementa un sistema de gestión de versiones y control de cambios,</p><p>- **Cuando** se implementa una nueva funcionalidad o se realiza un cambio en el código,</p><p>- **Entonces** todos los cambios están registrados y documentados adecuadamente en el sistema de control de versiones.</p><p></p>|EP08|
+|CON-08|Documentación Integral de Microservicios|Los microservicios deben estar documentados de manera correcta para facilitar su comprensión y uso por parte de otros desarrolladores.|<p>Escenario: Al integrar un nuevo microservicio.</p><p>- **Dado que** cada microservicio está completamente documentado,</p><p>- **Cuando** un desarrollador necesita integrar un nuevo microservicio en la aplicación,</p><p>- **Entonces** la documentación proporciona información clara y detallada sobre su funcionamiento y cómo se integra con el resto del sistema.</p><p></p>|EP10|
+|CON-09|Modularidad y Flexibilidad Arquitectónica|La arquitectura debe ser altamente modular, lo que permite la sustitución o actualización de componentes individuales sin afectar a todo el sistema.|<p>Escenario: Al actualizar un componente del sistema.</p><p>- **Dado que** la arquitectura se basa en principios de modularidad y flexibilidad,</p><p>- **Cuando** se actualiza o reemplaza un componente del sistema,</p><p>- **Entonces** la implementación de los cambios se realiza de forma aislada y no afecta negativamente a otros componentes del sistema.</p><p></p>|EP05|
+|CON-10|Seguridad de Datos y Privacidad del Usuario|La seguridad de datos y la privacidad del usuario deben ser prioritarias, cumpliendo con las regulaciones de protección de datos aplicables.|<p>Escenario: Al acceder a datos sensibles.</p><p>- **Dado que** la seguridad de datos y la privacidad del usuario son prioritarias,</p><p>- **Cuando** un usuario accede a datos sensibles o realiza una transacción,</p><p>- **Entonces** la información se almacena y se transmite de forma segura, protegiendo la privacidad del usuario y cumpliendo con las regulaciones de privacidad aplicables.</p><p></p>|EP07|
+|CON-11|Estrategia de Respaldo y Recuperación de Datos|Se debe implementar una estrategia de respaldo y recuperación de datos para garantizar la integridad y disponibilidad de la información crítica.|<p>Escenario: Durante una restauración de datos de emergencia.</p><p>- **Dado que** se implementa una estrategia de respaldo y recuperación de datos,</p><p>- **Cuando** se produce una pérdida de datos o una interrupción del servicio,</p><p>- **Entonces** los datos críticos se pueden restaurar rápidamente y el servicio se restablece sin pérdida de funcionalidad.</p><p></p>|EP01|
+|CON-12|Fechas de Entrega Inamovibles|Las fechas de entrega de los hitos del proyecto son inamovibles y no pueden ser pospuestas.|<p>Escenario: Durante el cumplimiento de un hito del proyecto.</p><p>- **Dado que** las fechas de entrega son inamovibles,</p><p>- **Cuando** se planifica y ejecuta el desarrollo del proyecto,</p><p>- **Entonces** los hitos del proyecto se entregan dentro del plazo establecido sin retrasos significativos.</p><p></p>|EP03|
+
+<a name="_toc163118301"></a>
+### 4\.1.3. Architectural Drivers Backlog
+Como equipo nos embarcamos en un proceso colaborativo para desarrollar una solución innovadora que abordara las complejidades del sector del transporte. Reconociendo las dificultades que enfrentan tanto los usuarios cotidianos como los transportistas independientes. Este proceso implicó una serie de pasos, desde la identificación de oportunidades de negocio hasta la definición de los requisitos arquitectónicos clave, que se documentaron en el Arquitectural Driver Backlog (ADB) para guiar el desarrollo futuro de la solución.
+
+**Tabla 13**
+
+*Desarrollo de los Architectural Drivers Backlog*
+
+|Driver ID|Título de Driver|Descripción|Importancia para Stakeholders (High, Medium, Low)|Impacto en Architecture Technical Complexity (High, Medium, Low)|
+| :- | :- | :- | :- | :- |
+|D01|Escalabilidad para el crecimiento futuro|Permitir que la plataforma FastPorte maneje un aumento significativo en el volumen de usuarios y transacciones a medida que crece el negocio.|High|High|
+|D02|Seguridad de datos y privacidad|Garantizar la protección adecuada de la información confidencial de los usuarios y la integridad de los datos.|High|High|
+|D03|Interfaz de usuario intuitiva y amigable|Diseñar una interfaz que sea fácil de usar y que brinde una experiencia positiva para los clientes y transportistas.|High|Medium|
+|D04|Integración con servicios de pago|Facilitar el proceso de pago para los usuarios al integrar métodos de pago seguros y confiables en la plataforma.|High|Medium|
+|D05|Notificaciones en tiempo real|Proporcionar a los usuarios actualizaciones instantáneas sobre el estado de sus viajes y transacciones.|Medium|High|
+|D06|Adaptabilidad a múltiples dispositivos y plataformas|Garantizar que la plataforma sea accesible y funcione de manera óptima en una variedad de dispositivos y sistemas operativos.|Medium|High|
+|D07|Gestión eficiente de la carga de trabajo|Implementar herramientas y sistemas para administrar eficazmente la carga de trabajo de los transportistas y optimizar su tiempo y recursos.|Medium|High|
+|D08|Mantenibilidad y escalabilidad del código|Desarrollar un código limpio y modular que sea fácil de mantener y ampliar a medida que evoluciona la plataforma.|Medium|High|
+|D09|Análisis y generación de informes de datos|Implementar herramientas para recopilar y analizar datos operativos y de rendimiento, y generar informes significativos para informar la toma de decisiones.|Low|High|
+
+### <a name="_toc163118302"></a>4.1.4. Architectural Design Decisions
+Para crear decisiones de diseño arquitectónico basados en los drivers arquitectónicos, utilizaremos la siguiente matriz:
+
+|Driver ID|Título de Driver|Pattern 1|Pattern 2|Pattern 3|
+| :- | :- | :- | :- | :- |
+|D01|Escalabilidad para el crecimiento futuro|Microservicios|Autoescalado|Colas de mensajes|
+|D02|Seguridad de datos y privacidad|Gateway de API segura|Encriptación de datos en reposo y en tránsito|Autenticación y autorización basada en roles|
+|D03|Interfaz de usuario intuitiva y amigable|Diseño responsive|Arquitectura micro fronted|Patrones de diseño de UI/UX|
+|D04|Integración con servicios de pago|Pasarela de pago de terceros|API de pagos unificada|Servicios web seguros|
+|D05|Notificaciones en tiempo real|Event Sourcing|WebSockets|Sistema de colas de mensajes|
+|D06|Adaptabilidad a múltiples dispositivos y plataformas|Diseño responsive|PWA (Progressive Web Apps)|Cross-Platform Development Frameworks|
+|D07|Gestión eficiente de la carga de trabajo|Orquestación de contenedores|Colas de trabajo|Escalado automático|
+|D08|Mantenibilidad y escalabilidad del código|Código limpio y principios SOLID|Arquitectura basada en componentes|Integración y entrega continua (CI/CD)|
+|D09|Análisis y generación de informes de datos|Almacenes de datos|Procesamiento de eventos en tiempo real|Herramientas BI (Business Intelligence)|
+
+### <a name="_toc163118303"></a>4.1.5. Quality Attribute Scenario Refinements
+
+<table><tr><th colspan="3" valign="top"><b>Scenario Refinement for Scenario 1</b></th></tr>
+<tr><td colspan="2" valign="top">Scenario(s):</td><td colspan="1" valign="top">Escalabilidad para el crecimiento Futuro</td></tr>
+<tr><td colspan="2" valign="top">Business Goals</td><td colspan="1" valign="top">Asegurar la expansión sostenible y la competitividad en el mercado</td></tr>
+<tr><td colspan="2" valign="top">Relevant Quality Attributes</td><td colspan="1" valign="top">Tiempo de respuesta para la implementación de capacidad adicional no superior a 3 min después de detectar aumentos en la demanda</td></tr>
+<tr><td colspan="1" rowspan="6" valign="top">Scenario Components</td><td colspan="1" valign="top">Stimulus</td><td colspan="1" valign="top">La plataforma FastPorte experimenta un aumento del 300% en el volumen de usuarios y transacciones en un periodo de 4 semanas</td></tr>
+<tr><td colspan="1" valign="top">Stimulus Source</td><td colspan="1" valign="top">Incremento significativo en el número de usuarios activos y transacciones simultáneas</td></tr>
+<tr><td colspan="1" valign="top">Environment</td><td colspan="1" valign="top">En operación normal bajo condiciones de carga de trabajo aumentadas</td></tr>
+<tr><td colspan="1" valign="top">Artifact (if known)</td><td colspan="1" valign="top">Los servidores ejecutan la lógica de negocio y manejan las solicitudes de los usuarios. Componentes como balanceadores de carga.</td></tr>
+<tr><td colspan="1" valign="top">Response</td><td colspan="1" valign="top">El sistema debe escalar de manera automática para manejar el aumento de carga, manteniendo los tiempos de respuesta dentro de los parámetros aceptables y sin degradar la experiencia del usuario ni la integridad de los datos.</td></tr>
+<tr><td colspan="1" valign="top">Response Measure</td><td colspan="1" valign="top">El tiempo de respuesta para transacciones críticas no debe exceder los 2 segundos, y el sistema debe ser capaz de aumentar su capacidad (ya sea mediante escalado horizontal o vertical) dentro de los 3 minutos siguientes a la detección del incremento en la carga de trabajo.</td></tr>
+<tr><td colspan="2" valign="top">Questions</td><td colspan="1" valign="top">¿Existen proyecciones o estimaciones del crecimiento esperado en el volumen de usuarios y transacciones a lo largo del tiempo?</td></tr>
+<tr><td colspan="2" valign="top">Issues</td><td colspan="1" valign="top">A medida que un sistema se escala, su complejidad operativa puede aumentar significativamente. ¿Cómo se planea manejar esta complejidad adicional?</td></tr>
+</table>
+
+
+<table><tr><th colspan="3" valign="top">Scenario Refinement for Scenario 2</th></tr>
+<tr><td colspan="2" valign="top">Scenario(s):</td><td colspan="1" valign="top">Mantenibilidad y escalabilidad del código</td></tr>
+<tr><td colspan="2" valign="top">Business Goals</td><td colspan="1" valign="top">Acelerar el tiempo de lanzamiento al mercado de nuevas funcionalidades, manteniendo o mejorando la calidad del software.</td></tr>
+<tr><td colspan="2" valign="top">Relevant Quality Attributes</td><td colspan="1" valign="top">Mantenibilidad y Escalabilidad</td></tr>
+<tr><td colspan="1" rowspan="6" valign="top">Scenario Components</td><td colspan="1" valign="top">Stimulus</td><td colspan="1" valign="top">La necesidad de modificar, extender, o escalar componentes del sistema para introducir nuevas funcionalidades, mejorar el rendimiento, o adaptarse a cambios en el entorno tecnológico o del negocio.</td></tr>
+<tr><td colspan="1" valign="top">Stimulus Source</td><td colspan="1" valign="top">Equipo de desarrollo, cambios en requisitos del negocio, actualizaciones tecnológicas.</td></tr>
+<tr><td colspan="1" valign="top">Environment</td><td colspan="1" valign="top">Desarrollo y mantenimiento post-lanzamiento.</td></tr>
+<tr><td colspan="1" valign="top">Artifact (if known)</td><td colspan="1" valign="top">Código fuente, documentación del sistema, tests automatizados.</td></tr>
+<tr><td colspan="1" valign="top">Response</td><td colspan="1" valign="top">El sistema facilita las modificaciones, extensiones y escalado con un mínimo impacto en los componentes existentes y sin degradar la calidad general o el rendimiento.</td></tr>
+<tr><td colspan="1" valign="top">Response Measure</td><td colspan="1" valign="top">El tiempo requerido para implementar una nueva funcionalidad o modificar una existente no debe aumentar de manera significativa a medida que el sistema crece.</td></tr>
+<tr><td colspan="2" valign="top">Questions</td><td colspan="1" valign="top">¿Cómo se estructurará el código para facilitar su comprensión y modificación?</td></tr>
+<tr><td colspan="2" valign="top">Issues</td><td colspan="1" valign="top">Asegurar que el sistema escale de manera efectiva sin comprometer el rendimiento bajo cargas de trabajo elevadas.</td></tr>
+</table>
+
+
+|www.FastPorte.com|
+| :-: |
+
+
 ## 4.2. Strategic-Level Domain-Driven Design.
 
 ### 4.2.1. EventStorming
