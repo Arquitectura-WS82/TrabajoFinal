@@ -63,7 +63,7 @@ Abril, 2024
   - [3.2. User Stories](#32-user-stories)
   - [3.3. Impact Mapping](#33-impact-mapping)
   - [3.4. Product Backlog](#34-product-backlog)
-- [Capítulo IV: Strategic-Level Software Design](#667-capitulo-iv-strategic-level-software-design)
+- [Capítulo IV: Strategic-Level Software Design](#capitulo-iv-strategic-level-software-design)
   - [4.2. Strategic-Level Domain-Driven Design](#42-strategic-level-domain-driven-design)
 	- [4.2.1. EventStorming](#421-eventstorming)
 	- [4.2.2. Candidate Context Discovery](#422-candidate-context-discovery)
@@ -664,9 +664,9 @@ Link para una visualización más detallada: [https://drive.google.com/file/d/1Z
 
 ---
 
-# <a name="_toc163118297"></a>**CAPÍTULO IV: STRATEGIC-LEVEL SOFTWARE DESIGN**
-## <a name="_toc163118298"></a>4.1. Strategic-Level Attribute-Driven Design
-### <a name="_toc163118299"></a>4.1. Design Purpose
+# Capítulo IV: Strategic-Level Software Design
+## 4.1. Strategic-Level Attribute-Driven Design
+### 4.1. Design Purpose
 El propósito fundamental del proceso de diseño de FastPorte es crear una aplicación web que facilite de manera eficiente la conexión entre transportistas y clientes que requieren servicios de transporte diversificados. Nuestra meta principal es crear una plataforma de vanguardia que proporcione una solución integral y eficiente para las necesidades de transporte de nuestros clientes y al mismo tiempo ofrezca oportunidades de crecimiento y desarrollo para los transportistas colaboradores. Nuestros objetivos se centran en la eficiencia, la seguridad, la escalabilidad y la experiencia del usuario, con una visión hacia la sostenibilidad en la industria del transporte.
 
 **OBJETIVOS CLAVE:**
