@@ -264,11 +264,11 @@ Dentro de nuestro segmento objetivo, hemos identificado dos grupos de usuarios d
 
 ###### _User Persona Manuel Segura, usuario Cliente_
 
-![[1.png]]
+![Cliente](img/Capitulo_2/Needfinding/1.png)
 
-###### _User Persona Manuel Segura, usuario Cliente_
+###### _User Persona Manuel Segura, usuario Transportista_
 
-![[2.png]]
+![driver](img/Capitulo_2/Needfinding/2.png)
 ### 2.3.2 User Task Matrix
 ###### _User Task Matrix del usuario cliente_
 
@@ -298,19 +298,19 @@ Dentro de nuestro segmento objetivo, hemos identificado dos grupos de usuarios d
 
 ###### _Empathy Mapping del usuario cliente_
 
-![[3.png]]
+![driver](img/Capitulo_2/Needfinding/3.png)
 
 ###### _Empathy Mapping del usuario transportista_
 
-![[4.png]]
+![driver](img/Capitulo_2/Needfinding/4.png)
 ### 2.3.4. As-is Scenario Mapping. 
 
 ###### _As-is Scenario Mapping del usuario cliente_
 
-![[5.png]]
+![driver](img/Capitulo_2/Needfinding/5.png)
 ###### _As-is Scenario Mapping del usuario transportista_
 
-![[6.png]]
+![driver](img/Capitulo_2/Needfinding/6.png)
 ## 2.4. Ubiquitous Language.
 
 ·         **Carrier (Transportista)**
@@ -428,38 +428,40 @@ Calendario que muestra la disponibilidad de los transportistas para proporcionar
 
 ###### _To-Be Scenario Mapping del usuario cliente_
 
-![[7.png]]
+![driver](img/Capitulo_2/Needfinding/7.png)
 ###### _To-Be Scenario Mapping del usuario transportista_
 
-![[8.jpg]]
+![driver](img/Capitulo_2/Needfinding/8.jpg)
+
 ## 3.2. User Stories. 
 
 ##### _Desarrollo de los User Stories_
+![driver](img/Capitulo_3/User_Stories/1.png)
+![driver](img/Capitulo_3/User_Stories/2.png)
+![driver](img/Capitulo_3/User_Stories/3.png)
+![driver](img/Capitulo_3/User_Stories/4.png)
+![driver](img/Capitulo_3/User_Stories/5.png)
+![driver](img/Capitulo_3/User_Stories/6.png)
+![driver](img/Capitulo_3/User_Stories/7.png)
+![driver](img/Capitulo_3/User_Stories/8.png)
+![driver](img/Capitulo_3/User_Stories/9.png)
+![driver](img/Capitulo_3/User_Stories/10.png)
+![driver](img/Capitulo_3/User_Stories/11.png)
+![driver](img/Capitulo_3/User_Stories/12.png)
+![driver](img/Capitulo_3/User_Stories/13.png)
+![driver](img/Capitulo_3/User_Stories/14.png)
+![driver](img/Capitulo_3/User_Stories/15.png)
+![driver](img/Capitulo_3/User_Stories/16.png)
+![driver](img/Capitulo_3/User_Stories/17.png)
+![driver](img/Capitulo_3/User_Stories/18.png)
+![driver](img/Capitulo_3/User_Stories/19.png)
+![driver](img/Capitulo_3/User_Stories/20.png)
+![driver](img/Capitulo_3/User_Stories/21.png)
+![driver](img/Capitulo_3/User_Stories/22.png)
+![driver](img/Capitulo_3/User_Stories/23.png)
+![driver](img/Capitulo_3/User_Stories/24.png)
 
-![[img/Capitulo 2/User Stories/1.png]]
-![[img/Capitulo 2/User Stories/2.png]]
-![[img/Capitulo 2/User Stories/3.png]]
-![[img/Capitulo 2/User Stories/4.png]]
-![[img/Capitulo 2/User Stories/5.png]]
-![[img/Capitulo 2/User Stories/6.png]]
-![[img/Capitulo 2/User Stories/7.png]]
-![[8.png]]
-![[9.png]]
-![[10.png]]
-![[11.png]]
-![[12.png]]
-![[13.png]]
-![[14.png]]
-![[15.png]]
-![[16.png]]
-![[17.png]]
-![[18.png]]
-![[19.png]]
-![[20.png]]
-![[21.png]]
-![[22.png]]
-![[23.png]]
-![[24.png]]
+
 
 ### EPICS
 Las Epics que identificamos son las siguientes:
@@ -485,7 +487,7 @@ Link para una visualización más detallada: [https://drive.google.com/file/d/1Z
 
 ###### _Impact Mapping de los usuarios cliente y transportista_
 
-![[9.jpg]]
+![driver](img/Capitulo_2/Needfinding/9.jpg)
 ## 3.4. Product Backlog.
 
 ##### _Desarrollo del Product Backlog_
