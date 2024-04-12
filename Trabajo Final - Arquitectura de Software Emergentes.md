@@ -10,13 +10,15 @@ Profesor: Royer Edelwer Rojas Malasquez
 
 **INFORME DE TRABAJO FINAL**
 
-FastPorte
+**FastPorte**
 
-Botello Saldarriaga, Anthony Jean Pierre U20201B846
-Cierto Espiritu, Abel Angel U20201B561
-Lévano Cavero, Eduardo Sebastián U20201C172
-Sabino Ramírez, Rodrigo Alexander U20201B801
-Villegas Peralta, Branco Alberto U20201C082
+Integrantes:
+
+* Botello Saldarriaga, Anthony Jean Pierre - U20201B846
+* Cierto Espiritu, Abel Angel - U20201B561
+* Lévano Cavero, Eduardo Sebastián - U20201C172
+* Sabino Ramírez, Rodrigo Alexander - U20201B801
+* Villegas Peralta, Branco Alberto - U20201C082
 
 Abril, 2024
 
@@ -29,6 +31,41 @@ Abril, 2024
 | 1.0     | 12/04/24 | Sebastián Lévano | Creación del proyecto con Markdown Introducción del proyecto Cap I, II, III y IV |
 
 # Contenido
+- [Student Outcome](#student-outcome)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y Problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+        - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+        - [1.2.2.2.	Lean UX Assumptions](#1222-lean-ux-assumptions)
+        - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+        - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos Objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#211-competidores)
+    - [2.1.1. Análisis Competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. Empathy Mapping](#233-empathy-mapping)
+    - [2.3.4. As-is Scenario Mapping](#234-as-is-scenario-mapping)
+  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+  - [3.2. User Stories](#32-user-stories)
+  - [3.3. Impact Mapping](#33-impact-mapping)
+  - [3.4. Product Backlog](#34-product-backlog)
+
+
+
 
 # Student Outcome
 
@@ -387,19 +424,19 @@ Dentro de nuestro segmento objetivo, hemos identificado dos grupos de usuarios d
 |          Atender las solicitudes del cliente           |  Siempre   |    Alta     |
 ### 2.3.3 Empathy Mapping
 
-###### _Empathy Mapping del usuario cliente_
+###### *Empathy Mapping del usuario cliente*
 
 ![driver](img/Capitulo_2/Needfinding/3.png)
 
-###### _Empathy Mapping del usuario transportista_
+###### *Empathy Mapping del usuario transportista*
 
 ![driver](img/Capitulo_2/Needfinding/4.png)
 ### 2.3.4. As-is Scenario Mapping. 
 
-###### _As-is Scenario Mapping del usuario cliente_
+###### *As-is Scenario Mapping del usuario cliente*
 
 ![driver](img/Capitulo_2/Needfinding/5.png)
-###### _As-is Scenario Mapping del usuario transportista_
+###### *As-is Scenario Mapping del usuario transportista*
 
 ![driver](img/Capitulo_2/Needfinding/6.png)
 ## 2.4. Ubiquitous Language.
