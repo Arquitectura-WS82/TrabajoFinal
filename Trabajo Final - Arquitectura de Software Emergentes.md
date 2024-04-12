@@ -30,6 +30,8 @@ Abril, 2024
 | ------- | -------- | ---------------- | -------------------------------------------------------------------------------- |
 | 1.0     | 12/04/24 | Sebastián Lévano | Creación del proyecto con Markdown Introducción del proyecto Cap I, II, III y IV |
 
+---
+
 # Contenido
 - [Student Outcome](#student-outcome)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
@@ -39,8 +41,8 @@ Abril, 2024
   - [1.2. Solution Profile](#12-solution-profile)
     - [1.2.1. Antecedentes y Problemática](#121-antecedentes-y-problemática)
     - [1.2.2. Lean UX Process](#122-lean-ux-process)
-        - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-        - [1.2.2.2.	Lean UX Assumptions](#1222-lean-ux-assumptions)
+        - [1.2.2.1.  Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+        - [1.2.2.2 Lean UX Assumptions](#1222-lean-ux-assumptions)
         - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
         - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos Objetivo](#13-segmentos-objetivo)
@@ -65,14 +67,14 @@ Abril, 2024
   - [3.4. Product Backlog](#34-product-backlog)
 - [Capítulo IV: Strategic-Level Software Design](#capítulo-iv-strategic-level-software-design)
   - [4.1. Strategic-Level Attribute-Driven Design](#41-strategic-level-attribute-driven-design)
-  	- [4.1.1.Design Purpose](#411-design-purpose)
-  	- [4.1.2. Attribute-Drive Design Inputs](#412-attribute-drive-design-inputs)
-  		- [4.1.2.1. Primary Functionality (Primary User Stories)](#4121-primary-functionality(primary-user-stories))
-      		- [4.1.2.2. Quality attribute Scenarios](#4122-quality-attribute-scenarios)
-          	- [4.1.2.3. Constraints](#4123-constraints)
-   	- [4.1.3. Architectural Drivers Backlog](#413-architectural-drivers-backlog)
-    	- [4.1.4. Architectural Design Decisions](#414-architectural-design-decisions)
-     	- [4.1.5. Quality Attribute Scenario Refinements](#415-Quality-Attribute-Scenario-Refinements)
+	  - [4.1.1.Design Purpose](#411-design-purpose)
+	  - [4.1.2. Attribute-Drive Design Inputs](#412-attribute-drive-design-inputs)
+		  - [4.1.2.1. Primary Functionality (Primary User Stories)](#4121-primary-functionality(primary-user-stories))
+		  - [4.1.2.2. Quality attribute Scenarios](#4122-quality-attribute-scenarios)
+		  - [4.1.2.3. Constraints](#4123-constraints)
+	  - [4.1.3. Architectural Drivers Backlog](#413-architectural-drivers-backlog)
+	  - [4.1.4. Architectural Design Decisions](#414-architectural-design-decisions)
+	  - [4.1.5. Quality Attribute Scenario Refinements](#415-Quality-Attribute-Scenario-Refinements)
   - [4.2. Strategic-Level Domain-Driven Design](#42-strategic-level-domain-driven-design)
 	- [4.2.1. EventStorming](#421-eventstorming)
 	- [4.2.2. Candidate Context Discovery](#422-candidate-context-discovery)
@@ -87,18 +89,14 @@ Abril, 2024
 - [Conclusiones](#conclusiones)
 - [Recomendaciones](#recomendaciones)
 
-
-
-
-
-
+--- 
 
 # Student Outcome
 
-| Criterio específico                                                                                                                                                                    | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Conclusiones |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
-| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.     | **Eduardo Sebastián Lévano Cavero**<br>*TB1* <br>- Durante el video de exposición se transmitió de manera adecuada la problemática hallada en el sector de transporte de mercadería y como se solucionaría por medio de la implementación de una página web para comunicar a transportistas con personas que requieran de sus servicios. Asimismo, se detallo como esta diseñada la propuesta y su sustentación.<br><br> **Anthony Botello** <br>*TB1* <br>- En el vídeo de exposición se indicaron a los competidores, así como también se explicó la matriz DAFO de nuestra organización. Finalmente, se expusieron resultados acerca de las entrevistas realizadas.<br><br>**Rodrigo Alexander Sabino Ramirez** <br>*TB1* <br>- Durante mi exposición, comuniqué de manera clara y objetiva los resultados de mi proyecto en ingeniería, destacando la fase de Needfinding. Presenté User Personas y una matriz de tareas de usuario, usando herramientas como Empathy Mapping y As-is Scenario Mapping. Además, delineé el escenario futuro de la plataforma propuesta, detallando User Stories, Impact Mapping y un Product Backlog completo.<br><br> **Abel Angel Cierto Espiritu**<br>*TB1* <br>- Durante el desarrollo de este primer avance, comunique de manera eficaz el objetivo del diseño al desarrollar la aplicación web. También, detalle acerca de las funcionalidades primarias  que considero que son importantes y definir los atributos de calidad para una buena aplicación es necesaria. Los constraints nos sirven para tener claro las limitaciones del sistema al momento de desarrollar la aplicación web.<br><br> | TB1          |
-| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.. | **Eduardo Sebastián Lévano Cavero**<br>*TB1* <br>- Se documento con éxito y de manera adecuada la introducción al proyecto, describiendo la problemática con antecedentes, ilustrando las posibles soluciones y como se busca solucionarlo de una manera más eficiente por medio del desarrollo de la presenta investigación.<br><br> **Anthony Botello** <br>*TB1* <br>- Se redactaron y documentó información y análisis de nuestros competidores y de la misma forma se evidenciaron las entrevistas realizadas y el análisis de ellas. Por otro lado, se definieron los Primary User Stories y los Quality Attribute Scenarios.<br><br>**Rodrigo Alexander Sabino Ramirez** <br>*TB1* <br>- En la elaboración de la primera entrega, me centré en comunicar de manera precisa y objetiva aspectos específicos. Utilizando el concepto de Ubiquitous Language, desarrollé un lenguaje común que facilitó la comprensión entre los miembros del equipo y los stakeholders. Además, identifiqué las limitaciones (Constraints) del proyecto y elaboré un Architectural Drivers Backlog para guiar el diseño arquitectónico. <br><br>**Abel Angel Cierto Espiritu** <br>*TB1* <br>- Los resultados de elegir drivers de arquitecturas permite un buen funcionamiento en la escalabilidad y mantenimiento del sistema. Por último los escenarios de los atributos que se requiere refinar permite una mejora continua en la aplicación web.<br><br>                               | TB1          |
+| Criterio específico                                                                                                                                                                    | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Conclusiones                                                                                                                                                                                                                                                                                                                                                         |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.     | **Eduardo Sebastián Lévano Cavero**<br>*TB1* <br>- Durante el video de exposición se transmitió de manera adecuada la problemática hallada en el sector de transporte de mercadería y como se solucionaría por medio de la implementación de una página web para comunicar a transportistas con personas que requieran de sus servicios. Asimismo, se detallo como esta diseñada la propuesta y su sustentación.<br><br>**Anthony Botello** <br>*TB1* <br>- En el vídeo de exposición se indicaron a los competidores, así como también se explicó la matriz DAFO de nuestra organización. Finalmente, se expusieron resultados acerca de las entrevistas realizadas.<br><br>**Rodrigo Alexander Sabino Ramirez** <br>*TB1* <br>- Durante mi exposición, comuniqué de manera clara y objetiva los resultados de mi proyecto en ingeniería, destacando la fase de Needfinding. Presenté User Personas y una matriz de tareas de usuario, usando herramientas como Empathy Mapping y As-is Scenario Mapping. Además, delineé el escenario futuro de la plataforma propuesta, detallando User Stories, Impact Mapping y un Product Backlog completo.<br><br>**Abel Angel Cierto Espiritu**<br>*TB1* <br>- Durante el desarrollo de este primer avance, comunique de manera eficaz el objetivo del diseño al desarrollar la aplicación web. También, detalle acerca de las funcionalidades primarias  que considero que son importantes y definir los atributos de calidad para una buena aplicación es necesaria. Los constraints nos sirven para tener claro las limitaciones del sistema al momento de desarrollar la aplicación web.<br><br>**Branco Alberto Villegas Peralta**<br>*TB1*<br>- Durante el proyecto, me enfoqué en comunicar nuestros avances y resultados de manera clara y objetiva. Presenté nuestras ideas durante el proceso de Event Storming y facilité discusiones sobre el modelado de flujo de mensajes del dominio. Mi objetivo era asegurarme de que todos los miembros del equipo, independientemente de su especialidad o nivel jerárquico, comprendieran el progreso y las decisiones tomadas en el proyecto.<br><br>  | *TB1*<br>En la exposición de la presente entrega se comunico eficientemente las bases del proyecto desarrollado y el proceso que llevo a corroborar que efectivamente es una solución adecuada para la problemática encontrada. Asimismo, se presentaron las herramientas para utilizadas para las primeras fases de implementación del proyecto y su planteamiento. |
+| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.. | **Eduardo Sebastián Lévano Cavero**<br>*TB1* <br>- Se documento con éxito y de manera adecuada la introducción al proyecto, describiendo la problemática con antecedentes, ilustrando las posibles soluciones y como se busca solucionarlo de una manera más eficiente por medio del desarrollo de la presenta investigación.<br><br>**Anthony Botello** <br>*TB1* <br>- Se redactaron y documentó información y análisis de nuestros competidores y de la misma forma se evidenciaron las entrevistas realizadas y el análisis de ellas. Por otro lado, se definieron los Primary User Stories y los Quality Attribute Scenarios.<br><br>**Rodrigo Alexander Sabino Ramirez** <br>*TB1* <br>- En la elaboración de la primera entrega, me centré en comunicar de manera precisa y objetiva aspectos específicos. Utilizando el concepto de Ubiquitous Language, desarrollé un lenguaje común que facilitó la comprensión entre los miembros del equipo y los stakeholders. Además, identifiqué las limitaciones (Constraints) del proyecto y elaboré un Architectural Drivers Backlog para guiar el diseño arquitectónico. <br><br>**Abel Angel Cierto Espiritu** <br>*TB1* <br>- Los resultados de elegir drivers de arquitecturas permite un buen funcionamiento en la escalabilidad y mantenimiento del sistema. Por último los escenarios de los atributos que se requiere refinar permite una mejora continua en la aplicación web.<br><br>**Branco Alberto Villegas Peralta**<br>*TB1*<br>- Durante el proyecto, utilicé herramientas como EventStorming para explorar y descubrir los contextos relevantes. Luego, modelé los flujos de mensajes del dominio para comprender las interacciones entre los diferentes componentes del sistema. Utilicé Bounded Context Canvases para delinear los límites y responsabilidades de cada contexto, y realicé un mapeo de contextos para visualizar las relaciones entre ellos. Finalmente, documenté nuestra arquitectura de software utilizando varios diagramas, incluidos contexto, contenedor y despliegue, para comunicar nuestra visión de manera efectiva a todas las partes interesadas. | *TB1*<br>En el informe se detalló los aspectos más importantes acerca de la base de la solución propuesta y las herramientas que se usaron para validar la misma. Por otro lado, se incluyeron los diagramas adecuados para cada sección con su respectiva descripción para brindar la mayor cantidad de información.                                                |
 
 ---
 
@@ -332,7 +330,6 @@ Dentro de nuestro segmento objetivo, hemos identificado dos grupos de usuarios d
 
 ![Analisis Competitivo - Tabla](img/Cap2/2.1.%20Competidores/Estrategias%20y%20tácticas%20frente%20a%20competidores.png)
 
-
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
 **Preguntas al segmento cliente:**
@@ -465,111 +462,111 @@ Dentro de nuestro segmento objetivo, hemos identificado dos grupos de usuarios d
 ![driver](img/Capitulo_2/Needfinding/6.png)
 ## 2.4. Ubiquitous Language.
 
-·         **Carrier (Transportista)**
+- **Carrier (Transportista)**
 
 Individuo o empresa que proporciona servicios de transporte.
 
-·         **Client (Cliente)** 
+- **Client (Cliente)** 
 
 Individuo o empresa que requiere servicios de transporte.
 
-·         **Service type (Tipo de servicio)**
+- **Service type (Tipo de servicio)**
 
 Clasificación de los servicios de transporte ofrecidos, como carga, mudanza, movilidad, etc.
 
-·         **Carrier profile (Perfil de transportista)**
+- **Carrier profile (Perfil de transportista)**
 
 Información detallada proporcionada por los transportistas al registrarse, incluyendo datos personales, documentación, tipo de vehículo y servicios ofrecidos.
 
-·         **Client profile (Perfil de cliente)** 
+- **Client profile (Perfil de cliente)** 
 
 Información proporcionada por los clientes al registrarse, incluyendo detalles personales e información de viajes anteriores.
 
-·         **Trip form (Formulario de viaje)** 
+- **Trip form (Formulario de viaje)** 
 
 Formulario completado por el cliente con los detalles del viaje, incluyendo origen, destino, fecha, hora, tipo de carga, etc.
 
-·         **Payment (Pago del servicio)**
+- **Payment (Pago del servicio)**
 
 Proceso mediante el cual el cliente realiza el pago por el servicio de transporte a través de la plataforma FastPorte, utilizando un servicio de pago integrado.
 
-·         **Reviews (Reseñas)**
+- **Reviews (Reseñas)**
 
 Comentarios y calificaciones dejados por clientes anteriores sobre su experiencia con un transportista específico, ayudando a otros clientes a tomar decisiones informadas.
 
-·         **Service area (Zona de servicio)**
+- **Service area (Zona de servicio)**
 
 Área geográfica donde un transportista está disponible para proporcionar servicios, especificada en su perfil.
 
-·         **Service contract (Contrato - Acuerdo de servicio)**
+- **Service contract (Contrato - Acuerdo de servicio)**
 
 Acuerdo entre el cliente y el transportista cuando se confirma un viaje, estableciendo las condiciones y términos de la prestación del servicio.
 
-·         **Vehicle (Vehículo)**
+- **Vehicle (Vehículo)**
 
 Modo de transporte utilizado por los transportistas para proporcionar servicios.
 
-·         **License and permits (Licencia y permisos)**
+- **License and permits (Licencia y permisos)**
 
 Documentación legal requerida para que los transportistas operen sus vehículos y proporcionen servicios de transporte.
 
-·         **Rates (Tarifas)**
+- **Rates (Tarifas)**
 
 Precios cobrados por los transportistas por sus servicios de transporte.
 
-·         **Trip confirmation (Confirmación de viaje)**
+- **Trip confirmation (Confirmación de viaje)**
 
 Confirmación de una reserva de viaje realizada por el cliente con un transportista.
 
-·         **Service status (Estado del servicio)**
+- **Service status (Estado del servicio)**
 
 Estado actual del servicio de transporte, indicando si está pendiente, en progreso o completado.
 
-·         **Transportation request (Solicitud de transporte)**
+- **Transportation request (Solicitud de transporte)**
 
 Solicitud realizada por el cliente para servicios de transporte.
 
-·         **Service history provided (Historial de servicios brindados)**
+- **Service history provided (Historial de servicios brindados)**
 
 Registro de servicios proporcionados por el transportista.
 
-·         **Service history contracted (Historial de servicios contratados)**
+- **Service history contracted (Historial de servicios contratados)**
 
 Registro de servicios contratados por el cliente.
 
-·         **Customer rating (Calificación del cliente)**
+- **Customer rating (Calificación del cliente)**
 
 Calificación proporcionada por los transportistas para los clientes basada en su comportamiento e interacción durante el viaje.
 
-·         **Carrier rating (Calificación del transportista)**
+- **Carrier rating (Calificación del transportista)**
 
 Calificación proporcionada por los clientes para los transportistas basada en su desempeño y calidad del servicio.
 
-·         **Trip cancellation (Cancelación de viaje)**
+- **Trip cancellation (Cancelación de viaje)**
 
 Cancelación de un viaje reservado por el cliente con un transportista.
 
-·         **Invoicing (Facturación)**
+- **Invoicing (Facturación)**
 
 Emisión de facturas por los servicios de transporte proporcionados.
 
-·         **Trip alerts (Alertas de viaje)**
+- **Trip alerts (Alertas de viaje)**
 
 Notificaciones sobre detalles o actualizaciones de viaje enviadas a clientes o transportistas.
 
-·         **Shipment tracking (Rastreo de envíos)**
+- **Shipment tracking (Rastreo de envíos)**
 
 Seguimiento de la ubicación y estado de las mercancías transportadas durante el tránsito.
 
-·         **Service tracking (Seguimiento del servicio)**
+- **Service tracking (Seguimiento del servicio)**
 
 Seguimiento del progreso y estado de un servicio de transporte.
 
-·         **Customer service (Servicio de atención al cliente)**
+- **Customer service (Servicio de atención al cliente)**
 
 Soporte y asistencia proporcionada a los clientes con respecto a los servicios de transporte.
 
-·         **Availability calendar (Calendario de disponibilidad)**
+- **Availability calendar (Calendario de disponibilidad)**
 
 Calendario que muestra la disponibilidad de los transportistas para proporcionar servicios de transporte.
 
@@ -726,7 +723,6 @@ A continuación, se presenta una tabla que detalla cada uno de los escenarios id
 En la búsqueda por diseñar una arquitectura de software sólida y efectiva que integre los principios de microservicios y Domain-Driven Design (DDD) para nuestra propuesta, es fundamental considerar las restricciones arquitectónicas que guiarán nuestro proceso. Estas restricciones, derivadas de factores técnicos, regulatorios y empresariales, desempeñarán un papel clave en la toma de decisiones, asegurando que nuestra solución aborde de manera efectiva las necesidades y se ajuste a las limitaciones que puedan afectar su implementación.
 
 **Tabla 12**
-
 *Desarrollo de los Constraints*
 
 |Technical Story ID|Título|Descripción|Criterios de Aceptación|Relacionado con (Epic ID)|
@@ -868,7 +864,7 @@ En este escenario, un cliente utiliza una aplicación de servicios de transporte
 ![driver](img/Capitulo_4/Domain_Message_Flows_Modeling/Imagen1.png)
 
 **Escenario 2: Transportista Realiza el Servicio de Transporte**
-En este escenario, un transportista utiliza una aplicación de servicios de transporte para llevar a cabo un servicio de transporte de paquetes. El transportista inicia sesión en la aplicación, revisa las solicitudes de transporte disponibles y acepta una de ellas. Luego, se dirige al lugar de recogida donde recoge los paquetes del cliente. Una vez recogidos, inicia el servicio de transporte y se dirige al destino. Durante el viaje, el sistema realiza un seguimiento GPS del transporte. Una vez que llega al destino y entrega los paquetes, se registra la finalización del servicio y se notifica al cliente sobre la entrega exitosa.
+	En este escenario, un transportista utiliza una aplicación de servicios de transporte para llevar a cabo un servicio de transporte de paquetes. El transportista inicia sesión en la aplicación, revisa las solicitudes de transporte disponibles y acepta una de ellas. Luego, se dirige al lugar de recogida donde recoge los paquetes del cliente. Una vez recogidos, inicia el servicio de transporte y se dirige al destino. Durante el viaje, el sistema realiza un seguimiento GPS del transporte. Una vez que llega al destino y entrega los paquetes, se registra la finalización del servicio y se notifica al cliente sobre la entrega exitosa.
 
 ![driver](img/Capitulo_4/Domain_Message_Flows_Modeling/Imagen2.png)
 
@@ -894,9 +890,6 @@ Este Bounded Context se centra en la gestión integral de los transportistas y s
 Después de obtener cuáles serían nuestros Bounded Contexts, se realizó la elaboración de las relaciones estructurales entre estos. Para ello, se tomó en cuenta posibles diseños candidatos para el Context Mapping, el cual se desarrolló considerando los patrones de relaciones entre Bounden Contexts establecidos en Domain-Driven Desgin. Se utilizó la herramienta online DomoRoboto para elaborar el Context Mapping de la siguiente imagen:
 
 ![driver](img/Capitulo_4/Context_Mapping/Imagen1.png)
-[https://github.com/ddd-crew/context-mapping](https://github.com/ddd-crew/context-mapping)
-
-
 ## 4.3. Software Architecture.
 
 ### 4.3.1. Software Architecture System Landscape Diagram.
@@ -941,7 +934,7 @@ Inicialmente, todas las pruebas se realizaron localmente para garantizar que los
 
 ![driver](img/Capitulo_4/Software_Architecture_Deployment_Diagrams/Imagen1.png)
 
-
+--- 
 # Conclusiones
 
 - El desarrollo del Lean UX Process ayudó a comprender mejor y aplicar efectivamente las herramientas en nuestra propuesta enfocada al servicio de transportistas hacia clientes. De la misma forma, contribuyó a definir de manera más clara nuestro público objetivo o llámese segmento hacia el cual va enfocada nuestra aplicación.
@@ -951,6 +944,7 @@ Inicialmente, todas las pruebas se realizaron localmente para garantizar que los
 - La contenerización y el uso de orquestadores como Kubernetes han proporcionado un entorno de despliegue más consistente y predecible. Ahora podemos implementar actualizaciones y mejoras de manera más rápida y eficiente, reduciendo el tiempo de inactividad y mejorando la experiencia del usuario. La capacidad de realizar implementaciones continuas se ha vuelto más factible.
 - Aunque la arquitectura de microservicios ofrece ventajas claras, también presenta desafíos en la gestión de la complejidad. La coordinación entre microservicios, la configuración adecuada de las relaciones entre ellos y la gestión de versiones son aspectos críticos que requieren atención constante. Además, es esencial tener un equipo bien capacitado y una documentación completa para abordar estos desafíos de manera efectiva.
 
+---
 # Recomendaciones
 
 - Se recomienda realizar los diagramas C4 con el lenguaje de programación C# y usando el módulo de Structurizr.Client en Nuget. Esto con el fin de poder gestionar las versiones de la arquitectura realizada. Asimismo, para poder realizar una mejor documentación de cada uno de los servicios implementados.
@@ -958,3 +952,7 @@ Inicialmente, todas las pruebas se realizaron localmente para garantizar que los
 - Implementar pruebas rigurosas para cada microservicio antes y después de la contenerización. Las pruebas unitarias, de integración y funcionales son fundamentales. Garantizar la estabilidad y la funcionalidad adecuada en un entorno contenerizado minimizará problemas en el despliegue y mejorará la confianza en el sistema.
 - Implementar un sólido plan de respaldo y recuperación para los datos de los microservicios. Utilizar soluciones automatizadas para realizar copias de seguridad periódicas y verificar regularmente la capacidad de restauración. Y así lograr un enfoque proactivo hacia la gestión de datos garantizará la integridad y disponibilidad del sistema en caso de fallos inesperados.
 
+--- 
+# Anexos
+## Entrega TB1
+Enlace: [Exposición TB1 en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/Ec1gj2b9GwhMiIeeW4ZbOQUBjR8V_vwBKCj4ByvhRvIVLg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=mEYRo9)
