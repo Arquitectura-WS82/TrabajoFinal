@@ -86,6 +86,22 @@ Abril, 2024
 	- [4.3.2. Software Architecture Context Level Diagrams](#432-software-architecture-context-level-diagrams)
 	- [4.3.3 Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
 	- [4.3.4 Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
+- [Capítulo V: Tactical-Level Software Design](#capítulo-v-tactical-level-software-design)
+- [Capítulo VI: Solution UX Design](#capítulo-vi-solution-ux-design)
+  - [6.1. Style Guidelines](#61-style-guidelines)
+	- [6.1.1. General Style Guidelines](#611-general-style-guidelines)
+	- [6.1.2. Web, Mobile & Devices Style Guidelines](#612-web-mobile-devices-style-guidelines)
+  - [6.2. Information Architecture](#62-information-architecture)
+	- [6.2.1. Labeling Systems](#621-labeling-systems)
+	- [6.2.2. Searching Systems](#622-searching-systems)
+	- [6.2.3. SEO Tags and Meta Tags](#623-seo-tags-and-meta-tags)
+	- [6.2.4. Navigation Systems](#624-navigation-systems)
+  - [6.3. Landing Page UI Design](#63-landing-page-ui-design)
+	- [6.3.1. Landing Page Wireframe](#631-landing-page-wireframe)
+	- [6.3.2. Landing Page Mock-up](#632-landing-page-mock-up)
+  - [6.4. Applications UX/UI Design](#64-applications-ux-ui-design)
+	- [6.4.1. Applications Wireframes](#641-applications-wireframes)
+	- [6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)
 - [Conclusiones](#conclusiones)
 - [Recomendaciones](#recomendaciones)
 
@@ -324,11 +340,11 @@ Dentro de nuestro segmento objetivo, hemos identificado dos grupos de usuarios d
 ## 2.1. Competidores
 ### 2.1.1. Análisis Competitivo
 
-![Analisis Competitivo - Tabla](img/Cap2/2.1.%20Competidores/AnalisisCompetitivo.png)
+![Analisis Competitivo - Tabla](img/Capitulo_2/Competidores/Imagen1.png)
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-![Analisis Competitivo - Tabla](img/Cap2/2.1.%20Competidores/Estrategias%20y%20tácticas%20frente%20a%20competidores.png)
+![Analisis Competitivo - Tabla](img/Capitulo_2/Competidores/Imagen2.png)
 
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
@@ -365,43 +381,37 @@ Dentro de nuestro segmento objetivo, hemos identificado dos grupos de usuarios d
 
 ### 2.2.2. Registro de entrevistas
 #### Entrevista N° 1
-| ![Entevista 1 - Evidencia](img/Cap2/2.2.%20Entrevistas/Entrevista1.jpg)                                                                                       |
+| ![Entevista 1 - Evidencia](img/Capitulo_2/Entrevistas/Entrevista1.jpg)                                                                                        |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Carlos Alipio Sánchez Salazar <br>	Edad: 19 <br>	Distrito: Carabayllo <br>	Segmento: Transportista |
 
 #### Entrevista N° 2
-| ![Entevista 2 - Evidencia](img/Cap2/2.2.%20Entrevistas/Entrevista2.png) |
-|--------|
-| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Edgard Miranda Lloclla <br>	Distrito: Sullana, Piura <br>	Segmento: Transportista|
-| <u>**Resumen**</u> <br> Edgard en una persona que reside en la región Piura y que trabajo en el rubro de transportes. Nos especifica que alrededor de 15 años trabajando como conductor de transporte de mercadería para una empresa en su región y además tiene actividades complementarias como trabajador en el campo. Nos comenta que tiene su vehículo particular y con el cual también realiza servicio de transporte de mercadería, pero en zonas cercanas a comparación de los viajes que realiza para la empresa. También, relata que alguna vez ha tenido inconvenientes con clientes, pero los ha solucionado cuando regresaba en el siguiente viaje debido a que fueron problemas porque la mercadería no llegó completa. Con respecto a la propuesta, le parece que es una buena idea y que sería algo positivo ya que aumentaría sus clientes y que en lo posible haría que sus clientes queden satisfechos al prestar sus servicios como transportista. 
-| Link: https://web.microsoftstream.com/video/072fdc39-6a80-4a30-b6e4-cd9db90cef07 <br> Minuto:  22:27 – 28:27 |
+| ![Entevista 2 - Evidencia](img/Capitulo_2/Entrevistas/Entrevista2.png)                                                                       |
+| -------------------------------------------------------------------------------------------------------------------------------------------- |
+| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Edgard Miranda Lloclla <br>	Distrito: Sullana, Piura <br>	Segmento: Transportista |
 
 #### Entrevista N° 3
-| ![Entevista 3 - Evidencia](img/Cap2/2.2.%20Entrevistas/Entrevista3.png) |
-|--------|
-| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Diego Seminario Centeno <br> Edad: 24 años<br>	Distrito: Cercado de Lima <br>	Segmento: Transportista|
-| <u>**Resumen**</u> <br> Diego es un adulto de 24 años que actualmente su fuente de ingreso es ser transportista de camión de carga. Indica que al llevar año y medio en este rubro y ser independiente, había varios días que no tiene clientes. Su ganancia aproximada por día es de 100-150 soles dependiendo de la carga y distancia. Su actual método de difusión es grupos de Facebook y contactos de clientes. Después de darle un resumen de nuestra aplicación, se vio interesado en esta ya que le aumentaría clientes y facilitaría conseguir dinero. Finalmente, agrego que le gustaría que nuestro sistema recompense a la buena calificación de los clientes, ya que en este rubro muchos transportistas suelen ser irrespetuosos, y el al no ser así le gustaría poder ser agendado con más clientes para que estos se lleven un mejor servicio.  
-| Link: https://web.microsoftstream.com/video/072fdc39-6a80-4a30-b6e4-cd9db90cef07 <br> Minuto: 28:27 – 32:52 |
+| ![Entevista 3 - Evidencia](img/Capitulo_2/Entrevistas/Entrevista3.png)                                                                                           |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Diego Seminario Centeno <br> Edad: 24 años<br>	Distrito: Cercado de Lima <br>	Segmento: Transportista |
 
 #### Entrevista N° 4
-| ![Entevista 4 - Evidencia](img/Cap2/2.2.%20Entrevistas/Entrevista4.png)                                                                                      |
+| ![Entevista 4 - Evidencia](img/Capitulo_2/Entrevistas/Entrevista4.png)                                                                                       |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Teodoro Geiner Liberato Villanueva <br> Edad: 52 años<br>	Distrito: Huacho <br>	Segmento: Cliente |
 
 #### Entrevista N° 5
-| ![Entevista 5 - Evidencia](img/Cap2/2.2.%20Entrevistas/Entrevista5.png) |
-|--------|
-| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Alexandro Daniel Villarruel Mandujano <br> Edad: 24 años<br>	Distrito: Villa El Salvador <br>	Segmento: Cliente|
-| <u>**Resumen**</u> <br> Alexandro tiene 24 años y se dedica a la comercialización de ropa o productos textiles, piensa actualmente los servicios de transporte en el Perú no son del todo factible debido a la falta de confianza que se brinda, ya que muchas veces se sufre de pérdidas de productos o que llegan en mal estado. Alexandro nos menciona que usualmente consigue los contactos para el servicio de traslado de sus productos mediante páginas que ofrecen estos servicios. Nos cuenta que él se considera una persona precavida por lo que nunca ha tenido ningún inconveniente en contratar estos servicios. Por otra parte, nos dice que a veces se le hace muy complicado encontrar los servicios por el hecho de que las opciones son pocas o los contactos con los que cuenta no están disponibles. Además, el necesita estos servicios muy seguido ya que es parte de su trabajo. Considera muy importante saber la ubicación y el estado de su producto para considerar el tiempo y saber gestionar su trabajo. También, menciona que es muy importante saber el modelo y el año de los vehículos que trasladan su mercancía ya que le gusta ser precavido como ya antes mencionado. Por último, nos menciona que una aplicación que brinde estos servicios le parecería una buena idea por el hecho de que le sería muy útil tener una opción más a tener en cuenta al momento de realizar su trabajo.
-| Link: https://web.microsoftstream.com/video/072fdc39-6a80-4a30-b6e4-cd9db90cef07  <br> Minuto: 00:00 – 03:57 |
+| ![Entevista 5 - Evidencia](img/Capitulo_2/Entrevistas/Entrevista5.png)                                                                                                     |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Alexandro Daniel Villarruel Mandujano <br> Edad: 24 años<br>	Distrito: Villa El Salvador <br>	Segmento: Cliente |
 
 #### Entrevista N° 6
-| ![Entevista 6 - Evidencia](img/Cap2/2.2.%20Entrevistas/Entrevista6.png)                                                                              |
+| ![Entevista 6 - Evidencia](img/Capitulo_2/Entrevistas/Entrevista6.png)                                                                               |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <u>**Datos del entrevistado**</u> <br> Nombre y apellidos: Ítalo Paolo Sabino Ramírez <br> Edad: 23 años<br>	Distrito: Callao <br>	Segmento: Cliente |
 
 ### 2.2.3. Análisis de entrevistas
-![Analisis de entrevistas - Tabla](img/Cap2/2.2.%20Entrevistas/Análisis%20de%20entrevistas.png)
+![Analisis de entrevistas - Tabla](img/Capitulo_2/Entrevistas/Analisis.png)
 
 ## 2.3 Needfinding
 
@@ -718,58 +728,51 @@ A continuación, se presenta una tabla que detalla cada uno de los escenarios id
 #### 4\.1.2.3. Constraints
 En la búsqueda por diseñar una arquitectura de software sólida y efectiva que integre los principios de microservicios y Domain-Driven Design (DDD) para nuestra propuesta, es fundamental considerar las restricciones arquitectónicas que guiarán nuestro proceso. Estas restricciones, derivadas de factores técnicos, regulatorios y empresariales, desempeñarán un papel clave en la toma de decisiones, asegurando que nuestra solución aborde de manera efectiva las necesidades y se ajuste a las limitaciones que puedan afectar su implementación.
 
-**Tabla 12**
-*Desarrollo de los Constraints*
-
-|Technical Story ID|Título|Descripción|Criterios de Aceptación|Relacionado con (Epic ID)|
-| :- | :- | :- | :- | :- |
-|CON-01|Principios de Domain-Driven Design (DDD)|La arquitectura de la aplicación debe seguir los principios de Domain-Driven Design (DDD) para modelar el dominio de manera efectiva.|<p>Escenario: Cuando se realizan cambios en el modelo de dominio.</p><p>- **Dado que** la aplicación sigue los principios de Domain-Driven Design,</p><p>- **Cuando** los equipos de desarrollo actualizan el modelo de dominio,</p><p>- **Entonces** los cambios se reflejan de manera precisa en la arquitectura de la aplicación.</p><p></p>|EP01|
-|CON-02|Escalabilidad Horizontal Eficiente|La escalabilidad horizontal debe ser una consideración clave en la arquitectura, permitiendo la expansión de recursos de manera eficiente.|<p>Escenario: Durante periodos de alta demanda de usuarios.</p><p>- **Dado que** la aplicación debe escalar horizontalmente de manera eficiente,</p><p>- **Cuando** el número de usuarios concurrentes aumenta significativamente,</p><p>- **Entonces** la aplicación es capaz de distribuir la carga de manera eficiente y mantener un rendimiento óptimo.</p><p></p>|EP03|
-|CON-03|Redundancia y Recuperación ante Desastres|La aplicación debe ser diseñada con redundancia y recuperación ante desastres para garantizar la disponibilidad continua del servicio.|<p>Escenario: En caso de fallo de un servidor principal.</p><p>- **Dado que** la aplicación se ha diseñado con redundancia y recuperación ante desastres,</p><p>- **Cuando** un servidor principal falla,</p><p>- **Entonces** la aplicación se conmuta automáticamente al servidor secundario sin pérdida de datos o interrupción del servicio.</p><p></p>|EP04|
-|CON-04|Uso de Servicios en la Nube y Contenedores|Se debe utilizar un proveedor de servicios en la nube y aprovechar servicios de contenedores como Kubernetes.|<p>Escenario: Durante el despliegue y escalado de la aplicación.</p><p>- **Dado que** se utilizan servicios en la nube y contenedores para desplegar la aplicación,</p><p>- **Cuando** se despliegan nuevas instancias de la aplicación o se escalan los recursos,</p><p>- **Entonces** la orquestación de contenedores asegura una distribución eficiente de la carga y una respuesta rápida a la demanda.</p><p></p>|EP02|
-|CON-05|Adaptabilidad y Agilidad en las Mejoras|La plataforma debe ser altamente adaptable para incorporar nuevas características y mejoras de manera ágil y eficiente.|<p>Escenario: Al introducir una nueva funcionalidad.</p><p>- **Dado que** se prioriza la adaptabilidad y agilidad en el desarrollo,</p><p>- **Cuando** se introduce una nueva funcionalidad o se realiza una mejora,</p><p>- **Entonces** los usuarios pueden acceder a la nueva funcionalidad sin interrupciones en el servicio y sin necesidad de una actualización manual.</p><p></p>|EP06|
-|CON-06|Independencia y Desacoplamiento de Microservicios|Los microservicios deben ser independientes y desacoplados, lo que permite a los equipos de desarrollo trabajar de manera autónoma en cada uno.|<p>Escenario: Cuando se actualiza un microservicio específico.</p><p>- **Dado que** los microservicios están diseñados para ser independientes y desacoplados,</p><p>- **Cuando** se actualiza un microservicio específico,</p><p>- **Entonces** los cambios en ese microservicio no afectan el funcionamiento de otros microservicios y la aplicación continúa funcionando sin problemas.</p><p></p>|EP09|
-|CON-07|Gestión de Versiones y Control de Cambios|Debe implementarse un sistema de gestión de versiones y control de cambios para mantener la integridad del código y la colaboración efectiva.|<p>Escenario: Durante la implementación de una nueva funcionalidad.</p><p>- **Dado que** se implementa un sistema de gestión de versiones y control de cambios,</p><p>- **Cuando** se implementa una nueva funcionalidad o se realiza un cambio en el código,</p><p>- **Entonces** todos los cambios están registrados y documentados adecuadamente en el sistema de control de versiones.</p><p></p>|EP08|
-|CON-08|Documentación Integral de Microservicios|Los microservicios deben estar documentados de manera correcta para facilitar su comprensión y uso por parte de otros desarrolladores.|<p>Escenario: Al integrar un nuevo microservicio.</p><p>- **Dado que** cada microservicio está completamente documentado,</p><p>- **Cuando** un desarrollador necesita integrar un nuevo microservicio en la aplicación,</p><p>- **Entonces** la documentación proporciona información clara y detallada sobre su funcionamiento y cómo se integra con el resto del sistema.</p><p></p>|EP10|
-|CON-09|Modularidad y Flexibilidad Arquitectónica|La arquitectura debe ser altamente modular, lo que permite la sustitución o actualización de componentes individuales sin afectar a todo el sistema.|<p>Escenario: Al actualizar un componente del sistema.</p><p>- **Dado que** la arquitectura se basa en principios de modularidad y flexibilidad,</p><p>- **Cuando** se actualiza o reemplaza un componente del sistema,</p><p>- **Entonces** la implementación de los cambios se realiza de forma aislada y no afecta negativamente a otros componentes del sistema.</p><p></p>|EP05|
-|CON-10|Seguridad de Datos y Privacidad del Usuario|La seguridad de datos y la privacidad del usuario deben ser prioritarias, cumpliendo con las regulaciones de protección de datos aplicables.|<p>Escenario: Al acceder a datos sensibles.</p><p>- **Dado que** la seguridad de datos y la privacidad del usuario son prioritarias,</p><p>- **Cuando** un usuario accede a datos sensibles o realiza una transacción,</p><p>- **Entonces** la información se almacena y se transmite de forma segura, protegiendo la privacidad del usuario y cumpliendo con las regulaciones de privacidad aplicables.</p><p></p>|EP07|
-|CON-11|Estrategia de Respaldo y Recuperación de Datos|Se debe implementar una estrategia de respaldo y recuperación de datos para garantizar la integridad y disponibilidad de la información crítica.|<p>Escenario: Durante una restauración de datos de emergencia.</p><p>- **Dado que** se implementa una estrategia de respaldo y recuperación de datos,</p><p>- **Cuando** se produce una pérdida de datos o una interrupción del servicio,</p><p>- **Entonces** los datos críticos se pueden restaurar rápidamente y el servicio se restablece sin pérdida de funcionalidad.</p><p></p>|EP01|
-|CON-12|Fechas de Entrega Inamovibles|Las fechas de entrega de los hitos del proyecto son inamovibles y no pueden ser pospuestas.|<p>Escenario: Durante el cumplimiento de un hito del proyecto.</p><p>- **Dado que** las fechas de entrega son inamovibles,</p><p>- **Cuando** se planifica y ejecuta el desarrollo del proyecto,</p><p>- **Entonces** los hitos del proyecto se entregan dentro del plazo establecido sin retrasos significativos.</p><p></p>|EP03|
+| Technical Story ID | Título                                            | Descripción                                                                                                                                          | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                | Relacionado con (Epic ID) |
+| :----------------- | :------------------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------ |
+| CON-01             | Principios de Domain-Driven Design (DDD)          | La arquitectura de la aplicación debe seguir los principios de Domain-Driven Design (DDD) para modelar el dominio de manera efectiva.                | <p>Escenario: Cuando se realizan cambios en el modelo de dominio.</p><p>- **Dado que** la aplicación sigue los principios de Domain-Driven Design,</p><p>- **Cuando** los equipos de desarrollo actualizan el modelo de dominio,</p><p>- **Entonces** los cambios se reflejan de manera precisa en la arquitectura de la aplicación.</p><p></p>                                                                        | EP01                      |
+| CON-02             | Escalabilidad Horizontal Eficiente                | La escalabilidad horizontal debe ser una consideración clave en la arquitectura, permitiendo la expansión de recursos de manera eficiente.           | <p>Escenario: Durante periodos de alta demanda de usuarios.</p><p>- **Dado que** la aplicación debe escalar horizontalmente de manera eficiente,</p><p>- **Cuando** el número de usuarios concurrentes aumenta significativamente,</p><p>- **Entonces** la aplicación es capaz de distribuir la carga de manera eficiente y mantener un rendimiento óptimo.</p><p></p>                                                 | EP03                      |
+| CON-03             | Redundancia y Recuperación ante Desastres         | La aplicación debe ser diseñada con redundancia y recuperación ante desastres para garantizar la disponibilidad continua del servicio.               | <p>Escenario: En caso de fallo de un servidor principal.</p><p>- **Dado que** la aplicación se ha diseñado con redundancia y recuperación ante desastres,</p><p>- **Cuando** un servidor principal falla,</p><p>- **Entonces** la aplicación se conmuta automáticamente al servidor secundario sin pérdida de datos o interrupción del servicio.</p><p></p>                                                            | EP04                      |
+| CON-04             | Uso de Servicios en la Nube y Contenedores        | Se debe utilizar un proveedor de servicios en la nube y aprovechar servicios de contenedores como Kubernetes.                                        | <p>Escenario: Durante el despliegue y escalado de la aplicación.</p><p>- **Dado que** se utilizan servicios en la nube y contenedores para desplegar la aplicación,</p><p>- **Cuando** se despliegan nuevas instancias de la aplicación o se escalan los recursos,</p><p>- **Entonces** la orquestación de contenedores asegura una distribución eficiente de la carga y una respuesta rápida a la demanda.</p><p></p> | EP02                      |
+| CON-05             | Adaptabilidad y Agilidad en las Mejoras           | La plataforma debe ser altamente adaptable para incorporar nuevas características y mejoras de manera ágil y eficiente.                              | <p>Escenario: Al introducir una nueva funcionalidad.</p><p>- **Dado que** se prioriza la adaptabilidad y agilidad en el desarrollo,</p><p>- **Cuando** se introduce una nueva funcionalidad o se realiza una mejora,</p><p>- **Entonces** los usuarios pueden acceder a la nueva funcionalidad sin interrupciones en el servicio y sin necesidad de una actualización manual.</p><p></p>                               | EP06                      |
+| CON-06             | Independencia y Desacoplamiento de Microservicios | Los microservicios deben ser independientes y desacoplados, lo que permite a los equipos de desarrollo trabajar de manera autónoma en cada uno.      | <p>Escenario: Cuando se actualiza un microservicio específico.</p><p>- **Dado que** los microservicios están diseñados para ser independientes y desacoplados,</p><p>- **Cuando** se actualiza un microservicio específico,</p><p>- **Entonces** los cambios en ese microservicio no afectan el funcionamiento de otros microservicios y la aplicación continúa funcionando sin problemas.</p><p></p>                  | EP09                      |
+| CON-07             | Gestión de Versiones y Control de Cambios         | Debe implementarse un sistema de gestión de versiones y control de cambios para mantener la integridad del código y la colaboración efectiva.        | <p>Escenario: Durante la implementación de una nueva funcionalidad.</p><p>- **Dado que** se implementa un sistema de gestión de versiones y control de cambios,</p><p>- **Cuando** se implementa una nueva funcionalidad o se realiza un cambio en el código,</p><p>- **Entonces** todos los cambios están registrados y documentados adecuadamente en el sistema de control de versiones.</p><p></p>                  | EP08                      |
+| CON-08             | Documentación Integral de Microservicios          | Los microservicios deben estar documentados de manera correcta para facilitar su comprensión y uso por parte de otros desarrolladores.               | <p>Escenario: Al integrar un nuevo microservicio.</p><p>- **Dado que** cada microservicio está completamente documentado,</p><p>- **Cuando** un desarrollador necesita integrar un nuevo microservicio en la aplicación,</p><p>- **Entonces** la documentación proporciona información clara y detallada sobre su funcionamiento y cómo se integra con el resto del sistema.</p><p></p>                                | EP10                      |
+| CON-09             | Modularidad y Flexibilidad Arquitectónica         | La arquitectura debe ser altamente modular, lo que permite la sustitución o actualización de componentes individuales sin afectar a todo el sistema. | <p>Escenario: Al actualizar un componente del sistema.</p><p>- **Dado que** la arquitectura se basa en principios de modularidad y flexibilidad,</p><p>- **Cuando** se actualiza o reemplaza un componente del sistema,</p><p>- **Entonces** la implementación de los cambios se realiza de forma aislada y no afecta negativamente a otros componentes del sistema.</p><p></p>                                        | EP05                      |
+| CON-10             | Seguridad de Datos y Privacidad del Usuario       | La seguridad de datos y la privacidad del usuario deben ser prioritarias, cumpliendo con las regulaciones de protección de datos aplicables.         | <p>Escenario: Al acceder a datos sensibles.</p><p>- **Dado que** la seguridad de datos y la privacidad del usuario son prioritarias,</p><p>- **Cuando** un usuario accede a datos sensibles o realiza una transacción,</p><p>- **Entonces** la información se almacena y se transmite de forma segura, protegiendo la privacidad del usuario y cumpliendo con las regulaciones de privacidad aplicables.</p><p></p>    | EP07                      |
+| CON-11             | Estrategia de Respaldo y Recuperación de Datos    | Se debe implementar una estrategia de respaldo y recuperación de datos para garantizar la integridad y disponibilidad de la información crítica.     | <p>Escenario: Durante una restauración de datos de emergencia.</p><p>- **Dado que** se implementa una estrategia de respaldo y recuperación de datos,</p><p>- **Cuando** se produce una pérdida de datos o una interrupción del servicio,</p><p>- **Entonces** los datos críticos se pueden restaurar rápidamente y el servicio se restablece sin pérdida de funcionalidad.</p><p></p>                                 | EP01                      |
+| CON-12             | Fechas de Entrega Inamovibles                     | Las fechas de entrega de los hitos del proyecto son inamovibles y no pueden ser pospuestas.                                                          | <p>Escenario: Durante el cumplimiento de un hito del proyecto.</p><p>- **Dado que** las fechas de entrega son inamovibles,</p><p>- **Cuando** se planifica y ejecuta el desarrollo del proyecto,</p><p>- **Entonces** los hitos del proyecto se entregan dentro del plazo establecido sin retrasos significativos.</p><p></p>                                                                                          | EP03                      |
 
 <a name="_toc163118301"></a>
-### 4\.1.3. Architectural Drivers Backlog
+### 4.1.3. Architectural Drivers Backlog
 Como equipo nos embarcamos en un proceso colaborativo para desarrollar una solución innovadora que abordara las complejidades del sector del transporte. Reconociendo las dificultades que enfrentan tanto los usuarios cotidianos como los transportistas independientes. Este proceso implicó una serie de pasos, desde la identificación de oportunidades de negocio hasta la definición de los requisitos arquitectónicos clave, que se documentaron en el Arquitectural Driver Backlog (ADB) para guiar el desarrollo futuro de la solución.
 
-**Tabla 13**
-
-*Desarrollo de los Architectural Drivers Backlog*
-
-|Driver ID|Título de Driver|Descripción|Importancia para Stakeholders (High, Medium, Low)|Impacto en Architecture Technical Complexity (High, Medium, Low)|
-| :- | :- | :- | :- | :- |
-|D01|Escalabilidad para el crecimiento futuro|Permitir que la plataforma FastPorte maneje un aumento significativo en el volumen de usuarios y transacciones a medida que crece el negocio.|High|High|
-|D02|Seguridad de datos y privacidad|Garantizar la protección adecuada de la información confidencial de los usuarios y la integridad de los datos.|High|High|
-|D03|Interfaz de usuario intuitiva y amigable|Diseñar una interfaz que sea fácil de usar y que brinde una experiencia positiva para los clientes y transportistas.|High|Medium|
-|D04|Integración con servicios de pago|Facilitar el proceso de pago para los usuarios al integrar métodos de pago seguros y confiables en la plataforma.|High|Medium|
-|D05|Notificaciones en tiempo real|Proporcionar a los usuarios actualizaciones instantáneas sobre el estado de sus viajes y transacciones.|Medium|High|
-|D06|Adaptabilidad a múltiples dispositivos y plataformas|Garantizar que la plataforma sea accesible y funcione de manera óptima en una variedad de dispositivos y sistemas operativos.|Medium|High|
-|D07|Gestión eficiente de la carga de trabajo|Implementar herramientas y sistemas para administrar eficazmente la carga de trabajo de los transportistas y optimizar su tiempo y recursos.|Medium|High|
-|D08|Mantenibilidad y escalabilidad del código|Desarrollar un código limpio y modular que sea fácil de mantener y ampliar a medida que evoluciona la plataforma.|Medium|High|
-|D09|Análisis y generación de informes de datos|Implementar herramientas para recopilar y analizar datos operativos y de rendimiento, y generar informes significativos para informar la toma de decisiones.|Low|High|
+| Driver ID | Título de Driver                                     | Descripción                                                                                                                                                  | Importancia para Stakeholders (High, Medium, Low) | Impacto en Architecture Technical Complexity (High, Medium, Low) |
+| :-------- | :--------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------ | :--------------------------------------------------------------- |
+| D01       | Escalabilidad para el crecimiento futuro             | Permitir que la plataforma FastPorte maneje un aumento significativo en el volumen de usuarios y transacciones a medida que crece el negocio.                | High                                              | High                                                             |
+| D02       | Seguridad de datos y privacidad                      | Garantizar la protección adecuada de la información confidencial de los usuarios y la integridad de los datos.                                               | High                                              | High                                                             |
+| D03       | Interfaz de usuario intuitiva y amigable             | Diseñar una interfaz que sea fácil de usar y que brinde una experiencia positiva para los clientes y transportistas.                                         | High                                              | Medium                                                           |
+| D04       | Integración con servicios de pago                    | Facilitar el proceso de pago para los usuarios al integrar métodos de pago seguros y confiables en la plataforma.                                            | High                                              | Medium                                                           |
+| D05       | Notificaciones en tiempo real                        | Proporcionar a los usuarios actualizaciones instantáneas sobre el estado de sus viajes y transacciones.                                                      | Medium                                            | High                                                             |
+| D06       | Adaptabilidad a múltiples dispositivos y plataformas | Garantizar que la plataforma sea accesible y funcione de manera óptima en una variedad de dispositivos y sistemas operativos.                                | Medium                                            | High                                                             |
+| D07       | Gestión eficiente de la carga de trabajo             | Implementar herramientas y sistemas para administrar eficazmente la carga de trabajo de los transportistas y optimizar su tiempo y recursos.                 | Medium                                            | High                                                             |
+| D08       | Mantenibilidad y escalabilidad del código            | Desarrollar un código limpio y modular que sea fácil de mantener y ampliar a medida que evoluciona la plataforma.                                            | Medium                                            | High                                                             |
+| D09       | Análisis y generación de informes de datos           | Implementar herramientas para recopilar y analizar datos operativos y de rendimiento, y generar informes significativos para informar la toma de decisiones. | Low                                               | High                                                             |
 
 ### <a name="_toc163118302"></a>4.1.4. Architectural Design Decisions
 Para crear decisiones de diseño arquitectónico basados en los drivers arquitectónicos, utilizaremos la siguiente matriz:
 
-|Driver ID|Título de Driver|Pattern 1|Pattern 2|Pattern 3|
-| :- | :- | :- | :- | :- |
-|D01|Escalabilidad para el crecimiento futuro|Microservicios|Autoescalado|Colas de mensajes|
-|D02|Seguridad de datos y privacidad|Gateway de API segura|Encriptación de datos en reposo y en tránsito|Autenticación y autorización basada en roles|
-|D03|Interfaz de usuario intuitiva y amigable|Diseño responsive|Arquitectura micro fronted|Patrones de diseño de UI/UX|
-|D04|Integración con servicios de pago|Pasarela de pago de terceros|API de pagos unificada|Servicios web seguros|
-|D05|Notificaciones en tiempo real|Event Sourcing|WebSockets|Sistema de colas de mensajes|
-|D06|Adaptabilidad a múltiples dispositivos y plataformas|Diseño responsive|PWA (Progressive Web Apps)|Cross-Platform Development Frameworks|
-|D07|Gestión eficiente de la carga de trabajo|Orquestación de contenedores|Colas de trabajo|Escalado automático|
-|D08|Mantenibilidad y escalabilidad del código|Código limpio y principios SOLID|Arquitectura basada en componentes|Integración y entrega continua (CI/CD)|
-|D09|Análisis y generación de informes de datos|Almacenes de datos|Procesamiento de eventos en tiempo real|Herramientas BI (Business Intelligence)|
+| Driver ID | Título de Driver                                     | Pattern 1                        | Pattern 2                                     | Pattern 3                                    |
+| :-------- | :--------------------------------------------------- | :------------------------------- | :-------------------------------------------- | :------------------------------------------- |
+| D01       | Escalabilidad para el crecimiento futuro             | Microservicios                   | Autoescalado                                  | Colas de mensajes                            |
+| D02       | Seguridad de datos y privacidad                      | Gateway de API segura            | Encriptación de datos en reposo y en tránsito | Autenticación y autorización basada en roles |
+| D03       | Interfaz de usuario intuitiva y amigable             | Diseño responsive                | Arquitectura micro fronted                    | Patrones de diseño de UI/UX                  |
+| D04       | Integración con servicios de pago                    | Pasarela de pago de terceros     | API de pagos unificada                        | Servicios web seguros                        |
+| D05       | Notificaciones en tiempo real                        | Event Sourcing                   | WebSockets                                    | Sistema de colas de mensajes                 |
+| D06       | Adaptabilidad a múltiples dispositivos y plataformas | Diseño responsive                | PWA (Progressive Web Apps)                    | Cross-Platform Development Frameworks        |
+| D07       | Gestión eficiente de la carga de trabajo             | Orquestación de contenedores     | Colas de trabajo                              | Escalado automático                          |
+| D08       | Mantenibilidad y escalabilidad del código            | Código limpio y principios SOLID | Arquitectura basada en componentes            | Integración y entrega continua (CI/CD)       |
+| D09       | Análisis y generación de informes de datos           | Almacenes de datos               | Procesamiento de eventos en tiempo real       | Herramientas BI (Business Intelligence)      |
 
 ### <a name="_toc163118303"></a>4.1.5. Quality Attribute Scenario Refinements
 
@@ -925,7 +928,206 @@ Inicialmente, todas las pruebas se realizaron localmente para garantizar que los
 
 ![Cloud Architecture Deployment Diagram](img/Capitulo_4/Software_Architecture_Deployment_Diagrams/Imagen1.png)
 
---- 
+---
+# Capítulo VI: Solution UX Design 
+## 6.1. Style Guidelines 
+En esta sección presentaremos las guías de estilo que usaremos para la realización de nuestros mock-ups, prototipo y aplicación web.
+### 6.1.1. General Style Guidelines
+El estilo general de nuestro product UX/UI design contiene los siguientes colores los cuales se especifican con su código. Así como también la fuente utilizada es Inter.
+***Colores del General Style Guidelines***
+![Colores del General Style Guidelines](img/Capitulo_6/General_Style_Guidelines/Colores.png)
+***Tipo de fuente del General Style Guidelines***
+![Tipo de fuente del General Style Guidelines](img/Capitulo_6/General_Style_Guidelines/Fuente.png)
+### 6.1.2. Web, Mobile & Devices Style Guidelines.
+Lo siguiente corresponde a la guía de estilos para la versión web. Se puede visualizar con mejor detalle en el siguiente link: [Enlace a Figma](https://www.figma.com/file/ipzddVXEuU5ee0IHE0hLyv/Open-source?node-id=50%3A2) 
+***Tipografía utilizada en el General Style Guidelines***
+![Tipografía utilizada en el General Style Guidelines](img/Capitulo_6/Web_Style_Guidelines/Tipografia.png)
+***Search Interactive Elements del General Style Guidelines***
+![Search Interactive Elements del General Style Guidelines](img/Capitulo_6/Web_Style_Guidelines/Search.png)
+***Input Interactive Elements del General Style Guidelines***
+![Input Interactive Elements del General Style Guidelines](img/Capitulo_6/Web_Style_Guidelines/Input.png)
+***Buttons Interactive Elements del General Style Guidelines***
+![Buttons Interactive Elements del General Style Guidelines](img/Capitulo_6/Web_Style_Guidelines/Buttons.png)
+***Buttons & Slider Interactive Elements del General Style Guidelines***
+![Buttons & Slider Interactive Elements del General Style Guidelines](img/Capitulo_6/Web_Style_Guidelines/Slider.png)
+***Form Elements del General Style Guidelines***
+![Form Elements del General Style Guidelines](img/Capitulo_6/Web_Style_Guidelines/Form.png)
+## 6.2. Information Architecture.
+En esta sección, mostramos el Information Architecture de FastPorte, donde se plantea la organización y estructura que se manejara para esta propuesta. Teniendo en cuenta, que nuestros usuarios puedan saber dónde se encuentra la información que se está buscando.
+### 6.2.1. Labeling Systems.
+Para los sistemas de etiquetado, utilizamos el lenguaje formal que refleja la seriedad en la aplicación, buscando así la mejor experiencia para nuestros usuarios.
+**Label transportista:**
+***Labeling Systems del transportista de FastPorte***
+![Labeling Systems del transportista de FastPorte](img/Capitulo_6/Information_Architecture/Labeling_Transportista.png)
+**Label cliente:**
+***Labeling Systems del cliente de FastPorte***
+![Labeling Systems del cliente de FastPorte](img/Capitulo_6/Information_Architecture/Labeling_Cliente.png)
+**Transportista:**
+- **Sección “Home”**
+En esta sección podremos encontrar accesos rápidos que creemos que el usuario podría necesitar, tales como “Recent Contrats” o acceder el historial de contratos pasados
+- **Sección “My Profile”**
+En este apartado el usuario puede visualizar su perfil como transportista y evidenciar características que le harán llamar la atención de los clientes como una buena opción para contratarlo.
+- **Sección “Contracts”** 
+Dentro de esta sección podrán ver el historial de los contratos y los contratos que todavía siguen pendientes.
+- **Sección “Support”** 
+Al hacer click en este apartado el usuario podrá visualizar información de contacto como correo, número y una opción para enviar mensajes directos con el soporte de la aplicación.
+- **Sección “Notification”** 
+Dentro de esta sección el usuario podrá visualizar los mensajes, solicitudes, contratos y todo tipo de notificaciones entrantes.
+
+**Cliente:**
+- **Sección “Home”**
+En esta sección podremos encontrar accesos rápidos que creemos que el usuario podría necesitar, tales como “Recent Contrats” o buscar un vehículo directamente.
+- **Sección “My Profile”**
+En este apartado el usuario puede visualizar su perfil como cliente y evidenciar características que le servirán a los transportistas para tener en cuenta a sus clientes.
+- **Sección “Search Vehicles”** 
+Dentro de esta sección el usuario podrá ingresar los datos de los requerimientos para el servicio que desea solicitar. Y así el sistema le pueda recomendar el mas adecuado a sus intereses.
+- **Sección “Contracts”** 
+Dentro de esta sección podrán ver el historial de los contratos y los contratos que todavía siguen pendientes.
+- **Sección “Support”** 
+Al hacer click en este apartado el usuario podrá visualizar información de contacto como correo, número y una opción para enviar mensajes directos con el soporte de la aplicación.
+### 6.2.2. Searching Systems.
+***Searching Systems de FastPorte***
+![Searching Systems de FastPorte](img/Capitulo_6/Information_Architecture/Searching.png)
+### 6.2.3. SEO Tags and Meta Tags.
+***SEO Tags and Meta Tags de FastPorte***
+![SEO Tags and Meta Tags de FastPorte](img/Capitulo_6/Information_Architecture/SEO.png)
+- **Charset Tag**	
+Utilizamos charset UTF-8 o Unicode Transformation Format-8, el cual es el formato de codificación de caracteres mundialmente usado por su amplia cantidad de idiomas soportados.
+- **Viewport Tag**
+Debido a que no todos los dispositivos cuentan con las mismas dimensiones; nos debemos asegurar de que nuestra página funcione correctamente en todos los tamaños y orientaciones de pantalla.
+	- *Width:* Controla el tamaño de la ventana gráfica. Se puede configurar en un número específico de píxeles como ancho = 600 o en el valor especial ancho del dispositivo, que es 100vw, o el 100% del ancho de la ventana gráfica. 
+	- *Initial-scale:* Controla el nivel de zoom cuando la página se carga por primera vez. Mínimo: 0,1. Máximo: 10. Predeterminado: 1. Valores negativos: ignorados.
+	- *Translate:* Para ofrecer la traducción de la página en los resultados de búsqueda.
+	- *Snippet:* Para que muestre el título y la descripción en los resultados de búsqueda.
+- **Description Tag**
+Esta etiqueta se usa para proporcionar una descripción breve de la página. En algunos casos, esta descripción se usa en el fragmento que se muestra en los resultados de la búsqueda.
+- **Robots Tag**
+Nos sirven para controlar el comportamiento de rastreo y de indexación en los motores de búsqueda.
+	- *Index:* Sirve para indicarle al motor de búsqueda si deseamos ser indexados para que aparezca la página en los resultados de búsqueda.
+	-	*No-follow:* Indica para no rastrear los links que contenga la página en cuestión, fue implementada para no ser mostrado como resultado los links de nuestra página.
+- **Copyright Tag** 
+Indica la empresa a la que pertenece la página web.
+- **Keywords Tag**
+Palabras clave sobre nuestra app, para aparecer en más resultados de búsqueda de usuarios que usen nuestras “keywords”.
+- **Rating Tag**
+Seleccionamos el rating mayor de 14 años, para tener mayor porcentaje de llegada. Además, al ser una app en la que el dinero es usado, no queremos personas insatisfechas por incentivar a niños gastar dinero sin su permiso.
+### 6.2.4. Navigation Systems.
+Para el sistema de navegación nos enfocamos en la comodidad y eficiencia que se le debe brindar al usuario, ya que son puntos sumamente importantes, en el que tomamos como prioridad el tiempo en el que el usuario demora en realizar una tarea.
+***Navigation Systems de FastPorte***
+![Navigation Systems de FastPorte](img/Capitulo_6/Information_Architecture/Navigation.png)
+## 6.3. Landing Page UI Design.
+En esta sección presentaremos el diseño de nuestra landing page empezando desde modelos de baja fidelidad como los wireframes y luego los mock-ups.
+### 6.3.1. Landing Page Wireframe.
+Las imágenes a continuación pertenecen a los wireframes realizados para el landing page. Abrir el link para más detalles del wireframe y de la versión mobile web browser: [Enlace a Figma](https://www.figma.com/file/xEc3h40NLBBgX0yLjxhLq9/Wireframe-FastPorte?node-id=0%3A1)
+![Landing Page Wireframe 1](img/Capitulo_6/Landing_Page_Wireframe/1.png)
+![Landing Page Wireframe 2](img/Capitulo_6/Landing_Page_Wireframe/2.png)
+![Landing Page Wireframe 3](img/Capitulo_6/Landing_Page_Wireframe/3.png)
+![Landing Page Wireframe 4](img/Capitulo_6/Landing_Page_Wireframe/4.png)
+![Landing Page Wireframe 5](img/Capitulo_6/Landing_Page_Wireframe/5.png)
+### 6.3.2. Landing Page Mock-up.
+Las imágenes a continuación pertenecen a los mock-ups realizados para el landing page. Abrir el link para más detalles de la versión desktop y mobile web browser: [Enlace a Figma](https://www.figma.com/file/xEc3h40NLBBgX0yLjxhLq9/Wireframe-FastPorte?node-id=0%3A1)
+**Desktop:**
+![Landing Page Mockup Desktop 1](img/Capitulo_6/Landing_Page_Mockup/Desktop1.png)
+![Landing Page Mockup Desktop 2](img/Capitulo_6/Landing_Page_Mockup/Desktop2.png)
+![Landing Page Mockup Desktop 3](img/Capitulo_6/Landing_Page_Mockup/Desktop3.png)
+**Mobile:**
+![Landing Page Mockup Mobile 1](img/Capitulo_6/Landing_Page_Mockup/Mobile1.png)
+![Landing Page Mockup Mobile 2](img/Capitulo_6/Landing_Page_Mockup/Mobile2.png)
+![Landing Page Mockup Mobile 3](img/Capitulo_6/Landing_Page_Mockup/Mobile3.png)
+## 6.4. Applications UX/UI Design.
+En esta sección presentaremos el diseño de nuestra web application empezando desde modelos de baja fidelidad como los wireframes y luego los mock-ups.
+### 6.4.1. Applications Wireframes.
+Las siguientes imágenes corresponden a los wireframes de la web applications. El link para visualizarlo a mayor detalle es el siguiente: [Enlace a Figma](https://www.figma.com/file/ipzddVXEuU5ee0IHE0hLyv/Open-source?node-id=0%3A1)
+![Application Wiframe 1](img/Capitulo_6/Application_Wireframe/1.png)
+![Application Wiframe 2](img/Capitulo_6/Application_Wireframe/2.png)
+![Application Wiframe 3](img/Capitulo_6/Application_Wireframe/3.png)
+![Application Wiframe 4](img/Capitulo_6/Application_Wireframe/4.png)
+![Application Wiframe 5](img/Capitulo_6/Application_Wireframe/5.png)
+![Application Wiframe 6](img/Capitulo_6/Application_Wireframe/6.png)
+![Application Wiframe 7](img/Capitulo_6/Application_Wireframe/7.png)
+![Application Wiframe 8](img/Capitulo_6/Application_Wireframe/8.png)
+![Application Wiframe 9](img/Capitulo_6/Application_Wireframe/9.png)
+![Application Wiframe 10](img/Capitulo_6/Application_Wireframe/10.png)
+![Application Wiframe 11](img/Capitulo_6/Application_Wireframe/11.png)
+![Application Wiframe 12](img/Capitulo_6/Application_Wireframe/12.png)
+![Application Wiframe 13](img/Capitulo_6/Application_Wireframe/13.png)
+![Application Wiframe 14](img/Capitulo_6/Application_Wireframe/14.png)
+### 6.4.2. Applications Wireflow Diagrams.
+***Interfaz de Entrada***
+**Wireflow 1: Registro de Usuario**
+![Wireflow 1](img/Capitulo_6/Application_Wireflow/1.png)
+Para registrarse el usuario deberá presionar “Create Account” lo cual le aparecerá un formulario. Tras completarlo, presiona “Continue”, aparece un formulario de datos personales. Luego de completarlo, presiona “Continue”. Finalmente, ya está registrado.
+
+**Wireflow 2: Recuperar contraseña**
+![Wireflow 2](img/Capitulo_6/Application_Wireflow/2.png)
+Para recuperar la contraseña deberá presionar “Forgot your Password?”, lo cual le pedirá el correo correspondiente, presiono “Continue”. Aparecerá un formulario de cambio de contraseña y una vez presionado “Confirm”, realizando la actualización de la contraseña. 
+
+***Interfaz de Transportistas***
+**Wireflow 3: Ingreso de Transportista**
+![Wireflow 3](img/Capitulo_6/Application_Wireflow/3.png)
+Una vez registrado el transportista ingresa sus datos y presiona “Login to your account”. Y así mostrando la interfaz del transportista.
+
+**Wireflow 4: Navegación de “My Profile”**
+![Wireflow 4](img/Capitulo_6/Application_Wireflow/4.png)
+El Cliente podrá ingresar a su perfil por el botón “My Profile” y podrá navegar “Personal Information”, “Experiencie”, “About the Vehicle” y “Comments”
+
+**Wireflow 5: Navegación de “Contracts”**
+![Wireflow 5](img/Capitulo_6/Application_Wireflow/5.png)
+El transportista podrá navegar por los diferentes secciones de “Contracts” y el cual podrá navegar por “Offers”, “Pending Contracts” y “History”
+
+**Wireflow 6: Aceptar/Rechazar ofertas de Trabajo**
+![Wireflow 6](img/Capitulo_6/Application_Wireflow/6.png)
+El transportista en “Offers” podrá Aceptar con el botón “Accept” y rechazar con el botón “Decline” y el cual informará la realización de su decisión, luego de presionar “Accept” regresará a la sección “Offers” mostrándole las ofertas disponibles.
+
+**Wireflow 7: Soporte al cliente**
+![Wireflow 7](img/Capitulo_6/Application_Wireflow/7.png)
+El transportista para que pueda llegar a soporte al cliente debe presionar “Support” en donde le llevará a la sección al soporte al cliente.
+
+**Wireflow 8: Notificación de oferta de Trabajo**
+![Wireflow 8](img/Capitulo_6/Application_Wireflow/8.png)
+El Transportista podrá revisar las ofertas desde el icono de notificaciones y al presionar “See more details” podrá observar todas las ofertas que este posee.
+
+**Wireflow 9: Contrato Finalizado**
+![Wireflow 9](img/Capitulo_6/Application_Wireflow/9.png)
+Después de finalizar concluir servicio, aparecerá una notificación de contrato finalizado y luego de presionar “Details” aparecerá un formulario para realizar el pago el cual al presionar “Cancel” regresará a la pantalla con la notificación que debe de cancelar, por otro lado al presionar “ACCEPT AND CONFIRM” le aparecerá un recuadro que el pago será realizado en las 24 horas y al presionar “Accept” regresará a la pantalla principal.
+
+**Wireflow 10: Cerrar Sesión**
+![Wireflow 10](img/Capitulo_6/Application_Wireflow/10.png)
+Para Cerrar Sesión presiona su nombre y aparece el botón “Log Out” el cual le permitirá cerrar su sesión.
+
+***Interfaz de Cliente***
+**Wireflow 11: Ingreso de Cliente**
+![Wireflow 11](img/Capitulo_6/Application_Wireflow/11.png)
+Una vez registrado el cliente ingresa sus datos y presiona “Login to your accout”. Y así mostrando la interfaz del cliente.
+
+**Wireflow 12: Ingresar en “My Profile”**
+![Wireflow 12](img/Capitulo_6/Application_Wireflow/12.png)
+El Cliente podrá ingresar a su perfil por el botón “My Profile” y podrá editar su información 
+
+**Wireflow 13: Contrato Rechazado**
+![Wireflow 13](img/Capitulo_6/Application_Wireflow/13.png)
+Cuando le rechazan un contrato, le aparecerá una notificación al presionar la 
+campana.
+
+**Wireflow 14: Realizar Depósito**
+![Wireflow 14](img/Capitulo_6/Application_Wireflow/14.png)
+Al haber terminado el servicio le aparecerá una notificación en la campana, luego de presionar “See more details” le presentará un formulario de cancelación al cual podrá completarlo
+
+**Wireflow 15: Contratar conductor**
+![Wireflow 15](img/Capitulo_6/Application_Wireflow/15.png)
+Para contratar a un conductor se presiona “Search Vehicles”, el cual le aparecerá un formulario que deberá completar los datos “Type of service”, “Size of vehicle” y “Complete documentation”, luego le aparecerán los conductores correspondientes. Presionando la flecha le aparecerá su información del conductor para poder contratarlo, luego presionamos “Contract” aparecerá otro formulario de “Request service” tras completarlo y presionar “SUBMIT” aparece un recuadro indicándonos “The driver has been notified” presionamos “Accept” y será realizado así el contrato.
+
+**Wireflow 16: Navegación en “Contracts”**
+![Wireflow 16](img/Capitulo_6/Application_Wireflow/16.png)
+En la sección podrá navegar por las diversas secciones Pending contracts y History.
+
+**Wireflow 17: Navegación en “Support”**
+![Wireflow 17](img/Capitulo_6/Application_Wireflow/17.png)
+El cliente para que pueda llegar a soporte al cliente debe presionar “Support” en donde le llevará a la sección al soporte al cliente.
+
+**Wireflow 18: Cerrar sesión**
+![Wireflow 18](img/Capitulo_6/Application_Wireflow/18.png)
+Para Cerrar sesión presiona su nombre y aparece el botón “Log Out” el cual le permitirá cerrar su sesión.
 # Conclusiones
 
 - El desarrollo del Lean UX Process ayudó a comprender mejor y aplicar efectivamente las herramientas en nuestra propuesta enfocada al servicio de transportistas hacia clientes. De la misma forma, contribuyó a definir de manera más clara nuestro público objetivo o llámese segmento hacia el cual va enfocada nuestra aplicación.
