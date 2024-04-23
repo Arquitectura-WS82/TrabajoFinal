@@ -1030,10 +1030,18 @@ Las imágenes a continuación pertenecen a los mock-ups realizados para el landi
 ![Landing Page Mockup Desktop 1](img/Capitulo_6/Landing_Page_Mockup/Desktop1.png)
 ![Landing Page Mockup Desktop 2](img/Capitulo_6/Landing_Page_Mockup/Desktop2.png)
 ![Landing Page Mockup Desktop 3](img/Capitulo_6/Landing_Page_Mockup/Desktop3.png)
+![Landing Page Mockup Desktop 4](img/Capitulo_6/Landing_Page_Mockup/Desktop4.png)
+![Landing Page Mockup Desktop 5](img/Capitulo_6/Landing_Page_Mockup/Desktop5.png)
+![Landing Page Mockup Desktop 6](img/Capitulo_6/Landing_Page_Mockup/Desktop6.png)
 **Mobile:**
 ![Landing Page Mockup Mobile 1](img/Capitulo_6/Landing_Page_Mockup/Mobile1.png)
 ![Landing Page Mockup Mobile 2](img/Capitulo_6/Landing_Page_Mockup/Mobile2.png)
-![Landing Page Mockup Mobile 3](img/Capitulo_6/Landing_Page_Mockup/Mobile3.png)
+![Landing Page Mockup Mobile 4](img/Capitulo_6/Landing_Page_Mockup/Mobile4.png)
+![Landing Page Mockup Mobile 5](img/Capitulo_6/Landing_Page_Mockup/Mobile5.png)
+![Landing Page Mockup Mobile 6](img/Capitulo_6/Landing_Page_Mockup/Mobile6.png)
+![Landing Page Mockup Mobile 7](img/Capitulo_6/Landing_Page_Mockup/Mobile7.png)
+![Landing Page Mockup Mobile 8](img/Capitulo_6/Landing_Page_Mockup/Mobile8.png)
+![Landing Page Mockup Mobile 9](img/Capitulo_6/Landing_Page_Mockup/Mobile9.png)
 ## 6.4. Applications UX/UI Design.
 En esta sección presentaremos el diseño de nuestra web application empezando desde modelos de baja fidelidad como los wireframes y luego los mock-ups.
 ### 6.4.1. Applications Wireframes.
