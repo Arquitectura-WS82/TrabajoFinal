@@ -938,7 +938,7 @@ El estilo general de nuestro product UX/UI design contiene los siguientes colore
 ![Colores del General Style Guidelines](img/Capitulo_6/General_Style_Guidelines/Colores.png)
 ***Tipo de fuente del General Style Guidelines***
 ![Tipo de fuente del General Style Guidelines](img/Capitulo_6/General_Style_Guidelines/Fuente.png)
-### 6.1.2. Web, Mobile & Devices Style Guidelines.
+	### 6.1.2. Web, Mobile & Devices Style Guidelines.
 Lo siguiente corresponde a la guía de estilos para la versión web. Se puede visualizar con mejor detalle en el siguiente link: [Enlace a Figma](https://www.figma.com/file/ipzddVXEuU5ee0IHE0hLyv/Open-source?node-id=50%3A2) 
 ***Tipografía utilizada en el General Style Guidelines***
 ![Tipografía utilizada en el General Style Guidelines](img/Capitulo_6/Web_Style_Guidelines/Tipografia.png)
@@ -1133,9 +1133,6 @@ En la sección podrá navegar por las diversas secciones Pending contracts y His
 ![Wireflow 17](img/Capitulo_6/Application_Wireflow/17.png)
 El cliente para que pueda llegar a soporte al cliente debe presionar “Support” en donde le llevará a la sección al soporte al cliente.
 
-**Wireflow 18: Cerrar sesión**
-![Wireflow 18](img/Capitulo_6/Application_Wireflow/18.png)
-Para Cerrar sesión presiona su nombre y aparece el botón “Log Out” el cual le permitirá cerrar su sesión.
 # Conclusiones
 
 - El desarrollo del Lean UX Process ayudó a comprender mejor y aplicar efectivamente las herramientas en nuestra propuesta enfocada al servicio de transportistas hacia clientes. De la misma forma, contribuyó a definir de manera más clara nuestro público objetivo o llámese segmento hacia el cual va enfocada nuestra aplicación.
