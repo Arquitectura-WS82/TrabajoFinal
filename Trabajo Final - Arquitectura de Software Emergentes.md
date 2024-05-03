@@ -26,10 +26,11 @@ Mayo, 2024
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha    | Autor              | Descripción de modificación                                                      |
+| Versión | Fecha    | Autor              | Descripción de modificación                                                         |
 | -------- | -------- | ------------------ | ---------------------------------------------------------------------------------- |
-| 1.0      | 12/04/24 | Sebastián Lévano | Creación del proyecto con Markdown Introducción del proyecto Cap I, II, III y IV |
-| 1.1      | 01/05/24 | Anthony Botello    | Adición del Cap V y del bounded context PersonalData                              |
+| 1.0      | 12/04/24 | Sebastián Lévano   | Creación del proyecto con Markdown Introducción del proyecto Cap I, II, III y IV   |
+| 1.1      | 01/05/24 | Anthony Botello    | Adición del Cap V y del bounded context PersonalData                               |
+| 1.2      | 02/05/24 | Abel Cierto        | Adición del Cap V y del bounded context SearchService                               |
 
 ---
 
