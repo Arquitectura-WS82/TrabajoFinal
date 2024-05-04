@@ -923,12 +923,12 @@ Este Bounded Context se centra en los transportistas, desde su registro en la ap
 **Escenario 1: Cliente Solicita Servicio de Transporte**
 En este escenario, un cliente utiliza una aplicación de servicios de transporte para solicitar un servicio de transporte de sus paquetes desde un lugar de recogida hasta un destino. El cliente inicia sesión en la aplicación. Luego, toma una foto de los paquetes para adjuntarla a la solicitud de transporte. La aplicación envía la solicitud junto con la foto al sistema de búsqueda de vehículos, que utiliza una API de inteligencia artificial para encontrar el transporte adecuado. Una vez encontrado, el sistema notifica al cliente sobre la asignación del transporte, proporcionando detalles adicionales
 
-![Escenario 1](img/Capitulo_4/Domain_Message_Flows_Modeling/Imagen1new.jpg)
+![Escenario 1](img/Capitulo_4/Domain_Message_Flows_Modeling/new1.jpg)
 
 **Escenario 2: Transportista Realiza el Servicio de Transporte**
 En este escenario, un transportista utiliza una aplicación de servicios de transporte para llevar a cabo un servicio de transporte de paquetes. El transportista inicia sesión en la aplicación, revisa las solicitudes de transporte disponibles y acepta una de ellas. Luego, se dirige al lugar de recogida donde recoge los paquetes del cliente. Una vez recogidos, inicia el servicio de transporte y se dirige al destino. Durante el viaje, el sistema realiza un seguimiento GPS del transporte. Una vez que llega al destino y entrega los paquetes, se registra la finalización del servicio y se notifica al cliente sobre la entrega exitosa.
 
-![Escenario 2](img/Capitulo_4/Domain_Message_Flows_Modeling/Imagen2new.jpg)
+![Escenario 2](img/Capitulo_4/Domain_Message_Flows_Modeling/new2.jpg)
 
 ### 4.2.4. Bounded Context Canvases
 
