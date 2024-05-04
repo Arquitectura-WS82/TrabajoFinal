@@ -29,9 +29,10 @@ Mayo, 2024
 | Versión | Fecha    | Autor            | Descripción de modificación                                                      |
 | ------- | -------- | ---------------- | -------------------------------------------------------------------------------- |
 | 1.0     | 12/04/24 | Sebastián Lévano | Creación del proyecto con Markdown Introducción del proyecto Cap I, II, III y IV |
-| 1.1     | 01/05/24 | Anthony Botello  | Adición del Cap V y del bounded context PersonalData                             |
-| 1.2     | 02/05/24 | Abel Cierto      | Adición del Cap V y del bounded context SearchService                            |
-| 1.3     | 03/05/24 | Branco Villegas  | Adición del Cap V y del bounded context Location                                 |
+| 1.1.0   | 01/05/24 | Anthony Botello  | Adición del Cap V y del bounded context PersonalData                             |
+| 1.1.1   | 02/05/24 | Rodrigo Sabino   | Adicion del Cap V y del bounded context Hiring                                   |
+| 1.1.2   | 02/05/24 | Abel Cierto      | Adición del Cap V y del bounded context SearchService                            |
+| 1.1.3   | 03/05/24 | Branco Villegas  | Adición del Cap V y del bounded context Location                                 |
 
 ---
 
@@ -96,6 +97,15 @@ Mayo, 2024
     - [4.3.4 Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
 - [Capítulo V: Tactical-Level Software Design](#capítulo-v-tactical-level-software-design)
 
+  - [5.1. Bounded Context: Hiring](#51-bounded-context-hiring)
+    - [5.1.1. Domain Layer](#511-domain-layer)
+    - [5.1.2. Interface Layer](#512-interface-layer)
+    - [5.1.3. Application Layer](#513-application-layer)
+    - [5.1.4. Infrastructure Layer](#514-infrastructure-layer)
+    - [5.1.5. Bounded Context Software Architecture Component Level Diagrams](#515-bounded-context-software-architecture-component-level-diagrams)
+    - [5.1.6. Bounded Context Software Architecture Code Level Diagrams](#516-bounded-context-software-architecture-code-level-diagrams)
+      - [5.1.6.1. Bounded Context Domain Layer Class Diagrams](#5161-bounded-context-domain-layer-class-diagrams)
+      - [5.1.6.2. Bounded Context Database Design Diagram](#5162-bounded-context-database-design-diagram)
   - [5.2. Bounded Context: PersonalData](#52-bounded-context-personaldata)
     - [5.2.1. Domain Layer](#521-domain-layer)
     - [5.2.2. Interface Layer](#522-interface-layer)
@@ -105,7 +115,6 @@ Mayo, 2024
     - [5.2.6. Bounded Context Software Architecture Code Level Diagrams](#526-bounded-context-software-architecture-code-level-diagrams)
       - [5.2.6.1. Bounded Context Domain Layer Class Diagrams](#5261-bounded-context-domain-layer-class-diagrams)
       - [5.2.6.2. Bounded Context Database Design Diagram](#5262-bounded-context-database-design-diagram)
-    
   - [5.3. Bounded Context: Location](#53-bounded-context-location)
     - [5.3.1. Domain Layer](#531-domain-layer)
     - [5.3.2. Interface Layer](#532-interface-layer)
@@ -115,7 +124,6 @@ Mayo, 2024
     - [5.3.6. Bounded Context Software Architecture Code Level Diagrams](#536-bounded-context-software-architecture-code-level-diagrams)
       - [5.3.6.1. Bounded Context Domain Layer Class Diagrams](#5361-bounded-context-domain-layer-class-diagrams)
       - [5.3.6.2. Bounded Context Database Design Diagram](#5362-bounded-context-database-design-diagram)
-    
   - [5.4. Bounded Context: SearchService](#54-bounded-context-searchservice)
     - [5.4.1. Domain Layer](#541-domain-layer)
     - [5.4.2. Interface Layer](#542-interface-layer)
@@ -125,7 +133,6 @@ Mayo, 2024
     - [5.4.6. Bounded Context Software Architecture Code Level Diagrams](#546-bounded-context-software-architecture-code-level-diagrams)
       - [5.4.6.1. Bounded Context Domain Layer Class Diagrams](#5461-bounded-context-domain-layer-class-diagrams)
       - [5.4.6.2. Bounded Context Database Design Diagram](#5462-bounded-context-database-design-diagram)
-    
 - [Capítulo VI: Solution UX Design](#capítulo-vi-solution-ux-design)
 
   - [6.1. Style Guidelines](#61-style-guidelines)
@@ -1004,6 +1011,68 @@ Inicialmente, todas las pruebas se realizaron localmente para garantizar que los
 
 # Capítulo V: Tactical-Level Software Design
 
+## 5.1. Bounded Context: Hiring
+El Bounded Context "Hiring" se enfoca en el proceso de contratacion de drivers. Su principal objetivo es gestionar la creacion de contratos entre los clientes y los conductores contratados. Este proceso implica la definicion detallada del contrato, asi como la recoleccion y verificacion de la informacion necesaria del conductor, licencias, historial y datos personales relevantes.
+### 5.1.1. Domain Layer
+
+**Entities**
+
+- **Contract:** 
+
+  Esta entidad representa un componente fundamental en el sistema de gestión de transporte, proporcionando un registro estructurado de los acuerdos contractuales entre la empresa y los conductores, e incluyendo tanto información contractual como personal relevante para la operación y administración efectiva del servicio de transporte.
+
+**Value Objects:**
+
+- **StatusContract:** 
+
+  Este objeto de valor es esencial para representar el estado de un contrato de manera coherente y estructurada dentro del modelo de dominio de la aplicación. Al utilizarlo como un value object, se asegura la consistencia en la forma en que se maneja y se muestra el estado de los contratos en la aplicación.
+
+**Aggregates:**
+
+- **Contract:** 
+
+  Este Aggregate agrupa la información relacionada con los contratos de conductor dentro del sistema de gestión de transporte. Actúa como una colección cohesiva de datos que encapsula los detalles contractuales y personales de cada conductor contratado. Esto incluye detalles contractuales como los términos y condiciones, la fecha de inicio y finalización del contrato, tarifas acordadas, así como información personal del conductor, como nombre, datos de contacto y cualquier otro detalle pertinente para la gestión de contratos.
+### 5.1.2. Interface Layer
+**Controllers:** 
+
+- **HiringController:** 
+
+  Este controlador constituye un componente fundamental dentro de la arquitectura de la aplicación, encargado de gestionar el proceso de contratación de conductores en nuestra plataforma de transporte. En este controlador, se encuentran implementadas diversas funcionalidades CRUD destinadas a interactuar con los datos relacionados con los conductores dentro del sistema. Estas operaciones van desde la creación de nuevos contratos de conductor hasta la actualización de información contractual y la eliminación de registros existentes, según sea necesario.
+
+### 5.1.3. Application Layer
+**Services:**
+
+- **HiringService:**
+
+  Este servicio constituye un componente central en la arquitectura de la aplicación, encargado de gestionar todas las operaciones relacionadas con la contratación de conductores dentro del sistema de transporte. Se dedica a manejar de manera integral y segura los datos esenciales para la gestión de la contratación de conductores. Este servicio abarca desde la creación inicial de contratos de conductor hasta la recuperación y actualización de información contractual
+
+### 5.1.4. Infrastructure Layer
+
+**Repositories:**
+
+- **HiringRepository:** 
+
+  Cumple un papel fundamental al facilitar la interacción con la base de datos para gestionar la persistencia de datos relacionados con los contratos de conductores en nuestra aplicación.
+
+
+### 5.1.5. Bounded Context Software Architecture Component Level Diagrams
+En la siguiente imagen se presenta el diagrama de componentes del bounded context “Hiring”.
+
+![Componen Level Diagrams](img/Capitulo_5/Bounded_Context_Hiring/Software_Architecture_Component_Level_Diagrams.png)
+
+### 5.1.6. Bounded Context Software Architecture Code Level Diagrams
+A continuación, se presentará el diagrama de clases para el bounded context correspondiente, así como también el diagrama de base de datos.
+
+#### 5.1.6.1. Bounded Context Domain Layer Class Diagrams
+En esta sección se muestra el diagrama de clases correspondiente al Bounded Context "Hiring". En este diagrama se pueden observar las clases de la capa de dominio así como sus relaciones con las clases de las demás capas.
+
+![Code Level Diagram](img/Capitulo_5/Bounded_Context_Hiring/Domain_Layer_Class_Diagrams.png)
+
+#### 5.1.6.2. Bounded Context Database Design Diagram
+
+![Data Base Diagram](img/Capitulo_5/Bounded_Context_Hiring/Database_Desing_Diagram.png)
+=======
+
 ## 5.2. Bounded Context: PersonalData
 
 El Bounded Context "PersonalData" se centra en la gestión y el manejo de los datos personales de los usuarios dentro de nuestra aplicación. Este contexto delimitado encapsula todos los aspectos relacionados con la recopilación, almacenamiento y manipulación de la información personal de los usuarios, garantizando su seguridad, privacidad y coherencia en todo momento.
@@ -1496,3 +1565,7 @@ Enlace: [Repositorio Trabajo Final](https://github.com/Arquitectura-WS82/Trabajo
 ## Entrega TB1
 
 Enlace: [Exposición TB1 en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/Ec1gj2b9GwhMiIeeW4ZbOQUBjR8V_vwBKCj4ByvhRvIVLg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=mEYRo9)
+
+## Entrega TP
+
+Enlace: [Exposición TP en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/Ee3gKoJcxupDoCe8-pI8Cb0BtfJhZUx52-sbBh5ShCEz-w?e=pR0RiA)
