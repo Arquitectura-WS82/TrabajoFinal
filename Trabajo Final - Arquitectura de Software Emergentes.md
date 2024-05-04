@@ -26,11 +26,12 @@ Mayo, 2024
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha    | Autor              | Descripción de modificación                                                      |
-| -------- | -------- | ------------------ | ---------------------------------------------------------------------------------- |
-| 1.0      | 12/04/24 | Sebastián Lévano | Creación del proyecto con Markdown Introducción del proyecto Cap I, II, III y IV |
-| 1.1      | 01/05/24 | Anthony Botello    | Adición del Cap V y del bounded context PersonalData                              |
-| 1.2      | 02/05/24 | Abel Cierto        | Adición del Cap V y del bounded context SearchService                             |
+| Versión | Fecha    | Autor            | Descripción de modificación                                                      |
+| ------- | -------- | ---------------- | -------------------------------------------------------------------------------- |
+| 1.0     | 12/04/24 | Sebastián Lévano | Creación del proyecto con Markdown Introducción del proyecto Cap I, II, III y IV |
+| 1.1     | 01/05/24 | Anthony Botello  | Adición del Cap V y del bounded context PersonalData                             |
+| 1.2     | 02/05/24 | Abel Cierto      | Adición del Cap V y del bounded context SearchService                            |
+| 1.3     | 03/05/24 | Branco Villegas  | Adición del Cap V y del bounded context Location                                 |
 
 ---
 
@@ -96,7 +97,6 @@ Mayo, 2024
 - [Capítulo V: Tactical-Level Software Design](#capítulo-v-tactical-level-software-design)
 
   - [5.2. Bounded Context: PersonalData](#52-bounded-context-personaldata)
-
     - [5.2.1. Domain Layer](#521-domain-layer)
     - [5.2.2. Interface Layer](#522-interface-layer)
     - [5.2.3. Application Layer](#523-application-layer)
@@ -105,8 +105,18 @@ Mayo, 2024
     - [5.2.6. Bounded Context Software Architecture Code Level Diagrams](#526-bounded-context-software-architecture-code-level-diagrams)
       - [5.2.6.1. Bounded Context Domain Layer Class Diagrams](#5261-bounded-context-domain-layer-class-diagrams)
       - [5.2.6.2. Bounded Context Database Design Diagram](#5262-bounded-context-database-design-diagram)
+    
+  - [5.3. Bounded Context: Location](#53-bounded-context-location)
+    - [5.3.1. Domain Layer](#531-domain-layer)
+    - [5.3.2. Interface Layer](#532-interface-layer)
+    - [5.3.3. Application Layer](#533-application-layer)
+    - [5.3.4. Infrastructure Layer](#534-infrastructure-layer)
+    - [5.3.5. Bounded Context Software Architecture Component Level Diagrams](#535-bounded-context-software-architecture-component-level-diagrams)
+    - [5.3.6. Bounded Context Software Architecture Code Level Diagrams](#536-bounded-context-software-architecture-code-level-diagrams)
+      - [5.3.6.1. Bounded Context Domain Layer Class Diagrams](#5361-bounded-context-domain-layer-class-diagrams)
+      - [5.3.6.2. Bounded Context Database Design Diagram](#5362-bounded-context-database-design-diagram)
+    
   - [5.4. Bounded Context: SearchService](#54-bounded-context-searchservice)
-
     - [5.4.1. Domain Layer](#541-domain-layer)
     - [5.4.2. Interface Layer](#542-interface-layer)
     - [5.4.3. Application Layer](#543-application-layer)
@@ -115,6 +125,7 @@ Mayo, 2024
     - [5.4.6. Bounded Context Software Architecture Code Level Diagrams](#546-bounded-context-software-architecture-code-level-diagrams)
       - [5.4.6.1. Bounded Context Domain Layer Class Diagrams](#5461-bounded-context-domain-layer-class-diagrams)
       - [5.4.6.2. Bounded Context Database Design Diagram](#5462-bounded-context-database-design-diagram)
+    
 - [Capítulo VI: Solution UX Design](#capítulo-vi-solution-ux-design)
 
   - [6.1. Style Guidelines](#61-style-guidelines)
@@ -912,29 +923,29 @@ Este Bounded Context se centra en los transportistas, desde su registro en la ap
 **Escenario 1: Cliente Solicita Servicio de Transporte**
 En este escenario, un cliente utiliza una aplicación de servicios de transporte para solicitar un servicio de transporte de sus paquetes desde un lugar de recogida hasta un destino. El cliente inicia sesión en la aplicación. Luego, toma una foto de los paquetes para adjuntarla a la solicitud de transporte. La aplicación envía la solicitud junto con la foto al sistema de búsqueda de vehículos, que utiliza una API de inteligencia artificial para encontrar el transporte adecuado. Una vez encontrado, el sistema notifica al cliente sobre la asignación del transporte, proporcionando detalles adicionales
 
-![Escenario 1](img/Capitulo_4/Domain_Message_Flows_Modeling/Imagen1.png)
+![Escenario 1](img/Capitulo_4/Domain_Message_Flows_Modeling/Imagen1new.jpg)
 
 **Escenario 2: Transportista Realiza el Servicio de Transporte**
 En este escenario, un transportista utiliza una aplicación de servicios de transporte para llevar a cabo un servicio de transporte de paquetes. El transportista inicia sesión en la aplicación, revisa las solicitudes de transporte disponibles y acepta una de ellas. Luego, se dirige al lugar de recogida donde recoge los paquetes del cliente. Una vez recogidos, inicia el servicio de transporte y se dirige al destino. Durante el viaje, el sistema realiza un seguimiento GPS del transporte. Una vez que llega al destino y entrega los paquetes, se registra la finalización del servicio y se notifica al cliente sobre la entrega exitosa.
 
-![Escenario 2](img/Capitulo_4/Domain_Message_Flows_Modeling/Imagen2.png)
+![Escenario 2](img/Capitulo_4/Domain_Message_Flows_Modeling/Imagen2new.jpg)
 
 ### 4.2.4. Bounded Context Canvases
 
 **Búsqueda de Vehículos**
 Este bounded context se centra en el problema del dominio y es la búsqueda de vehículos, con el objetivo de optimizar la selección de opciones de transporte para los usuarios. En cuando a los subdominios se encuentra la inspección de los perfiles de transportistas y reconsideración de opciones, selección y filtrado de vehículos.
 
-![Búsqueda de vehículos Canvas](img/Capitulo_4/Bounded_Context_Canvases/Imagen1.png)
+![Búsqueda de vehículos Canvas](img/Capitulo_4/Bounded_Context_Canvases/Imagen1new.jpg)
 
 **Servicios**
 El Bounded Context Canvas para servicios de transporte es una herramienta estratégica diseñada para definir y delinear las características clave de este dominio específico dentro de un sistema de software. Proporciona una visión integral de cómo este contexto interactúa con los usuarios, gestiona datos y se comunica con otros contextos o sistemas.
 
-![Servicios Canvas](img/Capitulo_4/Bounded_Context_Canvases/Imagen2.png)
+![Servicios Canvas](img/Capitulo_4/Bounded_Context_Canvases/Imagen2new.jpg)
 
 **Transportista**
 Este Bounded Context se centra en la gestión integral de los transportistas y sus vehículos, desde el registro inicial en la aplicación hasta la actualización continua de su información vehicular y personal. Este contexto define cómo los transportistas interactúan con la plataforma, estableciendo procesos y políticas claras para el registro de usuarios y vehículos, la validación de datos, y la comunicación entre la plataforma y los transportistas.
 
-![Transportista Canvas](img/Capitulo_4/Bounded_Context_Canvases/Imagen3.png)
+![Transportista Canvas](img/Capitulo_4/Bounded_Context_Canvases/Imagen3new.jpg)
 
 ### 4.2.5. Context Mapping
 
@@ -948,7 +959,7 @@ Después de obtener cuáles serían nuestros Bounded Contexts, se realizó la el
 
 El diagrama de System Landscape que presentamos muestra el diseño central de nuestro sistema de transporte de paquetes, con el "FastPorte Platform" en su corazón. Este núcleo sirve como la central de gestión de paquetes, conectando a los "Clientes" con el "Carrier" adecuado para su transporte. La plataforma proporciona una interfaz clara y eficaz por medio de la cual los clientes pueden estimar la cantidad de paquetes a enviar y seleccionar el vehículo idóneo para su entrega. Este enfoque no solo optimiza la eficiencia del proceso, sino que también eleva la satisfacción de todos los actores involucrados, garantizando una experiencia de transporte fluida y sin contratiempos.
 
-![Landscape Diagram](img/Capitulo_4/Software_Architecture_System_Landscape_Diagram/Imagen1.png)
+![Landscape Diagram](img/Capitulo_4/Software_Architecture_System_Landscape_Diagram/Imagen1new.png)
 
 ### 4.3.2. Software Architecture Context Level Diagrams.
 
@@ -1077,7 +1088,55 @@ En esta sección se muestra el diagrama de clases correspondiente al Bounded Con
 ![Database Design Diagram](img/Capitulo_5/Bounded_Context_PersonalData/Database_Design_Diagram.png)
 
 ---
+## 5.3. Bounded Context: Location
 
+Este Bounded Context se encarga de gestionar todas las ubicaciones geográficas relacionadas con los usuarios y operaciones de la aplicación. Incluye la manipulación de direcciones de carga, descarga y cualquier punto relevante que requiera geolocalización precisa. Esta capacidad es fundamental para optimizar rutas, calcular distancias, y asegurar la precisión en la logística y distribución.
+### 5.3.1. Domain Layer
+
+**Entities**
+- **Location**: Representa una ubicación geográfica concreta, como puede ser la dirección de un cliente o de un punto de carga y descarga. Tiene atributos como ID, dirección, latitud, longitud, descripción.
+
+**Value Objects:**
+- **Coordinates:** Encapsula la latitud y longitud para garantizar que las coordenadas sean siempre válidas y consistentes.
+- **Address**: Representa una dirección postal completa, incluyendo calle, ciudad, código postal y país.
+
+**Aggregates:**
+- **LocationAggregate:** Agrega la entidad Location con los objetos de valor Coordinates y Address. Location actúa como raíz de agregado.
+### 5.3.2. Interface Layer
+
+**Interfaces:**
+- **LocationInterface:** Interfaz para interactuar con la información de ubicación, incluyendo métodos para obtener y actualizar datos de localización. Los métodos que tendrá getLocation(id), updateLocation(id, data), addLocation(data), deleteLocation(id).
+### 5.3.3. Application Layer
+
+**LocationService:** Servicio que ofrece métodos para manejar la lógica de negocio relacionada con la localización, como agregar nueva ubicación, actualizar una existente, o calcular distancias entre dos puntos.
+### 5.3.4. Infrastructure Layer
+
+**LocationRepository**: Maneja la persistencia de las entidades de Location, permitiendo operaciones CRUD sobre la base de datos. Tendrá la responsabilidad de Inserción, actualización, eliminación y recuperación de ubicaciones.
+### **5.3.5. Bounded Context Software Architecture Component Level Diagrams.**
+
+El diagrama ilustra el Bounded Context "Location" del sistema FastPorte, que administra las ubicaciones geográficas de transportistas y facilita servicios de localización a través de una aplicación web. La Web App actúa como interfaz principal para clientes que buscan servicios de transporte, conectándose a través de un API Gateway que canaliza las solicitudes a componentes como el SeguridadController. Este controlador gestiona la seguridad y localización, procesando las solicitudes mediante el LocationApplicationService. Este servicio utiliza el LocationFacade para interactuar con Google Maps, proporcionando datos georreferenciales y mapas detallados. La información de ubicación es gestionada en el Domain Layer y almacenada en la Database Location, asegurando la precisión y eficiencia en el servicio de transporte ofrecido por FastPorte.
+![Component Level Diagram](img/Capitulo_5/Bounded_Context_Location/img1.png)
+
+### 5.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+A continuación, se presentará el diagrama de clases para el bounded context correspondiente, así como también el diagrama de base de datos.
+
+#### 5.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+El diagrama de clases del Bounded Context "Location" muestra cómo se organizan las entidades clave para gestionar la información de ubicación y de usuario en el sistema. Incluye las clases Location, User, Address y Coordinates, con Location conteniendo detalles como nombre y descripción junto con un objeto Coordinates que almacena la latitud y longitud. La clase User está vinculada estrechamente con Address, mostrando una composición que indica que cada usuario tiene una dirección, y está relacionada con Coordinates, sugiriendo que cada usuario tiene una ubicación geográfica definida. La interfaz LocationInterface proporciona métodos para manipular las ubicaciones, incluyendo obtener, actualizar, agregar y eliminar ubicaciones. Este diseño facilita la interacción eficiente entre la información de usuario y sus ubicaciones geográficas dentro del sistema, permitiendo un manejo estructurado tanto de los datos personales como de las coordenadas geográficas.
+
+
+![Component Level Diagram](img/Capitulo_5/Bounded_Context_Location/img2.png)
+
+
+#### 5.3.6.2. Bounded Context Database Design Diagram
+
+El diagrama de diseño de base de datos para el Bounded Context "Location" muestra cómo las tablas Location, Coordinates y Address están interrelacionadas para almacenar información sobre ubicaciones. Cada tabla Location se enlaza a través de identificadores únicos a las tablas Coordinates, que almacena latitud y longitud, y Address, que guarda detalles de calle y ciudad. Este esquema permite una gestión eficiente y estructurada de los datos geográficos y de dirección dentro del sistema.
+
+![Component Level Diagram](img/Capitulo_5/Bounded_Context_Location/img3.png)
+
+
+---
 ## 5.4. Bounded Context: SearchService
 
 El Bounded Context "Search" se centra en la gestión de la búsqueda del servicio a contratar. En este contexto, el usuario ingresa una foto del producto o productos que desea transportar y el sistema a través de una IA reconoce el objeto y sugiere un transporte con las dimensiones adecuadas para el usuario solicitante.
