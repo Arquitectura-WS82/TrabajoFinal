@@ -118,15 +118,15 @@ Mayo, 2024
     - [5.3.6. Bounded Context Software Architecture Code Level Diagrams](#536-bounded-context-software-architecture-code-level-diagrams)
       - [5.3.6.1. Bounded Context Domain Layer Class Diagrams](#5361-bounded-context-domain-layer-class-diagrams)
       - [5.3.6.2. Bounded Context Database Design Diagram](#5362-bounded-context-database-design-diagram)
-  - [5.3. Bounded Context: Location](#53-bounded-context-location)
-    - [5.3.1. Domain Layer](#531-domain-layer)
-    - [5.3.2. Interface Layer](#532-interface-layer)
-    - [5.3.3. Application Layer](#533-application-layer)
-    - [5.3.4. Infrastructure Layer](#534-infrastructure-layer)
-    - [5.3.5. Bounded Context Software Architecture Component Level Diagrams](#535-bounded-context-software-architecture-component-level-diagrams)
-    - [5.3.6. Bounded Context Software Architecture Code Level Diagrams](#536-bounded-context-software-architecture-code-level-diagrams)
-      - [5.3.6.1. Bounded Context Domain Layer Class Diagrams](#5361-bounded-context-domain-layer-class-diagrams)
-      - [5.3.6.2. Bounded Context Database Design Diagram](#5362-bounded-context-database-design-diagram)
+  - [5.4. Bounded Context: SearchService](#54-bounded-context-searchservice)
+    - [5.4.1. Domain Layer](#541-domain-layer)
+    - [5.4.2. Interface Layer](#542-interface-layer)
+    - [5.4.3. Application Layer](#543-application-layer)
+    - [5.4.4. Infrastructure Layer](#544-infrastructure-layer)
+    - [5.4.5. Bounded Context Software Architecture Component Level Diagrams](#545-bounded-context-software-architecture-component-level-diagrams)
+    - [5.4.6. Bounded Context Software Architecture Code Level Diagrams](#546-bounded-context-software-architecture-code-level-diagrams)
+      - [5.4.6.1. Bounded Context Domain Layer Class Diagrams](#5461-bounded-context-domain-layer-class-diagrams)
+      - [5.4.6.2. Bounded Context Database Design Diagram](#5462-bounded-context-database-design-diagram)
 - [Capítulo VI: Solution UX Design](#capítulo-vi-solution-ux-design)
   - [6.1. Style Guidelines](#61-style-guidelines)
 	- [6.1.1. General Style Guidelines](#611-general-style-guidelines)
@@ -142,6 +142,15 @@ Mayo, 2024
   - [6.4. Applications UX/UI Design](#64-applications-ux-ui-design)
 	- [6.4.1. Applications Wireframes](#641-applications-wireframes)
 	- [6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)
+	- [6.4.3. Applications Mock-ups](#643-applications-mock-ups)
+	- [6.4.4. Applications User Flow Diagrams](#644-applications-user-flow-diagrams)
+  - [6.5. Applications Prototyping](#65-applications-propotyping)
+- [Capítulo VII: Product Implementation, Validation & Deployment](#capítulo-vii-product-implementation-validation-deployment)
+  - [7.1. Software Configuration Management](#71-software-configuration-management)
+	- [7.1.1. Software Development Environment Configuration](#711-software-development-environment-configuration)
+	- [7.1.2. Source Code Management](#712-source-code-management)
+	- [7.1.3. Source Code Style Guide & Management](#713-source-code-style-guide-management)
+	- [7.1.4. Software Deployment Configuration](#714-software-deployment-configuration)
 - [Conclusiones](#conclusiones)
 - [Recomendaciones](#recomendaciones)
 
@@ -1450,6 +1459,95 @@ En la sección podrá navegar por las diversas secciones Pending contracts y His
 **Wireflow 17: Navegación en “Support”**
 ![Wireflow 17](img/Capitulo_6/Application_Wireflow/17.png)
 El cliente para que pueda llegar a soporte al cliente debe presionar “Support” en donde le llevará a la sección al soporte al cliente.
+
+# Capítulo VII: Product Implementation, Validation & Deployment
+## 7.1. Software Configuration Management 
+### 7.1.1. Software Development Environment Configuration 
+- **Project Management**
+Se hizo uso de software que permite la comunicación en tiempo real y de edición rápida y compartida, de esta forma se trabajó con eficiencia. Algunos softwares utilizados fueron Google services (Drive, Documents, Meet) y Microsoft Outlook. Para el registro de versiones y creación de repositorios se hizo uso de GitHub ya que es una plataforma que nos permite registrar de manera ordenada cada uno de los commits que realizamos y realizaremos.
+- **Product UX/UI Design**
+Se empleó Miro y UXPressia para el desarrollo de todo lo relacionado a los segmentos objetivos y sus mapeos. Además, se utilizaron estas herramientas online para el desarrollo de los As-Is y To-Be Scenario Maps. Por otro lado, para el desarrollo de los mockups, wireframes, wireflows y el prototipo de la aplicación web, se empleó Figma.
+
+Además, se creó un repositorio específico en GitHub para el UX/UI design, donde se encuentran los artefactos desarrollados a lo largo del trabajo.
+**Repositorio UX-UI Design**
+![Repositorio UX-UI Design](img/Capitulo_7/Software_Configuration_Management/1.png)
+Link en github: []()
+- **Software Development**
+Para el desarrollo del software de este proyecto se empleó lo siguiente:
+	- **IntelliJ IDEA:** IDE desarrollado por JetBrains especializado para el desarrollo con el lenguaje de programación Java.
+	- **Java:** Lenguaje de programación popularmente utilizado en el desarrollo de microservicios debido a su capacidad para ofrecer escalabilidad, portabilidad y robustez.
+	- **Git:** La versión consola de sistema de control de versiones GIT, encargado de gestionar repositorios.
+-  **Software Testing**
+Para los test de aceptación, se usará el lenguaje Gherkin y se subirá al repositorio que mencionaremos más adelante.
+- **Software Deployment**
+Se realizará la implementación y ejecución de las aplicaciones y servicios en la plataforma de nube de Microsoft, la cual permite escalabilidad y la correcta administración de los recursos creados.
+-  **Software Documentation**
+Para realizar la documentación del lenguaje de programación Java nos podemos guiar de páginas como Oracle u otras similares. En cualquier caso, es una buena práctica documentar cada servicio para ofrecer un mayor entendimiento a los futuros programadores o en caso se tenga que volver a revisar una implementación previa.
+
+### 7.1.2. Source Code Management 
+Para el proyecto que estamos realizando usaremos el sistema de control de versiones Git el cual se verá evidenciado en la plataforma Github ya que nos permite visualizar los cambios hechos en cada versión de manera didáctica y ordenada.
+El repositorio creado será gestionado con GitFlow el cual supone tener cinco ramas, sin embargo, en el repositorio solo se mostrarán tres de ellas ya que serán las que tengan los cambios más significativos en nuestro proceso de construcción del proyecto. Los branches que mostraremos en el repositorio de GitHub serán:
+**Main:** contendrá las versiones oficiales y estables de nuestro proyecto.
+**Develop:** será conformada por todos los features que se vinieron desarrollando para que cuando creamos que está lista para el siguiente paso sea fusionada con la rama reléase.
+**Release:** contendrá el código que será publicado oficialmente y será un paso previo antes de pasar a la rama main.
+**Feature:** será una rama individual por cada integrante donde suban la parte del código que corresponde a la funcionalidad designada. Cada una de estas será fusionada con la rama _develop_.
+$feature <nombre -integrante>/<pequeña-descripción>$
+ El nombramiento de los releases se hará teniendo en cuenta el versionamiento semántico 2.0.0 con el cual podremos saber cómo nombrar a nuestras diferentes versiones del proyecto.
+ $Mayor.Menor.Parche$
+ **El último dígito (Parche):** se utilizará para indicar que hubo un parche. Solo para indicar que se arreglaron algunos errores mas no hubo cambios grandes.
+**El segundo dígito (Menor):** se cambiará (aumentará) para indicar que se añadieron características al proyecto que son compatibles con la versión pasada. Si este dígito aumenta, el número del parche empezará en 0.
+**El primer dígito (Mayor):** Aumentará cada vez que haya un cambio significativo y además cuando la versión actual no sea compatible con la versión anterior.
+Por último, se hará uso de conventional commits para los textos de mensajes en cada commit que se realice. La estructura es la siguiente:
+$<type>[optional scope]: <description>$
+$[optional body]$
+$[optional footer(s)]$
+Sin embargo, para este trabajo, por lo general se usará la siguiente estructura que es similar a la mostrada anteriormente:
+$<type>: <description>$
+Con respecto a los repositorios que usaremos en el proyecto, serán los siguientes:
+**Repositorio Frontend Applications**
+![Repositorio Frontend Applications](img/Capitulo_7/Software_Configuration_Management/2.png)
+Link en github: []()
+**Repositorio Microservices**
+![Repositorio Microservices](img/Capitulo_7/Software_Configuration_Management/3.png)
+Link en github: []()
+**Repositorio Landing Page**
+![Repositorio Landing Page](img/Capitulo_7/Software_Configuration_Management/4.png)
+Link en github: []()
+Los tests de aceptación serán subidos al siguiente repositorio:
+**Repositorio Acceptance Tests**
+![Repositorio Acceptance Tests](img/Capitulo_7/Software_Configuration_Management/5.png)
+Link en github: []()
+ 
+### 7.1.3. Source Code Style Guide & Conventions 
+Para el desarrollo de código, se tiene planeado utilizar las convenciones descritas en, Gherkin Conventions for Readable Specifications, Google Java Style Guide y Code Style Java de IntelliJ.
+**Principales referencias y convenciones adoptadas o por adoptar en la realización del proyecto:**
+**JAVA**
+-  Los modificadores de clase y miembro, cuando están presentes, aparecen en el orden recomendado por la especificación del lenguaje Java:
+$public$ $protected$ $private$ $abstract$ $default$ $static$ $final$ $transient$ $volatile$ $synchronized$ $native$ $strictfp$
+-  Se usa UpperCamelCase para el nombre de las clases.
+$ThisIsAnExample$
+$thisIsNotAnExample$
+- Se usa lowerCamelCase para el nombre de los métodos y parámetros.
+$thisIsAnExample$
+$ThisIsNotAnExample$
+
+**GHERKIN**
+Para los archivos. feature se utilizó el lenguaje Gherkin.
+- **Contar con bloques discernibles de Given-When-Then**, los cuales terminaran aplicando el And y un espacio, para tener una fácil detección de donde termina y donde comienza un bloque.
+_Bloques discernibles en Gherkin_
+![Bloques discernibles](img/Capitulo_7/Software_Configuration_Management/6.png)
+- **Utilizar comillas simples,** para poder identificar los parámetros en un paso.
+_Comillas simples en Gherkin_
+![Comillas Simples](img/Capitulo_7/Software_Configuration_Management/7.png)
+### 7.1.4. Software Deployment Configuration 
+Para la configuración de despliegue del proyecto en curso, se utilizará Eureka por las siguientes razones: 
+- **Registro de Servicios:** Eureka permite que los microservicios se registren automáticamente en un servidor Eureka cuando se inician. Esto significa que cada microservicio que se ejecuta puede hacerse visible para otros componentes de la aplicación.
+- **Descubrimiento de Servicios:** Los microservicios pueden consultar el servidor Eureka para obtener información actualizada sobre la ubicación y la disponibilidad de los servicios que necesitan invocar. Esto elimina la necesidad de que los clientes conozcan las direcciones IP o los puertos de los servicios, lo que facilita la comunicación dinámica entre microservicios.
+- **Balanceo de Carga:** Eureka se integra fácilmente con balanceadores de carga, lo que permite una distribución equilibrada de las solicitudes entre múltiples instancias de un servicio. Esto mejora la escalabilidad y la disponibilidad de los servicios, ya que las solicitudes se distribuyen de manera uniforme.
+![Springboot](img/Capitulo_7/Software_Configuration_Management/8.png)
+Para utilizarlo, será necesario importar las dependencias en los servicios de registro, de gateway y los servicios de la solución como podrían ser el de clients, carriers, hiring, etc.
+![Dependencies](img/Capitulo_7/Software_Configuration_Management/9.png)
+Finalmente, al ejecutar los servicios e ingresar al localhost:8099, aquellos que se han registrado se mostrarán en una tabla al igual que el estado en que se encuentran.
 
 # Conclusiones
 
