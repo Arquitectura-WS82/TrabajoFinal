@@ -1471,7 +1471,7 @@ Se empleó Miro y UXPressia para el desarrollo de todo lo relacionado a los segm
 Además, se creó un repositorio específico en GitHub para el UX/UI design, donde se encuentran los artefactos desarrollados a lo largo del trabajo.
 **Repositorio UX-UI Design**
 ![Repositorio UX-UI Design](img/Capitulo_7/Software_Configuration_Management/1.png)
-Link en github: []()
+Link en github: [UX-UI Design](https://github.com/Arquitectura-WS82/UX-UI-Design)
 - **Software Development**
 Para el desarrollo del software de este proyecto se empleó lo siguiente:
 	- **IntelliJ IDEA:** IDE desarrollado por JetBrains especializado para el desarrollo con el lenguaje de programación Java.
@@ -1506,17 +1506,17 @@ $<type>: <description>$
 Con respecto a los repositorios que usaremos en el proyecto, serán los siguientes:
 **Repositorio Frontend Applications**
 ![Repositorio Frontend Applications](img/Capitulo_7/Software_Configuration_Management/2.png)
-Link en github: []()
+Link en github: [Frontend Web Applications](https://github.com/Arquitectura-WS82/frontend-web-applications)
 **Repositorio Microservices**
 ![Repositorio Microservices](img/Capitulo_7/Software_Configuration_Management/3.png)
-Link en github: []()
+Link en github: [Microservices](https://github.com/Arquitectura-WS82/web-services)
 **Repositorio Landing Page**
 ![Repositorio Landing Page](img/Capitulo_7/Software_Configuration_Management/4.png)
-Link en github: []()
+Link en github: [Landing Page](https://github.com/Arquitectura-WS82/landing-page)
 Los tests de aceptación serán subidos al siguiente repositorio:
 **Repositorio Acceptance Tests**
 ![Repositorio Acceptance Tests](img/Capitulo_7/Software_Configuration_Management/5.png)
-Link en github: []()
+Link en github: [Acceptance Tests](https://github.com/Arquitectura-WS82/acceptance-tests)
  
 ### 7.1.3. Source Code Style Guide & Conventions 
 Para el desarrollo de código, se tiene planeado utilizar las convenciones descritas en, Gherkin Conventions for Readable Specifications, Google Java Style Guide y Code Style Java de IntelliJ.
