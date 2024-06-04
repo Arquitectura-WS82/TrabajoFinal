@@ -4,11 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "3524a0b323d7b4da",
+        "id": "0fa95089537f0a8b",
         "type": "tabs",
         "children": [
           {
-            "id": "0150fb4d136f8195",
+            "id": "743b8f3955d89e5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Trabajo Final - Arquitectura de Software Emergentes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "24f24e9f86b4e4d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -55,14 +68,6 @@
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
-            }
-          },
-          {
-            "id": "1383123f61a96b74",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
             }
           }
         ]
@@ -146,12 +151,14 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "0150fb4d136f8195",
+  "active": "24f24e9f86b4e4d4",
   "lastOpenFiles": [
+    "README.md",
+    "Sin título.md",
+    "Trabajo Final - Arquitectura de Software Emergentes.md",
     "img/Capitulo_2/Needfinding/7.png",
     "img/Capitulo_2/Needfinding/8.jpg",
     "img/Capitulo_2/Needfinding/9.jpg",
-    "Trabajo Final - Arquitectura de Software Emergentes.md",
     "img/Capitulo_2.md",
     "img/Capitulo.md",
     "img/Capitulo 2/User Stories/18.png",
@@ -161,7 +168,6 @@
     "img/Capitulo 2/User Stories/21.png",
     "img/Capitulo 2/User Stories/20.png",
     "img/Capitulo 2/User Stories/19.png",
-    "img/Capitulo 2/User Stories/17.png",
     "img/Capitulo 2/User Stories",
     "img/Capitulo 2",
     "img/Capitulo 3",
