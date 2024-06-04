@@ -1679,7 +1679,7 @@ Heurística violada: Usabilidad: Flexibilidad y eficiencia en el uso
 **Problema:** 
 Los usuarios pueden iniciar sesión o registrarse en la aplicación de manera exitosa. Asimismo, pueden navegar por esta sin problemas. Sin embargo, cuando desean salir de su cuenta y dejar de hacer uso de la aplicación no pueden, ya que no existe ninguna opción para salir de su cuenta.
 
-![P01](img/Capitulo_7/Validation_Interviews/Heuristicas/P01.PNG)
+![P01](img/Capitulo_7/Validation_Interviews/Heuristicas/P01.png)
 
 **Recomendación:** 
 Crear una opción “Log Out” en el header de la aplicación para que los usuarios puedan cerrar la sesión de cuenta cuando ya no vayan a hacer uso de la aplicación.
@@ -1693,7 +1693,7 @@ Heurística violada: Usabilidad: Diseño estético y minimalista.
 **Problema:**
 Un entrevistado indicó que en el apartado del perfil no se ven uniformes las casillas donde se muestra la información del usuario. Esto resulta antiestético y hace un poco complicado disfrutar de la aplicación.
 
-![P02](img/Capitulo_7/Validation_Interviews/Heuristicas/P02.PNG)
+![P02](img/Capitulo_7/Validation_Interviews/Heuristicas/P02.png)
 
 **Recomendación:**
 Se recomienda cambiar el CSS del componente encargado de la sección de Información, quizá intercambiando Flex por Grid para poder definir el espacio que ocupará cada etiqueta de dicha sección.
@@ -1707,7 +1707,7 @@ Principio violado: Information Architecture: Is it valuable?
 **Problema:**
 Un entrevistado indicó que le gustaría tener una sección de mensajes directos con el transportista que contrato, ya que eso facilita la comunicación entre ambas partes.
 
-![P03](img/Capitulo_7/Validation_Interviews/Heuristicas/P03.PNG)
+![P03](img/Capitulo_7/Validation_Interviews/Heuristicas/P03.png)
 
 
 **Recomendación:**
@@ -1725,7 +1725,7 @@ Heurística violada: Usabilidad: Diseño estético y minimalista.
 **Problema:** 
 Un usuario entrevistado indicó que le gustaría ver más información acerca de los servicios del transportista al momento de realizar la búsqueda, debido a que la descripción brindada no le sirve de mucho.
 
-![P04](img/Capitulo_7/Validation_Interviews/Heuristicas/P04.PNG)
+![P04](img/Capitulo_7/Validation_Interviews/Heuristicas/P04.png)
 
 
 **Recomendación:**
