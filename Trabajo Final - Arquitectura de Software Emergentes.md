@@ -151,6 +151,12 @@ Mayo, 2024
 	- [7.1.2. Source Code Management](#712-source-code-management)
 	- [7.1.3. Source Code Style Guide & Management](#713-source-code-style-guide-management)
 	- [7.1.4. Software Deployment Configuration](#714-software-deployment-configuration)
+  - [7.3. Validation Interviews](#73-validation-interviews)
+    - [7.3.1. Diseño de Entrevistas](#731-diseño-de-entrevistas)
+    - [7.3.2. Registro de Entrevistas](#732-registro-de-entrevistas)
+    - [7.3.3. Evaluaciones según heuristicas](#733-evaluaciones-según-heuristicas)
+  - [7.4. Video About-the-Product](#74-video-about-the-product)
+
 - [Conclusiones](#conclusiones)
 - [Recomendaciones](#recomendaciones)
 
@@ -1460,6 +1466,7 @@ En la sección podrá navegar por las diversas secciones Pending contracts y His
 ![Wireflow 17](img/Capitulo_6/Application_Wireflow/17.png)
 El cliente para que pueda llegar a soporte al cliente debe presionar “Support” en donde le llevará a la sección al soporte al cliente.
 
+---
 # Capítulo VII: Product Implementation, Validation & Deployment
 ## 7.1. Software Configuration Management 
 ### 7.1.1. Software Development Environment Configuration 
@@ -1548,6 +1555,188 @@ Para la configuración de despliegue del proyecto en curso, se utilizará Eureka
 Para utilizarlo, será necesario importar las dependencias en los servicios de registro, de gateway y los servicios de la solución como podrían ser el de clients, carriers, hiring, etc.
 ![Dependencies](img/Capitulo_7/Software_Configuration_Management/9.png)
 Finalmente, al ejecutar los servicios e ingresar al localhost:8099, aquellos que se han registrado se mostrarán en una tabla al igual que el estado en que se encuentran.
+
+## 7.3. Validation Interviews
+
+Para esta versión del informe hemos realizado entrevistas de validación a nuestros usuarios las cuales se verán a continuación empezando desde el diseño de entrevistas hasta las entrevistas en sí.
+
+### 7.3.1. Diseño de Entrevistas
+
+Para esta versión hemos diseñado y realizado las siguientes preguntas a nuestros usuarios:
+
+- ¿Te gustó la aplicación? ¿Qué parte de la aplicación te gustó más?
+
+- ¿Qué funcionalidad quisieras añadir?
+
+- ¿Hay algún apartado que mejorarías?
+
+- ¿Considera que nuestra aplicación puede competir con las aplicaciones del mercado actual?
+
+- ¿Recomendarías esta aplicación?
+
+### 7.3.2. Registro de Entrevistas
+
+En esta version, hemos realizado las entrevistas que se pueden visualizar en el siguiente link en Microsoft stream: 
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b846_upc_edu_pe/EXawTnrPuoRNgQ8vTCSmKLsBbhP_2xHzFfKLvu1GpHRkow?e=vGZCNW
+
+#### Entrevista N° 1
+
+|![Entevista 1 - Validation](img/Capitulo_7/Validation_Interviews/Registro_de_entrevistas/E01.PNG)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <u>**Datos del entrevistado**</u> <br><br>   **Nombre y apellidos:** Ricardo Vilca<br>   **Distrito:** Ventanilla<br>   **Segmento:** Transportista<br><br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Ricardo es una persona de 25 años quien se dedica al rubro de transporte y trabaja con mayor frecuencia los fines de semana pues es ahí cuando dice obtener mayores ganancias. Ricardo ha tenido la oportunidad de interactuar con la aplicación web que hemos desarrollado y siente que ha sido muy intuitivo y fácil de manejar. La parte que más le gustó fue la parte de las notificaciones porque es muy visible la diferenciación de los estados del contrato. Con respecto a la funcionalidad que quisiera añadir, no lo tiene muy claro pero le gustaría tenerla en una versión móvil. Piensa que puede competir con las aplicaciones del mercado actual y que se pasaría la voz muy rápido entre los transportistas si esta aplicación llega a ser tan beneficiosa como cree que es. |
+| **Minuto:** 09:25 – 19:00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+
+#### Entrevista N° 2
+
+| ![Entevista 2 - Validation](img/Capitulo_7/Validation_Interviews/Registro_de_entrevistas/E02.PNG)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <u>**Datos del entrevistado**</u> <br><br>   **Nombre y apellidos:** Carlos Sanchez<br>   **Distrito:** Ventanilla<br>   **Segmento:** Transportista<br><br>   |
+| El entrevistado se llama Carlos Sanchez y reside en Ventanilla, él cabe en el segmento objetivo de Transportista, debido a que en sus vacaciones suele trabajar como ayudante en el servicio de transportar mercadería y realizar mudanzas. En primer lugar, él nos comenta que la aplicación le gustó mucho y que considera que tiene las funcionalidades necesarias para que pueda utilizarla en sus actividades como transportista. En segundo lugar, menciona que la parte más importante para él son los contratos y que el mejoraría la sección del perfil, debido a que está algo desordenado y no se ve tan estético. Por último, dice que si la recomendaría a sus amigos o conocidos.|
+| **Minuto:** 00:00 – 09:24 |
+
+#### Entrevista N° 3
+
+| ![Entevista 3 - Validation](img/Capitulo_7/Validation_Interviews/Registro_de_entrevistas/E03.PNG)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <u>**Datos del entrevistado**</u> <br><br>   **Nombre y apellidos:** Diego Seminario<br>   **Distrito:** Cercado de Lima<br>   **Segmento:** Transportista<br><br>   |
+| El entrevistado se llama Diego Seminario y reside Cercado de Lima, él indica considera que la aplicación mostrada fue sencilla de utilizar y bastante intuitiva. Sin embargo, cree que se podría añadir la acción de acceder al perfil de un Transportista al clickear en su nombre o foto, en lugar de hacerlo mediante un botón extra. |
+| **Minuto:** 19:00 – 25:04 |
+
+#### Entrevista N° 4
+
+| ![Entevista 4 - Validation](img/Capitulo_7/Validation_Interviews/Registro_de_entrevistas/E04.PNG)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <u>**Datos del entrevistado**</u> <br><br>   **Nombre y apellidos:** Sergio Liberato<br>   **Distrito:** Huacho<br>   **Segmento:** Cliente<br><br>   |
+| Sergio de 20 años es hijo de unos comerciantes de vendedores de Frutos secos el cual apoya en el ciclo de comercio de su producto. En relación con la entrevista este encuentra relación de nuestra aplicación con Uber pero que nosotros tenemos un mercado más amplio. Y que esto puede llegar a tener una aplicación para los mercados o para su negocio familiar, ya que en Uber se enfoca en personas. Lo ve más relacionado a su rubro ya que él realiza una búsqueda de transportista para el traslado de sus productos para la venta, cada cierto tiempo. Lo que nos comentó como aspecto a mejorar es hallar una sección de mensajería o de argumentar la razón del rechazo de la oferta laboral, después de eso lo ve perfecto como anda quedando nuestra aplicación. |
+| **Minuto:** 25:04 – 35:50 |
+
+#### Entrevista N° 5
+
+| ![Entevista 5 - Validation](img/Capitulo_7/Validation_Interviews/Registro_de_entrevistas/E05.PNG)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <u>**Datos del entrevistado**</u> <br><br>   **Nombre y apellidos:** Italo Sabino<br>   **Distrito:** Callao<br>   **Segmento:** Cliente<br><br>   |
+| Italo es comerciante de útiles escolares con 23 años, quien suele necesitar de transporte para su mercadería. En relación con la entrevista, él menciona que la parte que más le gustó dentro de las características de la aplicación fue que la aplicación se ve amigable y fácil de usar. Otro aspecto que le gustó fue la versatilidad que tiene la aplicación. Por otra parte, nos menciona que le gustaría tener un sistema de mensajería directa con el transportista. Finalmente, Italo nos menciona que nuestra aplicación cuenta con todas las características suficientes o incluso más funcionalidades como para competir con aplicaciones del mercado actual y el piensa que con un precio menor a la del mercado podremos competir directamente contra aplicaciones que se dedican a este rubro. Así mismo, afirma que por supuesto recomendaría nuestra aplicación. |
+| **Minuto:** 45:39 – 50:10 |
+
+#### Entrevista N° 6
+
+| ![Entevista 6 - Validation](img/Capitulo_7/Validation_Interviews/Registro_de_entrevistas/E06.PNG)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <u>**Datos del entrevistado**</u> <br><br>   **Nombre y apellidos:** Alexandro Villarruel <br>   **Distrito:** Villa El Salvador<br>   **Segmento:** Cliente<br><br>   |
+| Alexandro es comerciante de productos textiles con 24 años, quien constantemente requiere de servicios de transporte para su mercadería. En relación con la entrevista, él menciona que la parte que más le gusto dentro de las características de la aplicación fue que tiene muchas funcionalidades donde el usuario puede tener cierta interacción con la aplicación. Otro aspecto que le gusto fue que le resulto fácil de usar. Por otra parte, Alex menciona que no encuentra una funcionalidad que no esté entre sus necesidades. Finalmente, el usuario nos menciona que nuestra aplicación si cuenta con las funcionalidades necesarias para competir, por más de estar en una etapa de inicio tiene potencial para competir con aplicaciones del mercado actual. Así mismo, afirma que por supuesto recomendaría nuestra aplicación. |
+| **Minuto:** 35:50 – 45:38 |
+
+### 7.3.3. Evaluaciones según heuristicas
+Para este informe, se han realizado las siguientes heurísticas en base al feedback obtenido por las usuarios en las entrevistas. 
+
+**Site o APP a evaluar:** FastPorte de TechCompany
+
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Perfil del usuario
+1. Header de la aplicación web
+1. Sección Contratos
+1. Buscar vehículo
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Registro de usuario
+1. Inicio de sesión
+1. Edición de perfil
+1. Métodos de pago
+1. etc.
+
+
+ESCALA DE SEVERIDAD:
+
+|Nivel |Descripción|
+| :- | :- |
+|1|Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.|
+|2|Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase|
+|3|Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.|
+|4|Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+TABLA RESUMEN:
+
+|#|Problema|Escala de severidad|Heurística/Principio violada(o)|
+| :- | :- | :- | :- |
+|1|No existe una función de Log out|4|Usabilidad: Flexibilidad y eficiencia en el uso|
+|2|Visualmente más ordenado (My Profile)|1|Usabilidad: Diseño estético y minimalista.|
+|3|No existe una sección de mensajes directos|2|<p>Information Architecture: Is it</p><p>valuable?</p>|
+|4|Más información en Search Vehicle sobre los servicios del transportista|2|Usabilidad: Diseño estético y minimalista.|
+
+DESCRIPCIÓN DE PROBLEMAS:
+
+##### **PROBLEMA #1:** No existe una función de Log out
+
+Severidad: 4
+
+Heurística violada: Usabilidad: Flexibilidad y eficiencia en el uso
+
+**Problema:** 
+Los usuarios pueden iniciar sesión o registrarse en la aplicación de manera exitosa. Asimismo, pueden navegar por esta sin problemas. Sin embargo, cuando desean salir de su cuenta y dejar de hacer uso de la aplicación no pueden, ya que no existe ninguna opción para salir de su cuenta.
+
+![P01](img/Capitulo_7/Validation_Interviews/Heuristicas/P01.PNG)
+
+**Recomendación:** 
+Crear una opción “Log Out” en el header de la aplicación para que los usuarios puedan cerrar la sesión de cuenta cuando ya no vayan a hacer uso de la aplicación.
+
+##### *PROBLEMA #2:** Visualmente más ordenado (My Profile)
+
+Severidad: 1
+
+Heurística violada: Usabilidad: Diseño estético y minimalista.
+
+**Problema:**
+Un entrevistado indicó que en el apartado del perfil no se ven uniformes las casillas donde se muestra la información del usuario. Esto resulta antiestético y hace un poco complicado disfrutar de la aplicación.
+
+![P02](img/Capitulo_7/Validation_Interviews/Heuristicas/P02.PNG)
+
+**Recomendación:**
+Se recomienda cambiar el CSS del componente encargado de la sección de Información, quizá intercambiando Flex por Grid para poder definir el espacio que ocupará cada etiqueta de dicha sección.
+
+##### **PROBLEMA #3:** No existe una sección de mensajes directos
+
+Severidad: 2
+
+Principio violado: Information Architecture: Is it valuable?
+
+**Problema:**
+Un entrevistado indicó que le gustaría tener una sección de mensajes directos con el transportista que contrato, ya que eso facilita la comunicación entre ambas partes.
+
+![P03](img/Capitulo_7/Validation_Interviews/Heuristicas/P03.PNG)
+
+
+**Recomendación:**
+Si bien se puede implementar una sección de mensajes directos, los usuarios pueden acceder al perfil de los transportistas, lo cual les permitirá ver sus métodos de contacto como su correo electrónico o su número de celular.
+
+
+
+
+##### **PROBLEMA #4:** Más información en Search Vehicle sobre el driver 
+
+Severidad: 2
+
+Heurística violada: Usabilidad: Diseño estético y minimalista.
+
+**Problema:** 
+Un usuario entrevistado indicó que le gustaría ver más información acerca de los servicios del transportista al momento de realizar la búsqueda, debido a que la descripción brindada no le sirve de mucho.
+
+![P04](img/Capitulo_7/Validation_Interviews/Heuristicas/P04.PNG)
+
+
+**Recomendación:**
+Se sugiere cambiar la información mostrada en los cards, en lugar de mostrar la descripción del transportista mostrar más información sobre los servicios que ofrece. Sin embargo, esto también se puede solucionar mostrando un dialog, al realizar una búsqueda por primera vez, el cual indique puede acceder a mayor información del transportista por medio del botón “See Profile”
+
+## 7.4. VídeoAbout-the-Product
+Para la sección about the product se ha realizado el siguiente vídeo:
+
+Link para su visualización: 
+
+---
 
 # Conclusiones
 
