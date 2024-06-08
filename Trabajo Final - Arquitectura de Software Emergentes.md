@@ -142,8 +142,8 @@ Mayo, 2024
   - [6.4. Applications UX/UI Design](#64-applications-ux-ui-design)
 	- [6.4.1. Applications Wireframes](#641-applications-wireframes)
 	- [6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)
-	- [6.4.3. Applications Mock-ups](#643-applications-mockups)
-	- [6.4.4. Applications User Flow Diagrams](#644-applications-userflow-diagrams)
+	- [6.4.3. Applications Mock-ups](#643-applications-mock-ups)
+	- [6.4.4. Applications User Flow Diagrams](#644-applications-user-flow-diagrams)
 -   - [6.5. Applications Prototyping](#65-applications-prototyping)
 - [Conclusiones](#conclusiones)
 - [Recomendaciones](#recomendaciones)
@@ -1487,7 +1487,7 @@ Las siguientes imagenes corresponden a los mock-ups de la web application y el m
 ![MU 23](img/Capitulo_6/Applications_Mock-ups/24.png)
 
 
-### 6.4.4. Applications Wireflow Diagrams.
+### 6.4.4. Applications User Flow Diagrams.
 ***Interfaz de Entrada***
 **Wireflow 1: Registro de Usuario**
 
