@@ -142,6 +142,9 @@ Mayo, 2024
   - [6.4. Applications UX/UI Design](#64-applications-ux-ui-design)
 	- [6.4.1. Applications Wireframes](#641-applications-wireframes)
 	- [6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)
+	- [6.4.3. Applications Mock-ups](#643-applications-mockups)
+	- [6.4.3. Applications User Flow Diagrams](#644-applications-userflow-diagrams)
+-   - [6.5. Applications Prototyping](#65-applications-prototyping)
 - [Conclusiones](#conclusiones)
 - [Recomendaciones](#recomendaciones)
 
@@ -1451,6 +1454,123 @@ En la sección podrá navegar por las diversas secciones Pending contracts y His
 ![Wireflow 17](img/Capitulo_6/Application_Wireflow/17.png)
 El cliente para que pueda llegar a soporte al cliente debe presionar “Support” en donde le llevará a la sección al soporte al cliente.
 
+### 6.4.3. Applications Mock-ups.
+
+Las siguientes imagenes corresponden a los mock-ups de la web application y el mobile aplication. El link para visualizarlo a mayor detalle es el siguiente: https://www.figma.com/file/ipzddVXEuU5ee0IHE0hLyv/Open-source?node-id=1%3A3 
+
+#### Web Applications Mock-ups
+![MU 1](img/Capitulo_6/Applications_Mock-ups/1.png)
+![MU 2](img/Capitulo_6/Applications_Mock-ups/2.png)
+![MU 3](img/Capitulo_6/Applications_Mock-ups/4.png)
+![MU 4](img/Capitulo_6/Applications_Mock-ups/5.png)
+![MU 5](img/Capitulo_6/Applications_Mock-ups/6.png)
+![MU 6](img/Capitulo_6/Applications_Mock-ups/7.png)
+![MU 7](img/Capitulo_6/Applications_Mock-ups/8.png)
+![MU 8](img/Capitulo_6/Applications_Mock-ups/9.png)
+![MU 9](img/Capitulo_6/Applications_Mock-ups/10.png)
+![MU 10](img/Capitulo_6/Applications_Mock-ups/11.png)
+![MU 11](img/Capitulo_6/Applications_Mock-ups/12.png)
+![MU 12](img/Capitulo_6/Applications_Mock-ups/13.png)
+![MU 13](img/Capitulo_6/Applications_Mock-ups/14.png)
+![MU 14](img/Capitulo_6/Applications_Mock-ups/15.png)
+
+#### Mobile Applications Mock-ups
+
+![MU 15](img/Capitulo_6/Applications_Mock-ups/16.png)
+![MU 16](img/Capitulo_6/Applications_Mock-ups/17.png)
+![MU 17](img/Capitulo_6/Applications_Mock-ups/18.png)
+![MU 17](img/Capitulo_6/Applications_Mock-ups/19.png)
+![MU 19](img/Capitulo_6/Applications_Mock-ups/20.png)
+![MU 20](img/Capitulo_6/Applications_Mock-ups/21.png)
+![MU 21](img/Capitulo_6/Applications_Mock-ups/22.png)
+![MU 22](img/Capitulo_6/Applications_Mock-ups/23.png)
+![MU 23](img/Capitulo_6/Applications_Mock-ups/24.png)
+
+
+### 6.4.4. Applications Wireflow Diagrams.
+***Interfaz de Entrada***
+**Wireflow 1: Registro de Usuario**
+
+![Wireflow 1](img/Capitulo_6/Applications_User_Flow_Diagrams/1.png)
+
+Para registrarse el usuario deberá presionar “Create Account” lo cual le aparecerá un formulario. Tras completarlo, presiona “Continue”, aparece un formulario de datos personales. Luego de completarlo, presiona “Continue”. Finalmente, ya está registrado.
+
+**Wireflow 2: Recuperar contraseña**
+![Wireflow 2](img/Capitulo_6/Applications_User_Flow_Diagrams/2.png)
+Para recuperar la contraseña deberá presionar “Forgot your Password?”, lo cual le pedirá el correo correspondiente, presiono “Continue”. Aparecerá un formulario de cambio de contraseña y una vez presionado “Confirm”, realizando la actualización de la contraseña. 
+
+***Interfaz de Transportistas***
+**Wireflow 3: Ingreso de Transportista**
+![Wireflow 3](img/Capitulo_6/Applications_User_Flow_Diagrams/3.png)
+Una vez registrado el transportista ingresa sus datos y presiona “Login to your account”. Y así mostrando la interfaz del transportista.
+
+**Wireflow 4: Navegación de “My Profile”**
+![Wireflow 4](img/Capitulo_6/Applications_User_Flow_Diagrams/4.png)
+El Cliente podrá ingresar a su perfil por el botón “My Profile” y podrá navegar “Personal Information”, “Experiencie”, “About the Vehicle” y “Comments”
+
+**Wireflow 5: Navegación de “Contracts”**
+![Wireflow 5](img/Capitulo_6/Applications_User_Flow_Diagrams/5.png)
+El transportista podrá navegar por los diferentes secciones de “Contracts” y el cual podrá navegar por “Offers”, “Pending Contracts” y “History”
+
+**Wireflow 6: Aceptar/Rechazar ofertas de Trabajo**
+![Wireflow 6](img/Capitulo_6/Applications_User_Flow_Diagrams/6.png)
+El transportista en “Offers” podrá Aceptar con el botón “Accept” y rechazar con el botón “Decline” y el cual informará la realización de su decisión, luego de presionar “Accept” regresará a la sección “Offers” mostrándole las ofertas disponibles.
+
+**Wireflow 7: Soporte al cliente**
+![Wireflow 7](img/Capitulo_6/Applications_User_Flow_Diagrams/7.png)
+El transportista para que pueda llegar a soporte al cliente debe presionar “Support” en donde le llevará a la sección al soporte al cliente.
+
+**Wireflow 8: Notificación de oferta de Trabajo**
+![Wireflow 8](img/Capitulo_6/Applications_User_Flow_Diagrams/8.png)
+El Transportista podrá revisar las ofertas desde el icono de notificaciones y al presionar “See more details” podrá observar todas las ofertas que este posee.
+
+**Wireflow 9: Contrato Finalizado**
+![Wireflow 9](img/Capitulo_6/Applications_User_Flow_Diagrams/9.png)
+Después de finalizar concluir servicio, aparecerá una notificación de contrato finalizado y luego de presionar “Details” aparecerá un formulario para realizar el pago el cual al presionar “Cancel” regresará a la pantalla con la notificación que debe de cancelar, por otro lado al presionar “ACCEPT AND CONFIRM” le aparecerá un recuadro que el pago será realizado en las 24 horas y al presionar “Accept” regresará a la pantalla principal.
+
+**Wireflow 10: Cerrar Sesión**
+![Wireflow 10](img/Capitulo_6/Applications_User_Flow_Diagrams/10.png)
+Para Cerrar Sesión presiona su nombre y aparece el botón “Log Out” el cual le permitirá cerrar su sesión.
+
+***Interfaz de Cliente***
+**Wireflow 11: Ingreso de Cliente**
+![Wireflow 11](img/Capitulo_6/Applications_User_Flow_Diagrams/11.png)
+Una vez registrado el cliente ingresa sus datos y presiona “Login to your accout”. Y así mostrando la interfaz del cliente.
+
+**Wireflow 12: Ingresar en “My Profile”**
+![Wireflow 12](img/Capitulo_6/Applications_User_Flow_Diagrams/12.png)
+El Cliente podrá ingresar a su perfil por el botón “My Profile” y podrá editar su información 
+
+**Wireflow 13: Contrato Rechazado**
+![Wireflow 13](img/Capitulo_6/Applications_User_Flow_Diagrams/13.png)
+Cuando le rechazan un contrato, le aparecerá una notificación al presionar la 
+campana.
+
+**Wireflow 14: Realizar Depósito**
+![Wireflow 14](img/Capitulo_6/Applications_User_Flow_Diagrams/14.png)
+Al haber terminado el servicio le aparecerá una notificación en la campana, luego de presionar “See more details” le presentará un formulario de cancelación al cual podrá completarlo
+
+**Wireflow 15: Contratar conductor**
+![Wireflow 15](img/Capitulo_6/Applications_User_Flow_Diagrams/15.png)
+Para contratar a un conductor se presiona “Search Vehicles”, el cual le aparecerá un formulario que deberá completar los datos “Type of service”, “Size of vehicle” y “Complete documentation”, luego le aparecerán los conductores correspondientes. Presionando la flecha le aparecerá su información del conductor para poder contratarlo, luego presionamos “Contract” aparecerá otro formulario de “Request service” tras completarlo y presionar “SUBMIT” aparece un recuadro indicándonos “The driver has been notified” presionamos “Accept” y será realizado así el contrato.
+
+**Wireflow 16: Navegación en “Contracts”**
+![Wireflow 16](img/Capitulo_6/Applications_User_Flow_Diagrams/16.png)
+En la sección podrá navegar por las diversas secciones Pending contracts y History.
+
+**Wireflow 17: Navegación en “Support”**
+![Wireflow 17](img/Capitulo_6/Applications_User_Flow_Diagrams/17.png)
+El cliente para que pueda llegar a soporte al cliente debe presionar “Support” en donde le llevará a la sección al soporte al cliente.
+
+**Wireflow 18: Cerrar Sesion**
+![Wireflow 18](img/Capitulo_6/Applications_User_Flow_Diagrams/18.png)
+Para Cerrar sesion presiona su nombre y aparece el botón "Log Out" el cual le permitirá cerrar su sesión.
+
+
+## 6.5. Applications Prototyping.
+
+El siguiente diagrama corresponde a una captura de pantalla del web application prototyping realizado en la herramienta online Figma. Para una mejor visualizacion es recomendable visitar el siguiente link: [Mockups - FastPorte (figma.com)](https://www.figma.com/proto/ipzddVXEuU5ee0IHE0hLyv/FastPorte?page-id=1%3A3&node-id=98-392&viewport=328%2C118%2C0.07&scaling=min-zoom&starting-point-node-id=98%3A392)
+![Prototyping](img/Capitulo_6/Applications_Prototyping/web.png)
 # Conclusiones
 
 - El desarrollo del Lean UX Process ayudó a comprender mejor y aplicar efectivamente las herramientas en nuestra propuesta enfocada al servicio de transportistas hacia clientes. De la misma forma, contribuyó a definir de manera más clara nuestro público objetivo o llámese segmento hacia el cual va enfocada nuestra aplicación.
