@@ -1568,8 +1568,7 @@ Finalmente, al ejecutar los servicios e ingresar al localhost:8099, aquellos que
 ## 7.2. Solution Implementation
 ### 7.2.1. Sprint 1
 
-#### Execution Evidence for Sprint Review
-
+#### 7.2.1.5. Execution Evidence for Sprint Review
 
 Para el sprint 1, se lograron los siguientes artefactos:
 
@@ -1596,11 +1595,52 @@ Para el sprint 1, se lograron los siguientes artefactos:
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXcrHKy5ro-pmSc3cdWiU2j70QBmab-r6updY29PzsBmjT_-14FCX9Wqbrywq-2bKjBY_oJauZzvHYNVPAfnnbUK8WJACUp4aWdjwRjZKIPQvVFsJMesZbcBKqqXC0AwQqTMEYaFAvhmlCsqUKSQL7pYl8s?key=EWG7YXxtIxuQQZMjLFmrQA)
 
 
-#### Services Documentation Evidence for Sprint Review
+#### 7.2.1.6. Services Documentation Evidence for Sprint Review
 
-	
+### CardClientController Service Documentation
 
-#### Software Deployment Evidence for Sprint Review
+| Feature                        | Description |
+|--------------------------------|-------------|
+| **Base URL**                   | `/api/cardsClient` |
+
+| Endpoint                       | Description                                                                                      | Path Parameters  | Request Body                                                      | Responses                                                                                              | Example Request                        |
+|--------------------------------|--------------------------------------------------------------------------------------------------|------------------|-------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|-----------------------------------------|
+| **GET /api/cardsClient/all**   | Retorna una lista de todos los `CardClient`.                                                     | N/A              | N/A                                                               | **200 OK:** Si se encuentran `CardClient`.<br>**204 No Content:** Si no se encuentran `CardClient`.<br>**500 Internal Server Error:** Si ocurre un error en el servidor. | GET /api/cardsClient/all                |
+| **GET /api/cardsClient/{id}**  | Retorna una lista de `CardClient` para un cliente específico basado en el ID del cliente.        | `id` (Long): ID del cliente | N/A                                                               | **200 OK:** Si se encuentran `CardClient` para el cliente especificado.<br>**204 No Content:** Si no se encuentran `CardClient` para el cliente especificado.<br>**500 Internal Server Error:** Si ocurre un error en el servidor. | GET /api/cardsClient/1                  |
+| **POST /api/cardsClient/{idClient}/add** | Agrega un `Card` a un cliente específico.                                                | `idClient` (Long): ID del cliente | ```json<br>{<br>  "name": "string",<br>  "number": "string",<br>  "expiryDate": "string",<br>  "cvv": "string"<br>}``` | **201 Created:** Si se crea exitosamente el `CardClient`.<br>**404 Not Found:** Si no se encuentra el cliente especificado.<br>**500 Internal Server Error:** Si ocurre un error en el servidor. | POST /api/cardsClient/1/add<br>Content-Type: application/json<br>{<br>  "name": "John Doe",<br>  "number": "1234567812345678",<br>  "expiryDate": "12/25",<br>  "cvv": "123"<br>} |
+| **DELETE /api/cardsClient/{idClient}/delete/{idCard}** | Elimina un `Card` de un cliente específico.                                             | `idClient` (Long): ID del cliente<br>`idCard` (Long): ID de la tarjeta | N/A                                                               | **200 OK:** Si se elimina exitosamente el `CardClient`.<br>**404 Not Found:** Si no se encuentra el cliente o la tarjeta especificada.<br>**500 Internal Server Error:** Si ocurre un error en el servidor. | DELETE /api/cardsClient/1/delete/1      |
+
+### Service Interfaces for CardClientController
+
+| Interface             | Methods                                                                           | Description                         |
+|-----------------------|-----------------------------------------------------------------------------------|-------------------------------------|
+| **ICardClientService**| `List<CardClient> getAll()` <br> `void save(CardClient cardClient)` <br> `void delete(Long id)` | Obtiene todos los `CardClient`.<br>Guarda un `CardClient`.<br>Elimina un `CardClient` por ID. |
+| **IClientService**    | `Optional<Client> getById(Long id)`                                               | Obtiene un `Client` por ID.         |
+| **ICardService**      | `Card save(Card card)` <br> `Optional<Card> getById(Long id)` <br> `void delete(Long id)` | Guarda un `Card`.<br>Obtiene un `Card` por ID.<br>Elimina un `Card` por ID. |
+
+
+### CardDriverController Service Documentation
+
+| Feature                        | Description |
+|--------------------------------|-------------|
+| **Base URL**                   | `/api/cardsDriver` |
+
+| Endpoint                                               | Description                                                                                   | Path Parameters                                                          | Request Body                                                                                                           | Responses                                                                                                                                                                                                                              | Example Request                                                                                                                                                                   |
+| ------------------------------------------------------ | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **GET /api/cardsDriver/all**                           | Retorna una lista de todos los `CardDriver`.                                                  | N/A                                                                      | N/A                                                                                                                    | **200 OK:** Si se encuentran `CardDriver`.<br>**204 No Content:** Si no se encuentran `CardDriver`.<br>**500 Internal Server Error:** Si ocurre un error en el servidor.                                                               | GET /api/cardsDriver/all                                                                                                                                                          |
+| **GET /api/cardsDriver/{id}**                          | Retorna una lista de `CardDriver` para un conductor específico basado en el ID del conductor. | `id` (Long): ID del conductor                                            | N/A                                                                                                                    | **200 OK:** Si se encuentran `CardDriver` para el conductor especificado.<br>**204 No Content:** Si no se encuentran `CardDriver` para el conductor especificado.<br>**500 Internal Server Error:** Si ocurre un error en el servidor. | GET /api/cardsDriver/1                                                                                                                                                            |
+| **POST /api/cardsDriver/{idDriver}/add**               | Agrega un `Card` a un conductor específico.                                                   | `idDriver` (Long): ID del conductor                                      | ```json<br>{<br>  "name": "string",<br>  "number": "string",<br>  "expiryDate": "string",<br>  "cvv": "string"<br>}``` | **201 Created:** Si se crea exitosamente el `CardDriver`.<br>**404 Not Found:** Si no se encuentra el conductor especificado.<br>**500 Internal Server Error:** Si ocurre un error en el servidor.                                     | POST /api/cardsDriver/1/add<br>Content-Type: application/json<br>{<br>  "name": "John Doe",<br>  "number": "1234567812345678",<br>  "expiryDate": "12/25",<br>  "cvv": "123"<br>} |
+| **DELETE /api/cardsDriver/{idDriver}/delete/{idCard}** | Elimina un `Card` de un conductor específico.                                                 | `idDriver` (Long): ID del conductor<br>`idCard` (Long): ID de la tarjeta | N/A                                                                                                                    | **200 OK:** Si se elimina exitosamente el `CardDriver`.<br>**404 Not Found:** Si no se encuentra el conductor o la tarjeta especificada.<br>**500 Internal Server Error:** Si ocurre un error en el servidor.                          | DELETE /api/cardsDriver/1/delete/1                                                                                                                                                |
+
+### Service Interfaces for CardDriverController
+
+| Interface              | Methods                                                                                         | Description                                                                                   |
+| ---------------------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| **ICardDriverService** | `List<CardDriver> getAll()` <br> `void save(CardDriver cardDriver)` <br> `void delete(Long id)` | Obtiene todos los `CardDriver`.<br>Guarda un `CardDriver`.<br>Elimina un `CardDriver` por ID. |
+| **IDriverService**     | `Optional<Driver> getById(Long id)`                                                             | Obtiene un `Driver` por ID.                                                                   |
+| **ICardService**       | `Card save(Card card)` <br> `Optional<Card> getById(Long id)` <br> `void delete(Long id)`       | Guarda un `Card`.<br>Obtiene un `Card` por ID.<br>Elimina un `Card` por ID.                   |
+
+#### 7.2.1.7. Software Deployment Evidence for Sprint Review
 
 En esta sección se mostrarán los avances realizados en el código de la aplicación móvil haciendo uso de la API de forma preliminar. Para ello, hemos usado un usuario predeterminado, que es el usuario transportista con id 1, para obtener su información y usarla en la sección de perfil. De esta forma, cuando alguien ingresa a la sección de perfil del transportista, lo que verá será la foto, el nombre, la descripción e información personal del transportista que tiene id 1. Esto no se quedará así, puesto que fue hecho para probar que funciona correctamente la lectura desde el API. En las siguientes entregas, esto será modificado de modo que el transportista o cliente que ingrese a su cuenta vea su propia información. 
 
@@ -1623,7 +1663,7 @@ Notamos que la información obtenida para el usuario con id 1 es la siguiente:
 Finalmente, este es el resultado del consumo del API
 
 
-#### Team Collaboration Insights during Sprint
+#### 7.2.1.8. Team Collaboration Insights during Sprint
 
 A continuación se observa la participación del equipo durante el sprint:
 
