@@ -151,6 +151,16 @@ Mayo, 2024
 	- [7.1.2. Source Code Management](#712-source-code-management)
 	- [7.1.3. Source Code Style Guide & Management](#713-source-code-style-guide-management)
 	- [7.1.4. Software Deployment Configuration](#714-software-deployment-configuration)
+   - [7.2. Solution Implementation](#72-solution-implementation)
+	- [7.2.1. Sprint 1](#721-sprint-1)
+		- [7.2.1.1. Sprint Planning 1](#7211-sprint-planning-1)
+		- [7.2.1.2. Sprint Backlog 1](#7212-sprint-backlog-1)
+		- [7.2.1.3. Development Evidence for Sprint Review](#7213-development-evidence-for-sprint-review)
+		- [7.2.1.4. Testing suite Evidence for Sprint Review](#7214-testing-suite-evidence-for-sprint-review)
+		- [7.2.1.5. Execution Evidence for Sprint Review](#7215-execution-evidence-for-sprint-review)
+		- [7.2.1.6. Services Documentation Evidence for Sprint Review](#7216-services-documentation-evidence-for-sprint-review)
+		- [7.2.1.7. Software Deployment Evidence for Sprint Review](#7217-software-deployment-evidence-for-sprint-review)
+		- [7.2.1.8. Team Collaboration Insights during Sprint](#7218-team-collaboration-insights-during-sprint)
   - [7.3. Validation Interviews](#73-validation-interviews)
     - [7.3.1. Diseño de Entrevistas](#731-diseño-de-entrevistas)
     - [7.3.2. Registro de Entrevistas](#732-registro-de-entrevistas)
@@ -1555,6 +1565,73 @@ Para la configuración de despliegue del proyecto en curso, se utilizará Eureka
 Para utilizarlo, será necesario importar las dependencias en los servicios de registro, de gateway y los servicios de la solución como podrían ser el de clients, carriers, hiring, etc.
 ![Dependencies](img/Capitulo_7/Software_Configuration_Management/9.png)
 Finalmente, al ejecutar los servicios e ingresar al localhost:8099, aquellos que se han registrado se mostrarán en una tabla al igual que el estado en que se encuentran.
+## 7.2. Solution Implementation
+### 7.2.1. Sprint 1
+
+#### Execution Evidence for Sprint Review
+
+
+Para el sprint 1, se lograron los siguientes artefactos:
+
+- Landing Page
+    
+
+![](https://lh7-us.googleusercontent.com/docsz/AD_4nXdTzgLr8p7pNVUrWhrforeH0zB_rN2CVHs-C1vxvIOCmWdMit7UAeSo8WsMADzSdyPXZNcpapHPqesX8CUnKmp_nBne3gnN03WZpRurbn7KkZVXd19QmLSF-aly3KAUojXcIm_owLOr04QbWq8kDtBXw1Pk?key=EWG7YXxtIxuQQZMjLFmrQA)
+
+![](https://lh7-us.googleusercontent.com/docsz/AD_4nXeN1TuRDfhEJ1w-v7pJ-khNVGuP29Rsl882rdOhw1CiDdN0R7QYzSmdMMUwnRDyW78NiW4Gksj9YmsL76wfLXqvWuTAghfgmrBlTCiDzLvnIXyHALb-z8WUyuO7OGSDAFFPsa-UA3sZrdD_w7eTB4Az_JAx?key=EWG7YXxtIxuQQZMjLFmrQA)
+
+![](https://lh7-us.googleusercontent.com/docsz/AD_4nXfm8mqTCMyp0BJ14MD8Y7WWLicdJ_6I-BVBfra1K6azjzTkn_gH6B31Pp9Bg6KrLePrZOPYxWwyDt-qqK0EOM3e4TDWIpMv804aoP7R0TWTx4FFho2xqUZSWhU_i4pipfHl-TdXTR8oeK2QOeotuGdGaWfh?key=EWG7YXxtIxuQQZMjLFmrQA)
+
+- Aplicación móvil
+    
+
+![](https://lh7-us.googleusercontent.com/docsz/AD_4nXcbl0b9xHiv1Fzegrv1Khjv1FTwHhpWXD_aBpGZR1SNs2EPw5rdYl8rhM6nVnzRLw5B2AFjTc7r4yEJQuTvy1hxQQ33lH5Bl8k3GBsY1tc7nYfNxoJMPytmBwVUzfAnVrCIKiC8_N-zCkus2ildaTN-0-qc?key=EWG7YXxtIxuQQZMjLFmrQA)
+
+![](https://lh7-us.googleusercontent.com/docsz/AD_4nXd6fWLYr6yr2SSoHdC64339XYskQQN4V9J1F66SPkyIfUpfPMGW9aPmVGwy47AqwxWs9QiBN3GxeIKS3sU9r0yojTqzo08H8ZaEAjktBxkegut2_rsCHtDsd2xhG5vw6pHERdmWt0mndblxi_znlc4WjRwG?key=EWG7YXxtIxuQQZMjLFmrQA)
+
+![](https://lh7-us.googleusercontent.com/docsz/AD_4nXf1l9FhFuThPzvz5aae1k2JMOD1Eg8q9uPPKPPjgFIGtb7tdeJip7_mJDf2LyKbs2l54p5NDXElH2pVWTxEXL3nHtTMcSQlAWmX2bWrj5HA693AdjBnvDsrtXeLYz0KkGvmJ2E0GbLePGMWEBjshdSjx-k7?key=EWG7YXxtIxuQQZMjLFmrQA)
+
+![](https://lh7-us.googleusercontent.com/docsz/AD_4nXfszoSiV_KFb2SbEqXiqj5SqpRwVOdkrkHz8DPwlScuB2FXFDJZ-TW-dr4dGhHDug5_5rMWoRXJrPcVEhSCBJrpIycJmAZDrh2sTzXyTsj1hRcAITXQUBPFVqJRrrTcXIlTKrzRQUl7_QPlqUKs2F0eRCOZ?key=EWG7YXxtIxuQQZMjLFmrQA)
+
+![](https://lh7-us.googleusercontent.com/docsz/AD_4nXcrHKy5ro-pmSc3cdWiU2j70QBmab-r6updY29PzsBmjT_-14FCX9Wqbrywq-2bKjBY_oJauZzvHYNVPAfnnbUK8WJACUp4aWdjwRjZKIPQvVFsJMesZbcBKqqXC0AwQqTMEYaFAvhmlCsqUKSQL7pYl8s?key=EWG7YXxtIxuQQZMjLFmrQA)
+
+
+#### Services Documentation Evidence for Sprint Review
+
+	
+
+#### Software Deployment Evidence for Sprint Review
+
+En esta sección se mostrarán los avances realizados en el código de la aplicación móvil haciendo uso de la API de forma preliminar. Para ello, hemos usado un usuario predeterminado, que es el usuario transportista con id 1, para obtener su información y usarla en la sección de perfil. De esta forma, cuando alguien ingresa a la sección de perfil del transportista, lo que verá será la foto, el nombre, la descripción e información personal del transportista que tiene id 1. Esto no se quedará así, puesto que fue hecho para probar que funciona correctamente la lectura desde el API. En las siguientes entregas, esto será modificado de modo que el transportista o cliente que ingrese a su cuenta vea su propia información. 
+
+En la siguiente imagen podemos visualizar el servicio creado:
+
+![](https://lh7-us.googleusercontent.com/docsz/AD_4nXfoPt969jgMoJxnY_2q16YBSo5KIzF37sLxz2y5fP_MTI3maxn6sJGAK75Vc6rU8iGacyK9Ij8j8wKmh37HaFTAoo-LIANj_yXofkPBkhR5nqfNtQ3JElpPZpamkzuYQ690MeR8I2qY25bVy2Kiz5itFB0?key=EWG7YXxtIxuQQZMjLFmrQA)
+
+En esta otra captura de pantalla, hacemos uso de la librería retrofit para consumir el servicio web RESTful:
+
+![](https://lh7-us.googleusercontent.com/docsz/AD_4nXcAZlJwT7hHDQph3y0J7eejSvtO_QQFU_208IRegRRWc5FOc_S7QJ0iaXEwdhIRdawQmXl9PqCb06mQ5DB6y_T9e6Ig7UEWLPYH69-RGE84fekqtotV-4JPMFhlJ54BieRxZThP8MGC-SkPK3R8pv7lcG4?key=EWG7YXxtIxuQQZMjLFmrQA)
+
+Luego, en este bloque de código hemos usado la información obtenida del API para poder mostrarla en los TextView correspondientes:
+
+![](https://lh7-us.googleusercontent.com/docsz/AD_4nXeRGrQ0HUpaUsfXvJueTdIX-YbQLS6dsc5vJey0eSW-jAfnsiqLCj-sH7gFuM-ELSsP1y_4wZhut2h5atjUaBAyEdBp29wUthIMvoqG2_WpwtsAXYh6i00oSRkYq2EsAHdja8OuS4_JOsSJyj2f-5R00_JG?key=EWG7YXxtIxuQQZMjLFmrQA)
+
+Notamos que la información obtenida para el usuario con id 1 es la siguiente:
+
+![](https://lh7-us.googleusercontent.com/docsz/AD_4nXduic8WwfuCPQjXjOC2oLIPxQHp0-Z8QqtqS0KZwjPsOJTL6ad6wi0NS9wla59jcRMuSz14WEva6bWmTM_j9N2Krq8LO0QNZktcu8JH6nih3qGVKU5YOtB8MKuDqz3gqqiO2Rt9RCIB8ZBTMZmyrVVGtag?key=EWG7YXxtIxuQQZMjLFmrQA)
+
+Finalmente, este es el resultado del consumo del API
+
+
+#### Team Collaboration Insights during Sprint
+
+A continuación se observa la participación del equipo durante el sprint:
+
+  
+
+![](https://lh7-us.googleusercontent.com/docsz/AD_4nXfIgOfVJjVtIKDRejHCMqE735VY5ooACbn4uUdiDZ4wk78mFUWcUz-t5Oms8IIoRali7CmPzSXnoIwo2xB1fSaXnZj7Q9K5T-ec6kZrI7FLky4f8yk327rQdj1AH6frZRjpUVG8CrwP57J5dgd_FE_SDbzI?key=EWG7YXxtIxuQQZMjLFmrQA)
+
+  
 
 ## 7.3. Validation Interviews
 
