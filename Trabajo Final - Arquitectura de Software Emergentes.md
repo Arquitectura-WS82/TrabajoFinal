@@ -1556,6 +1556,87 @@ Para utilizarlo, será necesario importar las dependencias en los servicios de r
 ![Dependencies](img/Capitulo_7/Software_Configuration_Management/9.png)
 Finalmente, al ejecutar los servicios e ingresar al localhost:8099, aquellos que se han registrado se mostrarán en una tabla al igual que el estado en que se encuentran.
 
+
+## 7.2. Solution Implementation
+
+### 7.2.1. Sprint 1
+
+#### 7.2.1.1. Sprint Planning 1
+
+| Sprint #                        | 1                                                                                                                                                                                                |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Sprint Planning Background**  |                                                                                                                                                                                                  |
+| Date                            | 27-05-2024                                                                                                                                                                                       |
+| Time                            | 7:00 am                                                                                                                                                                                          |
+| Location                        | Lima Perú                                                                                                                                                                                        |
+| Prepared By                     | Abel Cierto                                                                                                                                                                                      |
+| Attendees (to planning meeting) | Abel Cierto / Branco Villegas / Sebastian Levano / Rodrigo Sabino / Anthony Botello                                                                                                              |
+| Sprint 1 Review Summary         | Para el desarrollo de este sprint el objetivo es desarrollar de manera exitosa el landing page y el web services que será necesario para la implementación del frontend en una aplicación móvil. |
+| Sprint 1 Retrospective Summary  | En la revisión retrospectiva se evalúa el avance del landing page y el despliegue funcional del backend de web services.                                                                         |
+| **Sprint Goal & User StorieS**  |                                                                                                                                                                                                  |
+| Sprint 1 Goal                   | El objetivo del sprint 1 es desarrollar y desplegar el landing page como el web services.                                                                                                        |
+| Sprint 1 Velocity               | Se estima que el equipo puede completar 9 puntos de historia en el Sprint 1, basándose en las capacidades y la disponibilidad del equipo.                                                        |
+| Sum of Story Points             | 9                                                                                                                                                                                                |
+
+#### 7.2.1.2. Sprint Backlog 1
+
+A continuación, se mostrará los Sprints que se llevarán a cabo para la realización del Proyecto:
+
+
+| **Sprint #** | **Sprint 1**                                                      |        |                                                          |                                                                                                                                              |                        |                  |                                               |
+| ------------ | ----------------------------------------------------------------- | ------ | -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | ---------------- | --------------------------------------------- |
+| User Story   | Work Item / Task                                                  |        |                                                          |                                                                                                                                              |                        |                  |                                               |
+| **Id**       | **Title**                                                         | **Id** | **Title**                                                | **Description**                                                                                                                              | **Estimation (Hours)** | **Assigned To**  | **Status (To-Do/In-Process/ To-Review/Done)** |
+| HU-025       | Desplazarse fácilmente entre las secciones del landing page       | T25-01 | Secciones de landing page                                | Desarrollo de las secciones transportista, about us                                                                                          | 4                      | Abel Cierto      | Done                                          |
+| <br>         |                                                                   | T25-02 | Implementar barra de navegación                          | Barra en la parte superior de la landing page con nombres de las secciones que la conforman                                                  | 2                      | Abel Cierto      | Done                                          |
+| HU-026       | Visualizar los beneficios de la aplicación                        | T26-01 | Definir los beneficios a brindar                         | En esta sección se detallan los beneficios que tiene cada segmento al usar la aplicación                                                     | 1                      | Anthony Botello  | Done                                          |
+| HU-027       | Visualizar información sobre los desarrolladores de la aplicación | T27-01 | Sección en la landing page                               | Diseñar y acoplar la sección en la landing page                                                                                              | 1                      | Branco Villegas  | Done                                          |
+|              |                                                                   | T27-02 | Perfiles de integrantes                                  | Agregar fotos de los integrantes de nuestra organización                                                                                     | 1                      | Sebastían Levano | Done                                          |
+| HU-028       | Sección de la landing page para los segmentos de usuarios         | T28-01 | Encabezado para cada segmento                            | Imagen representativa en la parte superior según la sección developers o empresas                                                            | 1                      | Sebastían Levano | Done                                          |
+|              |                                                                   | T28-02 | Beneficios para clientes y transportistas                | Ventajas que tiene la plataforma para developers y empresas                                                                                  | 3                      | Rodrigo Sabino   | Done                                          |
+|              |                                                                   | T28-03 | About us                                                 | Sección que muestra la imagen de los desarrolladores de la aplicación                                                                        | 1                      | Rodrigo Sabino   | Done                                          |
+| HU-001       | Registrar al transportista                                        | T01-01 | Crear la vista “Registrarse”                             | Se creará la vista con los botones para iniciar sesión y registrarse. Además, se crearán los campos del formulario con los datos necesarios. | 2                      | Sebastían Levano | Done                                          |
+|              |                                                                   | T01-02 | Validar los datos del formulario para crear la cuenta    | Se realizarán las validaciones para que complete todos los campos obligatorios con el formato correcto.                                      | 2                      | Sebastían Levano | Done                                          |
+| HU-002       | Registrar al cliente                                              | T02-01 | Crear la vista “Registrarse"                             | Se creará la vista con los botones para iniciar sesión y registrarse. Además, se crearán los campos del formulario con los datos necesarios. | 2                      | Sebastían Levano | Done                                          |
+|              |                                                                   | T02-02 | Validar los datos del formulario para crear la cuenta    | Se realizarán las validaciones para que complete todos los campos obligatorios con el formato correcto.                                      | 2                      | Sebastían Levano | Done                                          |
+| HU-003       | Registrar un transporte                                           | T03-01 | Añadir la vista en el “Perfil” del usuario transportista | Se creará el formulario para que ingrese los datos de su vehículo.                                                                           | 2                      | Sebastían Levano | Done                                          |
+|              |                                                                   | T03-02 | Validar los datos del formulario                         | Se validaron los datos introducidos para agregar el vehículo a la lista de vehículos del transportista.                                      | 2                      | Sebastían Levano | Done                                          |
+| HU-010       | Cerrar sesión en la aplicación                                    | T10-01 | Añadir un botón para “Cerrar sesión”                     | Se creará un botón en la vista de “Configuración”.                                                                                           | 1                      | Rodrigo Sabino   | Done                                          |
+|              |                                                                   | T10-02 | Validar la salida de la cuenta                           | Verificar que se sale de la cuenta realmente, para no comprometer la información del usuario.                                                | 1                      | Rodrigo Sabino   | Done                                          |
+| HU-012       | Ver el historial de Contratos                                     | T12-01 | Crear la vista “Historial”                               | Se creará la vista para mostrar los contratos pasados.                                                                                       | 2                      | Rodrigo Sabino   | Done                                          |
+|              |                                                                   | T12-02 | Validar el funcionamiento del “Recycler View”            | Se validará que los contratos pasados se muestren correctamente.                                                                             | 2                      | Rodrigo Sabino   | Done                                          |
+| HU-020       | Ver la información del usuario                                    | T20-01 | Crear la vista “Perfil”                                  | Se creará la vista para mostrar los datos del usuario.                                                                                       | 3                      | Sebastían Levano | Done                                          |
+|              |                                                                   | T20-02 | Obtener datos del Backend                                | Se validará que todos los datos se obtengan del backend de la aplicación.                                                                    | 3                      | Sebastían Levano | Done                                          |
+
+
+#### 7.2.1.3. Development Evidence for Sprint Review
+
+
+| **Repository**                                                    | **Branch**       | **Commit Id**                            | **Commit Message**                   | **Commit Message Body**                                                                      | **Committed on (Date)** |
+| ----------------------------------------------------------------- | ---------------- | ---------------------------------------- | ------------------------------------ | -------------------------------------------------------------------------------------------- | ----------------------- |
+| abelcierto/landing-page                                           | feature/develop  | bd638d8cbeb3693ac599c78a7f3782589830fc6b | feat: create header                  | In this section I have created the header.                                                   | 3/6/2024<br>            |
+| abelcierto/landing-page                                           | feature/develop  | 182e26cbc87ca0859264671d1162b51ec654fc2f | feat: create section about the team  | In this section I have added the photos of the team, and added the name of each participant. | 3/6/2024                |
+| fastporte- app https://github.com/Arquitectura-WS82/fastporte-app | feature/security | a7ad408bc3d7cd03e670b305e6ef1f2a708c3406 | feat(login): Login View              |                                                                                              | 26/04/2023              |
+|                                                                   | feature/security | 28887838f24dcec129019adcba04bd4e614b56a1 | feat(register): register view set up |                                                                                              | 27/04/2023              |
+
+#### 7.2.1.4. **Testing Suite Evidence for Sprint Review**
+
+Para este apartado del proyecto se evidenciará los tests de aceptación en el lenguaje Gherkin que fueron subidos al repositorio. En cada test acceptance contiene la historia de usuario con sus respectivos criterios de aceptación para cada escenario propuesto
+
+**Figura**
+
+Evidencia de los acceptance test en GitHub
+
+**Tabla 
+
+Commits realizados en el Sprint 1 para los tests
+
+| **Repository**                     | **Branch** | **Commit id**                            | **Commit Message**    | **Commit on (Date)** |
+| ---------------------------------- | ---------- | ---------------------------------------- | --------------------- | -------------------- |
+| Arquitectura-WS82/acceptance-tests | fast-test  | 91af5fc25209595a0969114881232033afcc35f6 | fix us                | 20/09/23             |
+| Arquitectura-WS82/acceptance-tests | fast-test  | 1e7d23126ae3589d23260912f8c05194e8116973 | Update HU-019.feature | 23/09/23             |
+
+
 ## 7.3. Validation Interviews
 
 Para esta versión del informe hemos realizado entrevistas de validación a nuestros usuarios las cuales se verán a continuación empezando desde el diseño de entrevistas hasta las entrevistas en sí.
