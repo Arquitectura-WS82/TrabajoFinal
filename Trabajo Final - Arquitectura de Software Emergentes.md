@@ -151,6 +151,12 @@ Mayo, 2024
 	- [7.1.2. Source Code Management](#712-source-code-management)
 	- [7.1.3. Source Code Style Guide & Management](#713-source-code-style-guide-management)
 	- [7.1.4. Software Deployment Configuration](#714-software-deployment-configuration)
+  - [7.2. Solution Implementation](#72-solution-implementation)
+	- [7.2.1. Sprint 1](#721-sprint-1)
+	- [7.2.1.1. Sprint Planning 1](#7211-sprint-planning-1)
+	- [7.2.1.2. Sprint Backlog 1](#7212-sprint-backlog-1)
+  - [7.2.1.3. Development Evidence for Sprint Review](#7213-development-evidence-for-sprint-review)
+  - [7.2.1.4. Testing Suite Evidence for Sprint Review](#7214-testing-suite-evidence-for-sprint-review)
   - [7.3. Validation Interviews](#73-validation-interviews)
     - [7.3.1. Diseño de Entrevistas](#731-diseño-de-entrevistas)
     - [7.3.2. Registro de Entrevistas](#732-registro-de-entrevistas)
@@ -1716,7 +1722,7 @@ Commits realizados en el Sprint 1 para los tests
 | Arquitectura-WS82/acceptance-tests     | fast-test  | 5a3ceae9262aa55941f89ad542a426cba5e34116 | Add: HU-009           | 29/09/23             |
 | Arquitectura-WS82/acceptance-tests     | fast-test  | abbfc1d4571e2ebf45be61b716b084ce478c7e54 | Add: HU-010           | 29/09/23             |
 | Arquitectura-WS82/acceptance-tests     | fast-test  | 449fee2b227d31466320622e3d92b773d358eee1 | Add: HU-011           | 29/09/23             |
-| Arquitectura-WS82/acceptance-tests     | fast-test  | 43fa3290bae117136f43e9e314d15adcbcd11fee | Add: HU-012           | 29/09/23<br>         |
+| Arquitectura-WS82/acceptance-tests     | fast-test  | 43fa3290bae117136f43e9e314d15adcbcd11fee | Add: HU-012           | 29/09/23             |
 
 **Repositorio relacionado (rama: fas-test): [https://github.com/Arquitectura-WS82/acceptance-tests](https://github.com/Arquitectura-WS82/acceptance-tests)**
 ## 7.3. Validation Interviews
