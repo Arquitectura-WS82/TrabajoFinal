@@ -118,15 +118,15 @@ Mayo, 2024
     - [5.3.6. Bounded Context Software Architecture Code Level Diagrams](#536-bounded-context-software-architecture-code-level-diagrams)
       - [5.3.6.1. Bounded Context Domain Layer Class Diagrams](#5361-bounded-context-domain-layer-class-diagrams)
       - [5.3.6.2. Bounded Context Database Design Diagram](#5362-bounded-context-database-design-diagram)
-  - [5.3. Bounded Context: Location](#53-bounded-context-location)
-    - [5.3.1. Domain Layer](#531-domain-layer)
-    - [5.3.2. Interface Layer](#532-interface-layer)
-    - [5.3.3. Application Layer](#533-application-layer)
-    - [5.3.4. Infrastructure Layer](#534-infrastructure-layer)
-    - [5.3.5. Bounded Context Software Architecture Component Level Diagrams](#535-bounded-context-software-architecture-component-level-diagrams)
-    - [5.3.6. Bounded Context Software Architecture Code Level Diagrams](#536-bounded-context-software-architecture-code-level-diagrams)
-      - [5.3.6.1. Bounded Context Domain Layer Class Diagrams](#5361-bounded-context-domain-layer-class-diagrams)
-      - [5.3.6.2. Bounded Context Database Design Diagram](#5362-bounded-context-database-design-diagram)
+  - [5.4. Bounded Context: SearchService](#54-bounded-context-searchservice)
+    - [5.4.1. Domain Layer](#541-domain-layer)
+    - [5.4.2. Interface Layer](#542-interface-layer)
+    - [5.4.3. Application Layer](#543-application-layer)
+    - [5.4.4. Infrastructure Layer](#544-infrastructure-layer)
+    - [5.4.5. Bounded Context Software Architecture Component Level Diagrams](#545-bounded-context-software-architecture-component-level-diagrams)
+    - [5.4.6. Bounded Context Software Architecture Code Level Diagrams](#546-bounded-context-software-architecture-code-level-diagrams)
+      - [5.4.6.1. Bounded Context Domain Layer Class Diagrams](#5461-bounded-context-domain-layer-class-diagrams)
+      - [5.4.6.2. Bounded Context Database Design Diagram](#5462-bounded-context-database-design-diagram)
 - [Capítulo VI: Solution UX Design](#capítulo-vi-solution-ux-design)
   - [6.1. Style Guidelines](#61-style-guidelines)
 	- [6.1.1. General Style Guidelines](#611-general-style-guidelines)
@@ -144,7 +144,18 @@ Mayo, 2024
 	- [6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)
 	- [6.4.3. Applications Mock-ups](#643-applications-mock-ups)
 	- [6.4.4. Applications User Flow Diagrams](#644-applications-user-flow-diagrams)
--   - [6.5. Applications Prototyping](#65-applications-prototyping)
+  - [6.5. Applications Prototyping](#65-applications-propotyping)
+- [Capítulo VII: Product Implementation, Validation & Deployment](#capítulo-vii-product-implementation-validation-deployment)
+  - [7.1. Software Configuration Management](#71-software-configuration-management)
+	- [7.1.1. Software Development Environment Configuration](#711-software-development-environment-configuration)
+	- [7.1.2. Source Code Management](#712-source-code-management)
+	- [7.1.3. Source Code Style Guide & Management](#713-source-code-style-guide-management)
+	- [7.1.4. Software Deployment Configuration](#714-software-deployment-configuration)
+  - [7.3. Validation Interviews](#73-validation-interviews)
+    - [7.3.1. Diseño de Entrevistas](#731-diseño-de-entrevistas)
+    - [7.3.2. Registro de Entrevistas](#732-registro-de-entrevistas)
+    - [7.3.3. Evaluaciones según heuristicas](#733-evaluaciones-según-heuristicas)
+  - [7.4. Video About-the-Product](#74-video-about-the-product)
 - [Conclusiones](#conclusiones)
 - [Recomendaciones](#recomendaciones)
 
@@ -154,8 +165,8 @@ Mayo, 2024
 
 | Criterio específico                                                                                                                                                                    | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Conclusiones                                                                                                                                                                                                                                                                                                                                                         |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.     | **Eduardo Sebastián Lévano Cavero**<br>*TB1* <br>Durante el video de exposición se transmitió de manera adecuada la problemática hallada en el sector de transporte de mercadería y como se solucionaría por medio de la implementación de una página web para comunicar a transportistas con personas que requieran de sus servicios. Asimismo, se detallo como esta diseñada la propuesta y su sustentación.<br><br>**Anthony Botello** <br>*TB1* <br>En el vídeo de exposición se indicaron a los competidores, así como también se explicó la matriz DAFO de nuestra organización. Finalmente, se expusieron resultados acerca de las entrevistas realizadas.<br>*TP*<br>En mi presentación audiovisual se describió de manera adecuada cada uno de los elementos que intervienen en el bounded context PersonalData y, de la misma forma, se explicaron los diagramas mostrados.<br><br>**Rodrigo Alexander Sabino Ramirez** <br>*TB1* <br>Durante mi exposición, comuniqué de manera clara y objetiva los resultados de mi proyecto en ingeniería, destacando la fase de Needfinding. Presenté User Personas y una matriz de tareas de usuario, usando herramientas como Empathy Mapping y As-is Scenario Mapping. Además, delineé el escenario futuro de la plataforma propuesta, detallando User Stories, Impact Mapping y un Product Backlog completo.<br>_TP_  <br>La capacidad de comunicar efectivamente en un contexto oral es esencial en ingeniería,  <br>especialmente cuando se trata de explicar y justificar decisiones de diseño como las  <br>presentadas en el capítulo sobre el "Bounded Context: Search Service".  <br>En el capítulo 5 se detalla la implementación de una interfaz de usuario que permite a los  <br>clientes cargar imágenes de productos para transporte y recibir sugerencias automatizadas  <br>sobre los transportistas adecuados.<br>**Abel Angel Cierto Espiritu**<br>*TB1* <br>Durante el desarrollo de este primer avance, comunique de manera eficaz el objetivo del diseño al desarrollar la aplicación web. También, detalle acerca de las funcionalidades primarias  que considero que son importantes y definir los atributos de calidad para una buena aplicación es necesaria. Los constraints nos sirven para tener claro las limitaciones del sistema al momento de desarrollar la aplicación web.<br><br>_TP_<br>La capacidad de comunicar efectivamente en un contexto oral es esencial en ingeniería,  <br>especialmente cuando se trata de explicar y justificar decisiones de diseño como las  <br>presentadas en el capítulo sobre el "Bounded Context: Search Service".  <br>En el capítulo 5 se detalla la implementación de una interfaz de usuario que permite a los  <br>clientes cargar imágenes de productos para transporte y recibir sugerencias automatizadas  <br>sobre los transportistas adecuados.<br><br>**Branco Alberto Villegas Peralta**<br>*TB1*<br>Durante el proyecto, me enfoqué en comunicar nuestros avances y resultados de manera clara y objetiva. Presenté nuestras ideas durante el proceso de Event Storming y facilité discusiones sobre el modelado de flujo de mensajes del dominio. Mi objetivo era asegurarme de que todos los miembros del equipo, independientemente de su especialidad o nivel jerárquico, comprendieran el progreso y las decisiones tomadas en el proyecto.<br><br>_TP_<br>En el avance actual del proyecto, he presentado el bounded context location de "FastPorte" a un público diverso, incluyendo a compañeros de clase, profesores. Durante esta presentación, expliqué claramente el propósito de bounded context y cómo contribuye a mejorar la plataforma. | *TB1*<br>En la exposición de la presente entrega se comunico eficientemente las bases del proyecto desarrollado y el proceso que llevo a corroborar que efectivamente es una solución adecuada para la problemática encontrada. Asimismo, se presentaron las herramientas para utilizadas para las primeras fases de implementación del proyecto y su planteamiento. |
-| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.. | **Eduardo Sebastián Lévano Cavero**<br>*TB1* <br>Se documento con éxito y de manera adecuada la introducción al proyecto, describiendo la problemática con antecedentes, ilustrando las posibles soluciones y como se busca solucionarlo de una manera más eficiente por medio del desarrollo de la presenta investigación.<br><br>**Anthony Botello** <br>*TB1* <br>Se redactaron y documentó información y análisis de nuestros competidores y de la misma forma se evidenciaron las entrevistas realizadas y el análisis de ellas. Por otro lado, se definieron los Primary User Stories y los Quality Attribute Scenarios.<br>*TP*<br>Se agregó el bounded context correspondiente a PersonalData. Para ello, se definieron los elementos que intervienen en cada capa, así como también se diseñó el diagrama de componentes, el diagrama de clases y el diagrama de base de datos para este apartado.<br><br>**Rodrigo Alexander Sabino Ramirez** <br>*TB1* <br>En la elaboración de la primera entrega, me centré en comunicar de manera precisa y objetiva aspectos específicos. Utilizando el concepto de Ubiquitous Language, desarrollé un lenguaje común que facilitó la comprensión entre los miembros del equipo y los stakeholders. Además, identifiqué las limitaciones (Constraints) del proyecto y elaboré un Architectural Drivers Backlog para guiar el diseño arquitectónico. <br><br>**Abel Angel Cierto Espiritu** <br>*TB1* <br>Los resultados de elegir drivers de arquitecturas permite un buen funcionamiento en la escalabilidad y mantenimiento del sistema. Por último los escenarios de los atributos que se requiere refinar permite una mejora continua en la aplicación web.<br><br>_TP_  <br>Se utiliza diagramas de arquitectura y clases, así como descripciones de las entidades y objetos de valor  <br>involucrados en el servicio, lo que facilita a los lectores entender el flujo de datos y las interacciones dentro  <br>del sistema. Esta estructura de comunicación asegura que tanto desarrolladores como administradores no técnicos  <br>puedan apreciar la funcionalidad del sistema y sus implicaciones en el servicio de transporte, destacando la importancia  <br>de una documentación bien estructurada y objetiva en proyectos de ingeniería.<br><br>**Branco Alberto Villegas Peralta**<br>*TB1*<br>Durante el proyecto, utilicé herramientas como EventStorming para explorar y descubrir los contextos relevantes. Luego, modelé los flujos de mensajes del dominio para comprender las interacciones entre los diferentes componentes del sistema. Utilicé Bounded Context Canvases para delinear los límites y responsabilidades de cada contexto, y realicé un mapeo de contextos para visualizar las relaciones entre ellos. Finalmente, documenté nuestra arquitectura de software utilizando varios diagramas, incluidos contexto, contenedor y despliegue, para comunicar nuestra visión de manera efectiva a todas las partes interesadas.<br><br>_TP_ <br>En cuanto a la comunicación escrita, elaboré un documento detallado describiendo el bounded context location para el proyecto "FastPorte".  <br>Este documento, que forma parte del informe de avance, explica en profundidad el detalle del bounded context que se alinea con los objetivos del proyecto y detalla las fuentes de datos y los procesos implementados.                                                                                                                                                                                                                                                                                          | *TB1*<br>En el informe se detalló los aspectos más importantes acerca de la base de la solución propuesta y las herramientas que se usaron para validar la misma. Por otro lado, se incluyeron los diagramas adecuados para cada sección con su respectiva descripción para brindar la mayor cantidad de información.                                                |
+| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.     | **Eduardo Sebastián Lévano Cavero**<br>*TB1* <br>Durante el video de exposición se transmitió de manera adecuada la problemática hallada en el sector de transporte de mercadería y como se solucionaría por medio de la implementación de una página web para comunicar a transportistas con personas que requieran de sus servicios. Asimismo, se detallo como esta diseñada la propuesta y su sustentación.<br><br>**Anthony Botello** <br>*TB1* <br>En el vídeo de exposición se indicaron a los competidores, así como también se explicó la matriz DAFO de nuestra organización. Finalmente, se expusieron resultados acerca de las entrevistas realizadas.<br>*TP*<br>En mi presentación audiovisual se describió de manera adecuada cada uno de los elementos que intervienen en el bounded context PersonalData y, de la misma forma, se explicaron los diagramas mostrados. <br>*TB2* <br>En el vídeo de exposición se describieron las preguntas de la entrevista de validación así como también sus evidencias. Los resultados se mostraron exponiendo las Evaluaciones según Heurísticas a las cuales se explicó el problema, la severidad, el principio violado y la solución que le dimos. Por otro lado, se hizo la exposición en el about the product acerca de nuestra solución con un lenguaje claro y poco técnico para que sea entendido por un público más general.<br><br>**Rodrigo Alexander Sabino Ramirez** <br>*TB1* <br>Durante mi exposición, comuniqué de manera clara y objetiva los resultados de mi proyecto en ingeniería, destacando la fase de Needfinding. Presenté User Personas y una matriz de tareas de usuario, usando herramientas como Empathy Mapping y As-is Scenario Mapping. Además, delineé el escenario futuro de la plataforma propuesta, detallando User Stories, Impact Mapping y un Product Backlog completo.<br>_TP_  <br>La capacidad de comunicar efectivamente en un contexto oral es esencial en ingeniería,  <br>especialmente cuando se trata de explicar y justificar decisiones de diseño como las  <br>presentadas en el capítulo sobre el "Bounded Context: Search Service".  <br>En el capítulo 5 se detalla la implementación de una interfaz de usuario que permite a los  <br>clientes cargar imágenes de productos para transporte y recibir sugerencias automatizadas  <br>sobre los transportistas adecuados.<br>**Abel Angel Cierto Espiritu**<br>*TB1* <br>Durante el desarrollo de este primer avance, comunique de manera eficaz el objetivo del diseño al desarrollar la aplicación web. También, detalle acerca de las funcionalidades primarias  que considero que son importantes y definir los atributos de calidad para una buena aplicación es necesaria. Los constraints nos sirven para tener claro las limitaciones del sistema al momento de desarrollar la aplicación web.<br><br>_TP_<br>La capacidad de comunicar efectivamente en un contexto oral es esencial en ingeniería,  <br>especialmente cuando se trata de explicar y justificar decisiones de diseño como las  <br>presentadas en el capítulo sobre el "Bounded Context: Search Service".  <br>En el capítulo 5 se detalla la implementación de una interfaz de usuario que permite a los  <br>clientes cargar imágenes de productos para transporte y recibir sugerencias automatizadas  <br>sobre los transportistas adecuados.<br><br>**Branco Alberto Villegas Peralta**<br>*TB1*<br>Durante el proyecto, me enfoqué en comunicar nuestros avances y resultados de manera clara y objetiva. Presenté nuestras ideas durante el proceso de Event Storming y facilité discusiones sobre el modelado de flujo de mensajes del dominio. Mi objetivo era asegurarme de que todos los miembros del equipo, independientemente de su especialidad o nivel jerárquico, comprendieran el progreso y las decisiones tomadas en el proyecto.<br><br>_TP_<br>En el avance actual del proyecto, he presentado el bounded context location de "FastPorte" a un público diverso, incluyendo a compañeros de clase, profesores. Durante esta presentación, expliqué claramente el propósito de bounded context y cómo contribuye a mejorar la plataforma. | *TB1*<br>En la exposición de la presente entrega se comunico eficientemente las bases del proyecto desarrollado y el proceso que llevo a corroborar que efectivamente es una solución adecuada para la problemática encontrada. Asimismo, se presentaron las herramientas para utilizadas para las primeras fases de implementación del proyecto y su planteamiento. |
+| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.. | **Eduardo Sebastián Lévano Cavero**<br>*TB1* <br>Se documento con éxito y de manera adecuada la introducción al proyecto, describiendo la problemática con antecedentes, ilustrando las posibles soluciones y como se busca solucionarlo de una manera más eficiente por medio del desarrollo de la presenta investigación.<br><br>**Anthony Botello** <br>*TB1* <br>Se redactaron y documentó información y análisis de nuestros competidores y de la misma forma se evidenciaron las entrevistas realizadas y el análisis de ellas. Por otro lado, se definieron los Primary User Stories y los Quality Attribute Scenarios.<br>*TP*<br>Se agregó el bounded context correspondiente a PersonalData. Para ello, se definieron los elementos que intervienen en cada capa, así como también se diseñó el diagrama de componentes, el diagrama de clases y el diagrama de base de datos para este apartado. <br>*TB2* <br>Para este criterio se redactó, describió y comentó el apartado 7.3 el cual describe las entrevistas de validación. Para ello fue necesario utilizar un lenguaje claro que sean entendido por los diferentes lectores.<br><br>**Rodrigo Alexander Sabino Ramirez** <br>*TB1* <br>En la elaboración de la primera entrega, me centré en comunicar de manera precisa y objetiva aspectos específicos. Utilizando el concepto de Ubiquitous Language, desarrollé un lenguaje común que facilitó la comprensión entre los miembros del equipo y los stakeholders. Además, identifiqué las limitaciones (Constraints) del proyecto y elaboré un Architectural Drivers Backlog para guiar el diseño arquitectónico. <br><br>**Abel Angel Cierto Espiritu** <br>*TB1* <br>Los resultados de elegir drivers de arquitecturas permite un buen funcionamiento en la escalabilidad y mantenimiento del sistema. Por último los escenarios de los atributos que se requiere refinar permite una mejora continua en la aplicación web.<br><br>_TP_  <br>Se utiliza diagramas de arquitectura y clases, así como descripciones de las entidades y objetos de valor  <br>involucrados en el servicio, lo que facilita a los lectores entender el flujo de datos y las interacciones dentro  <br>del sistema. Esta estructura de comunicación asegura que tanto desarrolladores como administradores no técnicos  <br>puedan apreciar la funcionalidad del sistema y sus implicaciones en el servicio de transporte, destacando la importancia  <br>de una documentación bien estructurada y objetiva en proyectos de ingeniería.<br><br>**Branco Alberto Villegas Peralta**<br>*TB1*<br>Durante el proyecto, utilicé herramientas como EventStorming para explorar y descubrir los contextos relevantes. Luego, modelé los flujos de mensajes del dominio para comprender las interacciones entre los diferentes componentes del sistema. Utilicé Bounded Context Canvases para delinear los límites y responsabilidades de cada contexto, y realicé un mapeo de contextos para visualizar las relaciones entre ellos. Finalmente, documenté nuestra arquitectura de software utilizando varios diagramas, incluidos contexto, contenedor y despliegue, para comunicar nuestra visión de manera efectiva a todas las partes interesadas.<br><br>_TP_ <br>En cuanto a la comunicación escrita, elaboré un documento detallado describiendo el bounded context location para el proyecto "FastPorte".  <br>Este documento, que forma parte del informe de avance, explica en profundidad el detalle del bounded context que se alinea con los objetivos del proyecto y detalla las fuentes de datos y los procesos implementados.                                                                                                                                                                                                                                                                                          | *TB1*<br>En el informe se detalló los aspectos más importantes acerca de la base de la solución propuesta y las herramientas que se usaron para validar la misma. Por otro lado, se incluyeron los diagramas adecuados para cada sección con su respectiva descripción para brindar la mayor cantidad de información.                                                |
 
 ---
 
@@ -1571,6 +1582,360 @@ Para Cerrar sesion presiona su nombre y aparece el botón "Log Out" el cual le p
 
 El siguiente diagrama corresponde a una captura de pantalla del web application prototyping realizado en la herramienta online Figma. Para una mejor visualizacion es recomendable visitar el siguiente link: [Mockups - FastPorte (figma.com)](https://www.figma.com/proto/ipzddVXEuU5ee0IHE0hLyv/FastPorte?page-id=1%3A3&node-id=98-392&viewport=328%2C118%2C0.07&scaling=min-zoom&starting-point-node-id=98%3A392)
 ![Prototyping](img/Capitulo_6/Applications_Prototyping/web.png)
+=======
+---
+# Capítulo VII: Product Implementation, Validation & Deployment
+## 7.1. Software Configuration Management 
+### 7.1.1. Software Development Environment Configuration 
+- **Project Management**
+Se hizo uso de software que permite la comunicación en tiempo real y de edición rápida y compartida, de esta forma se trabajó con eficiencia. Algunos softwares utilizados fueron Google services (Drive, Documents, Meet) y Microsoft Outlook. Para el registro de versiones y creación de repositorios se hizo uso de GitHub ya que es una plataforma que nos permite registrar de manera ordenada cada uno de los commits que realizamos y realizaremos.
+- **Product UX/UI Design**
+Se empleó Miro y UXPressia para el desarrollo de todo lo relacionado a los segmentos objetivos y sus mapeos. Además, se utilizaron estas herramientas online para el desarrollo de los As-Is y To-Be Scenario Maps. Por otro lado, para el desarrollo de los mockups, wireframes, wireflows y el prototipo de la aplicación web, se empleó Figma.
+
+Además, se creó un repositorio específico en GitHub para el UX/UI design, donde se encuentran los artefactos desarrollados a lo largo del trabajo.
+**Repositorio UX-UI Design**
+![Repositorio UX-UI Design](img/Capitulo_7/Software_Configuration_Management/1.png)
+Link en github: [UX-UI Design](https://github.com/Arquitectura-WS82/UX-UI-Design)
+- **Software Development**
+Para el desarrollo del software de este proyecto se empleó lo siguiente:
+	- **IntelliJ IDEA:** IDE desarrollado por JetBrains especializado para el desarrollo con el lenguaje de programación Java.
+	- **Java:** Lenguaje de programación popularmente utilizado en el desarrollo de microservicios debido a su capacidad para ofrecer escalabilidad, portabilidad y robustez.
+	- **Git:** La versión consola de sistema de control de versiones GIT, encargado de gestionar repositorios.
+-  **Software Testing**
+Para los test de aceptación, se usará el lenguaje Gherkin y se subirá al repositorio que mencionaremos más adelante.
+- **Software Deployment**
+Se realizará la implementación y ejecución de las aplicaciones y servicios en la plataforma de nube de Microsoft, la cual permite escalabilidad y la correcta administración de los recursos creados.
+-  **Software Documentation**
+Para realizar la documentación del lenguaje de programación Java nos podemos guiar de páginas como Oracle u otras similares. En cualquier caso, es una buena práctica documentar cada servicio para ofrecer un mayor entendimiento a los futuros programadores o en caso se tenga que volver a revisar una implementación previa.
+
+### 7.1.2. Source Code Management 
+Para el proyecto que estamos realizando usaremos el sistema de control de versiones Git el cual se verá evidenciado en la plataforma Github ya que nos permite visualizar los cambios hechos en cada versión de manera didáctica y ordenada.
+El repositorio creado será gestionado con GitFlow el cual supone tener cinco ramas, sin embargo, en el repositorio solo se mostrarán tres de ellas ya que serán las que tengan los cambios más significativos en nuestro proceso de construcción del proyecto. Los branches que mostraremos en el repositorio de GitHub serán:
+**Main:** contendrá las versiones oficiales y estables de nuestro proyecto.
+**Develop:** será conformada por todos los features que se vinieron desarrollando para que cuando creamos que está lista para el siguiente paso sea fusionada con la rama reléase.
+**Release:** contendrá el código que será publicado oficialmente y será un paso previo antes de pasar a la rama main.
+**Feature:** será una rama individual por cada integrante donde suban la parte del código que corresponde a la funcionalidad designada. Cada una de estas será fusionada con la rama _develop_.
+$feature <nombre -integrante>/<pequeña-descripción>$
+ El nombramiento de los releases se hará teniendo en cuenta el versionamiento semántico 2.0.0 con el cual podremos saber cómo nombrar a nuestras diferentes versiones del proyecto.
+ $Mayor.Menor.Parche$
+ **El último dígito (Parche):** se utilizará para indicar que hubo un parche. Solo para indicar que se arreglaron algunos errores mas no hubo cambios grandes.
+**El segundo dígito (Menor):** se cambiará (aumentará) para indicar que se añadieron características al proyecto que son compatibles con la versión pasada. Si este dígito aumenta, el número del parche empezará en 0.
+**El primer dígito (Mayor):** Aumentará cada vez que haya un cambio significativo y además cuando la versión actual no sea compatible con la versión anterior.
+Por último, se hará uso de conventional commits para los textos de mensajes en cada commit que se realice. La estructura es la siguiente:
+$<type>[optional scope]: <description>$
+$[optional body]$
+$[optional footer(s)]$
+Sin embargo, para este trabajo, por lo general se usará la siguiente estructura que es similar a la mostrada anteriormente:
+$<type>: <description>$
+Con respecto a los repositorios que usaremos en el proyecto, serán los siguientes:
+**Repositorio Frontend Applications**
+![Repositorio Frontend Applications](img/Capitulo_7/Software_Configuration_Management/2.png)
+Link en github: [Frontend Web Applications](https://github.com/Arquitectura-WS82/frontend-web-applications)
+**Repositorio Microservices**
+![Repositorio Microservices](img/Capitulo_7/Software_Configuration_Management/3.png)
+Link en github: [Microservices](https://github.com/Arquitectura-WS82/web-services)
+**Repositorio Landing Page**
+![Repositorio Landing Page](img/Capitulo_7/Software_Configuration_Management/4.png)
+Link en github: [Landing Page](https://github.com/Arquitectura-WS82/landing-page)
+Los tests de aceptación serán subidos al siguiente repositorio:
+**Repositorio Acceptance Tests**
+![Repositorio Acceptance Tests](img/Capitulo_7/Software_Configuration_Management/5.png)
+Link en github: [Acceptance Tests](https://github.com/Arquitectura-WS82/acceptance-tests)
+ 
+### 7.1.3. Source Code Style Guide & Conventions 
+Para el desarrollo de código, se tiene planeado utilizar las convenciones descritas en, Gherkin Conventions for Readable Specifications, Google Java Style Guide y Code Style Java de IntelliJ.
+**Principales referencias y convenciones adoptadas o por adoptar en la realización del proyecto:**
+**JAVA**
+-  Los modificadores de clase y miembro, cuando están presentes, aparecen en el orden recomendado por la especificación del lenguaje Java:
+$public$ $protected$ $private$ $abstract$ $default$ $static$ $final$ $transient$ $volatile$ $synchronized$ $native$ $strictfp$
+-  Se usa UpperCamelCase para el nombre de las clases.
+$ThisIsAnExample$
+$thisIsNotAnExample$
+- Se usa lowerCamelCase para el nombre de los métodos y parámetros.
+$thisIsAnExample$
+$ThisIsNotAnExample$
+
+**GHERKIN**
+Para los archivos. feature se utilizó el lenguaje Gherkin.
+- **Contar con bloques discernibles de Given-When-Then**, los cuales terminaran aplicando el And y un espacio, para tener una fácil detección de donde termina y donde comienza un bloque.
+_Bloques discernibles en Gherkin_
+![Bloques discernibles](img/Capitulo_7/Software_Configuration_Management/6.png)
+- **Utilizar comillas simples,** para poder identificar los parámetros en un paso.
+_Comillas simples en Gherkin_
+![Comillas Simples](img/Capitulo_7/Software_Configuration_Management/7.png)
+### 7.1.4. Software Deployment Configuration 
+Para la configuración de despliegue del proyecto en curso, se utilizará Eureka por las siguientes razones: 
+- **Registro de Servicios:** Eureka permite que los microservicios se registren automáticamente en un servidor Eureka cuando se inician. Esto significa que cada microservicio que se ejecuta puede hacerse visible para otros componentes de la aplicación.
+- **Descubrimiento de Servicios:** Los microservicios pueden consultar el servidor Eureka para obtener información actualizada sobre la ubicación y la disponibilidad de los servicios que necesitan invocar. Esto elimina la necesidad de que los clientes conozcan las direcciones IP o los puertos de los servicios, lo que facilita la comunicación dinámica entre microservicios.
+- **Balanceo de Carga:** Eureka se integra fácilmente con balanceadores de carga, lo que permite una distribución equilibrada de las solicitudes entre múltiples instancias de un servicio. Esto mejora la escalabilidad y la disponibilidad de los servicios, ya que las solicitudes se distribuyen de manera uniforme.
+![Springboot](img/Capitulo_7/Software_Configuration_Management/8.png)
+Para utilizarlo, será necesario importar las dependencias en los servicios de registro, de gateway y los servicios de la solución como podrían ser el de clients, carriers, hiring, etc.
+![Dependencies](img/Capitulo_7/Software_Configuration_Management/9.png)
+Finalmente, al ejecutar los servicios e ingresar al localhost:8099, aquellos que se han registrado se mostrarán en una tabla al igual que el estado en que se encuentran.
+
+
+## 7.2. Solution Implementation
+
+### 7.2.1. Sprint 1
+
+#### 7.2.1.1. Sprint Planning 1
+
+| Sprint #                        | 1                                                                                                                                                                                                |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Sprint Planning Background**  |                                                                                                                                                                                                  |
+| Date                            | 27-05-2024                                                                                                                                                                                       |
+| Time                            | 7:00 am                                                                                                                                                                                          |
+| Location                        | Lima Perú                                                                                                                                                                                        |
+| Prepared By                     | Abel Cierto                                                                                                                                                                                      |
+| Attendees (to planning meeting) | Abel Cierto / Branco Villegas / Sebastian Levano / Rodrigo Sabino / Anthony Botello                                                                                                              |
+| Sprint 1 Review Summary         | Para el desarrollo de este sprint el objetivo es desarrollar de manera exitosa el landing page y el web services que será necesario para la implementación del frontend en una aplicación móvil. |
+| Sprint 1 Retrospective Summary  | En la revisión retrospectiva se evalúa el avance del landing page y el despliegue funcional del backend de web services.                                                                         |
+| **Sprint Goal & User StorieS**  |                                                                                                                                                                                                  |
+| Sprint 1 Goal                   | El objetivo del sprint 1 es desarrollar y desplegar el landing page como el web services.                                                                                                        |
+| Sprint 1 Velocity               | Se estima que el equipo puede completar 9 puntos de historia en el Sprint 1, basándose en las capacidades y la disponibilidad del equipo.                                                        |
+| Sum of Story Points             | 9                                                                                                                                                                                                |
+
+#### 7.2.1.2. Sprint Backlog 1
+
+A continuación, se mostrará los Sprints que se llevarán a cabo para la realización del Proyecto:
+
+
+| **Sprint #** | **Sprint 1**                                                      |        |                                                          |                                                                                                                                              |                        |                  |                                               |
+| ------------ | ----------------------------------------------------------------- | ------ | -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | ---------------- | --------------------------------------------- |
+| User Story   | Work Item / Task                                                  |        |                                                          |                                                                                                                                              |                        |                  |                                               |
+| **Id**       | **Title**                                                         | **Id** | **Title**                                                | **Description**                                                                                                                              | **Estimation (Hours)** | **Assigned To**  | **Status (To-Do/In-Process/ To-Review/Done)** |
+| HU-025       | Desplazarse fácilmente entre las secciones del landing page       | T25-01 | Secciones de landing page                                | Desarrollo de las secciones transportista, about us                                                                                          | 4                      | Abel Cierto      | Done                                          |
+| <br>         |                                                                   | T25-02 | Implementar barra de navegación                          | Barra en la parte superior de la landing page con nombres de las secciones que la conforman                                                  | 2                      | Abel Cierto      | Done                                          |
+| HU-026       | Visualizar los beneficios de la aplicación                        | T26-01 | Definir los beneficios a brindar                         | En esta sección se detallan los beneficios que tiene cada segmento al usar la aplicación                                                     | 1                      | Anthony Botello  | Done                                          |
+| HU-027       | Visualizar información sobre los desarrolladores de la aplicación | T27-01 | Sección en la landing page                               | Diseñar y acoplar la sección en la landing page                                                                                              | 1                      | Branco Villegas  | Done                                          |
+|              |                                                                   | T27-02 | Perfiles de integrantes                                  | Agregar fotos de los integrantes de nuestra organización                                                                                     | 1                      | Sebastían Levano | Done                                          |
+| HU-028       | Sección de la landing page para los segmentos de usuarios         | T28-01 | Encabezado para cada segmento                            | Imagen representativa en la parte superior según la sección developers o empresas                                                            | 1                      | Sebastían Levano | Done                                          |
+|              |                                                                   | T28-02 | Beneficios para clientes y transportistas                | Ventajas que tiene la plataforma para developers y empresas                                                                                  | 3                      | Rodrigo Sabino   | Done                                          |
+|              |                                                                   | T28-03 | About us                                                 | Sección que muestra la imagen de los desarrolladores de la aplicación                                                                        | 1                      | Rodrigo Sabino   | Done                                          |
+| HU-001       | Registrar al transportista                                        | T01-01 | Crear la vista “Registrarse”                             | Se creará la vista con los botones para iniciar sesión y registrarse. Además, se crearán los campos del formulario con los datos necesarios. | 2                      | Sebastían Levano | Done                                          |
+|              |                                                                   | T01-02 | Validar los datos del formulario para crear la cuenta    | Se realizarán las validaciones para que complete todos los campos obligatorios con el formato correcto.                                      | 2                      | Sebastían Levano | Done                                          |
+| HU-002       | Registrar al cliente                                              | T02-01 | Crear la vista “Registrarse"                             | Se creará la vista con los botones para iniciar sesión y registrarse. Además, se crearán los campos del formulario con los datos necesarios. | 2                      | Sebastían Levano | Done                                          |
+|              |                                                                   | T02-02 | Validar los datos del formulario para crear la cuenta    | Se realizarán las validaciones para que complete todos los campos obligatorios con el formato correcto.                                      | 2                      | Sebastían Levano | Done                                          |
+| HU-003       | Registrar un transporte                                           | T03-01 | Añadir la vista en el “Perfil” del usuario transportista | Se creará el formulario para que ingrese los datos de su vehículo.                                                                           | 2                      | Sebastían Levano | Done                                          |
+|              |                                                                   | T03-02 | Validar los datos del formulario                         | Se validaron los datos introducidos para agregar el vehículo a la lista de vehículos del transportista.                                      | 2                      | Sebastían Levano | Done                                          |
+| HU-010       | Cerrar sesión en la aplicación                                    | T10-01 | Añadir un botón para “Cerrar sesión”                     | Se creará un botón en la vista de “Configuración”.                                                                                           | 1                      | Rodrigo Sabino   | Done                                          |
+|              |                                                                   | T10-02 | Validar la salida de la cuenta                           | Verificar que se sale de la cuenta realmente, para no comprometer la información del usuario.                                                | 1                      | Rodrigo Sabino   | Done                                          |
+| HU-012       | Ver el historial de Contratos                                     | T12-01 | Crear la vista “Historial”                               | Se creará la vista para mostrar los contratos pasados.                                                                                       | 2                      | Rodrigo Sabino   | Done                                          |
+|              |                                                                   | T12-02 | Validar el funcionamiento del “Recycler View”            | Se validará que los contratos pasados se muestren correctamente.                                                                             | 2                      | Rodrigo Sabino   | Done                                          |
+| HU-020       | Ver la información del usuario                                    | T20-01 | Crear la vista “Perfil”                                  | Se creará la vista para mostrar los datos del usuario.                                                                                       | 3                      | Sebastían Levano | Done                                          |
+|              |                                                                   | T20-02 | Obtener datos del Backend                                | Se validará que todos los datos se obtengan del backend de la aplicación.                                                                    | 3                      | Sebastían Levano | Done                                          |
+
+
+#### 7.2.1.3. Development Evidence for Sprint Review
+
+
+| **Repository**                                                    | **Branch**       | **Commit Id**                            | **Commit Message**                   | **Commit Message Body**                                                                      | **Committed on (Date)** |
+| ----------------------------------------------------------------- | ---------------- | ---------------------------------------- | ------------------------------------ | -------------------------------------------------------------------------------------------- | ----------------------- |
+| abelcierto/landing-page                                           | feature/develop  | bd638d8cbeb3693ac599c78a7f3782589830fc6b | feat: create header                  | In this section I have created the header.                                                   | 3/6/2024<br>            |
+| abelcierto/landing-page                                           | feature/develop  | 182e26cbc87ca0859264671d1162b51ec654fc2f | feat: create section about the team  | In this section I have added the photos of the team, and added the name of each participant. | 3/6/2024                |
+| fastporte- app https://github.com/Arquitectura-WS82/fastporte-app | feature/security | a7ad408bc3d7cd03e670b305e6ef1f2a708c3406 | feat(login): Login View              |                                                                                              | 26/04/2023              |
+|                                                                   | feature/security | 28887838f24dcec129019adcba04bd4e614b56a1 | feat(register): register view set up |                                                                                              | 27/04/2023              |
+
+#### 7.2.1.4. **Testing Suite Evidence for Sprint Review**
+
+Para este apartado del proyecto se evidenciará los tests de aceptación en el lenguaje Gherkin que fueron subidos al repositorio. En cada test acceptance contiene la historia de usuario con sus respectivos criterios de aceptación para cada escenario propuesto
+
+**Figura**
+
+Evidencia de los acceptance test en GitHub
+
+**Tabla 
+
+Commits realizados en el Sprint 1 para los tests
+
+| **Repository**                     | **Branch** | **Commit id**                            | **Commit Message**    | **Commit on (Date)** |
+| ---------------------------------- | ---------- | ---------------------------------------- | --------------------- | -------------------- |
+| Arquitectura-WS82/acceptance-tests | fast-test  | 91af5fc25209595a0969114881232033afcc35f6 | fix us                | 20/09/23             |
+| Arquitectura-WS82/acceptance-tests | fast-test  | 1e7d23126ae3589d23260912f8c05194e8116973 | Update HU-019.feature | 23/09/23             |
+
+
+## 7.3. Validation Interviews
+
+Para esta versión del informe hemos realizado entrevistas de validación a nuestros usuarios las cuales se verán a continuación empezando desde el diseño de entrevistas hasta las entrevistas en sí.
+
+### 7.3.1. Diseño de Entrevistas
+
+Para esta versión hemos diseñado y realizado las siguientes preguntas a nuestros usuarios:
+
+- ¿Te gustó la aplicación? ¿Qué parte de la aplicación te gustó más?
+
+- ¿Qué funcionalidad quisieras añadir?
+
+- ¿Hay algún apartado que mejorarías?
+
+- ¿Considera que nuestra aplicación puede competir con las aplicaciones del mercado actual?
+
+- ¿Recomendarías esta aplicación?
+
+### 7.3.2. Registro de Entrevistas
+
+En esta version, hemos realizado las entrevistas que se pueden visualizar en el siguiente link en Microsoft stream: 
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b846_upc_edu_pe/EXawTnrPuoRNgQ8vTCSmKLsBbhP_2xHzFfKLvu1GpHRkow?e=vGZCNW
+
+#### Entrevista N° 1
+
+|![Entevista 1 - Validation](img/Capitulo_7/Validation_Interviews/Registro_de_entrevistas/E01.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <u>**Datos del entrevistado**</u> <br><br>   **Nombre y apellidos:** Ricardo Vilca<br>   **Distrito:** Ventanilla<br>   **Segmento:** Transportista<br><br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Ricardo es una persona de 25 años quien se dedica al rubro de transporte y trabaja con mayor frecuencia los fines de semana pues es ahí cuando dice obtener mayores ganancias. Ricardo ha tenido la oportunidad de interactuar con la aplicación web que hemos desarrollado y siente que ha sido muy intuitivo y fácil de manejar. La parte que más le gustó fue la parte de las notificaciones porque es muy visible la diferenciación de los estados del contrato. Con respecto a la funcionalidad que quisiera añadir, no lo tiene muy claro pero le gustaría tenerla en una versión móvil. Piensa que puede competir con las aplicaciones del mercado actual y que se pasaría la voz muy rápido entre los transportistas si esta aplicación llega a ser tan beneficiosa como cree que es. |
+| **Minuto:** 09:25 – 19:00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+
+#### Entrevista N° 2
+
+| ![Entevista 2 - Validation](img/Capitulo_7/Validation_Interviews/Registro_de_entrevistas/E02.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <u>**Datos del entrevistado**</u> <br><br>   **Nombre y apellidos:** Carlos Sanchez<br>   **Distrito:** Ventanilla<br>   **Segmento:** Transportista<br><br>   |
+| El entrevistado se llama Carlos Sanchez y reside en Ventanilla, él cabe en el segmento objetivo de Transportista, debido a que en sus vacaciones suele trabajar como ayudante en el servicio de transportar mercadería y realizar mudanzas. En primer lugar, él nos comenta que la aplicación le gustó mucho y que considera que tiene las funcionalidades necesarias para que pueda utilizarla en sus actividades como transportista. En segundo lugar, menciona que la parte más importante para él son los contratos y que el mejoraría la sección del perfil, debido a que está algo desordenado y no se ve tan estético. Por último, dice que si la recomendaría a sus amigos o conocidos.|
+| **Minuto:** 00:00 – 09:24 |
+
+#### Entrevista N° 3
+
+| ![Entevista 3 - Validation](img/Capitulo_7/Validation_Interviews/Registro_de_entrevistas/E03.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <u>**Datos del entrevistado**</u> <br><br>   **Nombre y apellidos:** Diego Seminario<br>   **Distrito:** Cercado de Lima<br>   **Segmento:** Transportista<br><br>   |
+| El entrevistado se llama Diego Seminario y reside Cercado de Lima, él indica considera que la aplicación mostrada fue sencilla de utilizar y bastante intuitiva. Sin embargo, cree que se podría añadir la acción de acceder al perfil de un Transportista al clickear en su nombre o foto, en lugar de hacerlo mediante un botón extra. |
+| **Minuto:** 19:00 – 25:04 |
+
+#### Entrevista N° 4
+
+| ![Entevista 4 - Validation](img/Capitulo_7/Validation_Interviews/Registro_de_entrevistas/E04.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <u>**Datos del entrevistado**</u> <br><br>   **Nombre y apellidos:** Sergio Liberato<br>   **Distrito:** Huacho<br>   **Segmento:** Cliente<br><br>   |
+| Sergio de 20 años es hijo de unos comerciantes de vendedores de Frutos secos el cual apoya en el ciclo de comercio de su producto. En relación con la entrevista este encuentra relación de nuestra aplicación con Uber pero que nosotros tenemos un mercado más amplio. Y que esto puede llegar a tener una aplicación para los mercados o para su negocio familiar, ya que en Uber se enfoca en personas. Lo ve más relacionado a su rubro ya que él realiza una búsqueda de transportista para el traslado de sus productos para la venta, cada cierto tiempo. Lo que nos comentó como aspecto a mejorar es hallar una sección de mensajería o de argumentar la razón del rechazo de la oferta laboral, después de eso lo ve perfecto como anda quedando nuestra aplicación. |
+| **Minuto:** 25:04 – 35:50 |
+
+#### Entrevista N° 5
+
+| ![Entevista 5 - Validation](img/Capitulo_7/Validation_Interviews/Registro_de_entrevistas/E05.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <u>**Datos del entrevistado**</u> <br><br>   **Nombre y apellidos:** Italo Sabino<br>   **Distrito:** Callao<br>   **Segmento:** Cliente<br><br>   |
+| Italo es comerciante de útiles escolares con 23 años, quien suele necesitar de transporte para su mercadería. En relación con la entrevista, él menciona que la parte que más le gustó dentro de las características de la aplicación fue que la aplicación se ve amigable y fácil de usar. Otro aspecto que le gustó fue la versatilidad que tiene la aplicación. Por otra parte, nos menciona que le gustaría tener un sistema de mensajería directa con el transportista. Finalmente, Italo nos menciona que nuestra aplicación cuenta con todas las características suficientes o incluso más funcionalidades como para competir con aplicaciones del mercado actual y el piensa que con un precio menor a la del mercado podremos competir directamente contra aplicaciones que se dedican a este rubro. Así mismo, afirma que por supuesto recomendaría nuestra aplicación. |
+| **Minuto:** 45:39 – 50:10 |
+
+#### Entrevista N° 6
+
+| ![Entevista 6 - Validation](img/Capitulo_7/Validation_Interviews/Registro_de_entrevistas/E06.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <u>**Datos del entrevistado**</u> <br><br>   **Nombre y apellidos:** Alexandro Villarruel <br>   **Distrito:** Villa El Salvador<br>   **Segmento:** Cliente<br><br>   |
+| Alexandro es comerciante de productos textiles con 24 años, quien constantemente requiere de servicios de transporte para su mercadería. En relación con la entrevista, él menciona que la parte que más le gusto dentro de las características de la aplicación fue que tiene muchas funcionalidades donde el usuario puede tener cierta interacción con la aplicación. Otro aspecto que le gusto fue que le resulto fácil de usar. Por otra parte, Alex menciona que no encuentra una funcionalidad que no esté entre sus necesidades. Finalmente, el usuario nos menciona que nuestra aplicación si cuenta con las funcionalidades necesarias para competir, por más de estar en una etapa de inicio tiene potencial para competir con aplicaciones del mercado actual. Así mismo, afirma que por supuesto recomendaría nuestra aplicación. |
+| **Minuto:** 35:50 – 45:38 |
+
+### 7.3.3. Evaluaciones según heuristicas
+Para este informe, se han realizado las siguientes heurísticas en base al feedback obtenido por las usuarios en las entrevistas. 
+
+**Site o APP a evaluar:** FastPorte de TechCompany
+
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Perfil del usuario
+1. Header de la aplicación web
+1. Sección Contratos
+1. Buscar vehículo
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Registro de usuario
+1. Inicio de sesión
+1. Edición de perfil
+1. Métodos de pago
+1. etc.
+
+
+ESCALA DE SEVERIDAD:
+
+|Nivel |Descripción|
+| :- | :- |
+|1|Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.|
+|2|Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase|
+|3|Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.|
+|4|Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+TABLA RESUMEN:
+
+|#|Problema|Escala de severidad|Heurística/Principio violada(o)|
+| :- | :- | :- | :- |
+|1|No existe una función de Log out|4|Usabilidad: Flexibilidad y eficiencia en el uso|
+|2|Visualmente más ordenado (My Profile)|1|Usabilidad: Diseño estético y minimalista.|
+|3|No existe una sección de mensajes directos|2|<p>Information Architecture: Is it</p><p>valuable?</p>|
+|4|Más información en Search Vehicle sobre los servicios del transportista|2|Usabilidad: Diseño estético y minimalista.|
+
+DESCRIPCIÓN DE PROBLEMAS:
+
+##### **PROBLEMA #1:** No existe una función de Log out
+
+Severidad: 4
+
+Heurística violada: Usabilidad: Flexibilidad y eficiencia en el uso
+
+**Problema:** 
+Los usuarios pueden iniciar sesión o registrarse en la aplicación de manera exitosa. Asimismo, pueden navegar por esta sin problemas. Sin embargo, cuando desean salir de su cuenta y dejar de hacer uso de la aplicación no pueden, ya que no existe ninguna opción para salir de su cuenta.
+
+![P01](img/Capitulo_7/Validation_Interviews/Heuristicas/P01.png)
+
+**Recomendación:** 
+Crear una opción “Log Out” en el header de la aplicación para que los usuarios puedan cerrar la sesión de cuenta cuando ya no vayan a hacer uso de la aplicación.
+
+##### *PROBLEMA #2:** Visualmente más ordenado (My Profile)
+
+Severidad: 1
+
+Heurística violada: Usabilidad: Diseño estético y minimalista.
+
+**Problema:**
+Un entrevistado indicó que en el apartado del perfil no se ven uniformes las casillas donde se muestra la información del usuario. Esto resulta antiestético y hace un poco complicado disfrutar de la aplicación.
+
+![P02](img/Capitulo_7/Validation_Interviews/Heuristicas/P02.png)
+
+**Recomendación:**
+Se recomienda cambiar el CSS del componente encargado de la sección de Información, quizá intercambiando Flex por Grid para poder definir el espacio que ocupará cada etiqueta de dicha sección.
+
+##### **PROBLEMA #3:** No existe una sección de mensajes directos
+
+Severidad: 2
+
+Principio violado: Information Architecture: Is it valuable?
+
+**Problema:**
+Un entrevistado indicó que le gustaría tener una sección de mensajes directos con el transportista que contrato, ya que eso facilita la comunicación entre ambas partes.
+
+![P03](img/Capitulo_7/Validation_Interviews/Heuristicas/P03.png)
+
+
+**Recomendación:**
+Si bien se puede implementar una sección de mensajes directos, los usuarios pueden acceder al perfil de los transportistas, lo cual les permitirá ver sus métodos de contacto como su correo electrónico o su número de celular.
+
+
+
+
+##### **PROBLEMA #4:** Más información en Search Vehicle sobre el driver 
+
+Severidad: 2
+
+Heurística violada: Usabilidad: Diseño estético y minimalista.
+
+**Problema:** 
+Un usuario entrevistado indicó que le gustaría ver más información acerca de los servicios del transportista al momento de realizar la búsqueda, debido a que la descripción brindada no le sirve de mucho.
+
+![P04](img/Capitulo_7/Validation_Interviews/Heuristicas/P04.png)
+
+
+**Recomendación:**
+Se sugiere cambiar la información mostrada en los cards, en lugar de mostrar la descripción del transportista mostrar más información sobre los servicios que ofrece. Sin embargo, esto también se puede solucionar mostrando un dialog, al realizar una búsqueda por primera vez, el cual indique puede acceder a mayor información del transportista por medio del botón “See Profile”
+
+## 7.4. VídeoAbout-the-Product
+Para la sección about the product se ha realizado el siguiente vídeo:
+
+![Vídeo About the Product](img/Capitulo_7/About%20the%20product.png)
+
+Link para su visualización: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b846_upc_edu_pe/EVCaD20pPy1Bim0-5OSQ02EB9uQGhvZoySX99Mvqi_Blvg?e=fJuSH7
+
 # Conclusiones
 
 - El desarrollo del Lean UX Process ayudó a comprender mejor y aplicar efectivamente las herramientas en nuestra propuesta enfocada al servicio de transportistas hacia clientes. De la misma forma, contribuyó a definir de manera más clara nuestro público objetivo o llámese segmento hacia el cual va enfocada nuestra aplicación.
