@@ -26,13 +26,14 @@ Mayo, 2024
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha    | Autor            | Descripción de modificación                                                      |
-| ------- | -------- | ---------------- | -------------------------------------------------------------------------------- |
-| 1.0     | 12/04/24 | Sebastián Lévano | Creación del proyecto con Markdown Introducción del proyecto Cap I, II, III y IV |
-| 1.1.0   | 01/05/24 | Anthony Botello  | Adición del Cap V y del bounded context PersonalData                             |
-| 1.1.1   | 02/05/24 | Rodrigo Sabino   | Adicion del bounded context Hiring                                               |
-| 1.1.2   | 02/05/24 | Abel Cierto      | Adición del Cap V y del bounded context SearchService                            |
-| 1.1.3   | 03/05/24 | Branco Villegas  | Adición del Cap V y del bounded context Location                                 |
+| Versión   | Fecha    | Autor            | Descripción de modificación                                                      |
+| --------- | -------- | ---------------- | -------------------------------------------------------------------------------- |
+| 1.0       | 12/04/24 | Sebastián Lévano | Creación del proyecto con Markdown Introducción del proyecto Cap I, II, III y IV |
+| 1.1.0     | 01/05/24 | Anthony Botello  | Adición del Cap V y del bounded context PersonalData                             |
+| 1.1.1     | 02/05/24 | Rodrigo Sabino   | Adicion del bounded context Hiring                                               |
+| 1.1.2     | 02/05/24 | Abel Cierto      | Adición del Cap V y del bounded context SearchService                            |
+| 1.1.3<br> | 03/05/24 | Branco Villegas  | Adición del Cap V y del bounded context Location                                 |
+| 1.1.4     | 17/06/24 | Sebastián Lévno  | Sprint II                                                                        |
 
 ---
 
@@ -151,12 +152,25 @@ Mayo, 2024
 	- [7.1.2. Source Code Management](#712-source-code-management)
 	- [7.1.3. Source Code Style Guide & Management](#713-source-code-style-guide-management)
 	- [7.1.4. Software Deployment Configuration](#714-software-deployment-configuration)
-  - [7.2. Solution Implementation](#72-solution-implementation)
+   - [7.2. Solution Implementation](#72-solution-implementation)
 	- [7.2.1. Sprint 1](#721-sprint-1)
-	- [7.2.1.1. Sprint Planning 1](#7211-sprint-planning-1)
-	- [7.2.1.2. Sprint Backlog 1](#7212-sprint-backlog-1)
-  - [7.2.1.3. Development Evidence for Sprint Review](#7213-development-evidence-for-sprint-review)
-  - [7.2.1.4. Testing Suite Evidence for Sprint Review](#7214-testing-suite-evidence-for-sprint-review)
+		- [7.2.1.1. Sprint Planning 1](#7211-sprint-planning-1)
+		- [7.2.1.2. Sprint Backlog 1](#7212-sprint-backlog-1)
+		- [7.2.1.3. Development Evidence for Sprint Review](#7213-development-evidence-for-sprint-review)
+		- [7.2.1.4. Testing suite Evidence for Sprint Review](#7214-testing-suite-evidence-for-sprint-review)
+		- [7.2.1.5. Execution Evidence for Sprint Review](#7215-execution-evidence-for-sprint-review)
+		- [7.2.1.6. Services Documentation Evidence for Sprint Review](#7216-services-documentation-evidence-for-sprint-review)
+		- [7.2.1.7. Software Deployment Evidence for Sprint Review](#7217-software-deployment-evidence-for-sprint-review)
+		- [7.2.1.8. Team Collaboration Insights during Sprint](#7218-team-collaboration-insights-during-sprint)
+	- [7.2.2. Sprint 2](#722-sprint-2)
+		- [7.2.2.1. Sprint Planning 2](#7211-sprint-planning-2)
+		- [7.2.2.2. Sprint Backlog 2](#7212-sprint-backlog-2)
+		- [7.2.2.3. Development Evidence for Sprint Review](#7223-development-evidence-for-sprint-review)
+		- [7.2.2.4. Testing suite Evidence for Sprint Review](#7224-testing-suite-evidence-for-sprint-review)
+		- [7.2.2.5. Execution Evidence for Sprint Review](#7225-execution-evidence-for-sprint-review)
+		- [7.2.2.6. Services Documentation Evidence for Sprint Review](#7226-services-documentation-evidence-for-sprint-review)
+		- [7.2.2.7. Software Deployment Evidence for Sprint Review](#7227-software-deployment-evidence-for-sprint-review)
+		- [7.2.2.8. Team Collaboration Insights during Sprint](#7228-team-collaboration-insights-during-sprint)
   - [7.3. Validation Interviews](#73-validation-interviews)
     - [7.3.1. Diseño de Entrevistas](#731-diseño-de-entrevistas)
     - [7.3.2. Registro de Entrevistas](#732-registro-de-entrevistas)
@@ -1705,7 +1719,6 @@ Finalmente, al ejecutar los servicios e ingresar al localhost:8099, aquellos que
 
 A continuación, se mostrará los Sprints que se llevarán a cabo para la realización del Proyecto:
 
-
 | **Sprint #** | **Sprint 1**                                                      |        |                                                                      |                                                                                                                                              |                        |                    |                                               |
 | ------------ | ----------------------------------------------------------------- | ------ | -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | ------------------ | --------------------------------------------- |
 | User Story   | Work Item / Task                                                  |        |                                                                      |                                                                                                                                              |                        |                    |                                               |
@@ -1767,9 +1780,7 @@ A continuación, se mostrará los Sprints que se llevarán a cabo para la realiz
 | HU–024       | Iniciar sesión como transportista                                 | T24-01 | Utilizar el endpoint del despliegue                                  | Se utilizó el endpoint del despliegue realizado en la aplicación web                                                                         | 2                      | Abel Cierto        | Done                                          |
 |              |                                                                   | T24-02 | Comprobación en la Base de Datos                                     | Se comprobó que todos los datos ingresados o los cambios realizados se reflejan en la base de datos.                                         | 1                      | Abel Cierto        | Done                                          |
 
-
 #### 7.2.1.3. Development Evidence for Sprint Review
-
 
 | **Repository**                                                    | **Branch**              | **Commit Id**                            | **Commit Message**                                                        | **Commit Message Body**                                                                      | **Committed on (Date)** |
 | ----------------------------------------------------------------- | ----------------------- | ---------------------------------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ----------------------- |
@@ -1807,17 +1818,13 @@ A continuación, se mostrará los Sprints que se llevarán a cabo para la realiz
 |                                                                   | feature/support         | 143e33e1feefd3df02aa80bca5fb15316d71d91c | feat(support): support design and faq added<br>                           |                                                                                              | 26/05/2023              |
 |                                                                   | feature/support         | 92c117c53b0e078c64186eaf9be89ffdc544b575 | feat: logout for users and app icon added                                 |                                                                                              | 26/05/2023              |
 
-#### 7.2.1.4. **Testing Suite Evidence for Sprint Review**
+#### 7.2.1.4. Testing Suite Evidence for Sprint Review
 
 Para este apartado del proyecto se evidenciará los tests de aceptación en el lenguaje Gherkin que fueron subidos al repositorio. En cada test acceptance contiene la historia de usuario con sus respectivos criterios de aceptación para cada escenario propuesto
 
-**Figura**
+**Evidencia de los acceptance test en GitHub**
 
-Evidencia de los acceptance test en GitHub
-
-**Tabla 
-
-Commits realizados en el Sprint 1 para los tests
+**Commits realizados en el Sprint 1 para los tests**
 
 | **Repository**                         | **Branch** | **Commit id**                            | **Commit Message**    | **Commit on (Date)** |
 | -------------------------------------- | ---------- | ---------------------------------------- | --------------------- | -------------------- |
@@ -1840,8 +1847,241 @@ Commits realizados en el Sprint 1 para los tests
 | Arquitectura-WS82/acceptance-tests     | fast-test  | abbfc1d4571e2ebf45be61b716b084ce478c7e54 | Add: HU-010           | 29/09/23             |
 | Arquitectura-WS82/acceptance-tests     | fast-test  | 449fee2b227d31466320622e3d92b773d358eee1 | Add: HU-011           | 29/09/23             |
 | Arquitectura-WS82/acceptance-tests     | fast-test  | 43fa3290bae117136f43e9e314d15adcbcd11fee | Add: HU-012           | 29/09/23             |
-
 **Repositorio relacionado (rama: fas-test): [https://github.com/Arquitectura-WS82/acceptance-tests](https://github.com/Arquitectura-WS82/acceptance-tests)**
+
+#### 7.2.1.5. Execution Evidence for Sprint Review
+Para el sprint 1, se lograron los siguientes artefactos:
+**Landing Page**
+![Landing Page](img/Capitulo_7/Sprint_1/1.png)
+**Aplicación Móvil**
+![Aplicación móvil ](img/Capitulo_7/Sprint_1/2.png)
+#### 7.2.1.6. Services Documentation Evidence for Sprint Review
+
+**CardClientController Service Documentation**
+**Base URL:** `/api/cardsClient`
+1. Get all Card Clients
+- Endpoint: `GET /api/cardsClient/all`
+- Description: Retorna una lista de todos los **CardClient**.
+- Responses:
+	- **200 OK:** Si se encuentran **CardClient**.
+	- **204 No Content:** Si no se encuentran **CardClient**.
+	- **500 Internal Server Error:** Si ocurre un error en el servidor.
+2. Get Cards by Client ID
+- Endpoint: `GET /api/cardsClient/{id}`
+- Description: Retorna una lista de CardClient para un cliente específico basado en el ID del cliente.
+- Path Parameters:
+	- `id` (Long): ID del cliente.
+- Responses:
+	- **200 OK:** Si se encuentran **CardClient** para el cliente especificado.
+	- **204 No Content:** Si no se encuentran **CardClient** para el cliente especificado.
+	- **500 Internal Server Error:** Si ocurre un error en el servidor.
+- Example Request: `GET /api/cardsClient/1`
+3. Add Card to Client
+- Endpoint: `POST /api/cardsClient/{idClient}/add`
+- Description: Agrega un **Card** a un cliente específico.
+- Path Parameters:
+	- `idClient` (Long): ID del cliente.
+- Request Body:
+```json
+{
+  "name": "string",
+  "number": "string",
+  "expiryDate": "string",
+  "cvv": "string"
+}
+```
+- Responses:
+	- **200 OK:** Si se crea exitosamente el **CardClient**.
+	- **204 No Content:** Si no se encuentra el cliente especificado.
+	- **500 Internal Server Error:** Si ocurre un error en el servidor.
+- Example Request:
+`POST /api/cardsClient/1/add`
+`Content-Type: application/json
+```json
+{
+  "name": "John Doe",
+  "number": "1234567812345678",
+  "expiryDate": "12/25",
+  "cvv": "123"
+}
+```
+4. Delete Card from Client
+- Endpoint: `DELETE /api/cardsClient/{idClient}/delete/{idCard}`
+- Description: Elimina un **Card** de un cliente específico.
+- Path Parameters:
+	- `idClient` (Long): ID del cliente.
+	- `idCard` (Long): ID de la tarjeta.
+- Responses:
+	- **200 OK:** Si se elimina exitosamente el **CardClient**.
+	- **404 Not Found:** Si no se encuentra el cliente o la tarjeta especificada.
+	- **500 Internal Server Error:** Si ocurre un error en el servidor.
+- Example Request: `DELETE /api/cardsClient/1/delete/1`
+
+**Service Interfaces**
+*ICardClientService*
+- Methods:
+	- `List<CardClient> getAll()`: Obtiene todos los **CardClient**.
+	- `void save(CardClient cardClient)`: Guarda un **CardClient**.
+	- `void delete(Long id)`: Elimina un **CardClient** por ID.
+*IClientService*
+- Methods:
+	- `Optional<Client> getById(Long id)`: Obtiene un **Client** por ID.
+*ICardService*
+- Methods:
+	- `Card save(Card card)`: Guarda un **Card**.
+	- `Optional<Card> getById(Long id)`: Obtiene un **Card** por ID.
+	- `void delete(Longvoid delete(Long id) id)`: Elimina un **Card** por ID.
+**Notas Adicionales**
+- Todos los métodos están anotados con `@ApiOperation` y `@ApiResponses` para proporcionar documentación de Swagger.
+- Se usa `@CrossOrigin` para permitir solicitudes de origen cruzado.
+- Los métodos de controladores manejan errores y devuelven códigos de estado HTTP apropiados para diferentes escenarios.
+
+**CardDriverController Service Documentation**
+**Base URL:** `/api/cardsDriver`
+1. Get all Card Drivers
+- Endpoint: `GET /api/cardsDriver/all`
+- Description: Retorna una lista de todos los **CardDriver**.
+- Responses:
+	- **200 OK:** Si se encuentran **CardDriver**.
+	- **204 No Content:** Si no se encuentran **CardDriver**.
+	- **500 Internal Server Error:** Si ocurre un error en el servidor.
+- Example Request: `GET /api/cardsDriver/all`
+2. Get Cards by Driver ID
+- Endpoint: `GET /api/cardsDriver/{id}`
+- Description: Retorna una lista de **CardDriver** para un conductor específico basado en el ID del conductor.
+- Path Parameters:
+	- `id` (Long): ID del conductor.
+- Responses:
+	- **200 OK:** Si se encuentran **CardDriver** para el conductor especificado.
+	- **204 No Content:** Si no se encuentran **CardDriver** para el conductor especificado.
+	- **500 Internal Server Error:** Si ocurre un error en el servidor.
+- Example Request: `GET /api/cardsDriver/1`
+3. Add Card to Driver
+- Endpoint: `POST /api/cardsDriver/{idDriver}/add`
+- Description: Agrega un **Card** a un conductor específico.
+- Path Parameters:
+	- `idDriver` (Long): ID del conductor.
+- Request Body:
+```json
+{
+  "name": "string",
+  "number": "string",
+  "expiryDate": "string",
+  "cvv": "string"
+}
+```
+- Responses:
+	- **201 Created:** Si se crea exitosamente el **CardDriver**.
+	- **404 Not Found:** Si no se encuentra el conductor especificado.
+	- **500 Internal Server Error:** Si ocurre un error en el servidor.
+- Example Request:
+`POST /api/cardsDriver/1/add`
+`Content-Type: application/json
+```json
+{
+  "name": "John Doe",
+  "number": "1234567812345678",
+  "expiryDate": "12/25",
+  "cvv": "123"
+}
+```
+4. Delete Card from Driver
+- Endpoint: `DELETE /api/cardsDriver/{idDriver}/delete/{idCard}`
+- Description: Elimina un **Card** de un conductor específico.
+- Path Parameters:
+	- `idDriver` (Long): ID del conductor.
+	- `idCard` (Long): ID de la tarjeta.
+- Responses:
+	- **200 OK:** Si se elimina exitosamente el **CardDriver**.
+	- **404 Not Found:** Si no se encuentra el conductor o la tarjeta especificada.
+	- **500 Internal Server Error:** Si ocurre un error en el servidor.
+- Example Request: `DELETE /api/cardsDriver/1/delete/1`
+
+**Service Interfaces**
+*ICardDriverService*
+- Methods:
+	- `List<CardDriver> getAll()`: Obtiene todos los **CardDriver**.
+	- `void save(CardDriver cardDriver)`: Guarda un **CardDriver**.
+	- `void delete(Long id)`: Elimina un **CardDriver** por ID.
+*IDriverService*
+- Methods:
+	- `Optional<Driver> getById(Long id)`: Obtiene un **Driver** por ID.
+*ICardService*
+- Methods:
+	- `Card save(Card card)`: Guarda un **Card**.
+	- `Optional<Card> getById(Long id)`: Obtiene un **Card** por ID.
+	- `void delete(Long id)`: Elimina un **Card** por ID.
+	
+**Notas Adicionales**
+- Todos los métodos están anotados con `@ApiOperation` y `@ApiResponses` para proporcionar documentación de Swagger.
+- Se usa `@CrossOrigin` para permitir solicitudes de origen cruzado.
+- Los métodos de controladores manejan errores y devuelven códigos de estado HTTP apropiados para diferentes escenarios.
+
+#### 7.2.1.7. Software Deployment Evidence for Sprint Review
+
+En esta sección se mostrarán los avances realizados en el código de la aplicación móvil haciendo uso de la API de forma preliminar. Para ello, hemos usado un usuario predeterminado, que es el usuario transportista con id 1, para obtener su información y usarla en la sección de perfil. De esta forma, cuando alguien ingresa a la sección de perfil del transportista, lo que verá será la foto, el nombre, la descripción e información personal del transportista que tiene id 1. Esto no se quedará así, puesto que fue hecho para probar que funciona correctamente la lectura desde el API. En las siguientes entregas, esto será modificado de modo que el transportista o cliente que ingrese a su cuenta vea su propia información. 
+
+En la siguiente imagen podemos visualizar el servicio creado:
+
+![Servicio creado](img/Capitulo_7/Sprint_1/3.png)
+En esta otra captura de pantalla, hacemos uso de la librería retrofit para consumir el servicio web RESTful:
+
+![Servicio web RESTful](img/Capitulo_7/Sprint_1/4.png)
+Luego, en este bloque de código hemos usado la información obtenida del API para poder mostrarla en los TextView correspondientes:
+
+![Codigo movil](img/Capitulo_7/Sprint_1/5.png)
+
+Notamos que la información obtenida para el usuario con id 1 es la siguiente:
+Finalmente, este es el resultado del consumo del API:
+
+![URL](img/Capitulo_7/Sprint_1/6.png)
+#### 7.2.1.8. Team Collaboration Insights during Sprint
+
+A continuación se observa la participación del equipo durante el sprint:
+
+![Team collaboration insights](img/Capitulo_7/Sprint_1/7.png)
+
+### 7.2.2. Sprint 2
+
+#### 7.2.2.1. Sprint Planning 2
+
+| Sprint #                        | 2                                                                                                                                                                                     |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**  |                                                                                                                                                                                       |
+| Date                            | 16-06-2024                                                                                                                                                                            |
+| Time                            | 7:00 am                                                                                                                                                                               |
+| Location                        | Lima Perú                                                                                                                                                                             |
+| Prepared By                     | Sebastián Lévano                                                                                                                                                                      |
+| Attendees (to planning meeting) | Abel Cierto / Branco Villegas / Sebastián Lévano / Rodrigo Sabino / Anthony Botello                                                                                                   |
+| Sprint 2 Review Summary         | Para el desarrollo de este sprint el objetivo es implementar la tecnología emergente, Computer Vision, en la aplicación móvil.                                                        |
+| Sprint 2 Retrospective Summary  | En la revisión retrospectiva se evalúa la correcta implementación y funcionamiento del  Computer Vision en la aplicación móvil reconociendo de manera adecuada la caja a transportar. |
+| **Sprint Goal & User StorieS**  |                                                                                                                                                                                       |
+| Sprint 1 Goal                   | El objetivo del sprint 2 es desarrollar y implementar Computer Vision en la aplicación móvil.                                                                                         |
+| Sprint 1 Velocity               | Se estima que el equipo puede completar 9 puntos de historia en el Sprint 2, basándose en las capacidades y la disponibilidad del equipo.                                             |
+| Sum of Story Points             | 9                                                                                                                                                                                     |
+
+#### 7.2.2.2. Sprint Backlog 2
+#### 7.2.2.3. Development Evidence for Sprint Review
+#### 7.2.2.4. Testing Suite Evidence for Sprint Review
+#### 7.2.2.5. Execution Evidence for Sprint Review
+
+A continuación se mostrará la ejecución de la Aplicación web mostrando la integración de Computer Vision.
+
+En primer lugar, el botón presente en la búsqueda de vehículos que llevará a la nueva funcionalidad:
+
+![Aplicación móvil Computer Vision Button](img/Capitulo_7/Sprint_2/1.jpeg)
+En segundo lugar, la vista del reconocimiento de cajas y realización de medidas con Computer Vision:
+
+![Aplicación móvil Computer Vision Reconocimiento](img/Capitulo_7/Sprint_2/2.jpeg)
+
+#### 7.2.2.6. Services Documentation Evidence for Sprint Review
+
+
+
+#### 7.2.2.7. Software Deployment Evidence for Sprint Review
+#### 7.2.2.8. Team Collaboration Insights during Sprint
+
+
 ## 7.3. Validation Interviews
 
 Para esta versión del informe hemos realizado entrevistas de validación a nuestros usuarios las cuales se verán a continuación empezando desde el diseño de entrevistas hasta las entrevistas en sí.
@@ -1970,7 +2210,7 @@ Los usuarios pueden iniciar sesión o registrarse en la aplicación de manera ex
 **Recomendación:** 
 Crear una opción “Log Out” en el header de la aplicación para que los usuarios puedan cerrar la sesión de cuenta cuando ya no vayan a hacer uso de la aplicación.
 
-##### *PROBLEMA #2:** Visualmente más ordenado (My Profile)
+##### **PROBLEMA #2:** Visualmente más ordenado (My Profile)
 
 Severidad: 1
 
@@ -2043,11 +2283,12 @@ Link para su visualización: https://upcedupe-my.sharepoint.com/:v:/g/personal/u
 
 --- 
 # Anexos
+
 ## Repositorio con Informe
 Enlace: [Repositorio Trabajo Final](https://github.com/Arquitectura-WS82/TrabajoFinal)
+
 ## Entrega TB1
 Enlace: [Exposición TB1 en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/Ec1gj2b9GwhMiIeeW4ZbOQUBjR8V_vwBKCj4ByvhRvIVLg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=mEYRo9)
 
 ## Entrega TP
-
 Enlace: [Exposición TP en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/Ee3gKoJcxupDoCe8-pI8Cb0BtfJhZUx52-sbBh5ShCEz-w?e=pR0RiA)
