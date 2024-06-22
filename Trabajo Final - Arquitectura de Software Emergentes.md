@@ -2076,7 +2076,19 @@ En segundo lugar, la vista del reconocimiento de cajas y realización de medidas
 
 #### 7.2.2.6. Services Documentation Evidence for Sprint Review
 
+Se realizó el despliegue de los servicios empleando los servicios web de Microsoft Azure, lo cual se expondrá con mayor detalle en el siguiente punto. A continuación, se mostrará la evidencia del despliegue realizado en Swagger y el uso de endpoints con la data ingresada.
 
+Enlace del Swagger: [Swagger](https://fastporte-web-services.azurewebsites.net/swagger-ui.html)
+
+![Despliegue de Backend - Swagger](img/Capitulo_7/Sprint_2/swagger.png)
+
+Utilizando el Swagger se puede detallar los métodos desarrollados como, por ejemplo, los métodos del Vehicle donde se puede apreciar el método relacionado a la medición empleando **Computer Vision**, el cual es el último `GET`.
+
+![Ejecución del método Get de Driver](img/Capitulo_7/Sprint_2/vehicle_methods.png)
+
+Asimismo, se puede apreciar el uso de un método `GET` para el tipo de usuario Driver:
+
+![Ejecución del método Get de Driver](img/Capitulo_7/Sprint_2/get_drivers.png)
 
 #### 7.2.2.7. Software Deployment Evidence for Sprint Review
 #### 7.2.2.8. Team Collaboration Insights during Sprint
@@ -2163,18 +2175,16 @@ Para este informe, se han realizado las siguientes heurísticas en base al feedb
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
 
 1. Perfil del usuario
-1. Header de la aplicación web
-1. Sección Contratos
-1. Buscar vehículo
+2. Header de la aplicación web
+3. Sección Contratos
+4. Buscar vehículo
 
 No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 1. Registro de usuario
-1. Inicio de sesión
-1. Edición de perfil
-1. Métodos de pago
-1. etc.
-
+2. Inicio de sesión
+3. Edición de perfil
+4. Métodos de pago
 
 ESCALA DE SEVERIDAD:
 
@@ -2254,7 +2264,7 @@ Un usuario entrevistado indicó que le gustaría ver más información acerca de
 ![P04](img/Capitulo_7/Validation_Interviews/Heuristicas/P04.png)
 
 
-**Recomendación:**
+**Recomendación:****
 Se sugiere cambiar la información mostrada en los cards, en lugar de mostrar la descripción del transportista mostrar más información sobre los servicios que ofrece. Sin embargo, esto también se puede solucionar mostrando un dialog, al realizar una búsqueda por primera vez, el cual indique puede acceder a mayor información del transportista por medio del botón “See Profile”
 
 ## 7.4. VídeoAbout-the-Product
