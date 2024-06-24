@@ -33,7 +33,7 @@ Mayo, 2024
 | 1.1.1     | 02/05/24 | Rodrigo Sabino   | Adicion del bounded context Hiring                                               |
 | 1.1.2     | 02/05/24 | Abel Cierto      | Adición del Cap V y del bounded context SearchService                            |
 | 1.1.3<br> | 03/05/24 | Branco Villegas  | Adición del Cap V y del bounded context Location                                 |
-| 1.1.4     | 17/06/24 | Sebastián Lévno  | Sprint II                                                                        |
+| 1.1.4     | 17/06/24 | Sebastián Lévano <br> Anthony Botello | Sprint II                                                                        |
 
 ---
 
@@ -689,6 +689,9 @@ Calendario que muestra la disponibilidad de los transportistas para proporcionar
 ![HU-022](img/Capitulo_3/User_Stories/22.png)
 ![HU-023](img/Capitulo_3/User_Stories/23.png)
 ![HU-024](img/Capitulo_3/User_Stories/24.png)
+![HU-029](img/Capitulo_3/User_Stories/29.png)
+![HU-030](img/Capitulo_3/User_Stories/30.png)
+![HU-031](img/Capitulo_3/User_Stories/31.png)
 
 
 
@@ -719,34 +722,39 @@ Link para una visualización más detallada: [https://drive.google.com/file/d/1Z
 ![Impact Mapping](img/Capitulo_2/Needfinding/9.jpg)
 ## 3.4. Product Backlog.
 
-##### _Desarrollo del Product Backlog_
+##### Desarrollo del Product Backlog
 
-| **User Story ID** | **Título**                                  | **Descripción**                                                                                                                                                                             | **Story Points (8/5/3/2/1)** |
-| ----------------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------: |
-| **HU-011**        | Realizar el seguimiento por GPS             | Como cliente <br><br>Quiero seguir el transcurso del transportista     <br><br>Para sentirme seguro con el servicio                                                                         |            **8**             |
-| **HU-007**        | Visualizar la información del transportista | Como cliente <br><br>Quiero observar el perfil del transportista<br><br>Para contratarlo                                                                                                    |            **5**             |
-| **HU-008**        | Contratar el servicio                       | Como cliente <br><br>Quiero contratar el servicio<br><br>Para acceder a los servicios del transportista                                                                                     |            **5**             |
-| **HU-009**        | Realizar el pago                            | Como cliente <br><br>Quiero realizar el pago del servicio<br><br>Para no tener deudas pendientes                                                                                            |            **5**             |
-| **HU-017**        | Notificar del trabajo                       | Como transportista                      <br><br>Quiero que me notifiquen cuando un cliente requiere de mis servicios <br><br>Para no perderme de algún contrato                             |            **5**             |
-| **HU-018**        | Informar del contrato propuesto             | Como transportista<br><br>Quiero leer la información del servicio propuesto   <br><br>Para decidir si aceptar el trabajo                                                                    |            **5**             |
-| **HU-006**        | Buscar un vehículo                          | Como cliente <br><br>Quiero buscar el tipo de vehículo adecuado<br><br>Para así contratarlo                                                                                                 |            **5**             |
-| **HU-022**        | Comentar el servicio brindado               | Como cliente<br><br>Quiero dejar un comentario acerca de mi experiencia con el conductor luego de terminar el servicio<br><br>Para ayudar a los demás usuarios en su elección de conductor. |            **5**             |
-| **HU-001**        | Registrar al transportista                  | Como transportista<br><br>Quiero registrarme dentro de la aplicación<br><br>Para navegar dentro de ella                                                                                     |            **3**             |
-| **HU-002**        | Registrar al cliente                        | Como cliente<br><br>Quiero registrarme dentro de la aplicación<br><br>Para navegar dentro de ella                                                                                           |            **3**             |
-| **HU-023**        | Iniciar sesión como cliente                 | Como cliente<br><br>Quiero iniciar sesión en la aplicación<br><br>Para acceder a los servicios de transporte y gestionar mi perfil de usuario de manera segura y conveniente.               |            **3**             |
-| **HU-024**        | Iniciar sesión como transportista           | Como cliente<br><br>Quiero iniciar sesión en la aplicación<br><br>Para acceder a los servicios de transporte y gestionar mi perfil de usuario de manera segura y conveniente.               |            **3**             |
-| **HU-020**        | Ver la información del usuario              | Como usuario  <br><br>Quiero visualizar mi perfil y los datos que ingrese en el registro.<br><br>Para corroborar que los datos son correctos                                                |            **3**             |
-| **HU-005**        | Editar mi perfil de usuario                 | Como usuario de la aplicación<br><br>Quiero poder editar los datos de mi perfil<br><br>Para mantener mis datos actualizados                                                                 |            **3**             |
-| **HU-012**        | Ver el historial de contratos               | Como usuario<br><br>Quiero revisar el historial de contratos <br><br>Para tener un registro                                                                                                 |            **3**             |
-| **HU0-013**       | Revisar el servicio                         | Como cliente  <br><br>Quiero decidir revisar el servicio brindado<br><br>Para sentirme más seguro                                                                                           |            **3**             |
-| **HU-016**        | Ver el estado del contrato propuesto        | Como cliente <br><br>Quiero saber el estado de mi oferta de trabajo <br><br>Para saber si fue aceptada o rechazada                                                                          |            **3**             |
-| **HU-019**        | Reportar una incidencia                     | Como cliente <br><br>Quiero reportar alguna incidencia que haya sucedido <br><br>Para mejorar el servicio dentro de la aplicación                                                           |            **3**             |
-| **HU-021**        | Ver el contrato finalizado                  | Como transportista<br><br>Quiero rellenar mi información de pago<br><br>Para recibir el pago correspondiente por el servicio brindado.                                                      |            **3**             |
-| **HU-003**        | Registrar un transporte                     | Como transportista <br><br>Quiero almacenar la información de mi transporte y el servicio que ofrezco <br><br>Para que el cliente tenga una noción del servicio que brindo                  |            **2**             |
-| **HU-004**        | Registrar su experiencia                    | Como transportista<br><br>Quiero registrar mi experiencia de trabajo <br><br>Para generar confianza al cliente                                                                              |            **2**             |
-| **HU-015**        | Guardar los datos de la tarjeta             | Como cliente <br><br>Quiero guardar los datos de mi tarjeta<br><br>Para usarla de manera más rápida en mis siguientes pagos                                                                 |            **2**             |
-| **HU-010**        | Cerrar sesión en la aplicación              | Como usuario transportista<br><br>Quiero salir de la aplicación<br><br>Para iniciar sesión en otra cuenta como cliente                                                                      |            **1**             |
-| **HU-014**        | Acceder a las preguntas frecuentes          | Como usuario<br><br>Quiero acceder a un banco de preguntas frecuentes sobre la aplicación<br><br>Para despejar dudas que tenga sobre algunos procesos                                       |            **1**             |
+| **User Story ID** | **Título**                                                     | **Descripción**                                                                                                                                                                             | **Story Points (8/5/3/2/1)** |
+| ----------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------: |
+| **HU-011**        | Realizar el seguimiento por GPS                                | Como cliente <br><br>Quiero seguir el transcurso del transportista     <br><br>Para sentirme seguro con el servicio                                                                         |            **8**             |
+| **HU-007**        | Visualizar la información del transportista                    | Como cliente <br><br>Quiero observar el perfil del transportista<br><br>Para contratarlo                                                                                                    |            **5**             |
+| **HU-008**        | Contratar el servicio                                          | Como cliente <br><br>Quiero contratar el servicio<br><br>Para acceder a los servicios del transportista                                                                                     |            **5**             |
+| **HU-009**        | Realizar el pago                                               | Como cliente <br><br>Quiero realizar el pago del servicio<br><br>Para no tener deudas pendientes                                                                                            |            **5**             |
+| **HU-017**        | Notificar del trabajo                                          | Como transportista                      <br><br>Quiero que me notifiquen cuando un cliente requiere de mis servicios <br><br>Para no perderme de algún contrato                             |            **5**             |
+| **HU-018**        | Informar del contrato propuesto                                | Como transportista<br><br>Quiero leer la información del servicio propuesto   <br><br>Para decidir si aceptar el trabajo                                                                    |            **5**             |
+| **HU-006**        | Buscar un vehículo                                             | Como cliente <br><br>Quiero buscar el tipo de vehículo adecuado<br><br>Para así contratarlo                                                                                                 |            **5**             |
+| **HU-022**        | Comentar el servicio brindado                                  | Como cliente<br><br>Quiero dejar un comentario acerca de mi experiencia con el conductor luego de terminar el servicio<br><br>Para ayudar a los demás usuarios en su elección de conductor. |            **5**             |
+| **HU-029**        | Botón de acceso a la herramienta de computer vision            | Como cliente<br><br>Quiero un botón que me lleve a utilizar la herramienta de computer vision<br><br>Para medir mis cajas                                                                   |              3               |
+| **HU-030**        | Medición de cajas con puntos de marcación en pantalla          | Como cliente<br><br>Quiero marcar en la pantalla los puntos a medir (largo, ancho y alto)<br><br>Para obtener las medidas precisas de mi caja                                               |              3               |
+| **HU-031**        | Selección de vehículos basada en número de cajas a transportar | Como cliente<br><br>Quiero ingresar el número de cajas a transportar<br><br>Para obtener una lista de vehículos con la capacidad suficiente para realizar el servicio                       |              3               |
+| **HU-001**        | Registrar al transportista                                     | Como transportista<br><br>Quiero registrarme dentro de la aplicación<br><br>Para navegar dentro de ella                                                                                     |            **3**             |
+| **HU-002**        | Registrar al cliente                                           | Como cliente<br><br>Quiero registrarme dentro de la aplicación<br><br>Para navegar dentro de ella                                                                                           |            **3**             |
+| **HU-023**        | Iniciar sesión como cliente                                    | Como cliente<br><br>Quiero iniciar sesión en la aplicación<br><br>Para acceder a los servicios de transporte y gestionar mi perfil de usuario de manera segura y conveniente.               |            **3**             |
+| **HU-024**        | Iniciar sesión como transportista                              | Como cliente<br><br>Quiero iniciar sesión en la aplicación<br><br>Para acceder a los servicios de transporte y gestionar mi perfil de usuario de manera segura y conveniente.               |            **3**             |
+| **HU-020**        | Ver la información del usuario                                 | Como usuario  <br><br>Quiero visualizar mi perfil y los datos que ingrese en el registro.<br><br>Para corroborar que los datos son correctos                                                |            **3**             |
+| **HU-005**        | Editar mi perfil de usuario                                    | Como usuario de la aplicación<br><br>Quiero poder editar los datos de mi perfil<br><br>Para mantener mis datos actualizados                                                                 |            **3**             |
+| **HU-012**        | Ver el historial de contratos                                  | Como usuario<br><br>Quiero revisar el historial de contratos <br><br>Para tener un registro                                                                                                 |            **3**             |
+| **HU0-013**       | Revisar el servicio                                            | Como cliente  <br><br>Quiero decidir revisar el servicio brindado<br><br>Para sentirme más seguro                                                                                           |            **3**             |
+| **HU-016**        | Ver el estado del contrato propuesto                           | Como cliente <br><br>Quiero saber el estado de mi oferta de trabajo <br><br>Para saber si fue aceptada o rechazada                                                                          |            **3**             |
+| **HU-019**        | Reportar una incidencia                                        | Como cliente <br><br>Quiero reportar alguna incidencia que haya sucedido <br><br>Para mejorar el servicio dentro de la aplicación                                                           |            **3**             |
+| **HU-021**        | Ver el contrato finalizado                                     | Como transportista<br><br>Quiero rellenar mi información de pago<br><br>Para recibir el pago correspondiente por el servicio brindado.                                                      |            **3**             |
+| **HU-003**        | Registrar un transporte                                        | Como transportista <br><br>Quiero almacenar la información de mi transporte y el servicio que ofrezco <br><br>Para que el cliente tenga una noción del servicio que brindo                  |            **2**             |
+| **HU-004**        | Registrar su experiencia                                       | Como transportista<br><br>Quiero registrar mi experiencia de trabajo <br><br>Para generar confianza al cliente                                                                              |            **2**             |
+| **HU-015**        | Guardar los datos de la tarjeta                                | Como cliente <br><br>Quiero guardar los datos de mi tarjeta<br><br>Para usarla de manera más rápida en mis siguientes pagos                                                                 |            **2**             |
+| **HU-010**        | Cerrar sesión en la aplicación                                 | Como usuario transportista<br><br>Quiero salir de la aplicación<br><br>Para iniciar sesión en otra cuenta como cliente                                                                      |            **1**             |
+| **HU-014**        | Acceder a las preguntas frecuentes                             | Como usuario<br><br>Quiero acceder a un banco de preguntas frecuentes sobre la aplicación<br><br>Para despejar dudas que tenga sobre algunos procesos                                       |            **1**             |
+
+
 
 ---
 
@@ -2061,6 +2069,24 @@ A continuación se observa la participación del equipo durante el sprint:
 | Sum of Story Points             | 9                                                                                                                                                                                     |
 
 #### 7.2.2.2. Sprint Backlog 2
+
+A continuación se muestra el backlog del sprint 2:
+
+<table><tr><th colspan="1"><b>Sprint#</b></th><th colspan="7">Sprint 2</th></tr>
+<tr><td colspan="2"><b>User story</b></td><td colspan="6"><b>Work-Item / Task</b></td></tr>
+<tr><td colspan="1"><b>Id</b></td><td colspan="1"><b>Título</b></td><td colspan="1"><b>Id</b></td><td colspan="1"><b>Título</b></td><td colspan="1"><b>Descripción</b></td><td colspan="1"><b>Estimación</b></td><td colspan="1"><b>Asignado a</b></td><td colspan="1"><b>Estado</b> </td></tr>
+<tr><td colspan="1" rowspan="2">HU-029</td><td colspan="1" rowspan="2">Botón de acceso a la herramienta de computer vision</td><td colspan="1">T29-01</td><td colspan="1">Agregar el botón en la interfaz </td><td colspan="1">Agregar el botón de “Try AR Measure” en la sección de búsqueda de vehículos</td><td colspan="1">1h</td><td colspan="1" rowspan="2">Rodrigo Sabino</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T29-002</td><td colspan="1">Agregar la navegación a la herramienta</td><td colspan="1">Agregar la navegación del nuevo botón hacia la interfaz de la herramienta de medición.</td><td colspan="1">2h</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="4">HU-030</td><td colspan="1" rowspan="4">Medición de cajas con puntos de marcación en pantalla</td><td colspan="1">T30-01</td><td colspan="1">Añadir las dependencias necesarias</td><td colspan="1">Añadir las dependencias necesarias a utilizar para CV</td><td colspan="1">1h</td><td colspan="1" rowspan="2">Branco Villegas </td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T30-02</td><td colspan="1">Crear la session de Arcore</td><td colspan="1">Crear la sesión para capturar imágenes con la cámara del celular</td><td colspan="1">2h</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T30-03</td><td colspan="1">Agregar los puntos de marcación</td><td colspan="1">Añadir puntos de marcación al tocar un punto en el plano de la pantalla. Un color diferente para cada dimensión.</td><td colspan="1">3h</td><td colspan="1" rowspan="2">Anthony Botello</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T30-04</td><td colspan="1">Medir las distancias entre puntos</td><td colspan="1">Calcular las distancias entre los puntos marcados.</td><td colspan="1">3h</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">HU-031</td><td colspan="1" rowspan="2">Selección de vehículos basada en número de cajas a transportar</td><td colspan="1">T31-01</td><td colspan="1">Agregar un input para el número de cajas</td><td colspan="1">Agregar un input para que el usuario ingrese el número de cajas que desea transportar</td><td colspan="1">2h</td><td colspan="1" rowspan="2">Abel Cierto</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T31-02</td><td colspan="1">Añadir un botón para buscar resultados</td><td colspan="1">Crear un botón que se active solo cuando los campos necesarios han sido completados</td><td colspan="1">2h</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1"></td><td colspan="1"></td><td colspan="1">T31-03</td><td colspan="1">Crear endpoint de búsqueda por cajas</td><td colspan="1">Crear un endpoint en el backend que devuelva los transportistas que cumplan con las características</td><td colspan="1">2h</td><td colspan="1" rowspan="2">Sebastián Lévano</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1"></td><td colspan="1"></td><td colspan="1">T31-04</td><td colspan="1">Implementar el endpoint con la app móvil</td><td colspan="1">Integrar el endpoint con la app móvil y mostrar los resultados</td><td colspan="1">3h</td><td colspan="1">Done</td></tr>
+</table>
+
 #### 7.2.2.3. Development Evidence for Sprint Review
 #### 7.2.2.4. Testing Suite Evidence for Sprint Review
 #### 7.2.2.5. Execution Evidence for Sprint Review
@@ -2267,12 +2293,12 @@ Un usuario entrevistado indicó que le gustaría ver más información acerca de
 **Recomendación:****
 Se sugiere cambiar la información mostrada en los cards, en lugar de mostrar la descripción del transportista mostrar más información sobre los servicios que ofrece. Sin embargo, esto también se puede solucionar mostrando un dialog, al realizar una búsqueda por primera vez, el cual indique puede acceder a mayor información del transportista por medio del botón “See Profile”
 
-## 7.4. VídeoAbout-the-Product
+## 7.4. Vídeo About-the-Product
 Para la sección about the product se ha realizado el siguiente vídeo:
 
 ![Vídeo About the Product](img/Capitulo_7/About%20the%20product.png)
 
-Link para su visualización: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b846_upc_edu_pe/EVCaD20pPy1Bim0-5OSQ02EB9uQGhvZoySX99Mvqi_Blvg?e=fJuSH7
+Link para su visualización: [About the product - Fastporte](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b846_upc_edu_pe/EVCaD20pPy1Bim0-5OSQ02EB9uQGhvZoySX99Mvqi_Blvg?e=fJuSH7)
 
 # Conclusiones
 
