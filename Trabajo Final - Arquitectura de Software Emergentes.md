@@ -26,13 +26,14 @@ Mayo, 2024
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha    | Autor            | Descripción de modificación                                                      |
-| ------- | -------- | ---------------- | -------------------------------------------------------------------------------- |
-| 1.0     | 12/04/24 | Sebastián Lévano | Creación del proyecto con Markdown Introducción del proyecto Cap I, II, III y IV |
-| 1.1.0   | 01/05/24 | Anthony Botello  | Adición del Cap V y del bounded context PersonalData                             |
-| 1.1.1   | 02/05/24 | Rodrigo Sabino   | Adicion del bounded context Hiring                                               |
-| 1.1.2   | 02/05/24 | Abel Cierto      | Adición del Cap V y del bounded context SearchService                            |
-| 1.1.3   | 03/05/24 | Branco Villegas  | Adición del Cap V y del bounded context Location                                 |
+| Versión   | Fecha    | Autor                                                  | Descripción de modificación                                                      |
+| --------- | -------- | ------------------------------------------------------ | -------------------------------------------------------------------------------- |
+| 1.0       | 12/04/24 | Sebastián Lévano                                       | Creación del proyecto con Markdown Introducción del proyecto Cap I, II, III y IV |
+| 1.1.0     | 01/05/24 | Anthony Botello                                        | Adición del Cap V y del bounded context PersonalData                             |
+| 1.1.1     | 02/05/24 | Rodrigo Sabino                                         | Adicion del bounded context Hiring                                               |
+| 1.1.2     | 02/05/24 | Abel Cierto                                            | Adición del Cap V y del bounded context SearchService                            |
+| 1.1.3<br> | 03/05/24 | Branco Villegas                                        | Adición del Cap V y del bounded context Location                                 |
+| 1.1.4     | 17/06/24 | Sebastián Lévano <br>Anthony Botello<br>Rodrigo Sabino | Sprint II                                                                        |
 
 ---
 
@@ -151,12 +152,25 @@ Mayo, 2024
 	- [7.1.2. Source Code Management](#712-source-code-management)
 	- [7.1.3. Source Code Style Guide & Management](#713-source-code-style-guide-management)
 	- [7.1.4. Software Deployment Configuration](#714-software-deployment-configuration)
-  - [7.2. Solution Implementation](#72-solution-implementation)
+   - [7.2. Solution Implementation](#72-solution-implementation)
 	- [7.2.1. Sprint 1](#721-sprint-1)
-	- [7.2.1.1. Sprint Planning 1](#7211-sprint-planning-1)
-	- [7.2.1.2. Sprint Backlog 1](#7212-sprint-backlog-1)
-  - [7.2.1.3. Development Evidence for Sprint Review](#7213-development-evidence-for-sprint-review)
-  - [7.2.1.4. Testing Suite Evidence for Sprint Review](#7214-testing-suite-evidence-for-sprint-review)
+		- [7.2.1.1. Sprint Planning 1](#7211-sprint-planning-1)
+		- [7.2.1.2. Sprint Backlog 1](#7212-sprint-backlog-1)
+		- [7.2.1.3. Development Evidence for Sprint Review](#7213-development-evidence-for-sprint-review)
+		- [7.2.1.4. Testing suite Evidence for Sprint Review](#7214-testing-suite-evidence-for-sprint-review)
+		- [7.2.1.5. Execution Evidence for Sprint Review](#7215-execution-evidence-for-sprint-review)
+		- [7.2.1.6. Services Documentation Evidence for Sprint Review](#7216-services-documentation-evidence-for-sprint-review)
+		- [7.2.1.7. Software Deployment Evidence for Sprint Review](#7217-software-deployment-evidence-for-sprint-review)
+		- [7.2.1.8. Team Collaboration Insights during Sprint](#7218-team-collaboration-insights-during-sprint)
+	- [7.2.2. Sprint 2](#722-sprint-2)
+		- [7.2.2.1. Sprint Planning 2](#7211-sprint-planning-2)
+		- [7.2.2.2. Sprint Backlog 2](#7212-sprint-backlog-2)
+		- [7.2.2.3. Development Evidence for Sprint Review](#7223-development-evidence-for-sprint-review)
+		- [7.2.2.4. Testing suite Evidence for Sprint Review](#7224-testing-suite-evidence-for-sprint-review)
+		- [7.2.2.5. Execution Evidence for Sprint Review](#7225-execution-evidence-for-sprint-review)
+		- [7.2.2.6. Services Documentation Evidence for Sprint Review](#7226-services-documentation-evidence-for-sprint-review)
+		- [7.2.2.7. Software Deployment Evidence for Sprint Review](#7227-software-deployment-evidence-for-sprint-review)
+		- [7.2.2.8. Team Collaboration Insights during Sprint](#7228-team-collaboration-insights-during-sprint)
   - [7.3. Validation Interviews](#73-validation-interviews)
     - [7.3.1. Diseño de Entrevistas](#731-diseño-de-entrevistas)
     - [7.3.2. Registro de Entrevistas](#732-registro-de-entrevistas)
@@ -169,10 +183,10 @@ Mayo, 2024
 
 # Student Outcome
 
-| Criterio específico                                                                                                                                                                    | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Conclusiones                                                                                                                                                                                                                                                                                                                                                         |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.     | **Eduardo Sebastián Lévano Cavero**<br>*TB1* <br>Durante el video de exposición se transmitió de manera adecuada la problemática hallada en el sector de transporte de mercadería y como se solucionaría por medio de la implementación de una página web para comunicar a transportistas con personas que requieran de sus servicios. Asimismo, se detallo como esta diseñada la propuesta y su sustentación.<br><br>**Anthony Botello** <br>*TB1* <br>En el vídeo de exposición se indicaron a los competidores, así como también se explicó la matriz DAFO de nuestra organización. Finalmente, se expusieron resultados acerca de las entrevistas realizadas.<br>*TP*<br>En mi presentación audiovisual se describió de manera adecuada cada uno de los elementos que intervienen en el bounded context PersonalData y, de la misma forma, se explicaron los diagramas mostrados. <br>*TB2* <br>En el vídeo de exposición se describieron las preguntas de la entrevista de validación así como también sus evidencias. Los resultados se mostraron exponiendo las Evaluaciones según Heurísticas a las cuales se explicó el problema, la severidad, el principio violado y la solución que le dimos. Por otro lado, se hizo la exposición en el about the product acerca de nuestra solución con un lenguaje claro y poco técnico para que sea entendido por un público más general.<br><br>**Rodrigo Alexander Sabino Ramirez** <br>*TB1* <br>Durante mi exposición, comuniqué de manera clara y objetiva los resultados de mi proyecto en ingeniería, destacando la fase de Needfinding. Presenté User Personas y una matriz de tareas de usuario, usando herramientas como Empathy Mapping y As-is Scenario Mapping. Además, delineé el escenario futuro de la plataforma propuesta, detallando User Stories, Impact Mapping y un Product Backlog completo.<br>_TP_  <br>La capacidad de comunicar efectivamente en un contexto oral es esencial en ingeniería,  <br>especialmente cuando se trata de explicar y justificar decisiones de diseño como las  <br>presentadas en el capítulo sobre el "Bounded Context: Search Service".  <br>En el capítulo 5 se detalla la implementación de una interfaz de usuario que permite a los  <br>clientes cargar imágenes de productos para transporte y recibir sugerencias automatizadas  <br>sobre los transportistas adecuados.<br>**Abel Angel Cierto Espiritu**<br>*TB1* <br>Durante el desarrollo de este primer avance, comunique de manera eficaz el objetivo del diseño al desarrollar la aplicación web. También, detalle acerca de las funcionalidades primarias  que considero que son importantes y definir los atributos de calidad para una buena aplicación es necesaria. Los constraints nos sirven para tener claro las limitaciones del sistema al momento de desarrollar la aplicación web.<br><br>_TP_<br>La capacidad de comunicar efectivamente en un contexto oral es esencial en ingeniería,  <br>especialmente cuando se trata de explicar y justificar decisiones de diseño como las  <br>presentadas en el capítulo sobre el "Bounded Context: Search Service".  <br>En el capítulo 5 se detalla la implementación de una interfaz de usuario que permite a los  <br>clientes cargar imágenes de productos para transporte y recibir sugerencias automatizadas  <br>sobre los transportistas adecuados.<br><br>**Branco Alberto Villegas Peralta**<br>*TB1*<br>Durante el proyecto, me enfoqué en comunicar nuestros avances y resultados de manera clara y objetiva. Presenté nuestras ideas durante el proceso de Event Storming y facilité discusiones sobre el modelado de flujo de mensajes del dominio. Mi objetivo era asegurarme de que todos los miembros del equipo, independientemente de su especialidad o nivel jerárquico, comprendieran el progreso y las decisiones tomadas en el proyecto.<br><br>_TP_<br>En el avance actual del proyecto, he presentado el bounded context location de "FastPorte" a un público diverso, incluyendo a compañeros de clase, profesores. Durante esta presentación, expliqué claramente el propósito de bounded context y cómo contribuye a mejorar la plataforma. | *TB1*<br>En la exposición de la presente entrega se comunico eficientemente las bases del proyecto desarrollado y el proceso que llevo a corroborar que efectivamente es una solución adecuada para la problemática encontrada. Asimismo, se presentaron las herramientas para utilizadas para las primeras fases de implementación del proyecto y su planteamiento. |
-| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.. | **Eduardo Sebastián Lévano Cavero**<br>*TB1* <br>Se documento con éxito y de manera adecuada la introducción al proyecto, describiendo la problemática con antecedentes, ilustrando las posibles soluciones y como se busca solucionarlo de una manera más eficiente por medio del desarrollo de la presenta investigación.<br><br>**Anthony Botello** <br>*TB1* <br>Se redactaron y documentó información y análisis de nuestros competidores y de la misma forma se evidenciaron las entrevistas realizadas y el análisis de ellas. Por otro lado, se definieron los Primary User Stories y los Quality Attribute Scenarios.<br>*TP*<br>Se agregó el bounded context correspondiente a PersonalData. Para ello, se definieron los elementos que intervienen en cada capa, así como también se diseñó el diagrama de componentes, el diagrama de clases y el diagrama de base de datos para este apartado. <br>*TB2* <br>Para este criterio se redactó, describió y comentó el apartado 7.3 el cual describe las entrevistas de validación. Para ello fue necesario utilizar un lenguaje claro que sean entendido por los diferentes lectores.<br><br>**Rodrigo Alexander Sabino Ramirez** <br>*TB1* <br>En la elaboración de la primera entrega, me centré en comunicar de manera precisa y objetiva aspectos específicos. Utilizando el concepto de Ubiquitous Language, desarrollé un lenguaje común que facilitó la comprensión entre los miembros del equipo y los stakeholders. Además, identifiqué las limitaciones (Constraints) del proyecto y elaboré un Architectural Drivers Backlog para guiar el diseño arquitectónico. <br><br>**Abel Angel Cierto Espiritu** <br>*TB1* <br>Los resultados de elegir drivers de arquitecturas permite un buen funcionamiento en la escalabilidad y mantenimiento del sistema. Por último los escenarios de los atributos que se requiere refinar permite una mejora continua en la aplicación web.<br><br>_TP_  <br>Se utiliza diagramas de arquitectura y clases, así como descripciones de las entidades y objetos de valor  <br>involucrados en el servicio, lo que facilita a los lectores entender el flujo de datos y las interacciones dentro  <br>del sistema. Esta estructura de comunicación asegura que tanto desarrolladores como administradores no técnicos  <br>puedan apreciar la funcionalidad del sistema y sus implicaciones en el servicio de transporte, destacando la importancia  <br>de una documentación bien estructurada y objetiva en proyectos de ingeniería.<br><br>**Branco Alberto Villegas Peralta**<br>*TB1*<br>Durante el proyecto, utilicé herramientas como EventStorming para explorar y descubrir los contextos relevantes. Luego, modelé los flujos de mensajes del dominio para comprender las interacciones entre los diferentes componentes del sistema. Utilicé Bounded Context Canvases para delinear los límites y responsabilidades de cada contexto, y realicé un mapeo de contextos para visualizar las relaciones entre ellos. Finalmente, documenté nuestra arquitectura de software utilizando varios diagramas, incluidos contexto, contenedor y despliegue, para comunicar nuestra visión de manera efectiva a todas las partes interesadas.<br><br>_TP_ <br>En cuanto a la comunicación escrita, elaboré un documento detallado describiendo el bounded context location para el proyecto "FastPorte".  <br>Este documento, que forma parte del informe de avance, explica en profundidad el detalle del bounded context que se alinea con los objetivos del proyecto y detalla las fuentes de datos y los procesos implementados.                                                                                                                                                                                                                                                                                          | *TB1*<br>En el informe se detalló los aspectos más importantes acerca de la base de la solución propuesta y las herramientas que se usaron para validar la misma. Por otro lado, se incluyeron los diagramas adecuados para cada sección con su respectiva descripción para brindar la mayor cantidad de información.                                                |
+| Criterio específico                                                                                                                                                                    | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.     | **Eduardo Sebastián Lévano Cavero**<br>*TB1* <br>Durante el video de exposición se transmitió de manera adecuada la problemática hallada en el sector de transporte de mercadería y como se solucionaría por medio de la implementación de una página web para comunicar a transportistas con personas que requieran de sus servicios. Asimismo, se detallo como esta diseñada la propuesta y su sustentación.<br>*TP*<br>Se indicó cuales son los componentes desarrollados referentes al diseño UX/UI de la propuesta de solución. Se mostraron los artefactos desarrollados en Figma y como es el flujo que sigue cada paso planeado.<br>*TB2*<br>En la explicación se describió la configuración empleada en el proyecto y al gestión realizada. Se mencionó que tecnologías se emplearon para el desarrollo de los artefactos y como se llevó a cabo la gestión del código empleando buenas prácticas y siguiendo los estándares.<br>*TF*<br>Se evidenció el criterio durante la exposición de los elementos designados mostrando el planeamiento del Sprint II y la evidencia de ejecución y de los servicios desarrollados para el empleo de la tecnología emergente.<br><br>**Anthony Botello** <br>*TB1* <br>En el vídeo de exposición se indicaron a los competidores, así como también se explicó la matriz DAFO de nuestra organización. Finalmente, se expusieron resultados acerca de las entrevistas realizadas.<br>*TP*<br>En mi presentación audiovisual se describió de manera adecuada cada uno de los elementos que intervienen en el bounded context PersonalData y, de la misma forma, se explicaron los diagramas mostrados. <br>*TB2* <br>En el vídeo de exposición se describieron las preguntas de la entrevista de validación así como también sus evidencias. Los resultados se mostraron exponiendo las Evaluaciones según Heurísticas a las cuales se explicó el problema, la severidad, el principio violado y la solución que le dimos. Por otro lado, se hizo la exposición en el about the product acerca de nuestra solución con un lenguaje claro y poco técnico para que sea entendido por un público más general.<br>*TF*<br>Este criterio fue evidenciado en la explicación del proceso llevado a cabo en el segundo sprint del proyecto. Para ello, se describió y explicó lo desarrollado a través del sprint backlog. El lenguaje usado fue claro y de fácil entendimiento.<br><br>**Rodrigo Alexander Sabino Ramirez** <br>*TB1* <br>Durante mi exposición, comuniqué de manera clara y objetiva los resultados de mi proyecto en ingeniería, destacando la fase de Needfinding. Presenté User Personas y una matriz de tareas de usuario, usando herramientas como Empathy Mapping y As-is Scenario Mapping. Además, delineé el escenario futuro de la plataforma propuesta, detallando User Stories, Impact Mapping y un Product Backlog completo.<br>_TP_  <br>La capacidad de comunicar efectivamente en un contexto oral es esencial en ingeniería, especialmente cuando se trata de explicar y justificar decisiones de diseño como las presentadas en el capítulo sobre el "Bounded Context: Search Service".<br>En el capítulo 5 se detalla la implementación de una interfaz de usuario que permite a los clientes cargar imágenes de productos para transporte y recibir sugerencias automatizadas sobre los transportistas adecuados.<br>_TB2_  <br>Durante el desarrollo de esta tercera entrega se realizo la comunicación de manera efectiva por medio de las diversas reuniones organizativas del equipo, así mismo se realizo la grabación de la exposición de la entrega de nuestro solution ux design.<br>_TF_<br>Se evidencio la comunicación oral efectiva mediante la exposición en clase y asincrónica grabada donde se presento el diseño de la solución del proyecto donde se presento tanto la version mobile y web de la aplicacion<br><br>**Abel Angel Cierto Espiritu**<br>*TB1* <br>Durante el desarrollo de este primer avance, comunique de manera eficaz el objetivo del diseño al desarrollar la aplicación web. También, detalle acerca de las funcionalidades primarias  que considero que son importantes y definir los atributos de calidad para una buena aplicación es necesaria. Los constraints nos sirven para tener claro las limitaciones del sistema al momento de desarrollar la aplicación web.<br><br>_TP_<br>La capacidad de comunicar efectivamente en un contexto oral es esencial en ingeniería,  <br>especialmente cuando se trata de explicar y justificar decisiones de diseño como las  <br>presentadas en el capítulo sobre el "Bounded Context: Search Service".  <br>En el capítulo 5 se detalla la implementación de una interfaz de usuario que permite a los  <br>clientes cargar imágenes de productos para transporte y recibir sugerencias automatizadas  <br>sobre los transportistas adecuados.<br><br>**Branco Alberto Villegas Peralta**<br>*TB1*<br>Durante el proyecto, me enfoqué en comunicar nuestros avances y resultados de manera clara y objetiva. Presenté nuestras ideas durante el proceso de Event Storming y facilité discusiones sobre el modelado de flujo de mensajes del dominio. Mi objetivo era asegurarme de que todos los miembros del equipo, independientemente de su especialidad o nivel jerárquico, comprendieran el progreso y las decisiones tomadas en el proyecto.<br><br>_TP_<br>En el avance actual del proyecto, he presentado el bounded context location de "FastPorte" a un público diverso, incluyendo a compañeros de clase, profesores. Durante esta presentación, expliqué claramente el propósito de bounded context y cómo contribuye a mejorar la plataforma. | *TB1*<br>En la exposición de la presente entrega se comunico eficientemente las bases del proyecto desarrollado y el proceso que llevo a corroborar que efectivamente es una solución adecuada para la problemática encontrada. Asimismo, se presentaron las herramientas para utilizadas para las primeras fases de implementación del proyecto y su planteamiento.<br>*TP*<br>Se mostró los Bounded Context desarrollados para la solución mostrando los diagramas C4. Asimismo, se detalló como se diseño la solución mostrando wireframes y mockups, así como el flujo que siguen estos artefactos.<br>*TB2*<br>Se completó la exposición de los elementos restantes que muestran el diseño de la solución, se detalló la documentación realizada y como se gestiono el proyecto. Así como, se realizó el avance del Sprint I centrado en la reutilización de los componentes de la solución desarrollados anteriormente (frontend y backend).<br>*TF*<br>Durante el video de exposición se detallo el proceso llevado a cabo para este último Sprint donde se empleo la tecnología emergente elegida y como fue su implementación en la propuesta de solución. |
+| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.. | **Eduardo Sebastián Lévano Cavero**<br>*TB1* <br>Se documento con éxito y de manera adecuada la introducción al proyecto, describiendo la problemática con antecedentes, ilustrando las posibles soluciones y como se busca solucionarlo de una manera más eficiente por medio del desarrollo de la presenta investigación.<br>*TP*<br>Se realizó la documentación referente al diseño UX/UI de la propuesta de solución. Asimismo, se realizó el prototipo y como sigue el flujo de la propuesta de solución.<br>*TB2*<br>Se describió como se llevó a cabo la configuración y gestión del proyecto. Se listó que tecnologías se utilizaron y como estas impactaron en el proceso de desarrollo de la propuesta.<br>*TF*<br>Se realizó la tabla donde se describe el planeamiento del Sprint II. Además, se mostró la evidencia acerca del correcto funcionamiento de la aplicación posterior a la implementación de Computer Vision y como se ejecutan los servicios del backend.<br><br>**Anthony Botello** <br>*TB1* <br>Se redactaron y documentó información y análisis de nuestros competidores y de la misma forma se evidenciaron las entrevistas realizadas y el análisis de ellas. Por otro lado, se definieron los Primary User Stories y los Quality Attribute Scenarios.<br>*TP*<br>Se agregó el bounded context correspondiente a PersonalData. Para ello, se definieron los elementos que intervienen en cada capa, así como también se diseñó el diagrama de componentes, el diagrama de clases y el diagrama de base de datos para este apartado. <br>*TB2* <br>Para este criterio se redactó, describió y comentó el apartado 7.3 el cual describe las entrevistas de validación. Para ello fue necesario utilizar un lenguaje claro que sean entendido por los diferentes lectores.<br>_TF_<br>Para este criterio, se realizó el sprint backlog en la tabla correspondiente al segundo sprint del presente proyecto. Para ello fue necesario especificar las tareas correspondientes a cada historia de usuario y demás datos como el tiempo, a quién fue asignado y el estado. <br><br>**Rodrigo Alexander Sabino Ramirez** <br>*TB1* <br>En la elaboración de la primera entrega, me centré en comunicar de manera precisa y objetiva aspectos específicos. Utilizando el concepto de Ubiquitous Language, desarrollé un lenguaje común que facilitó la comprensión entre los miembros del equipo y los stakeholders. Además, identifiqué las limitaciones (Constraints) del proyecto y elaboré un Architectural Drivers Backlog para guiar el diseño arquitectónico. <br>*TP*<br>Para la entrega parcial del proyecto se evidencio la comunicacion de forma escrita con la constante participacion por los distintos medios utilizados por el equipo para compartir ideas acerca del trabajo. Tambien se cumplio con este criterio completando la parte que se me fue asignada del capitulo 5.<br>*TB2*<br>Para este criterio se tomo en cuenta la presentación de los diseños de la aplicación en el informe de la aplicación. Además, se realizo las tareas asignadas paras el primer sprint.<br>*TF*<br>En cuanto a la comunicación escrita de esta entrega final, se pudo evidenciar, mediante la elaboración de la sección del documento asignada, donde se presentan el Software Deployment Evidence for Sprint Review.<br><br>**Abel Angel Cierto Espiritu** <br>*TB1* <br>Los resultados de elegir drivers de arquitecturas permite un buen funcionamiento en la escalabilidad y mantenimiento del sistema. Por último los escenarios de los atributos que se requiere refinar permite una mejora continua en la aplicación web.<br><br>_TP_  <br>Se utiliza diagramas de arquitectura y clases, así como descripciones de las entidades y objetos de valor  <br>involucrados en el servicio, lo que facilita a los lectores entender el flujo de datos y las interacciones dentro  <br>del sistema. Esta estructura de comunicación asegura que tanto desarrolladores como administradores no técnicos  <br>puedan apreciar la funcionalidad del sistema y sus implicaciones en el servicio de transporte, destacando la importancia  <br>de una documentación bien estructurada y objetiva en proyectos de ingeniería.<br><br>**Branco Alberto Villegas Peralta**<br>*TB1*<br>Durante el proyecto, utilicé herramientas como EventStorming para explorar y descubrir los contextos relevantes. Luego, modelé los flujos de mensajes del dominio para comprender las interacciones entre los diferentes componentes del sistema. Utilicé Bounded Context Canvases para delinear los límites y responsabilidades de cada contexto, y realicé un mapeo de contextos para visualizar las relaciones entre ellos. Finalmente, documenté nuestra arquitectura de software utilizando varios diagramas, incluidos contexto, contenedor y despliegue, para comunicar nuestra visión de manera efectiva a todas las partes interesadas.<br><br>_TP_ <br>En cuanto a la comunicación escrita, elaboré un documento detallado describiendo el bounded context location para el proyecto "FastPorte".  <br>Este documento, que forma parte del informe de avance, explica en profundidad el detalle del bounded context que se alinea con los objetivos del proyecto y detalla las fuentes de datos y los procesos implementados.                                                                                                                                                                                                                                                                                                                                                                    | *TB1*<br>En el informe se detalló los aspectos más importantes acerca de la base de la solución propuesta y las herramientas que se usaron para validar la misma. Por otro lado, se incluyeron los diagramas adecuados para cada sección con su respectiva descripción para brindar la mayor cantidad de información.<br>*TP*<br>Se diagramo los Bounded Context diseñados para la solución mostrando como estará desarrollada la propuesta. Además, se detalló se empleo Figma para poder diseñar la propuesta mediante el uso de Wireframes y Mockups.<br>*TB2*<br>Se diseño los flujos y se realizó el prototipo del funcionamiento de la propuesta de solución. Además, se documentó todo el Sprint I el cual involucró el desarrollo básico de los componentes de la aplicación (frontend y backend).<br>*TF*<br>Se realizó la documentación del Sprint II el cual es el final, que concluye el desarrollo con la implementación de Computer Vision y como se ejecuta en la aplicación.                                                                                                                                                                        |
 
 ---
 
@@ -675,6 +689,9 @@ Calendario que muestra la disponibilidad de los transportistas para proporcionar
 ![HU-022](img/Capitulo_3/User_Stories/22.png)
 ![HU-023](img/Capitulo_3/User_Stories/23.png)
 ![HU-024](img/Capitulo_3/User_Stories/24.png)
+![HU-029](img/Capitulo_3/User_Stories/29.png)
+![HU-030](img/Capitulo_3/User_Stories/30.png)
+![HU-031](img/Capitulo_3/User_Stories/31.png)
 
 
 
@@ -705,34 +722,39 @@ Link para una visualización más detallada: [https://drive.google.com/file/d/1Z
 ![Impact Mapping](img/Capitulo_2/Needfinding/9.jpg)
 ## 3.4. Product Backlog.
 
-##### _Desarrollo del Product Backlog_
+##### Desarrollo del Product Backlog
 
-| **User Story ID** | **Título**                                  | **Descripción**                                                                                                                                                                             | **Story Points (8/5/3/2/1)** |
-| ----------------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------: |
-| **HU-011**        | Realizar el seguimiento por GPS             | Como cliente <br><br>Quiero seguir el transcurso del transportista     <br><br>Para sentirme seguro con el servicio                                                                         |            **8**             |
-| **HU-007**        | Visualizar la información del transportista | Como cliente <br><br>Quiero observar el perfil del transportista<br><br>Para contratarlo                                                                                                    |            **5**             |
-| **HU-008**        | Contratar el servicio                       | Como cliente <br><br>Quiero contratar el servicio<br><br>Para acceder a los servicios del transportista                                                                                     |            **5**             |
-| **HU-009**        | Realizar el pago                            | Como cliente <br><br>Quiero realizar el pago del servicio<br><br>Para no tener deudas pendientes                                                                                            |            **5**             |
-| **HU-017**        | Notificar del trabajo                       | Como transportista                      <br><br>Quiero que me notifiquen cuando un cliente requiere de mis servicios <br><br>Para no perderme de algún contrato                             |            **5**             |
-| **HU-018**        | Informar del contrato propuesto             | Como transportista<br><br>Quiero leer la información del servicio propuesto   <br><br>Para decidir si aceptar el trabajo                                                                    |            **5**             |
-| **HU-006**        | Buscar un vehículo                          | Como cliente <br><br>Quiero buscar el tipo de vehículo adecuado<br><br>Para así contratarlo                                                                                                 |            **5**             |
-| **HU-022**        | Comentar el servicio brindado               | Como cliente<br><br>Quiero dejar un comentario acerca de mi experiencia con el conductor luego de terminar el servicio<br><br>Para ayudar a los demás usuarios en su elección de conductor. |            **5**             |
-| **HU-001**        | Registrar al transportista                  | Como transportista<br><br>Quiero registrarme dentro de la aplicación<br><br>Para navegar dentro de ella                                                                                     |            **3**             |
-| **HU-002**        | Registrar al cliente                        | Como cliente<br><br>Quiero registrarme dentro de la aplicación<br><br>Para navegar dentro de ella                                                                                           |            **3**             |
-| **HU-023**        | Iniciar sesión como cliente                 | Como cliente<br><br>Quiero iniciar sesión en la aplicación<br><br>Para acceder a los servicios de transporte y gestionar mi perfil de usuario de manera segura y conveniente.               |            **3**             |
-| **HU-024**        | Iniciar sesión como transportista           | Como cliente<br><br>Quiero iniciar sesión en la aplicación<br><br>Para acceder a los servicios de transporte y gestionar mi perfil de usuario de manera segura y conveniente.               |            **3**             |
-| **HU-020**        | Ver la información del usuario              | Como usuario  <br><br>Quiero visualizar mi perfil y los datos que ingrese en el registro.<br><br>Para corroborar que los datos son correctos                                                |            **3**             |
-| **HU-005**        | Editar mi perfil de usuario                 | Como usuario de la aplicación<br><br>Quiero poder editar los datos de mi perfil<br><br>Para mantener mis datos actualizados                                                                 |            **3**             |
-| **HU-012**        | Ver el historial de contratos               | Como usuario<br><br>Quiero revisar el historial de contratos <br><br>Para tener un registro                                                                                                 |            **3**             |
-| **HU0-013**       | Revisar el servicio                         | Como cliente  <br><br>Quiero decidir revisar el servicio brindado<br><br>Para sentirme más seguro                                                                                           |            **3**             |
-| **HU-016**        | Ver el estado del contrato propuesto        | Como cliente <br><br>Quiero saber el estado de mi oferta de trabajo <br><br>Para saber si fue aceptada o rechazada                                                                          |            **3**             |
-| **HU-019**        | Reportar una incidencia                     | Como cliente <br><br>Quiero reportar alguna incidencia que haya sucedido <br><br>Para mejorar el servicio dentro de la aplicación                                                           |            **3**             |
-| **HU-021**        | Ver el contrato finalizado                  | Como transportista<br><br>Quiero rellenar mi información de pago<br><br>Para recibir el pago correspondiente por el servicio brindado.                                                      |            **3**             |
-| **HU-003**        | Registrar un transporte                     | Como transportista <br><br>Quiero almacenar la información de mi transporte y el servicio que ofrezco <br><br>Para que el cliente tenga una noción del servicio que brindo                  |            **2**             |
-| **HU-004**        | Registrar su experiencia                    | Como transportista<br><br>Quiero registrar mi experiencia de trabajo <br><br>Para generar confianza al cliente                                                                              |            **2**             |
-| **HU-015**        | Guardar los datos de la tarjeta             | Como cliente <br><br>Quiero guardar los datos de mi tarjeta<br><br>Para usarla de manera más rápida en mis siguientes pagos                                                                 |            **2**             |
-| **HU-010**        | Cerrar sesión en la aplicación              | Como usuario transportista<br><br>Quiero salir de la aplicación<br><br>Para iniciar sesión en otra cuenta como cliente                                                                      |            **1**             |
-| **HU-014**        | Acceder a las preguntas frecuentes          | Como usuario<br><br>Quiero acceder a un banco de preguntas frecuentes sobre la aplicación<br><br>Para despejar dudas que tenga sobre algunos procesos                                       |            **1**             |
+| **User Story ID** | **Título**                                                     | **Descripción**                                                                                                                                                                             | **Story Points (8/5/3/2/1)** |
+| ----------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------: |
+| **HU-011**        | Realizar el seguimiento por GPS                                | Como cliente <br><br>Quiero seguir el transcurso del transportista     <br><br>Para sentirme seguro con el servicio                                                                         |            **8**             |
+| **HU-007**        | Visualizar la información del transportista                    | Como cliente <br><br>Quiero observar el perfil del transportista<br><br>Para contratarlo                                                                                                    |            **5**             |
+| **HU-008**        | Contratar el servicio                                          | Como cliente <br><br>Quiero contratar el servicio<br><br>Para acceder a los servicios del transportista                                                                                     |            **5**             |
+| **HU-009**        | Realizar el pago                                               | Como cliente <br><br>Quiero realizar el pago del servicio<br><br>Para no tener deudas pendientes                                                                                            |            **5**             |
+| **HU-017**        | Notificar del trabajo                                          | Como transportista                      <br><br>Quiero que me notifiquen cuando un cliente requiere de mis servicios <br><br>Para no perderme de algún contrato                             |            **5**             |
+| **HU-018**        | Informar del contrato propuesto                                | Como transportista<br><br>Quiero leer la información del servicio propuesto   <br><br>Para decidir si aceptar el trabajo                                                                    |            **5**             |
+| **HU-006**        | Buscar un vehículo                                             | Como cliente <br><br>Quiero buscar el tipo de vehículo adecuado<br><br>Para así contratarlo                                                                                                 |            **5**             |
+| **HU-022**        | Comentar el servicio brindado                                  | Como cliente<br><br>Quiero dejar un comentario acerca de mi experiencia con el conductor luego de terminar el servicio<br><br>Para ayudar a los demás usuarios en su elección de conductor. |            **5**             |
+| **HU-029**        | Botón de acceso a la herramienta de computer vision            | Como cliente<br><br>Quiero un botón que me lleve a utilizar la herramienta de computer vision<br><br>Para medir mis cajas                                                                   |              3               |
+| **HU-030**        | Medición de cajas con puntos de marcación en pantalla          | Como cliente<br><br>Quiero marcar en la pantalla los puntos a medir (largo, ancho y alto)<br><br>Para obtener las medidas precisas de mi caja                                               |              3               |
+| **HU-031**        | Selección de vehículos basada en número de cajas a transportar | Como cliente<br><br>Quiero ingresar el número de cajas a transportar<br><br>Para obtener una lista de vehículos con la capacidad suficiente para realizar el servicio                       |              3               |
+| **HU-001**        | Registrar al transportista                                     | Como transportista<br><br>Quiero registrarme dentro de la aplicación<br><br>Para navegar dentro de ella                                                                                     |            **3**             |
+| **HU-002**        | Registrar al cliente                                           | Como cliente<br><br>Quiero registrarme dentro de la aplicación<br><br>Para navegar dentro de ella                                                                                           |            **3**             |
+| **HU-023**        | Iniciar sesión como cliente                                    | Como cliente<br><br>Quiero iniciar sesión en la aplicación<br><br>Para acceder a los servicios de transporte y gestionar mi perfil de usuario de manera segura y conveniente.               |            **3**             |
+| **HU-024**        | Iniciar sesión como transportista                              | Como cliente<br><br>Quiero iniciar sesión en la aplicación<br><br>Para acceder a los servicios de transporte y gestionar mi perfil de usuario de manera segura y conveniente.               |            **3**             |
+| **HU-020**        | Ver la información del usuario                                 | Como usuario  <br><br>Quiero visualizar mi perfil y los datos que ingrese en el registro.<br><br>Para corroborar que los datos son correctos                                                |            **3**             |
+| **HU-005**        | Editar mi perfil de usuario                                    | Como usuario de la aplicación<br><br>Quiero poder editar los datos de mi perfil<br><br>Para mantener mis datos actualizados                                                                 |            **3**             |
+| **HU-012**        | Ver el historial de contratos                                  | Como usuario<br><br>Quiero revisar el historial de contratos <br><br>Para tener un registro                                                                                                 |            **3**             |
+| **HU0-013**       | Revisar el servicio                                            | Como cliente  <br><br>Quiero decidir revisar el servicio brindado<br><br>Para sentirme más seguro                                                                                           |            **3**             |
+| **HU-016**        | Ver el estado del contrato propuesto                           | Como cliente <br><br>Quiero saber el estado de mi oferta de trabajo <br><br>Para saber si fue aceptada o rechazada                                                                          |            **3**             |
+| **HU-019**        | Reportar una incidencia                                        | Como cliente <br><br>Quiero reportar alguna incidencia que haya sucedido <br><br>Para mejorar el servicio dentro de la aplicación                                                           |            **3**             |
+| **HU-021**        | Ver el contrato finalizado                                     | Como transportista<br><br>Quiero rellenar mi información de pago<br><br>Para recibir el pago correspondiente por el servicio brindado.                                                      |            **3**             |
+| **HU-003**        | Registrar un transporte                                        | Como transportista <br><br>Quiero almacenar la información de mi transporte y el servicio que ofrezco <br><br>Para que el cliente tenga una noción del servicio que brindo                  |            **2**             |
+| **HU-004**        | Registrar su experiencia                                       | Como transportista<br><br>Quiero registrar mi experiencia de trabajo <br><br>Para generar confianza al cliente                                                                              |            **2**             |
+| **HU-015**        | Guardar los datos de la tarjeta                                | Como cliente <br><br>Quiero guardar los datos de mi tarjeta<br><br>Para usarla de manera más rápida en mis siguientes pagos                                                                 |            **2**             |
+| **HU-010**        | Cerrar sesión en la aplicación                                 | Como usuario transportista<br><br>Quiero salir de la aplicación<br><br>Para iniciar sesión en otra cuenta como cliente                                                                      |            **1**             |
+| **HU-014**        | Acceder a las preguntas frecuentes                             | Como usuario<br><br>Quiero acceder a un banco de preguntas frecuentes sobre la aplicación<br><br>Para despejar dudas que tenga sobre algunos procesos                                       |            **1**             |
+
+
 
 ---
 
@@ -1041,7 +1063,6 @@ En la siguiente imagen se presenta el diagrama de componentes del bounded contex
 
 ### 5.1.6. Bounded Context Software Architecture Code Level Diagrams
 A continuación, se presentará el diagrama de clases para el bounded context correspondiente, así como también el diagrama de base de datos.
-
 #### 5.1.6.1. Bounded Context Domain Layer Class Diagrams
 En esta sección se muestra el diagrama de clases correspondiente al Bounded Context "Hiring". En este diagrama se pueden observar las clases de la capa de dominio así como sus relaciones con las clases de las demás capas.
 
@@ -1503,7 +1524,6 @@ Las siguientes imagenes corresponden a los mock-ups de la web application y el m
 ![MU 22](img/Capitulo_6/Applications_Mock-ups/23.png)
 ![MU 23](img/Capitulo_6/Applications_Mock-ups/24.png)
 
-
 ### 6.4.4. Applications User Flow Diagrams.
 ***Interfaz de Entrada***
 **Wireflow 1: Registro de Usuario**
@@ -1705,7 +1725,6 @@ Finalmente, al ejecutar los servicios e ingresar al localhost:8099, aquellos que
 
 A continuación, se mostrará los Sprints que se llevarán a cabo para la realización del Proyecto:
 
-
 | **Sprint #** | **Sprint 1**                                                      |        |                                                                      |                                                                                                                                              |                        |                    |                                               |
 | ------------ | ----------------------------------------------------------------- | ------ | -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | ------------------ | --------------------------------------------- |
 | User Story   | Work Item / Task                                                  |        |                                                                      |                                                                                                                                              |                        |                    |                                               |
@@ -1767,57 +1786,51 @@ A continuación, se mostrará los Sprints que se llevarán a cabo para la realiz
 | HU–024       | Iniciar sesión como transportista                                 | T24-01 | Utilizar el endpoint del despliegue                                  | Se utilizó el endpoint del despliegue realizado en la aplicación web                                                                         | 2                      | Abel Cierto        | Done                                          |
 |              |                                                                   | T24-02 | Comprobación en la Base de Datos                                     | Se comprobó que todos los datos ingresados o los cambios realizados se reflejan en la base de datos.                                         | 1                      | Abel Cierto        | Done                                          |
 
-
 #### 7.2.1.3. Development Evidence for Sprint Review
-
 
 | **Repository**                                                    | **Branch**              | **Commit Id**                            | **Commit Message**                                                        | **Commit Message Body**                                                                      | **Committed on (Date)** |
 | ----------------------------------------------------------------- | ----------------------- | ---------------------------------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ----------------------- |
 | abelcierto/landing-page                                           | feature/develop         | bd638d8cbeb3693ac599c78a7f3782589830fc6b | feat: create header                                                       | In this section I have created the header.                                                   | 3/6/2024<br>            |
 | abelcierto/landing-page                                           | feature/develop         | 182e26cbc87ca0859264671d1162b51ec654fc2f | feat: create section about the team                                       | In this section I have added the photos of the team, and added the name of each participant. | 3/6/2024                |
 | fastporte- app https://github.com/Arquitectura-WS82/fastporte-app | feature/security        | a7ad408bc3d7cd03e670b305e6ef1f2a708c3406 | feat(login): Login View                                                   |                                                                                              | 26/04/2023              |
-|                                                                   | feature/security        | 28887838f24dcec129019adcba04bd4e614b56a1 | feat(register): register view set up                                      |                                                                                              | 27/04/2023              |
-|                                                                   | feature/contracts       | 8a32efb8add2b1471a92299127e45d3624c0a3ae | feat(contracts): TabLayout, Contract Class & Offer Contract RecyclerView  |                                                                                              | 29/04/2023              |
-|                                                                   | feature/contracts       | d0946a0e40798ff78fcc90c9ef9af4bdd73e5090 | feat(contracts): Carrier Contracts Structure                              |                                                                                              | 01/05/2023              |
-|                                                                   | feature/contracts       | 23e68be8ab1692ed3b813207764d607df5157b57 | feat(contracts): Client Contracts Structure                               |                                                                                              | 01/05/2023              |
-|                                                                   | feature/security        | 9b7173cb2aa03182f4fa44eb344c64e16cc67bcc | add: Password activity with yours fragments                               |                                                                                              | 01/05/2023              |
-|                                                                   | feature/profile         | d0d3c64eb5cc94da05c044158d3a243323d9c757 | feat(profile): Carrier profile & client profile                           |                                                                                              | 02/05/2023              |
-|                                                                   | feature/profile         | 80343fa3379668a9a73139a408dc0125c606be9f | feat(profile): Get personal carrier information from API<br>              |                                                                                              | 02/05/2023              |
-|                                                                   | feature/profile         | 653b378b39e600bc491e1507ee8157d7d618d59e | add: changes to carrier profile service                                   |                                                                                              | 03/05/2023              |
-|                                                                   | feature/contracts       | ce67a2ea9611ad0fc28ff682607aa9b9054b1a10 | feat(contracts): Use Card View                                            |                                                                                              | 03/05/2023              |
-|                                                                   | feature/security        | 506f2bb268fe7ea4078d392722fae1abe89ad239 | Add: retrofit implementation in Login and shared preferences implentation |                                                                                              | 04/05/2023              |
-|                                                                   | feature/securit         | 9cebabd680678bcde35172b814baea36809d82d6 | feat(register): adding register action                                    |                                                                                              | 04/05/2023              |
-|                                                                   | feature/security        | 0b2699ccfaef338c5b3f2a9ff52eab39306d9d0d | feat(register): spinners implementeds                                     |                                                                                              | 04/05/2023              |
-|                                                                   | feature/security        | cb4bc59899beda59a5310f0fdcda4d0f7178a667 | feat(security): registers spinners added                                  |                                                                                              | 04/05/2023              |
-|                                                                   | feature/security        | a95d7885dd4f56e1b2a0dbeb67cf7dac89078911 | feat(security): registers uploads images added                            |                                                                                              | 04/05/2023              |
-|                                                                   | feature/security        | 906a749f497894b40a8306cd7052334eb39a2e62 | feat(security): registers checkboxs color modifieds                       |                                                                                              | 04/05/2023              |
-|                                                                   | feature/profile         | 829ce2bd04df4f9b6f24ffb0ce013a665676e66b | feat(profile): Add carrier vehicle                                        |                                                                                              | 05/05/2023              |
-|                                                                   | feature/security        | 39efba518bbb8173bef93e37670e529af25eca1a | feat(security): first bundle message                                      |                                                                                              | 05/05/2023              |
-|                                                                   | feature/searchvehicules | 305dec961707d4c9f4ffa186915f66732d9e3c49 | feat(searchVehicules): type input                                         |                                                                                              | 2/06/2023               |
-|                                                                   | feature/searchvehicules | 21ee12f14942eabd68d5967f56ae0029b9dda47e | feat(searchVehicules): autoComplete Inputs                                |                                                                                              | 1/06/2023               |
-|                                                                   | feature/searchvehicules | e0503a63d0963975e7c1faaf0709387b5d37afa9 | feat(searchVehicle):prototype contract request                            |                                                                                              | 30/05/2023              |
-|                                                                   | feature/searchvehicules | 73fdeadd834783abd8e9706ddeead728ff88f8a1 | add: Adapter search vehicle                                               |                                                                                              | 29/05/2023              |
-|                                                                   | feature/searchvehicules | 38eec978abaa5ea0e7072bc9985513984f55c57e | feat(searchVehicle): get vehicles for search                              |                                                                                              | 26/05/2023              |
-|                                                                   | feature/add-experience  | 3a041862471a8579fe1c878f42e277f7b319032e | feat(profile): Add driver experiences using API                           |                                                                                              | 30/05/2023              |
-|                                                                   | feature/add-experience  | 92c117c53b0e078c64186eaf9be89ffdc544b575 | feat: logout for users and app icon added                                 |                                                                                              | 26/05/2023<br>          |
-|                                                                   | feature/add-experience  | 025c34491c74d6f4be5968744428e3622500b432 | feat: Add API to Contracts                                                |                                                                                              | 6/05/2023               |
-|                                                                   | feature/add-experience  | cbd280e804d8694df288db6edb5d0064a357b0f6 | feat(profile): use API to show user information                           |                                                                                              | 16/05/2023<br>          |
-|                                                                   | feature/support         | 29bc84bd3f53809f7fec62ae433d26e41d434823 | feat: Update Profile changes                                              |                                                                                              | 29/05/2023              |
-|                                                                   | feature/support         | 9cfe3ef866a646f16892618d0f5a56e73efdd799 | feat: Show Contracts with API                                             |                                                                                              | 16/05/2023              |
-|                                                                   | feature/support         | 143e33e1feefd3df02aa80bca5fb15316d71d91c | feat(support): support design and faq added<br>                           |                                                                                              | 26/05/2023              |
-|                                                                   | feature/support         | 92c117c53b0e078c64186eaf9be89ffdc544b575 | feat: logout for users and app icon added                                 |                                                                                              | 26/05/2023              |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/security        | 28887838f24dcec129019adcba04bd4e614b56a1 | feat(register): register view set up                                      |                                                                                              | 27/04/2023              |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/contracts       | 8a32efb8add2b1471a92299127e45d3624c0a3ae | feat(contracts): TabLayout, Contract Class & Offer Contract RecyclerView  |                                                                                              | 29/04/2023              |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/contracts       | d0946a0e40798ff78fcc90c9ef9af4bdd73e5090 | feat(contracts): Carrier Contracts Structure                              |                                                                                              | 01/05/2023              |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/contracts       | 23e68be8ab1692ed3b813207764d607df5157b57 | feat(contracts): Client Contracts Structure                               |                                                                                              | 01/05/2023              |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/security        | 9b7173cb2aa03182f4fa44eb344c64e16cc67bcc | add: Password activity with yours fragments                               |                                                                                              | 01/05/2023              |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/profile         | d0d3c64eb5cc94da05c044158d3a243323d9c757 | feat(profile): Carrier profile & client profile                           |                                                                                              | 02/05/2023              |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/profile         | 80343fa3379668a9a73139a408dc0125c606be9f | feat(profile): Get personal carrier information from API<br>              |                                                                                              | 02/05/2023              |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/profile         | 653b378b39e600bc491e1507ee8157d7d618d59e | add: changes to carrier profile service                                   |                                                                                              | 03/05/2023              |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/contracts       | ce67a2ea9611ad0fc28ff682607aa9b9054b1a10 | feat(contracts): Use Card View                                            |                                                                                              | 03/05/2023              |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/security        | 506f2bb268fe7ea4078d392722fae1abe89ad239 | Add: retrofit implementation in Login and shared preferences implentation |                                                                                              | 04/05/2023              |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/securit         | 9cebabd680678bcde35172b814baea36809d82d6 | feat(register): adding register action                                    |                                                                                              | 04/05/2023              |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/security        | 0b2699ccfaef338c5b3f2a9ff52eab39306d9d0d | feat(register): spinners implementeds                                     |                                                                                              | 04/05/2023              |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/security        | cb4bc59899beda59a5310f0fdcda4d0f7178a667 | feat(security): registers spinners added                                  |                                                                                              | 04/05/2023              |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/security        | a95d7885dd4f56e1b2a0dbeb67cf7dac89078911 | feat(security): registers uploads images added                            |                                                                                              | 04/05/2023              |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/security        | 906a749f497894b40a8306cd7052334eb39a2e62 | feat(security): registers checkboxs color modifieds                       |                                                                                              | 04/05/2023              |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/profile         | 829ce2bd04df4f9b6f24ffb0ce013a665676e66b | feat(profile): Add carrier vehicle                                        |                                                                                              | 05/05/2023              |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/security        | 39efba518bbb8173bef93e37670e529af25eca1a | feat(security): first bundle message                                      |                                                                                              | 05/05/2023              |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/searchvehicules | 305dec961707d4c9f4ffa186915f66732d9e3c49 | feat(searchVehicules): type input                                         |                                                                                              | 2/06/2023               |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/searchvehicules | 21ee12f14942eabd68d5967f56ae0029b9dda47e | feat(searchVehicules): autoComplete Inputs                                |                                                                                              | 1/06/2023               |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/searchvehicules | e0503a63d0963975e7c1faaf0709387b5d37afa9 | feat(searchVehicle):prototype contract request                            |                                                                                              | 30/05/2023              |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/searchvehicules | 73fdeadd834783abd8e9706ddeead728ff88f8a1 | add: Adapter search vehicle                                               |                                                                                              | 29/05/2023              |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/searchvehicules | 38eec978abaa5ea0e7072bc9985513984f55c57e | feat(searchVehicle): get vehicles for search                              |                                                                                              | 26/05/2023              |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/add-experience  | 3a041862471a8579fe1c878f42e277f7b319032e | feat(profile): Add driver experiences using API                           |                                                                                              | 30/05/2023              |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/add-experience  | 92c117c53b0e078c64186eaf9be89ffdc544b575 | feat: logout for users and app icon added                                 |                                                                                              | 26/05/2023<br>          |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/add-experience  | 025c34491c74d6f4be5968744428e3622500b432 | feat: Add API to Contracts                                                |                                                                                              | 6/05/2023               |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/add-experience  | cbd280e804d8694df288db6edb5d0064a357b0f6 | feat(profile): use API to show user information                           |                                                                                              | 16/05/2023<br>          |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/support         | 29bc84bd3f53809f7fec62ae433d26e41d434823 | feat: Update Profile changes                                              |                                                                                              | 29/05/2023              |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/support         | 9cfe3ef866a646f16892618d0f5a56e73efdd799 | feat: Show Contracts with API                                             |                                                                                              | 16/05/2023              |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/support         | 143e33e1feefd3df02aa80bca5fb15316d71d91c | feat(support): support design and faq added<br>                           |                                                                                              | 26/05/2023              |
+| fastporte- app https://github.com/Arquitectura-WS82/fa            | feature/support         | 92c117c53b0e078c64186eaf9be89ffdc544b575 | feat: logout for users and app icon added                                 |                                                                                              | 26/05/2023              |
 
-#### 7.2.1.4. **Testing Suite Evidence for Sprint Review**
+#### 7.2.1.4. Testing Suite Evidence for Sprint Review
 
 Para este apartado del proyecto se evidenciará los tests de aceptación en el lenguaje Gherkin que fueron subidos al repositorio. En cada test acceptance contiene la historia de usuario con sus respectivos criterios de aceptación para cada escenario propuesto
 
-**Figura**
+**Evidencia de los acceptance test en GitHub**
 
-Evidencia de los acceptance test en GitHub
-
-**Tabla 
-
-Commits realizados en el Sprint 1 para los tests
+**Commits realizados en el Sprint 1 para los tests**
 
 | **Repository**                         | **Branch** | **Commit id**                            | **Commit Message**    | **Commit on (Date)** |
 | -------------------------------------- | ---------- | ---------------------------------------- | --------------------- | -------------------- |
@@ -1840,8 +1853,310 @@ Commits realizados en el Sprint 1 para los tests
 | Arquitectura-WS82/acceptance-tests     | fast-test  | abbfc1d4571e2ebf45be61b716b084ce478c7e54 | Add: HU-010           | 29/09/23             |
 | Arquitectura-WS82/acceptance-tests     | fast-test  | 449fee2b227d31466320622e3d92b773d358eee1 | Add: HU-011           | 29/09/23             |
 | Arquitectura-WS82/acceptance-tests     | fast-test  | 43fa3290bae117136f43e9e314d15adcbcd11fee | Add: HU-012           | 29/09/23             |
+**Repositorio relacionado (rama: fas-test): [https://github.com/Arquitectura-WS82/acceptance-tests](https://github.com/Arquitectura-WS82/acceptance-tests)**
+
+#### 7.2.1.5. Execution Evidence for Sprint Review
+Para el sprint 1, se lograron los siguientes artefactos:
+**Landing Page**
+![Landing Page](img/Capitulo_7/Sprint_1/1.png)
+**Aplicación Móvil**
+![Aplicación móvil ](img/Capitulo_7/Sprint_1/2.png)
+#### 7.2.1.6. Services Documentation Evidence for Sprint Review
+
+**CardClientController Service Documentation**
+**Base URL:** `/api/cardsClient`
+1. Get all Card Clients
+- Endpoint: `GET /api/cardsClient/all`
+- Description: Retorna una lista de todos los **CardClient**.
+- Responses:
+	- **200 OK:** Si se encuentran **CardClient**.
+	- **204 No Content:** Si no se encuentran **CardClient**.
+	- **500 Internal Server Error:** Si ocurre un error en el servidor.
+2. Get Cards by Client ID
+- Endpoint: `GET /api/cardsClient/{id}`
+- Description: Retorna una lista de CardClient para un cliente específico basado en el ID del cliente.
+- Path Parameters:
+	- `id` (Long): ID del cliente.
+- Responses:
+	- **200 OK:** Si se encuentran **CardClient** para el cliente especificado.
+	- **204 No Content:** Si no se encuentran **CardClient** para el cliente especificado.
+	- **500 Internal Server Error:** Si ocurre un error en el servidor.
+- Example Request: `GET /api/cardsClient/1`
+3. Add Card to Client
+- Endpoint: `POST /api/cardsClient/{idClient}/add`
+- Description: Agrega un **Card** a un cliente específico.
+- Path Parameters:
+	- `idClient` (Long): ID del cliente.
+- Request Body:
+```json
+{
+  "name": "string",
+  "number": "string",
+  "expiryDate": "string",
+  "cvv": "string"
+}
+```
+- Responses:
+	- **200 OK:** Si se crea exitosamente el **CardClient**.
+	- **204 No Content:** Si no se encuentra el cliente especificado.
+	- **500 Internal Server Error:** Si ocurre un error en el servidor.
+- Example Request:
+`POST /api/cardsClient/1/add`
+`Content-Type: application/json
+```json
+{
+  "name": "John Doe",
+  "number": "1234567812345678",
+  "expiryDate": "12/25",
+  "cvv": "123"
+}
+```
+4. Delete Card from Client
+- Endpoint: `DELETE /api/cardsClient/{idClient}/delete/{idCard}`
+- Description: Elimina un **Card** de un cliente específico.
+- Path Parameters:
+	- `idClient` (Long): ID del cliente.
+	- `idCard` (Long): ID de la tarjeta.
+- Responses:
+	- **200 OK:** Si se elimina exitosamente el **CardClient**.
+	- **404 Not Found:** Si no se encuentra el cliente o la tarjeta especificada.
+	- **500 Internal Server Error:** Si ocurre un error en el servidor.
+- Example Request: `DELETE /api/cardsClient/1/delete/1`
+
+**Service Interfaces**
+*ICardClientService*
+- Methods:
+	- `List<CardClient> getAll()`: Obtiene todos los **CardClient**.
+	- `void save(CardClient cardClient)`: Guarda un **CardClient**.
+	- `void delete(Long id)`: Elimina un **CardClient** por ID.
+*IClientService*
+- Methods:
+	- `Optional<Client> getById(Long id)`: Obtiene un **Client** por ID.
+*ICardService*
+- Methods:
+	- `Card save(Card card)`: Guarda un **Card**.
+	- `Optional<Card> getById(Long id)`: Obtiene un **Card** por ID.
+	- `void delete(Longvoid delete(Long id) id)`: Elimina un **Card** por ID.
+**Notas Adicionales**
+- Todos los métodos están anotados con `@ApiOperation` y `@ApiResponses` para proporcionar documentación de Swagger.
+- Se usa `@CrossOrigin` para permitir solicitudes de origen cruzado.
+- Los métodos de controladores manejan errores y devuelven códigos de estado HTTP apropiados para diferentes escenarios.
+
+**CardDriverController Service Documentation**
+**Base URL:** `/api/cardsDriver`
+1. Get all Card Drivers
+- Endpoint: `GET /api/cardsDriver/all`
+- Description: Retorna una lista de todos los **CardDriver**.
+- Responses:
+	- **200 OK:** Si se encuentran **CardDriver**.
+	- **204 No Content:** Si no se encuentran **CardDriver**.
+	- **500 Internal Server Error:** Si ocurre un error en el servidor.
+- Example Request: `GET /api/cardsDriver/all`
+2. Get Cards by Driver ID
+- Endpoint: `GET /api/cardsDriver/{id}`
+- Description: Retorna una lista de **CardDriver** para un conductor específico basado en el ID del conductor.
+- Path Parameters:
+	- `id` (Long): ID del conductor.
+- Responses:
+	- **200 OK:** Si se encuentran **CardDriver** para el conductor especificado.
+	- **204 No Content:** Si no se encuentran **CardDriver** para el conductor especificado.
+	- **500 Internal Server Error:** Si ocurre un error en el servidor.
+- Example Request: `GET /api/cardsDriver/1`
+3. Add Card to Driver
+- Endpoint: `POST /api/cardsDriver/{idDriver}/add`
+- Description: Agrega un **Card** a un conductor específico.
+- Path Parameters:
+	- `idDriver` (Long): ID del conductor.
+- Request Body:
+```json
+{
+  "name": "string",
+  "number": "string",
+  "expiryDate": "string",
+  "cvv": "string"
+}
+```
+- Responses:
+	- **201 Created:** Si se crea exitosamente el **CardDriver**.
+	- **404 Not Found:** Si no se encuentra el conductor especificado.
+	- **500 Internal Server Error:** Si ocurre un error en el servidor.
+- Example Request:
+`POST /api/cardsDriver/1/add`
+`Content-Type: application/json
+```json
+{
+  "name": "John Doe",
+  "number": "1234567812345678",
+  "expiryDate": "12/25",
+  "cvv": "123"
+}
+```
+4. Delete Card from Driver
+- Endpoint: `DELETE /api/cardsDriver/{idDriver}/delete/{idCard}`
+- Description: Elimina un **Card** de un conductor específico.
+- Path Parameters:
+	- `idDriver` (Long): ID del conductor.
+	- `idCard` (Long): ID de la tarjeta.
+- Responses:
+	- **200 OK:** Si se elimina exitosamente el **CardDriver**.
+	- **404 Not Found:** Si no se encuentra el conductor o la tarjeta especificada.
+	- **500 Internal Server Error:** Si ocurre un error en el servidor.
+- Example Request: `DELETE /api/cardsDriver/1/delete/1`
+
+**Service Interfaces**
+*ICardDriverService*
+- Methods:
+	- `List<CardDriver> getAll()`: Obtiene todos los **CardDriver**.
+	- `void save(CardDriver cardDriver)`: Guarda un **CardDriver**.
+	- `void delete(Long id)`: Elimina un **CardDriver** por ID.
+*IDriverService*
+- Methods:
+	- `Optional<Driver> getById(Long id)`: Obtiene un **Driver** por ID.
+*ICardService*
+- Methods:
+	- `Card save(Card card)`: Guarda un **Card**.
+	- `Optional<Card> getById(Long id)`: Obtiene un **Card** por ID.
+	- `void delete(Long id)`: Elimina un **Card** por ID.
+	
+**Notas Adicionales**
+- Todos los métodos están anotados con `@ApiOperation` y `@ApiResponses` para proporcionar documentación de Swagger.
+- Se usa `@CrossOrigin` para permitir solicitudes de origen cruzado.
+- Los métodos de controladores manejan errores y devuelven códigos de estado HTTP apropiados para diferentes escenarios.
+
+#### 7.2.1.7. Software Deployment Evidence for Sprint Review
+
+En esta sección se mostrarán los avances realizados en el código de la aplicación móvil haciendo uso de la API de forma preliminar. Para ello, hemos usado un usuario predeterminado, que es el usuario transportista con id 1, para obtener su información y usarla en la sección de perfil. De esta forma, cuando alguien ingresa a la sección de perfil del transportista, lo que verá será la foto, el nombre, la descripción e información personal del transportista que tiene id 1. Esto no se quedará así, puesto que fue hecho para probar que funciona correctamente la lectura desde el API. En las siguientes entregas, esto será modificado de modo que el transportista o cliente que ingrese a su cuenta vea su propia información. 
+
+En la siguiente imagen podemos visualizar el servicio creado:
+
+![Servicio creado](img/Capitulo_7/Sprint_1/3.png)
+En esta otra captura de pantalla, hacemos uso de la librería retrofit para consumir el servicio web RESTful:
+
+![Servicio web RESTful](img/Capitulo_7/Sprint_1/4.png)
+Luego, en este bloque de código hemos usado la información obtenida del API para poder mostrarla en los TextView correspondientes:
+
+![Codigo movil](img/Capitulo_7/Sprint_1/5.png)
+
+Notamos que la información obtenida para el usuario con id 1 es la siguiente:
+Finalmente, este es el resultado del consumo del API:
+
+![URL](img/Capitulo_7/Sprint_1/6.png)
+#### 7.2.1.8. Team Collaboration Insights during Sprint
+
+A continuación se observa la participación del equipo durante el sprint:
+
+![Team collaboration insights](img/Capitulo_7/Sprint_1/7.png)
+
+### 7.2.2. Sprint 2
+
+#### 7.2.2.1. Sprint Planning 2
+
+| Sprint #                        | 2                                                                                                                                                                                     |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**  |                                                                                                                                                                                       |
+| Date                            | 16-06-2024                                                                                                                                                                            |
+| Time                            | 7:00 am                                                                                                                                                                               |
+| Location                        | Lima Perú                                                                                                                                                                             |
+| Prepared By                     | Sebastián Lévano                                                                                                                                                                      |
+| Attendees (to planning meeting) | Abel Cierto / Branco Villegas / Sebastián Lévano / Rodrigo Sabino / Anthony Botello                                                                                                   |
+| Sprint 2 Review Summary         | Para el desarrollo de este sprint el objetivo es implementar la tecnología emergente, Computer Vision, en la aplicación móvil.                                                        |
+| Sprint 2 Retrospective Summary  | En la revisión retrospectiva se evalúa la correcta implementación y funcionamiento del  Computer Vision en la aplicación móvil reconociendo de manera adecuada la caja a transportar. |
+| **Sprint Goal & User StorieS**  |                                                                                                                                                                                       |
+| Sprint 1 Goal                   | El objetivo del sprint 2 es desarrollar y implementar Computer Vision en la aplicación móvil.                                                                                         |
+| Sprint 1 Velocity               | Se estima que el equipo puede completar 9 puntos de historia en el Sprint 2, basándose en las capacidades y la disponibilidad del equipo.                                             |
+| Sum of Story Points             | 9                                                                                                                                                                                     |
+
+#### 7.2.2.2. Sprint Backlog 2
+
+A continuación se muestra el backlog del sprint 2:
+
+<table><tr><th colspan="1"><b>Sprint#</b></th><th colspan="7">Sprint 2</th></tr>
+<tr><td colspan="2"><b>User story</b></td><td colspan="6"><b>Work-Item / Task</b></td></tr>
+<tr><td colspan="1"><b>Id</b></td><td colspan="1"><b>Título</b></td><td colspan="1"><b>Id</b></td><td colspan="1"><b>Título</b></td><td colspan="1"><b>Descripción</b></td><td colspan="1"><b>Estimación</b></td><td colspan="1"><b>Asignado a</b></td><td colspan="1"><b>Estado</b> </td></tr>
+<tr><td colspan="1" rowspan="2">HU-029</td><td colspan="1" rowspan="2">Botón de acceso a la herramienta de computer vision</td><td colspan="1">T29-01</td><td colspan="1">Agregar el botón en la interfaz </td><td colspan="1">Agregar el botón de “Try AR Measure” en la sección de búsqueda de vehículos</td><td colspan="1">1h</td><td colspan="1" rowspan="2">Rodrigo Sabino</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T29-02</td><td colspan="1">Agregar la navegación a la herramienta</td><td colspan="1">Agregar la navegación del nuevo botón hacia la interfaz de la herramienta de medición.</td><td colspan="1">2h</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="4">HU-030</td><td colspan="1" rowspan="4">Medición de cajas con puntos de marcación en pantalla</td><td colspan="1">T30-01</td><td colspan="1">Añadir las dependencias necesarias</td><td colspan="1">Añadir las dependencias necesarias a utilizar para CV</td><td colspan="1">1h</td><td colspan="1" rowspan="2">Branco Villegas </td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T30-02</td><td colspan="1">Crear la sesión de Arcore</td><td colspan="1">Crear la sesión para capturar imágenes con la cámara del celular</td><td colspan="1">2h</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T30-03</td><td colspan="1">Agregar los puntos de marcación</td><td colspan="1">Añadir puntos de marcación al tocar un punto en el plano de la pantalla. Un color diferente para cada dimensión.</td><td colspan="1">3h</td><td colspan="1" rowspan="2">Anthony Botello</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T30-04</td><td colspan="1">Medir las distancias entre puntos</td><td colspan="1">Calcular las distancias entre los puntos marcados.</td><td colspan="1">3h</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="4">HU-031</td><td colspan="1" rowspan="4">Selección de vehículos basada en número de cajas a transportar</td><td colspan="1">T31-01</td><td colspan="1">Agregar un input para el número de cajas</td><td colspan="1">Agregar un input para que el usuario ingrese el número de cajas que desea transportar</td><td colspan="1">2h</td><td colspan="1" rowspan="2">Abel Cierto</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T31-02</td><td colspan="1">Añadir un botón para buscar resultados</td><td colspan="1">Crear un botón que se active solo cuando los campos necesarios han sido completados</td><td colspan="1">2h</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T31-03</td><td colspan="1">Crear endpoint de búsqueda por cajas</td><td colspan="1">Crear un endpoint en el backend que devuelva los transportistas que cumplan con las características</td><td colspan="1">2h</td><td colspan="1" rowspan="2">Sebastián Lévano</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T31-04</td><td colspan="1">Implementar el endpoint con la app móvil</td><td colspan="1">Integrar el endpoint con la app móvil y mostrar los resultados</td><td colspan="1">3h</td><td colspan="1">Done</td></tr>
+</table>
+
+#### 7.2.2.3. Development Evidence for Sprint Review
+| **Repository**                                                        | **Branch**   | **Commit Id**                            | Message                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| --------------------------------------------------------------------- | ------------ | ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [web-services](https://github.com/Arquitectura-WS82/web-services)     | feature/test | 72a7a8ca0eb01c9a84639cec2a7f5636789173fb | [modified new changes](https://github.com/Arquitectura-WS82/web-services/commit/72a7a8ca0eb01c9a84639cec2a7f5636789173fb "modified new changes")                                                                                                                                                                                                                                                                                                                                                                            |
+| [web-services](https://github.com/Arquitectura-WS82/web-services)     | feature/test | b0dab29895c74cbb0f21a4ff47ee403e444832d3 | [update: data type](https://github.com/Arquitectura-WS82/web-services/commit/b0dab29895c74cbb0f21a4ff47ee403e444832d3 "update: data type")                                                                                                                                                                                                                                                                                                                                                                                  |
+| [web-services](https://github.com/Arquitectura-WS82/web-services)     | feature/test | ad5720a0a62f50e2ee6d2e67b07a7ce73ff117a7 | [feat: add vehicle fields](https://github.com/Arquitectura-WS82/web-services/commit/ad5720a0a62f50e2ee6d2e67b07a7ce73ff117a7 "feat: add vehicle fields")                                                                                                                                                                                                                                                                                                                                                                    |
+| [web-services](https://github.com/Arquitectura-WS82/web-services)     | feature/test | 08a6b72c16a198971f8420c60b848e9fe966c837 | [add get by box measure endpoint](https://github.com/Arquitectura-WS82/web-services/commit/08a6b72c16a198971f8420c60b848e9fe966c837 "add get by box measure endpoint")                                                                                                                                                                                                                                                                                                                                                      |
+| [web-services](https://github.com/Arquitectura-WS82/web-services)     | feature/test | 63c64efde41bf725484cdd99b3bb88423f0c5b57 | [fix box measure endpoint](https://github.com/Arquitectura-WS82/web-services/commit/63c64efde41bf725484cdd99b3bb88423f0c5b57 "fix box measure endpoint")                                                                                                                                                                                                                                                                                                                                                                    |
+| [web-services](https://github.com/Arquitectura-WS82/web-services)<br> | feature/test | 120215a8ba54094b654c03c77dd29bd46b61e192 | [Add or update the Azure App Service build and deployment workflow config](https://github.com/Arquitectura-WS82/web-services/commit/120215a8ba54094b654c03c77dd29bd46b61e192 "Add or update the Azure App Service build and deployment workflow config")                                                                                                                                                                                                                                                                    |
+| [web-services](https://github.com/Arquitectura-WS82/web-services)     | feature/test | 2016a3c67f9ca17a8561e53d9c4e2006d92cd1d0 | [Add or update the Azure App Service build and deployment workflow config](https://github.com/Arquitectura-WS82/web-services/commit/2016a3c67f9ca17a8561e53d9c4e2006d92cd1d0 "Add or update the Azure App Service build and deployment workflow config")                                                                                                                                                                                                                                                                    |
+| [web-services](https://github.com/Arquitectura-WS82/web-services)     | feature/test | 646f6d5bd498287513a208049781f1e3b7f3a240 | [Update application.properties](https://github.com/Arquitectura-WS82/web-services/commit/646f6d5bd498287513a208049781f1e3b7f3a240 "Update application.properties")                                                                                                                                                                                                                                                                                                                                                          |
+| [web-services](https://github.com/Arquitectura-WS82/web-services)     | feature/test | edc86ade881a3397da032d5d68cbaa4d9ad532cd | [Update application.properties](https://github.com/Arquitectura-WS82/web-services/commit/edc86ade881a3397da032d5d68cbaa4d9ad532cd "Update application.properties")                                                                                                                                                                                                                                                                                                                                                          |
+| [web-services](https://github.com/Arquitectura-WS82/web-services)     | feature/test | dadc4e4d2386d0de705c490d92ccd45202962282 | [Add or update the Azure App Service build and deployment workflow config](https://github.com/Arquitectura-WS82/web-services/commit/dadc4e4d2386d0de705c490d92ccd45202962282 "Add or update the Azure App Service build and deployment workflow config")                                                                                                                                                                                                                                                                    |
+| [web-services](https://github.com/Arquitectura-WS82/web-services)     | feature/test | 31b895c5a1a91d668e5b8810ed786180e85efa21 | [Update application.properties](https://github.com/Arquitectura-WS82/web-services/commit/31b895c5a1a91d668e5b8810ed786180e85efa21 "Update application.properties")                                                                                                                                                                                                                                                                                                                                                          |
+| [web-services](https://github.com/Arquitectura-WS82/web-services)     | feature/test | 7b5aec13b32ffd44a1571cdb041d66057419d464 | [feat: contract post](https://github.com/Arquitectura-WS82/web-services/commit/7b5aec13b32ffd44a1571cdb041d66057419d464 "feat: contract post")                                                                                                                                                                                                                                                                                                                                                                              |
+| [web-services](https://github.com/Arquitectura-WS82/web-services)     | feature/test | 138a29b4e9369dd70a75c60ad8e0a5f35f73015a | [feat: rating of drivers](https://github.com/Arquitectura-WS82/web-services/commit/138a29b4e9369dd70a75c60ad8e0a5f35f73015a "feat: rating of drivers")                                                                                                                                                                                                                                                                                                                                                                      |
+| [web-services](https://github.com/Arquitectura-WS82/web-services)     | feature/test | eed07c1a8eed12b2d283d248337601d9097fb5fa | [Merge branch 'test' of](https://github.com/Arquitectura-WS82/web-services/commit/eed07c1a8eed12b2d283d248337601d9097fb5fa "Merge branch 'test' of https://github.com/Arquitectura-WS82/web-services into test") [https://github.com/Arquitectura-WS82/web-services](https://github.com/Arquitectura-WS82/web-services) [into test](https://github.com/Arquitectura-WS82/web-services/commit/eed07c1a8eed12b2d283d248337601d9097fb5fa "Merge branch 'test' of https://github.com/Arquitectura-WS82/web-services into test") |
+
+#### 7.2.2.4. Testing Suite Evidence for Sprint Review
+Para este apartado del proyecto se evidenciará los tests de aceptación en el lenguaje Gherkin que fueron subidos al repositorio. En cada test acceptance contiene la historia de usuario con sus respectivos criterios de aceptación para cada escenario propuesto
+
+**Evidencia de los acceptance test en GitHub**
+
+**Commits realizados en el Sprint 1 para los tests**
+
+| **Repository**                     | **Branch** | **Commit id**                            | **Commit Message**                                                                                                                                     | **Commit on (Date)** |
+| ---------------------------------- | ---------- | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------- |
+| Arquitectura-WS82/acceptance-tests | fast-test  | bcbc979fda22d22ea2a52a8d2daae8abcc0f02aa | [Create HU-029.feature](https://github.com/Arquitectura-WS82/acceptance-tests/commit/bcbc979fda22d22ea2a52a8d2daae8abcc0f02aa "Create HU-029.feature") | 25/06/24             |
+| Arquitectura-WS82/acceptance-tests | fast-test  | 2934f4609f281f351ba33d3b03ea717a5c5f72ef | [Create HU-030.feature](https://github.com/Arquitectura-WS82/acceptance-tests/commit/2934f4609f281f351ba33d3b03ea717a5c5f72ef "Create HU-030.feature") | 25/06/24             |
+| Arquitectura-WS82/acceptance-tests | fast-test  | e69b366b4efe6db83e9d263eb875eb301ccc6cee | [Create HU-031](https://github.com/Arquitectura-WS82/acceptance-tests/commit/e69b366b4efe6db83e9d263eb875eb301ccc6cee "Create HU-031")                 | 25/06/24             |
 
 **Repositorio relacionado (rama: fas-test): [https://github.com/Arquitectura-WS82/acceptance-tests](https://github.com/Arquitectura-WS82/acceptance-tests)**
+#### 7.2.2.5. Execution Evidence for Sprint Review
+
+A continuación se mostrará la ejecución de la Aplicación web mostrando la integración de Computer Vision.
+
+En primer lugar, el botón presente en la búsqueda de vehículos que llevará a la nueva funcionalidad:
+
+![Aplicación móvil Computer Vision Button](img/Capitulo_7/Sprint_2/1.jpeg)
+En segundo lugar, la vista del reconocimiento de cajas y realización de medidas con Computer Vision:
+
+![Aplicación móvil Computer Vision Reconocimiento](img/Capitulo_7/Sprint_2/2.jpeg)
+
+#### 7.2.2.6. Services Documentation Evidence for Sprint Review
+
+Se realizó el despliegue de los servicios empleando los servicios web de Microsoft Azure, lo cual se expondrá con mayor detalle en el siguiente punto. A continuación, se mostrará la evidencia del despliegue realizado en Swagger y el uso de endpoints con la data ingresada.
+
+Enlace del Swagger: [Swagger](https://fastporte-web-services.azurewebsites.net/swagger-ui.html)
+
+![Despliegue de Backend - Swagger](img/Capitulo_7/Sprint_2/swagger.png)
+
+Utilizando el Swagger se puede detallar los métodos desarrollados como, por ejemplo, los métodos del Vehicle donde se puede apreciar el método relacionado a la medición empleando **Computer Vision**, el cual es el último `GET`.
+
+![Ejecución del método Get de Driver](img/Capitulo_7/Sprint_2/vehicle_methods.png)
+
+Asimismo, se puede apreciar el uso de un método `GET` para el tipo de usuario Driver:
+
+![Ejecución del método Get de Driver](img/Capitulo_7/Sprint_2/get_drivers.png)
+
+#### 7.2.2.7. Software Deployment Evidence for Sprint Review
+
+En esta sección se mostrarán los avances realizados en el código del sistema durante el segundo sprint, enfocados tanto en el backend como en el frontend.
+
+Se desarrollaron endpoints adicionales que procesan los datos obtenidos por el módulo de Computer Vision y generan sugerencias de vehículos adecuadas según las dimensiones y características capturadas.
+![Endpoints para sugerencia de vehiculos](img/Capitulo_7/Sprint_2/Endpoint.png)
+Se realizaron cambios en la base de datos para incluir nuevos campos que almacenan las dimensiones del vehículo (alto, ancho y largo). Estos campos se añaden automáticamente al registrar un vehículo a través del endpoint POST, lo que permite una mejor gestión y análisis de los datos.
+![Modificación de la db](img/Capitulo_7/Sprint_2/db.png)
+Se añadió un botón en la interfaz de usuario que facilita la medición del vehículo y la integración con el backend para enviar y recibir datos de manera eficiente.
+![Boton de integracion](img/Capitulo_7/Sprint_2/front.png)
+#### 7.2.2.8. Team Collaboration Insights during Sprint
+A continuación se observa la participación del equipo durante el sprint:
+![Collaboration Insights](img/Capitulo_7/Sprint_2/commits.png)
 ## 7.3. Validation Interviews
 
 Para esta versión del informe hemos realizado entrevistas de validación a nuestros usuarios las cuales se verán a continuación empezando desde el diseño de entrevistas hasta las entrevistas en sí.
@@ -1923,18 +2238,16 @@ Para este informe, se han realizado las siguientes heurísticas en base al feedb
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
 
 1. Perfil del usuario
-1. Header de la aplicación web
-1. Sección Contratos
-1. Buscar vehículo
+2. Header de la aplicación web
+3. Sección Contratos
+4. Buscar vehículo
 
 No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 1. Registro de usuario
-1. Inicio de sesión
-1. Edición de perfil
-1. Métodos de pago
-1. etc.
-
+2. Inicio de sesión
+3. Edición de perfil
+4. Métodos de pago
 
 ESCALA DE SEVERIDAD:
 
@@ -1970,7 +2283,7 @@ Los usuarios pueden iniciar sesión o registrarse en la aplicación de manera ex
 **Recomendación:** 
 Crear una opción “Log Out” en el header de la aplicación para que los usuarios puedan cerrar la sesión de cuenta cuando ya no vayan a hacer uso de la aplicación.
 
-##### *PROBLEMA #2:** Visualmente más ordenado (My Profile)
+##### **PROBLEMA #2:** Visualmente más ordenado (My Profile)
 
 Severidad: 1
 
@@ -2014,15 +2327,15 @@ Un usuario entrevistado indicó que le gustaría ver más información acerca de
 ![P04](img/Capitulo_7/Validation_Interviews/Heuristicas/P04.png)
 
 
-**Recomendación:**
+**Recomendación:****
 Se sugiere cambiar la información mostrada en los cards, en lugar de mostrar la descripción del transportista mostrar más información sobre los servicios que ofrece. Sin embargo, esto también se puede solucionar mostrando un dialog, al realizar una búsqueda por primera vez, el cual indique puede acceder a mayor información del transportista por medio del botón “See Profile”
 
-## 7.4. VídeoAbout-the-Product
+## 7.4. Vídeo About-the-Product
 Para la sección about the product se ha realizado el siguiente vídeo:
 
 ![Vídeo About the Product](img/Capitulo_7/About%20the%20product.png)
 
-Link para su visualización: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b846_upc_edu_pe/EVCaD20pPy1Bim0-5OSQ02EB9uQGhvZoySX99Mvqi_Blvg?e=fJuSH7
+Link para su visualización: [About the product - Fastporte](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b846_upc_edu_pe/EVCaD20pPy1Bim0-5OSQ02EB9uQGhvZoySX99Mvqi_Blvg?e=fJuSH7)
 
 # Conclusiones
 
@@ -2043,11 +2356,12 @@ Link para su visualización: https://upcedupe-my.sharepoint.com/:v:/g/personal/u
 
 --- 
 # Anexos
+
 ## Repositorio con Informe
 Enlace: [Repositorio Trabajo Final](https://github.com/Arquitectura-WS82/TrabajoFinal)
+
 ## Entrega TB1
 Enlace: [Exposición TB1 en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/Ec1gj2b9GwhMiIeeW4ZbOQUBjR8V_vwBKCj4ByvhRvIVLg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=mEYRo9)
 
 ## Entrega TP
-
 Enlace: [Exposición TP en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/Ee3gKoJcxupDoCe8-pI8Cb0BtfJhZUx52-sbBh5ShCEz-w?e=pR0RiA)
