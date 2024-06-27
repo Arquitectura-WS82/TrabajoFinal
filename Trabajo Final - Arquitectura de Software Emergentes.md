@@ -2340,7 +2340,7 @@ Para la sección about the product se ha realizado el siguiente vídeo:
 
 ![Vídeo About the Product](img/Capitulo_7/About%20the%20product.png)
 
-Link para su visualización: [About the product - Fastporte](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b846_upc_edu_pe/EVCaD20pPy1Bim0-5OSQ02EB9uQGhvZoySX99Mvqi_Blvg?e=fJuSH7)
+Link para su visualización: [About the product - Fastporte](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/ESRDNzPboi1OutnKwdDvLCgBdei69qnLhc1AMYiz236fJQ)
 
 # Conclusiones
 
@@ -2366,7 +2366,13 @@ Link para su visualización: [About the product - Fastporte](https://upcedupe-my
 Enlace: [Repositorio Trabajo Final](https://github.com/Arquitectura-WS82/TrabajoFinal)
 
 ## Entrega TB1
-Enlace: [Exposición TB1 en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/Ec1gj2b9GwhMiIeeW4ZbOQUBjR8V_vwBKCj4ByvhRvIVLg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=mEYRo9)
+Enlace: [Exposición TB1 en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/EWzr7Segp6VAiqW33EbMp2YBLSITGDIhp-kU2yNJyLxSLQ?e=SJbTYz)
 
 ## Entrega TP
 Enlace: [Exposición TP en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/Ee3gKoJcxupDoCe8-pI8Cb0BtfJhZUx52-sbBh5ShCEz-w?e=pR0RiA)
+
+## Entrega TB2
+Enlace: [Exposición TB2 en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/Efy5CUAeYWZBhd3vNIyKjqkBkgTDqn7NxN0rUsVBGMxnjA?e=u5DLaC)
+
+## Entrega TF
+Enlace: [Exposición TF en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c172_upc_edu_pe/Eb5Lp6cGl7VDqwp8veNxzgABO0TLSkerzaSWL93iNTv2bg?e=k02XXV)
