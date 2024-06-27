@@ -20,7 +20,7 @@ Integrantes:
 * Sabino Ramírez, Rodrigo Alexander - U20201B801
 * Villegas Peralta, Branco Alberto - U20201C082
 
-Mayo, 2024
+Junio, 2024
 
 ---
 
@@ -2124,9 +2124,12 @@ A continuación se mostrará la ejecución de la Aplicación web mostrando la in
 En primer lugar, el botón presente en la búsqueda de vehículos que llevará a la nueva funcionalidad:
 
 ![Aplicación móvil Computer Vision Button](img/Capitulo_7/Sprint_2/1.jpeg)
+
 En segundo lugar, la vista del reconocimiento de cajas y realización de medidas con Computer Vision:
 
 ![Aplicación móvil Computer Vision Reconocimiento](img/Capitulo_7/Sprint_2/2.1.jpg)
+
+![Aplicación móvil Computer Vision Reconocimiento](img/Capitulo_7/Sprint_2/2.2.jpg)
 
 #### 7.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -2149,10 +2152,15 @@ Asimismo, se puede apreciar el uso de un método `GET` para el tipo de usuario D
 En esta sección se mostrarán los avances realizados en el código del sistema durante el segundo sprint, enfocados tanto en el backend como en el frontend.
 
 Se desarrollaron endpoints adicionales que procesan los datos obtenidos por el módulo de Computer Vision y generan sugerencias de vehículos adecuadas según las dimensiones y características capturadas.
+
 ![Endpoints para sugerencia de vehiculos](img/Capitulo_7/Sprint_2/Endpoint.png)
+
 Se realizaron cambios en la base de datos para incluir nuevos campos que almacenan las dimensiones del vehículo (alto, ancho y largo). Estos campos se añaden automáticamente al registrar un vehículo a través del endpoint POST, lo que permite una mejor gestión y análisis de los datos.
+
 ![Modificación de la db](img/Capitulo_7/Sprint_2/db.png)
+
 Se añadió un botón en la interfaz de usuario que facilita la medición del vehículo y la integración con el backend para enviar y recibir datos de manera eficiente.
+
 ![Boton de integracion](img/Capitulo_7/Sprint_2/front.png)
 
 Para desplegar el backend de nuestro proyecto, hemos utilizado Microsoft Azure, donde hemos creado un App Service para desplegar el backend y visualizar los endpoints en Swagger. Además, hemos creado una base de datos llamada fast-porte-db para asegurar que los datos se almacenen y el servicio se despliegue correctamente.
